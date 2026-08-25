@@ -1,0 +1,40 @@
+# Local environments and operational state
+.venv/
+.omx/
+__pycache__/
+
+# Large source documents and extraction workspaces: publish only the derived docs/ site.
+_share/
+_share-nginx/
+document_corpus_analysis/
+files_analysis/
+saybrkd_analysis/
+docs_list/
+files.zip
+files/
+openfiscal_report_documents/files/
+openfiscal_report_documents/alternate_reference_files/
+openfiscal_publications/files/
+page_count_analysis/zip_extracted/
+saybrkd-corpus-20260630/
+
+# Keep only the input manifests and page-measurement files needed to regenerate
+# the public dashboard; the remaining operational artifacts stay local.
+openfiscal_report_documents/*
+!openfiscal_report_documents/lists/
+openfiscal_report_documents/lists/*
+!openfiscal_report_documents/lists/manifest.csv
+openfiscal_publications/*
+!openfiscal_publications/lists/
+openfiscal_publications/lists/*
+!openfiscal_publications/lists/manifest.csv
+page_count_analysis/*
+!page_count_analysis/document_page_counts.csv
+!page_count_analysis/standalone_hwp_hwpx_page_counts_with_rhwp.csv
+!page_count_analysis/standalone_hwp_hwpx_page_counts_lossy_utf16_retry.csv
+!page_count_analysis/zip_inner_page_counts_by_parent_with_rhwp.csv
+!page_count_analysis/final_page_count_by_corpus_with_lossy_utf16_recovery.csv
+scripts/*
+!scripts/build_github_pages.py
+pyproject.toml
+uv.lock

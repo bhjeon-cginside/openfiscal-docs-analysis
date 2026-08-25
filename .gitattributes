@@ -1,0 +1,3 @@
+# Keep CSV diffs and validation portable even when the downloaded source lists
+# use Windows line endings.
+*.csv text eol=lf
