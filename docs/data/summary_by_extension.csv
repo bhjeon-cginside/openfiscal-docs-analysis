@@ -1,10 +1,10 @@
-source_id,source_name,extension,file_count,size_bytes,embedded_file_count,measured_file_count,page_count,unmeasured_file_count,page_coverage_pct
-publications,재정간행물,hwp,711,4106164214,711,711,107320,0,100.0
-publications,재정간행물,hwpx,27,23494455,27,27,1101,0,100.0
-publications,재정간행물,pdf,919,10797971135,919,919,141751,0,100.0
-publications,재정간행물,zip,38,3088679987,594,38,117805,0,100.0
-publications,재정간행물,미상,3,0,3,0,0,3,0.0
-reports,재정보고서 및 문서,hwp,1874,9359927051,1874,1872,426467,2,99.89
-reports,재정보고서 및 문서,hwpx,48,47254352,48,48,2857,0,100.0
-reports,재정보고서 및 문서,pdf,5124,34294681037,5124,5123,1457092,1,99.98
-reports,재정보고서 및 문서,zip,57,3953189351,2251,57,37109,0,100.0
+source_id,source_name,extension,file_count,size_bytes,verified_size_bytes,embedded_file_count,measured_file_count,page_count,unmeasured_file_count,page_coverage_pct
+publications,재정간행물,hwp,711,4106164214,4106164214,711,711,107320,0,100.0
+publications,재정간행물,hwpx,27,23494455,23494455,27,27,1101,0,100.0
+publications,재정간행물,pdf,919,10797971135,10797971135,919,919,141751,0,100.0
+publications,재정간행물,zip,38,3088679987,3088679987,594,38,117805,0,100.0
+publications,재정간행물,미상,3,0,0,3,0,0,3,0.0
+reports,재정보고서 및 문서,hwp,1874,9359927051,9359955723,1874,1872,426467,2,99.89
+reports,재정보고서 및 문서,hwpx,48,47254352,47254352,48,48,2857,0,100.0
+reports,재정보고서 및 문서,pdf,5124,34294681037,33797875307,5124,5123,1457092,1,99.98
+reports,재정보고서 및 문서,zip,57,3953189351,3953189351,2251,57,37109,0,100.0

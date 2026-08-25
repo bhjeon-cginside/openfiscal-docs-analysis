@@ -49,7 +49,7 @@
         ['공개 첨부 파일', `${n(total.file_count)}건`, '두 공개 목록의 파일 단위'],
         ['측정 페이지', `${n(total.page_count)}쪽`, `${n(total.measured_file_count)}개 파일·압축 내부 합산`],
         ['페이지 미측정', `${n(total.unmeasured_file_count)}건`, '오류·첨부 없음 등'],
-        ['원본 파일 용량', bytes(total.size_bytes), '원문은 이 페이지에 포함하지 않음']
+        ['확보 원본 용량', bytes(total.verified_size_bytes), `실제 파일 stat 합계 · 목록 메타 ${bytes(total.metadata_size_bytes)}`]
       ].map(([label, value, hint]) => `<article class="stat"><div class="label">${label}</div><div class="value">${value}</div><div class="hint">${hint}</div></article>`).join('');
       document.getElementById('methodology').innerHTML = data.methodology.map(item => `<li>${escape(item)}</li>`).join('');
       document.getElementById('source-table').innerHTML = data.by_source.map(row => `<tr>${cell(`<span class="source">${escape(row.source_name)}</span>`)}${cell(n(row.file_count),'num')}${cell(n(row.measured_file_count),'num')}${cell(n(row.page_count),'num')}${cell(n(row.unmeasured_file_count),'num')}${cell(n(row.remaining_page_errors),'num')}</tr>`).join('');

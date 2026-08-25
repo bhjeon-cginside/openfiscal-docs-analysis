@@ -125,6 +125,7 @@ def build_documents() -> list[dict[str, object]]:
         major, _, detail = category.partition(">")
         doc_id = f"uopkofda03:{row.get('atchFileId', '')}:{row.get('atchFileSeq', '')}"
         measurement = zipped.get(doc_id) or hwp.get(doc_id) or direct.get(doc_id)
+        local_path = ROOT / "openfiscal_report_documents/files" / row["dest_path"] if row.get("dest_path") else None
         documents.append(
             {
                 "source_id": "reports",
@@ -137,6 +138,7 @@ def build_documents() -> list[dict[str, object]]:
                 "title": row.get("dpFileNm", "") or row.get("odtNm", "") or "제목 없음",
                 "extension": (row.get("fileExt", "") or "미상").lower(),
                 "size_bytes": as_int(row.get("atchFileSz")) or 0,
+                "verified_size_bytes": local_path.stat().st_size if local_path and local_path.is_file() else None,
                 "status": row.get("status", "") or "미상",
                 "page_count": measurement["page_count"] if measurement else None,
                 "page_status": measurement["page_status"] if measurement else "미측정",
@@ -150,6 +152,7 @@ def build_documents() -> list[dict[str, object]]:
         doc_id = "uopkofda01:{category_code}:{publication_seq}:{atch_file_id}:{atch_file_seq}".format(**row)
         measurement = zipped.get(doc_id) or hwp.get(doc_id) or direct.get(doc_id)
         category = row.get("category_name", "") or "미분류"
+        local_path = ROOT / "openfiscal_publications" / row["local_path"] if row.get("local_path") else None
         documents.append(
             {
                 "source_id": "publications",
@@ -162,6 +165,7 @@ def build_documents() -> list[dict[str, object]]:
                 "title": row.get("publication_title", "") or row.get("source_original_name", "") or "제목 없음",
                 "extension": Path(row.get("local_path", "") or row.get("source_original_name", "")).suffix.lower().lstrip(".") or "미상",
                 "size_bytes": as_int(row.get("file_size")) or 0,
+                "verified_size_bytes": local_path.stat().st_size if local_path and local_path.is_file() else None,
                 "status": row.get("status", "") or "미상",
                 "page_count": measurement["page_count"] if measurement else None,
                 "page_status": measurement["page_status"] if measurement else "미측정",
@@ -180,6 +184,8 @@ def aggregate(documents: list[dict[str, object]], dimensions: list[str]) -> list
         group = groups.setdefault(key, {dimension: document[dimension] for dimension in dimensions})
         group["file_count"] = int(group.get("file_count", 0)) + 1
         group["size_bytes"] = int(group.get("size_bytes", 0)) + int(document["size_bytes"])
+        if document["verified_size_bytes"] is not None:
+            group["verified_size_bytes"] = int(group.get("verified_size_bytes", 0)) + int(document["verified_size_bytes"])
         group["embedded_file_count"] = int(group.get("embedded_file_count", 0)) + int(document["included_file_count"])
         if document["page_count"] is not None:
             group["measured_file_count"] = int(group.get("measured_file_count", 0)) + 1
@@ -190,6 +196,7 @@ def aggregate(documents: list[dict[str, object]], dimensions: list[str]) -> list
         group.setdefault("measured_file_count", 0)
         group.setdefault("unmeasured_file_count", 0)
         group.setdefault("page_count", 0)
+        group.setdefault("verified_size_bytes", 0)
         group["page_coverage_pct"] = round(group["measured_file_count"] / group["file_count"] * 100, 2)
     return sorted(groups.values(), key=lambda item: tuple(str(item[key]) for key in dimensions))
 
@@ -234,7 +241,8 @@ def main() -> None:
             "measured_file_count": sum(1 for item in documents if item["page_count"] is not None),
             "unmeasured_file_count": sum(1 for item in documents if item["page_count"] is None),
             "page_count": sum(int(item["page_count"] or 0) for item in documents),
-            "size_bytes": sum(int(item["size_bytes"]) for item in documents),
+            "metadata_size_bytes": sum(int(item["size_bytes"]) for item in documents),
+            "verified_size_bytes": sum(int(item["verified_size_bytes"] or 0) for item in documents),
             "embedded_file_count": sum(int(item["included_file_count"]) for item in documents),
         },
         "by_source": by_source,
@@ -246,6 +254,7 @@ def main() -> None:
             "재정간행물은 열린재정 UOPKOFDA01의 게시일 연도를 사용합니다.",
             "PDF는 원본 PDF 페이지를, HWP/HWPX는 rhwp 렌더링 결과를, ZIP은 내부 PDF/HWP/HWPX 페이지 합계를 사용합니다.",
             "측정하지 못한 파일은 0쪽이 아니라 미측정으로 남깁니다. 파일 수와 페이지 수의 분모는 다를 수 있습니다.",
+            "원본 용량은 생성 시점에 확보된 로컬 원본 파일의 논리적(stat) 크기를 합산합니다. 목록 메타데이터의 첨부 용량은 별도 값으로 보존합니다.",
         ],
         "sources": [
             {"id": identifier, "name": value["name"], "url": value["url"], "year_basis": value["year_basis"]}
@@ -256,7 +265,7 @@ def main() -> None:
     public_documents = [
         {key: document[key] for key in (
             "source_id", "source_name", "year_basis", "year", "major_type", "type", "title", "extension",
-            "size_bytes", "status", "page_count", "page_status", "page_method", "included_file_count", "source_url",
+            "size_bytes", "verified_size_bytes", "status", "page_count", "page_status", "page_method", "included_file_count", "source_url",
         )}
         for document in documents
     ]
