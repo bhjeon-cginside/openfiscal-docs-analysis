@@ -124,10 +124,10 @@ def pdf_profile(row: dict[str, str]) -> dict[str, Any] | None:
         return None
 
 
-def render_pdf(profile: dict[str, Any], target: Path) -> None:
+def render_pdf(profile: dict[str, Any], page_info: dict[str, Any], target: Path) -> None:
     path = ROOT / profile["row"]["path"]
     document = fitz.open(path)
-    page = document[profile["best"]["page"] - 1]
+    page = document[page_info["page"] - 1]
     # 108 dpi is legible in an expanded browser view but deliberately not a
     # substitute for the original PDF.
     pixmap = page.get_pixmap(matrix=fitz.Matrix(1.5, 1.5), alpha=False)
@@ -208,6 +208,33 @@ def decision(corpus: str, category: str, profile: dict[str, Any]) -> tuple[str, 
     return "included", "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지"
 
 
+def representative_pages(profile: dict[str, Any], renderer: str) -> list[dict[str, Any]]:
+    """Choose a small, varied spread from one representative document.
+
+    A cover or a single prose-rich page is insufficient for judging whether a
+    type is really narrative.  The spread deliberately includes an early
+    readable page, the strongest prose page, and a middle page, allowing the
+    reviewer to see both explanatory and tabular portions where they exist.
+    """
+    if renderer == "hwp":
+        return [profile["best"]]
+
+    probes = profile["probes"]
+    readable = [probe for probe in probes if probe["text_chars"] >= 100]
+    early = min(readable or probes, key=lambda probe: probe["page"])
+    middle = min(probes, key=lambda probe: abs(probe["page"] - (profile["page_count"] + 1) / 2))
+    preferred = [early, profile["best"], middle]
+    chosen: list[dict[str, Any]] = []
+    seen_pages: set[int] = set()
+    for probe in preferred + sorted(probes, key=lambda probe: probe["content_score"], reverse=True):
+        if probe["page"] not in seen_pages:
+            chosen.append(probe)
+            seen_pages.add(probe["page"])
+        if len(chosen) == 3:
+            break
+    return chosen
+
+
 def main() -> None:
     OUTPUT_ASSETS.mkdir(parents=True, exist_ok=True)
     rows = [
@@ -228,30 +255,37 @@ def main() -> None:
                 "type": category, "status": "review_required", "reason": "렌더링 가능한 대표 문서를 자동 선정하지 못해 수동 검토 필요",
             })
             continue
-        extension = ".jpg" if renderer == "pdf" else ".svg"
-        asset_name = f"{asset_stem(corpus, category)}{extension}"
-        target = OUTPUT_ASSETS / asset_name
-        if renderer == "pdf":
-            render_pdf(profile, target)
-        elif not render_hwp(profile, target):
-            samples.append({
-                "id": asset_stem(corpus, category), "source_id": SOURCE[corpus]["id"], "source_name": SOURCE[corpus]["name"],
-                "type": category, "status": "review_required", "reason": "HWP 대표 페이지 렌더링에 실패해 수동 검토 필요",
+        page_assets: list[dict[str, Any]] = []
+        for page_info in representative_pages(profile, renderer):
+            extension = ".jpg" if renderer == "pdf" else ".svg"
+            asset_name = f"{asset_stem(corpus, category)}-p{page_info['page']}{extension}"
+            target = OUTPUT_ASSETS / asset_name
+            if renderer == "pdf":
+                render_pdf(profile, page_info, target)
+            elif not render_hwp(profile, target):
+                samples.append({
+                    "id": asset_stem(corpus, category), "source_id": SOURCE[corpus]["id"], "source_name": SOURCE[corpus]["name"],
+                    "type": category, "status": "review_required", "reason": "HWP 대표 페이지 렌더링에 실패해 수동 검토 필요",
+                })
+                page_assets = []
+                break
+            used_assets.add(asset_name)
+            page_assets.append({
+                "page": page_info["page"], "image": f"../assets/type-samples/{asset_name}",
+                "text_chars": page_info["text_chars"], "digit_ratio": page_info["digit_ratio"],
+                "table_score": page_info["table_score"],
             })
+        if not page_assets:
             continue
-        used_assets.add(asset_name)
         status, reason = decision(corpus, category, profile)
         row = profile["row"]
-        best = profile["best"]
         samples.append({
             "id": asset_stem(corpus, category),
             "source_id": SOURCE[corpus]["id"], "source_name": SOURCE[corpus]["name"], "type": category,
             "status": status, "reason": reason,
             "sample": {
                 "title": row["title"], "year": row["fiscal_year"], "extension": row["file_ext"],
-                "page": best["page"], "document_pages": profile["page_count"],
-                "image": f"../assets/type-samples/{asset_name}",
-                "text_chars": best["text_chars"], "digit_ratio": best["digit_ratio"], "table_score": best["table_score"],
+                "document_pages": profile["page_count"], "pages": page_assets,
             },
             "type_profile": {
                 "sampled_documents": profile["profile_document_count"],
@@ -267,7 +301,7 @@ def main() -> None:
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "methodology": [
             "유형별 최근 원본 문서 최대 4건에서 여러 페이지를 표본 추출했습니다.",
-            "대표 이미지는 서술형 텍스트가 가장 많은 페이지를 우선 선정한 저해상도 발췌입니다.",
+            "각 유형은 한 대표 문서에서 앞부분·서술형·중간 부분 등 최대 3쪽을 저해상도로 발췌합니다.",
             "제외 유형은 대표 페이지와 자료 성격을 함께 검토해 정했으며, 숫자·표 중심 원자료는 별도 데이터 조회 대상으로 분리합니다.",
             "제외된 유형도 전체 인벤토리에는 남으며, 문서 내용 분석 대상에서만 분리합니다.",
         ],
