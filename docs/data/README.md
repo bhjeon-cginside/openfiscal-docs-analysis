@@ -7,3 +7,4 @@
 - `summary_by_year.csv`: 출처별 연도 집계
 - `summary_by_type.csv`: 출처별 유형 집계
 - `summary_by_extension.csv`: 출처별 파일 형식 집계
+- `type_samples.json`: 유형별 대표 페이지, 내용 분석 포함/제외 결정 및 근거

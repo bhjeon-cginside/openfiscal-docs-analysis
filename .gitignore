@@ -36,5 +36,6 @@ page_count_analysis/*
 !page_count_analysis/final_page_count_by_corpus_with_lossy_utf16_recovery.csv
 scripts/*
 !scripts/build_github_pages.py
+!scripts/build_type_samples.py
 pyproject.toml
 uv.lock

@@ -3,6 +3,7 @@
 열린재정의 **재정보고서 및 문서**와 **재정간행물**을 파일 단위로 집계한 GitHub Pages 정적 사이트입니다. 연도별·유형별 파일 수, 파일 형식, 파일 용량, 측정된 페이지 수를 공개합니다.
 
 - 사이트 루트: [`docs/index.html`](docs/index.html)
+- 유형별 대표 페이지·분석 대상: [`docs/type-examples/`](docs/type-examples/)
 - 공개 데이터: [`docs/data/`](docs/data/)
 - 재현 스크립트: [`scripts/build_github_pages.py`](scripts/build_github_pages.py)
 
@@ -20,9 +21,12 @@
 
 이 저장소의 Pages 산출물에는 원문 파일, ZIP 해제본, OCR 결과를 포함하지 않습니다. 원문은 열린재정의 [재정보고서 및 문서](https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03) 및 [재정간행물](https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA01)에서 확인할 수 있습니다.
 
+문서 내용을 분석할 유형을 검토할 수 있도록 유형별로 저해상도 대표 페이지 1장을 게시합니다. 수지·통계·발행계획처럼 표와 수치가 주된 유형은 인벤토리에서는 유지하되, 원자료 조회가 더 적합하므로 문서 내용 분석 대상에서만 분리합니다. 대표 페이지 생성에는 PDF 렌더러와 로컬 HWP 도구가 필요합니다.
+
 ## 갱신 및 로컬 확인
 
 ```bash
+.venv/bin/python scripts/build_type_samples.py
 python3 scripts/build_github_pages.py
 python3 -m http.server 8000 --directory docs
 ```

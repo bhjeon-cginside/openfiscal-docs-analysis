@@ -1,0 +1,1050 @@
+{
+  "title": "유형별 내용 예시 및 분석 적합성",
+  "generated_at": "2026-09-04T10:53:14+00:00",
+  "methodology": [
+    "유형별 최근 원본 문서 최대 4건에서 여러 페이지를 표본 추출했습니다.",
+    "대표 이미지는 서술형 텍스트가 가장 많은 페이지를 우선 선정한 저해상도 발췌입니다.",
+    "제외 유형은 대표 페이지와 자료 성격을 함께 검토해 정했으며, 숫자·표 중심 원자료는 별도 데이터 조회 대상으로 분리합니다.",
+    "제외된 유형도 전체 인벤토리에는 남으며, 문서 내용 분석 대상에서만 분리합니다."
+  ],
+  "summary": {
+    "type_count": 43,
+    "included": 38,
+    "excluded": 5,
+    "review_required": 0
+  },
+  "samples": [
+    {
+      "id": "publications-5e45453b7353",
+      "source_id": "publications",
+      "source_name": "재정간행물",
+      "type": "IMF",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "[2025 No.4] IMF World Economic Outlook April 2025",
+        "year": "2026",
+        "extension": "pdf",
+        "page": 148,
+        "document_pages": 196,
+        "image": "../assets/type-samples/publications-5e45453b7353.jpg",
+        "text_chars": 28,
+        "digit_ratio": 0.12,
+        "table_score": 0.316
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.66,
+        "content_score": 0.0
+      }
+    },
+    {
+      "id": "publications-ff944e0a1d12",
+      "source_id": "publications",
+      "source_name": "재정간행물",
+      "type": "OECD",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "[2025. No.5] OECD Economic Outlook June 2025",
+        "year": "2026",
+        "extension": "pdf",
+        "page": 130,
+        "document_pages": 172,
+        "image": "../assets/type-samples/publications-ff944e0a1d12.jpg",
+        "text_chars": 796,
+        "digit_ratio": 0.025,
+        "table_score": 0.048
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.66,
+        "content_score": 0.0
+      }
+    },
+    {
+      "id": "publications-56efbec65989",
+      "source_id": "publications",
+      "source_name": "재정간행물",
+      "type": "경제동향",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2026년 5월 최근경제동향",
+        "year": "2026",
+        "extension": "pdf",
+        "page": 4,
+        "document_pages": 76,
+        "image": "../assets/type-samples/publications-56efbec65989.jpg",
+        "text_chars": 1002,
+        "digit_ratio": 0.173,
+        "table_score": 0.127
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.714,
+        "content_score": 9.7
+      }
+    },
+    {
+      "id": "publications-9d17bb927f9f",
+      "source_id": "publications",
+      "source_name": "재정간행물",
+      "type": "기금운용평가결과",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2025년도 기금운용평가결과",
+        "year": "2026",
+        "extension": "pdf",
+        "page": 267,
+        "document_pages": 532,
+        "image": "../assets/type-samples/publications-9d17bb927f9f.jpg",
+        "text_chars": 1089,
+        "digit_ratio": 0.043,
+        "table_score": 0.033
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.14,
+        "content_score": 152.9
+      }
+    },
+    {
+      "id": "publications-13d0e2f4e7ad",
+      "source_id": "publications",
+      "source_name": "재정간행물",
+      "type": "기타자료",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2026년 기금존치평가보고서",
+        "year": "2026",
+        "extension": "pdf",
+        "page": 53,
+        "document_pages": 208,
+        "image": "../assets/type-samples/publications-13d0e2f4e7ad.jpg",
+        "text_chars": 594,
+        "digit_ratio": 0.012,
+        "table_score": 0.021
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.381,
+        "content_score": 46.3
+      }
+    },
+    {
+      "id": "publications-0b20231a13a0",
+      "source_id": "publications",
+      "source_name": "재정간행물",
+      "type": "부담금운용현황",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2025년도 부담금운용종합계획서",
+        "year": "2025",
+        "extension": "pdf",
+        "page": 355,
+        "document_pages": 709,
+        "image": "../assets/type-samples/publications-0b20231a13a0.jpg",
+        "text_chars": 571,
+        "digit_ratio": 0.028,
+        "table_score": 0.072
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.342,
+        "content_score": 48.0
+      }
+    },
+    {
+      "id": "publications-1efcd9044efa",
+      "source_id": "publications",
+      "source_name": "재정간행물",
+      "type": "알기쉬운 나라살림",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2025 국민과 함께 보는 알기 쉬운 나라 살림",
+        "year": "2026",
+        "extension": "pdf",
+        "page": 2,
+        "document_pages": 9,
+        "image": "../assets/type-samples/publications-1efcd9044efa.jpg",
+        "text_chars": 977,
+        "digit_ratio": 0.322,
+        "table_score": 0.46
+      },
+      "type_profile": {
+        "sampled_documents": 1,
+        "table_score": 0.527,
+        "content_score": 214.6
+      }
+    },
+    {
+      "id": "publications-5e126b7fe317",
+      "source_id": "publications",
+      "source_name": "재정간행물",
+      "type": "예산(나라살림)",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2024년도 예산",
+        "year": "2024",
+        "extension": "pdf",
+        "page": 158,
+        "document_pages": 314,
+        "image": "../assets/type-samples/publications-5e126b7fe317.jpg",
+        "text_chars": 794,
+        "digit_ratio": 0.072,
+        "table_score": 0.106
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.334,
+        "content_score": 203.4
+      }
+    },
+    {
+      "id": "publications-54bf1ba245a2",
+      "source_id": "publications",
+      "source_name": "재정간행물",
+      "type": "예산안분석",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2026 예산안분석",
+        "year": "2025",
+        "extension": "pdf",
+        "page": 141,
+        "document_pages": 560,
+        "image": "../assets/type-samples/publications-54bf1ba245a2.jpg",
+        "text_chars": 1158,
+        "digit_ratio": 0.041,
+        "table_score": 0.035
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.271,
+        "content_score": 287.4
+      }
+    },
+    {
+      "id": "publications-2f0fb313f888",
+      "source_id": "publications",
+      "source_name": "재정간행물",
+      "type": "월간나라재정",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2026 월간나라재정 4월",
+        "year": "2026",
+        "extension": "pdf",
+        "page": 21,
+        "document_pages": 80,
+        "image": "../assets/type-samples/publications-2f0fb313f888.jpg",
+        "text_chars": 1173,
+        "digit_ratio": 0.027,
+        "table_score": 0.029
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.218,
+        "content_score": 295.1
+      }
+    },
+    {
+      "id": "publications-dfcac2d34a7b",
+      "source_id": "publications",
+      "source_name": "재정간행물",
+      "type": "월간재정동향",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2026 월간재정동향 4월호",
+        "year": "2026",
+        "extension": "pdf",
+        "page": 32,
+        "document_pages": 63,
+        "image": "../assets/type-samples/publications-dfcac2d34a7b.jpg",
+        "text_chars": 463,
+        "digit_ratio": 0.123,
+        "table_score": 0.248
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.489,
+        "content_score": 16.4
+      }
+    },
+    {
+      "id": "publications-5b0abc356960",
+      "source_id": "publications",
+      "source_name": "재정간행물",
+      "type": "재정사업자율평가",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2024년도 소관별 재정사업 자율평가 보고서",
+        "year": "2025",
+        "extension": "pdf",
+        "page": 30,
+        "document_pages": 59,
+        "image": "../assets/type-samples/publications-5b0abc356960.jpg",
+        "text_chars": 1166,
+        "digit_ratio": 0.027,
+        "table_score": 0.162
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.279,
+        "content_score": 134.1
+      }
+    },
+    {
+      "id": "publications-d3f47f544b24",
+      "source_id": "publications",
+      "source_name": "재정간행물",
+      "type": "주요재정통계",
+      "status": "excluded",
+      "reason": "재정 통계표·시계열 중심 자료로, 원자료 조회 대상으로 분리",
+      "sample": {
+        "title": "2026 주요 재정통계 Ⅰ권",
+        "year": "2026",
+        "extension": "pdf",
+        "page": 3,
+        "document_pages": 215,
+        "image": "../assets/type-samples/publications-d3f47f544b24.jpg",
+        "text_chars": 689,
+        "digit_ratio": 0.032,
+        "table_score": 0.032
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.379,
+        "content_score": 22.4
+      }
+    },
+    {
+      "id": "publications-01f8147a05d9",
+      "source_id": "publications",
+      "source_name": "재정간행물",
+      "type": "해외재정동향",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "[2026] 해외재정동향 2월",
+        "year": "2026",
+        "extension": "pdf",
+        "page": 35,
+        "document_pages": 68,
+        "image": "../assets/type-samples/publications-01f8147a05d9.jpg",
+        "text_chars": 60,
+        "digit_ratio": 0.0,
+        "table_score": 0.14
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.66,
+        "content_score": 0.0
+      }
+    },
+    {
+      "id": "publications-479c4e28565e",
+      "source_id": "publications",
+      "source_name": "재정간행물",
+      "type": "회계·기금운용구조",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2025 회계/기금 운용구조",
+        "year": "2025",
+        "extension": "pdf",
+        "page": 3,
+        "document_pages": 218,
+        "image": "../assets/type-samples/publications-479c4e28565e.jpg",
+        "text_chars": 849,
+        "digit_ratio": 0.048,
+        "table_score": 0.048
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.455,
+        "content_score": 233.5
+      }
+    },
+    {
+      "id": "reports-1b6fb9c8a384",
+      "source_id": "reports",
+      "source_name": "재정보고서 및 문서",
+      "type": "결산>결산보고서",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2024회계연도 결산개요(통계편).pdf",
+        "year": "2024",
+        "extension": "pdf",
+        "page": 4,
+        "document_pages": 1187,
+        "image": "../assets/type-samples/reports-1b6fb9c8a384.jpg",
+        "text_chars": 2577,
+        "digit_ratio": 0.084,
+        "table_score": 0.053
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.39,
+        "content_score": 100.7
+      }
+    },
+    {
+      "id": "reports-d4e37b1107ee",
+      "source_id": "reports",
+      "source_name": "재정보고서 및 문서",
+      "type": "결산>재정증권",
+      "status": "excluded",
+      "reason": "월별 재정증권 발행계획 수치표 중심 자료로, 원자료 조회 대상으로 분리",
+      "sample": {
+        "title": "2011년도 재정증권 발행계획.pdf",
+        "year": "2011",
+        "extension": "pdf",
+        "page": 1,
+        "document_pages": 2,
+        "image": "../assets/type-samples/reports-d4e37b1107ee.jpg",
+        "text_chars": 0,
+        "digit_ratio": 1.0,
+        "table_score": 0.86
+      },
+      "type_profile": {
+        "sampled_documents": 1,
+        "table_score": 0.86,
+        "content_score": 0.0
+      }
+    },
+    {
+      "id": "reports-2b9719642894",
+      "source_id": "reports",
+      "source_name": "재정보고서 및 문서",
+      "type": "성과관리>기금운용평가보고서",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2021년도 기금운용평가보고서(자산운용).pdf",
+        "year": "2021",
+        "extension": "pdf",
+        "page": 148,
+        "document_pages": 591,
+        "image": "../assets/type-samples/reports-2b9719642894.jpg",
+        "text_chars": 1236,
+        "digit_ratio": 0.051,
+        "table_score": 0.036
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.134,
+        "content_score": 146.6
+      }
+    },
+    {
+      "id": "reports-9b8e0c4a7e49",
+      "source_id": "reports",
+      "source_name": "재정보고서 및 문서",
+      "type": "성과관리>보조사업 연장평가보고서",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2022년 국고보조사업 연장평가 보고서.pdf",
+        "year": "2022",
+        "extension": "pdf",
+        "page": 3248,
+        "document_pages": 4330,
+        "image": "../assets/type-samples/reports-9b8e0c4a7e49.jpg",
+        "text_chars": 929,
+        "digit_ratio": 0.045,
+        "table_score": 0.089
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.291,
+        "content_score": 108.1
+      }
+    },
+    {
+      "id": "reports-2cc61b42755b",
+      "source_id": "reports",
+      "source_name": "재정보고서 및 문서",
+      "type": "성과관리>성과계획서(안)",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2025년 성과계획서 (과학기술정보통신부).pdf",
+        "year": "2025",
+        "extension": "pdf",
+        "page": 164,
+        "document_pages": 652,
+        "image": "../assets/type-samples/reports-2cc61b42755b.jpg",
+        "text_chars": 636,
+        "digit_ratio": 0.005,
+        "table_score": 0.149
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.214,
+        "content_score": 107.4
+      }
+    },
+    {
+      "id": "reports-9365b9f72db3",
+      "source_id": "reports",
+      "source_name": "재정보고서 및 문서",
+      "type": "성과관리>성과계획서(안)(추경)",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2021년 제1회 추경성과계획서-과학기술정보통신부.pdf",
+        "year": "2021",
+        "extension": "pdf",
+        "page": 509,
+        "document_pages": 1016,
+        "image": "../assets/type-samples/reports-9365b9f72db3.jpg",
+        "text_chars": 738,
+        "digit_ratio": 0.1,
+        "table_score": 0.121
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.188,
+        "content_score": 45.5
+      }
+    },
+    {
+      "id": "reports-dc1830bacb72",
+      "source_id": "reports",
+      "source_name": "재정보고서 및 문서",
+      "type": "성과관리>성과보고서",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2024년도 문화체육관광부(성과보고서).pdf",
+        "year": "2024",
+        "extension": "pdf",
+        "page": 115,
+        "document_pages": 456,
+        "image": "../assets/type-samples/reports-dc1830bacb72.jpg",
+        "text_chars": 630,
+        "digit_ratio": 0.005,
+        "table_score": 0.105
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.429,
+        "content_score": 99.7
+      }
+    },
+    {
+      "id": "reports-d2f6c611b190",
+      "source_id": "reports",
+      "source_name": "재정보고서 및 문서",
+      "type": "성과관리>성과평가관련 지침",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2018년도 재정사업 자율평가 지침.pdf",
+        "year": "2018",
+        "extension": "pdf",
+        "page": 6,
+        "document_pages": 21,
+        "image": "../assets/type-samples/reports-d2f6c611b190.jpg",
+        "text_chars": 589,
+        "digit_ratio": 0.017,
+        "table_score": 0.162
+      },
+      "type_profile": {
+        "sampled_documents": 1,
+        "table_score": 0.189,
+        "content_score": 190.6
+      }
+    },
+    {
+      "id": "reports-d81d2982cfb9",
+      "source_id": "reports",
+      "source_name": "재정보고서 및 문서",
+      "type": "성과관리>소관별 재정사업 자율평가 보고서",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2024회계연도 재정사업 자율평가 결과(산업통상자원부) .pdf",
+        "year": "2024",
+        "extension": "pdf",
+        "page": 30,
+        "document_pages": 59,
+        "image": "../assets/type-samples/reports-d81d2982cfb9.jpg",
+        "text_chars": 1166,
+        "digit_ratio": 0.027,
+        "table_score": 0.162
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.279,
+        "content_score": 134.1
+      }
+    },
+    {
+      "id": "reports-9e2170a3f5f8",
+      "source_id": "reports",
+      "source_name": "재정보고서 및 문서",
+      "type": "성과관리>재정사업평가결과",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2024년도 재정사업평가결과(FY2023).pdf",
+        "year": "2023",
+        "extension": "pdf",
+        "page": 2,
+        "document_pages": 30,
+        "image": "../assets/type-samples/reports-9e2170a3f5f8.jpg",
+        "text_chars": 2209,
+        "digit_ratio": 0.11,
+        "table_score": 0.285
+      },
+      "type_profile": {
+        "sampled_documents": 1,
+        "table_score": 0.291,
+        "content_score": 1235.8
+      }
+    },
+    {
+      "id": "reports-61e47717a2f5",
+      "source_id": "reports",
+      "source_name": "재정보고서 및 문서",
+      "type": "성과관리>재정사업평가결과>R&D사업평가",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2025_자체평가보고서_농진청_농업정책지원기술개발.pdf",
+        "year": "2024",
+        "extension": "pdf",
+        "page": 56,
+        "document_pages": 220,
+        "image": "../assets/type-samples/reports-61e47717a2f5.jpg",
+        "text_chars": 1442,
+        "digit_ratio": 0.103,
+        "table_score": 0.25
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.22,
+        "content_score": 198.1
+      }
+    },
+    {
+      "id": "reports-aa0e443044da",
+      "source_id": "reports",
+      "source_name": "재정보고서 및 문서",
+      "type": "성과관리>재정사업평가결과>복권기금사업평가",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2024년도 성과관리 재정사업평가결과(복권기금사업평가).pdf",
+        "year": "2024",
+        "extension": "pdf",
+        "page": 165,
+        "document_pages": 656,
+        "image": "../assets/type-samples/reports-aa0e443044da.jpg",
+        "text_chars": 618,
+        "digit_ratio": 0.075,
+        "table_score": 0.23
+      },
+      "type_profile": {
+        "sampled_documents": 1,
+        "table_score": 0.23,
+        "content_score": 289.2
+      }
+    },
+    {
+      "id": "reports-5e033a9b699c",
+      "source_id": "reports",
+      "source_name": "재정보고서 및 문서",
+      "type": "성과관리>재정사업평가결과>일자리사업평가",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "(직업훈련) 07~09 (고용부) 내일배움카드(고보)(3종).pdf",
+        "year": "2024",
+        "extension": "pdf",
+        "page": 9,
+        "document_pages": 16,
+        "image": "../assets/type-samples/reports-5e033a9b699c.jpg",
+        "text_chars": 963,
+        "digit_ratio": 0.011,
+        "table_score": 0.021
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.289,
+        "content_score": 343.4
+      }
+    },
+    {
+      "id": "reports-27bba89e248a",
+      "source_id": "reports",
+      "source_name": "재정보고서 및 문서",
+      "type": "성과관리>재정사업평가결과>재난안전사업평가",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2024년도 성과관리 재정사업평가결과(재난안전사업평가).pdf",
+        "year": "2024",
+        "extension": "pdf",
+        "page": 4,
+        "document_pages": 31,
+        "image": "../assets/type-samples/reports-27bba89e248a.jpg",
+        "text_chars": 749,
+        "digit_ratio": 0.134,
+        "table_score": 0.25
+      },
+      "type_profile": {
+        "sampled_documents": 1,
+        "table_score": 0.288,
+        "content_score": 208.3
+      }
+    },
+    {
+      "id": "reports-d4c88dc28e33",
+      "source_id": "reports",
+      "source_name": "재정보고서 및 문서",
+      "type": "성과관리>재정사업평가결과>중소기업지원사업평가",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "094_경영판로_과기부_클라우드컴퓨팅산업육성(정보화).pdf",
+        "year": "2024",
+        "extension": "pdf",
+        "page": 3,
+        "document_pages": 11,
+        "image": "../assets/type-samples/reports-d4c88dc28e33.jpg",
+        "text_chars": 1513,
+        "digit_ratio": 0.027,
+        "table_score": 0.037
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.183,
+        "content_score": 861.5
+      }
+    },
+    {
+      "id": "reports-41dcedf8c640",
+      "source_id": "reports",
+      "source_name": "재정보고서 및 문서",
+      "type": "성과관리>재정사업평가결과>지역균형발전사업평가",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2024년도 성과관리 재정사업평가결과(지역균형발전사업평가).pdf",
+        "year": "2024",
+        "extension": "pdf",
+        "page": 79,
+        "document_pages": 157,
+        "image": "../assets/type-samples/reports-41dcedf8c640.jpg",
+        "text_chars": 624,
+        "digit_ratio": 0.117,
+        "table_score": 0.206
+      },
+      "type_profile": {
+        "sampled_documents": 1,
+        "table_score": 0.341,
+        "content_score": 176.9
+      }
+    },
+    {
+      "id": "reports-0b68abaa5c6d",
+      "source_id": "reports",
+      "source_name": "재정보고서 및 문서",
+      "type": "성과관리>통합재정사업평가결과",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2026년 통합재정사업 성과평가 보고서(vol.04).pdf",
+        "year": "2026",
+        "extension": "pdf",
+        "page": 626,
+        "document_pages": 1250,
+        "image": "../assets/type-samples/reports-0b68abaa5c6d.jpg",
+        "text_chars": 819,
+        "digit_ratio": 0.039,
+        "table_score": 0.02
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.185,
+        "content_score": 116.4
+      }
+    },
+    {
+      "id": "reports-58ad4f840fe7",
+      "source_id": "reports",
+      "source_name": "재정보고서 및 문서",
+      "type": "수지",
+      "status": "excluded",
+      "reason": "통합재정수지 수치표 중심 자료로, 원자료 조회 대상으로 분리",
+      "sample": {
+        "title": "2021회계연도 한국통합재정수지.pdf",
+        "year": "2021",
+        "extension": "pdf",
+        "page": 149,
+        "document_pages": 198,
+        "image": "../assets/type-samples/reports-58ad4f840fe7.jpg",
+        "text_chars": 873,
+        "digit_ratio": 0.394,
+        "table_score": 0.473
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.536,
+        "content_score": 30.1
+      }
+    },
+    {
+      "id": "reports-a9f7cbdc3780",
+      "source_id": "reports",
+      "source_name": "재정보고서 및 문서",
+      "type": "예산>국가재정운용계획",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2024~2028년 국가재정운용계획.pdf",
+        "year": "2024",
+        "extension": "pdf",
+        "page": 110,
+        "document_pages": 218,
+        "image": "../assets/type-samples/reports-a9f7cbdc3780.jpg",
+        "text_chars": 544,
+        "digit_ratio": 0.025,
+        "table_score": 0.042
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.29,
+        "content_score": 87.1
+      }
+    },
+    {
+      "id": "reports-c8bc78678cec",
+      "source_id": "reports",
+      "source_name": "재정보고서 및 문서",
+      "type": "예산>국회예산기금확정",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2025년도 나라살림 예산개요.pdf",
+        "year": "2025",
+        "extension": "pdf",
+        "page": 83,
+        "document_pages": 330,
+        "image": "../assets/type-samples/reports-c8bc78678cec.jpg",
+        "text_chars": 833,
+        "digit_ratio": 0.104,
+        "table_score": 0.116
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.24,
+        "content_score": 38.5
+      }
+    },
+    {
+      "id": "reports-deb8d6d9b398",
+      "source_id": "reports",
+      "source_name": "재정보고서 및 문서",
+      "type": "예산>정부예산기금안",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2025년 성인지예산서.pdf",
+        "year": "2025",
+        "extension": "pdf",
+        "page": 589,
+        "document_pages": 784,
+        "image": "../assets/type-samples/reports-deb8d6d9b398.jpg",
+        "text_chars": 1235,
+        "digit_ratio": 0.08,
+        "table_score": 0.202
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.319,
+        "content_score": 91.2
+      }
+    },
+    {
+      "id": "reports-7d7877e517b5",
+      "source_id": "reports",
+      "source_name": "재정보고서 및 문서",
+      "type": "예산>정부예산기금안>기금운용계획안",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2025년도 기금운용계획안.pdf",
+        "year": "2025",
+        "extension": "pdf",
+        "page": 196,
+        "document_pages": 390,
+        "image": "../assets/type-samples/reports-7d7877e517b5.jpg",
+        "text_chars": 507,
+        "digit_ratio": 0.027,
+        "table_score": 0.077
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.218,
+        "content_score": 74.0
+      }
+    },
+    {
+      "id": "reports-2172c45ba8e4",
+      "source_id": "reports",
+      "source_name": "재정보고서 및 문서",
+      "type": "예산>정부예산기금안>임대형 민자사업(BTL) 한도액안",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2017년도 임대형 민자사업(BTL) 한도액안.pdf",
+        "year": "2017",
+        "extension": "pdf",
+        "page": 3,
+        "document_pages": 9,
+        "image": "../assets/type-samples/reports-2172c45ba8e4.jpg",
+        "text_chars": 423,
+        "digit_ratio": 0.172,
+        "table_score": 0.11
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.261,
+        "content_score": 56.4
+      }
+    },
+    {
+      "id": "reports-7cac987552b7",
+      "source_id": "reports",
+      "source_name": "재정보고서 및 문서",
+      "type": "예산>정부예산기금안>추가경정예산안",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2022년도 제2회 추가경정예산안 세입세출예산사업별 설명서 1권.pdf",
+        "year": "2022",
+        "extension": "pdf",
+        "page": 1,
+        "document_pages": 438,
+        "image": "../assets/type-samples/reports-7cac987552b7.jpg",
+        "text_chars": 258,
+        "digit_ratio": 0.032,
+        "table_score": 0.096
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.284,
+        "content_score": 71.7
+      }
+    },
+    {
+      "id": "reports-d6479de5638a",
+      "source_id": "reports",
+      "source_name": "재정보고서 및 문서",
+      "type": "지방교육재정",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2022회계연도 지방교육재정 분석 종합보고서.pdf",
+        "year": "2022",
+        "extension": "pdf",
+        "page": 221,
+        "document_pages": 294,
+        "image": "../assets/type-samples/reports-d6479de5638a.jpg",
+        "text_chars": 1110,
+        "digit_ratio": 0.092,
+        "table_score": 0.112
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.495,
+        "content_score": 52.0
+      }
+    },
+    {
+      "id": "reports-eeabee1fd65e",
+      "source_id": "reports",
+      "source_name": "재정보고서 및 문서",
+      "type": "지방재정",
+      "status": "excluded",
+      "reason": "지방재정 연감·통합재정 수치표 중심 자료로, 원자료 조회 대상으로 분리",
+      "sample": {
+        "title": "2021년도 지방자치단체 통합재정 개요(하).pdf",
+        "year": "2021",
+        "extension": "pdf",
+        "page": 4,
+        "document_pages": 1082,
+        "image": "../assets/type-samples/reports-eeabee1fd65e.jpg",
+        "text_chars": 2973,
+        "digit_ratio": 0.001,
+        "table_score": 0.042
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.633,
+        "content_score": 4.1
+      }
+    },
+    {
+      "id": "reports-85dd2ba9230a",
+      "source_id": "reports",
+      "source_name": "재정보고서 및 문서",
+      "type": "집행실적>민간투자",
+      "status": "included",
+      "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
+      "sample": {
+        "title": "2024년도 민간투자사업 운영현황 및 추진실적 등에 관한 보고서.pdf",
+        "year": "2024",
+        "extension": "pdf",
+        "page": 57,
+        "document_pages": 225,
+        "image": "../assets/type-samples/reports-85dd2ba9230a.jpg",
+        "text_chars": 665,
+        "digit_ratio": 0.268,
+        "table_score": 0.448
+      },
+      "type_profile": {
+        "sampled_documents": 4,
+        "table_score": 0.381,
+        "content_score": 46.3
+      }
+    },
+    {
+      "id": "reports-d3922b3eecf1",
+      "source_id": "reports",
+      "source_name": "재정보고서 및 문서",
+      "type": "집행실적>복권",
+      "status": "excluded",
+      "reason": "복권 판매·기금 집행 수치표 중심 자료로, 원자료 조회 대상으로 분리",
+      "sample": {
+        "title": "2019년도 상반기 복권 및 복권기금 관련 정보 공개.hwp",
+        "year": "2019",
+        "extension": "hwp",
+        "page": 1,
+        "document_pages": 1,
+        "image": "../assets/type-samples/reports-d3922b3eecf1.svg",
+        "text_chars": 935,
+        "digit_ratio": 0.685,
+        "table_score": 0.583
+      },
+      "type_profile": {
+        "sampled_documents": 1,
+        "table_score": 0.583,
+        "content_score": 37.7
+      }
+    }
+  ]
+}
