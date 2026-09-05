@@ -64,6 +64,10 @@ def asset_stem(corpus: str, category: str) -> str:
     return f"{SOURCE[corpus]['id']}-{digest}"
 
 
+def document_stem(row: dict[str, str]) -> str:
+    return hashlib.sha256(row["path"].encode()).hexdigest()[:10]
+
+
 def page_indices(page_count: int) -> list[int]:
     # A short spread catches introductory prose, interior tables, and summary pages.
     raw = [0, 1, 2, 3, page_count // 4, page_count // 2, (page_count * 3) // 4]
@@ -179,27 +183,45 @@ def render_hwp(profile: dict[str, Any], target: Path) -> bool:
         shutil.rmtree(temporary, ignore_errors=True)
 
 
-def select_type(corpus: str, category: str, rows: list[dict[str, str]]) -> tuple[dict[str, Any] | None, str]:
-    # Newer documents first; process only a small, diverse set for a type-level
-    # profile rather than rendering all thousands of originals.
-    rows = sorted(rows, key=lambda row: (as_int(row["fiscal_year"], -1), as_int(row["page_count"], -1)), reverse=True)
-    pdf_rows = [row for row in rows if row["file_ext"] == "pdf" and row["page_status"] == "counted_pdf" and row["exists"] == "True"]
-    profiles = [profile for row in pdf_rows[:4] if (profile := pdf_profile(row))]
-    renderer = "pdf"
-    if not profiles:
-        hwp_rows = [row for row in rows if row["file_ext"] in {"hwp", "hwpx"} and row["exists"] == "True"]
-        profiles = [profile for row in hwp_rows[:1] if (profile := hwp_profile(row))]
-        renderer = "hwp"
-    if not profiles:
-        return None, renderer
+def profile_for_row(row: dict[str, str]) -> tuple[dict[str, Any], str] | None:
+    if row["file_ext"] == "pdf" and row["page_status"] == "counted_pdf":
+        if profile := pdf_profile(row):
+            return profile, "pdf"
+    if row["file_ext"] in {"hwp", "hwpx"}:
+        if profile := hwp_profile(row):
+            return profile, "hwp"
+    return None
 
-    sample = max(profiles, key=lambda profile: profile["best"]["content_score"])
-    type_table_score = median(profile["median_table_score"] for profile in profiles)
-    type_content_score = median(profile["median_content_score"] for profile in profiles)
-    sample["type_table_score"] = round(type_table_score, 3)
-    sample["type_content_score"] = round(type_content_score, 1)
-    sample["profile_document_count"] = len(profiles)
-    return sample, renderer
+
+def select_type_documents(rows: list[dict[str, str]], limit: int = 3) -> list[tuple[dict[str, Any], str]]:
+    """Select up to three representative source documents for one type.
+
+    Prefer one renderable document per available PDF/HWP/HWPX format, then
+    fill remaining positions by recency. This exposes variation between files
+    while preventing a large type from dominating the static review page.
+    """
+    ordered = sorted(rows, key=lambda row: (as_int(row["fiscal_year"], -1), as_int(row["page_count"], -1)), reverse=True)
+    selected: list[tuple[dict[str, Any], str]] = []
+    selected_paths: set[str] = set()
+
+    def add_first(candidates: list[dict[str, str]]) -> None:
+        for candidate in candidates:
+            if candidate["path"] in selected_paths:
+                continue
+            if selection := profile_for_row(candidate):
+                selected.append(selection)
+                selected_paths.add(candidate["path"])
+                return
+
+    for extension in ("pdf", "hwp", "hwpx"):
+        if len(selected) == limit:
+            break
+        add_first([row for row in ordered if row["file_ext"] == extension])
+    for row in ordered:
+        if len(selected) == limit:
+            break
+        add_first([row])
+    return selected
 
 
 def decision(corpus: str, category: str, profile: dict[str, Any]) -> tuple[str, str]:
@@ -235,32 +257,6 @@ def representative_pages(profile: dict[str, Any], renderer: str, limit: int) -> 
     return chosen
 
 
-def alternative_format_profiles(
-    rows: list[dict[str, str]], primary_profile: dict[str, Any],
-) -> list[tuple[dict[str, Any], str]]:
-    """Return one renderable HWP/HWPX document for each available format.
-
-    PDFs remain the most common source representation, but showing only PDF
-    makes it impossible to judge whether equivalent Hangul-format material is
-    substantive.  Reserve a page for each locally available HWP/HWPX format
-    whenever the type also contains PDF files.
-    """
-    alternatives: list[tuple[dict[str, Any], str]] = []
-    for extension in ("hwp", "hwpx"):
-        if primary_profile["row"]["file_ext"] == extension:
-            continue
-        candidates = sorted(
-            (row for row in rows if row["file_ext"] == extension),
-            key=lambda row: (as_int(row["fiscal_year"], -1), as_int(row["page_count"], -1)),
-            reverse=True,
-        )
-        for row in candidates[:4]:
-            if profile := hwp_profile(row):
-                alternatives.append((profile, "hwp"))
-                break
-    return alternatives
-
-
 def main() -> None:
     OUTPUT_ASSETS.mkdir(parents=True, exist_ok=True)
     rows = [
@@ -274,60 +270,59 @@ def main() -> None:
     samples: list[dict[str, Any]] = []
     used_assets: set[str] = set()
     for (corpus, category), type_rows in sorted(grouped.items(), key=lambda item: (SOURCE[item[0][0]]["id"], item[0][1])):
-        profile, renderer = select_type(corpus, category, type_rows)
-        if profile is None:
+        selected_profiles = select_type_documents(type_rows)
+        if not selected_profiles:
             samples.append({
                 "id": asset_stem(corpus, category), "source_id": SOURCE[corpus]["id"], "source_name": SOURCE[corpus]["name"],
                 "type": category, "status": "review_required", "reason": "렌더링 가능한 대표 문서를 자동 선정하지 못해 수동 검토 필요",
             })
             continue
-        alternatives = alternative_format_profiles(type_rows, profile)
-        selected_profiles = [(profile, renderer, max(1, 5 - len(alternatives)))] + [
-            (alternative, alternative_renderer, 1) for alternative, alternative_renderer in alternatives
-        ]
-        page_assets: list[dict[str, Any]] = []
         documents: list[dict[str, Any]] = []
-        for selected_profile, selected_renderer, limit in selected_profiles:
+        for selected_profile, selected_renderer in selected_profiles:
             selected_row = selected_profile["row"]
-            documents.append({
-                "title": selected_row["title"], "year": selected_row["fiscal_year"],
-                "extension": selected_row["file_ext"], "document_pages": selected_profile["page_count"],
-            })
-            for page_info in representative_pages(selected_profile, selected_renderer, limit):
+            document_pages: list[dict[str, Any]] = []
+            document_render_failed = False
+            for page_info in representative_pages(selected_profile, selected_renderer, limit=5):
                 asset_extension = ".jpg" if selected_renderer == "pdf" else ".svg"
-                asset_name = f"{asset_stem(corpus, category)}-{selected_row['file_ext']}-p{page_info['page']}{asset_extension}"
+                asset_name = f"{asset_stem(corpus, category)}-{document_stem(selected_row)}-{selected_row['file_ext']}-p{page_info['page']}{asset_extension}"
                 target = OUTPUT_ASSETS / asset_name
                 if selected_renderer == "pdf":
                     render_pdf(selected_profile, page_info, target)
                 elif not render_hwp(selected_profile, target):
-                    samples.append({
-                        "id": asset_stem(corpus, category), "source_id": SOURCE[corpus]["id"], "source_name": SOURCE[corpus]["name"],
-                        "type": category, "status": "review_required", "reason": "HWP/HWPX 대표 페이지 렌더링에 실패해 수동 검토 필요",
-                    })
-                    page_assets = []
+                    document_render_failed = True
                     break
                 used_assets.add(asset_name)
-                page_assets.append({
+                document_pages.append({
                     "page": page_info["page"], "image": f"../assets/type-samples/{asset_name}",
-                    "title": selected_row["title"], "year": selected_row["fiscal_year"],
-                    "extension": selected_row["file_ext"], "text_chars": page_info["text_chars"],
-                    "digit_ratio": page_info["digit_ratio"], "table_score": page_info["table_score"],
+                    "text_chars": page_info["text_chars"], "digit_ratio": page_info["digit_ratio"],
+                    "table_score": page_info["table_score"],
                 })
-            if not page_assets:
-                break
-        if not page_assets:
+            if document_render_failed or not document_pages:
+                continue
+            documents.append({
+                "title": selected_row["title"], "year": selected_row["fiscal_year"],
+                "extension": selected_row["file_ext"], "document_pages": selected_profile["page_count"], "pages": document_pages,
+            })
+        if not documents:
+            samples.append({
+                "id": asset_stem(corpus, category), "source_id": SOURCE[corpus]["id"], "source_name": SOURCE[corpus]["name"],
+                "type": category, "status": "review_required", "reason": "대표 문서 페이지 렌더링에 실패해 수동 검토 필요",
+            })
             continue
-        status, reason = decision(corpus, category, profile)
+        primary_profile = selected_profiles[0][0]
+        status, reason = decision(corpus, category, primary_profile)
+        type_table_score = median(profile["median_table_score"] for profile, _ in selected_profiles)
+        type_content_score = median(profile["median_content_score"] for profile, _ in selected_profiles)
         samples.append({
             "id": asset_stem(corpus, category),
             "source_id": SOURCE[corpus]["id"], "source_name": SOURCE[corpus]["name"], "type": category,
             "status": status, "reason": reason,
             "sample": {
-                "documents": documents, "pages": page_assets,
+                "documents": documents,
             },
             "type_profile": {
-                "sampled_documents": profile["profile_document_count"],
-                "table_score": profile["type_table_score"], "content_score": profile["type_content_score"],
+                "sampled_documents": len(documents),
+                "table_score": round(type_table_score, 3), "content_score": round(type_content_score, 1),
             },
         })
 
@@ -338,9 +333,9 @@ def main() -> None:
         "title": "유형별 내용 예시 및 분석 적합성",
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "methodology": [
-            "유형별 최근 원본 문서 최대 4건에서 여러 페이지를 표본 추출했습니다.",
-            "각 유형은 대표 문서에서 앞부분·서술형·중간 부분 등 최대 5쪽을 저해상도로 발췌합니다.",
-            "PDF와 HWP/HWPX가 함께 있는 유형은 렌더링 가능한 각 형식에서 대표 페이지를 포함해 형식 편향을 줄입니다.",
+            "각 유형에서 최근성과 형식 다양성을 고려해 대표 원본 문서를 최대 3건 선정했습니다.",
+            "선정된 각 문서에서 앞부분·서술형·중간 부분 등 최대 5쪽을 저해상도로 발췌합니다.",
+            "PDF와 HWP/HWPX가 함께 있는 유형은 가능한 한 각 형식의 대표 문서를 포함해 형식 편향을 줄입니다.",
             "제외 유형은 대표 페이지와 자료 성격을 함께 검토해 정했으며, 숫자·표 중심 원자료는 별도 데이터 조회 대상으로 분리합니다.",
             "제외된 유형도 전체 인벤토리에는 남으며, 문서 내용 분석 대상에서만 분리합니다.",
         ],
@@ -349,6 +344,7 @@ def main() -> None:
             "included": sum(item["status"] == "included" for item in samples),
             "excluded": sum(item["status"] == "excluded" for item in samples),
             "review_required": sum(item["status"] == "review_required" for item in samples),
+            "representative_documents": sum(len(item.get("sample", {}).get("documents", [])) for item in samples),
         },
         "samples": samples,
     }
