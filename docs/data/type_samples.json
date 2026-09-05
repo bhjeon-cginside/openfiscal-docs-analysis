@@ -1,6 +1,6 @@
 {
   "title": "유형별 내용 예시 및 분석 적합성",
-  "generated_at": "2026-09-05T16:23:30+00:00",
+  "generated_at": "2026-09-05T16:35:26+00:00",
   "methodology": [
     "각 유형에서 최근성과 형식 다양성을 고려해 대표 원본 문서를 최대 3건 선정했습니다.",
     "선정된 각 문서에서 앞부분·서술형·중간 부분 등 최대 5쪽을 저해상도로 발췌합니다.",
@@ -510,14 +510,42 @@
             "title": "2018년도 기금운용평가결과",
             "year": "2019",
             "extension": "hwp",
-            "document_pages": 1,
+            "document_pages": 1200,
             "pages": [
               {
-                "page": 1,
-                "image": "../assets/type-samples/publications-9d17bb927f9f-0b80b06705-hwp-p1.svg",
-                "text_chars": 39,
-                "digit_ratio": 0.273,
-                "table_score": 0.161
+                "page": 3,
+                "image": "../assets/type-samples/publications-9d17bb927f9f-0b80b06705-hwp-p3.svg",
+                "text_chars": 242,
+                "digit_ratio": 0.248,
+                "table_score": 0.148
+              },
+              {
+                "page": 901,
+                "image": "../assets/type-samples/publications-9d17bb927f9f-0b80b06705-hwp-p901.svg",
+                "text_chars": 387,
+                "digit_ratio": 0.091,
+                "table_score": 0.105
+              },
+              {
+                "page": 601,
+                "image": "../assets/type-samples/publications-9d17bb927f9f-0b80b06705-hwp-p601.svg",
+                "text_chars": 790,
+                "digit_ratio": 0.436,
+                "table_score": 0.411
+              },
+              {
+                "page": 4,
+                "image": "../assets/type-samples/publications-9d17bb927f9f-0b80b06705-hwp-p4.svg",
+                "text_chars": 238,
+                "digit_ratio": 0.277,
+                "table_score": 0.159
+              },
+              {
+                "page": 301,
+                "image": "../assets/type-samples/publications-9d17bb927f9f-0b80b06705-hwp-p301.svg",
+                "text_chars": 78,
+                "digit_ratio": 0.108,
+                "table_score": 0.073
               }
             ]
           },
@@ -628,11 +656,39 @@
             "title": "2019년도 복권판매사업 및 복권기금지원사업",
             "year": "2019",
             "extension": "hwp",
-            "document_pages": 1,
+            "document_pages": 6,
             "pages": [
               {
                 "page": 1,
                 "image": "../assets/type-samples/publications-13d0e2f4e7ad-25003222be-hwp-p1.svg",
+                "text_chars": 124,
+                "digit_ratio": 0.198,
+                "table_score": 0.141
+              },
+              {
+                "page": 3,
+                "image": "../assets/type-samples/publications-13d0e2f4e7ad-25003222be-hwp-p3.svg",
+                "text_chars": 1330,
+                "digit_ratio": 0.113,
+                "table_score": 0.139
+              },
+              {
+                "page": 4,
+                "image": "../assets/type-samples/publications-13d0e2f4e7ad-25003222be-hwp-p4.svg",
+                "text_chars": 572,
+                "digit_ratio": 0.323,
+                "table_score": 0.307
+              },
+              {
+                "page": 5,
+                "image": "../assets/type-samples/publications-13d0e2f4e7ad-25003222be-hwp-p5.svg",
+                "text_chars": 335,
+                "digit_ratio": 0.305,
+                "table_score": 0.217
+              },
+              {
+                "page": 2,
+                "image": "../assets/type-samples/publications-13d0e2f4e7ad-25003222be-hwp-p2.svg",
                 "text_chars": 935,
                 "digit_ratio": 0.685,
                 "table_score": 0.583
@@ -686,8 +742,8 @@
       },
       "type_profile": {
         "sampled_documents": 3,
-        "table_score": 0.387,
-        "content_score": 46.3
+        "table_score": 0.217,
+        "content_score": 121.3
       }
     },
     {
@@ -746,11 +802,39 @@
             "title": "2010년도 부담금운용현황",
             "year": "2011",
             "extension": "hwp",
-            "document_pages": 1,
+            "document_pages": 53,
             "pages": [
               {
-                "page": 1,
-                "image": "../assets/type-samples/publications-0b20231a13a0-f8302952b1-hwp-p1.svg",
+                "page": 14,
+                "image": "../assets/type-samples/publications-0b20231a13a0-f8302952b1-hwp-p14.svg",
+                "text_chars": 682,
+                "digit_ratio": 0.049,
+                "table_score": 0.039
+              },
+              {
+                "page": 27,
+                "image": "../assets/type-samples/publications-0b20231a13a0-f8302952b1-hwp-p27.svg",
+                "text_chars": 601,
+                "digit_ratio": 0.004,
+                "table_score": 0.017
+              },
+              {
+                "page": 40,
+                "image": "../assets/type-samples/publications-0b20231a13a0-f8302952b1-hwp-p40.svg",
+                "text_chars": 557,
+                "digit_ratio": 0.447,
+                "table_score": 0.382
+              },
+              {
+                "page": 3,
+                "image": "../assets/type-samples/publications-0b20231a13a0-f8302952b1-hwp-p3.svg",
+                "text_chars": 71,
+                "digit_ratio": 0.071,
+                "table_score": 0.037
+              },
+              {
+                "page": 2,
+                "image": "../assets/type-samples/publications-0b20231a13a0-f8302952b1-hwp-p2.svg",
                 "text_chars": 21,
                 "digit_ratio": 0.19,
                 "table_score": 0.164
@@ -805,7 +889,7 @@
       "type_profile": {
         "sampled_documents": 3,
         "table_score": 0.293,
-        "content_score": 40.2
+        "content_score": 56.1
       }
     },
     {
@@ -924,14 +1008,42 @@
             "title": "2015년도 예산",
             "year": "2015",
             "extension": "hwp",
-            "document_pages": 1,
+            "document_pages": 427,
             "pages": [
               {
                 "page": 1,
                 "image": "../assets/type-samples/publications-5e126b7fe317-f7691ed402-hwp-p1.svg",
+                "text_chars": 155,
+                "digit_ratio": 0.055,
+                "table_score": 0.029
+              },
+              {
+                "page": 321,
+                "image": "../assets/type-samples/publications-5e126b7fe317-f7691ed402-hwp-p321.svg",
+                "text_chars": 375,
+                "digit_ratio": 0.058,
+                "table_score": 0.042
+              },
+              {
+                "page": 214,
+                "image": "../assets/type-samples/publications-5e126b7fe317-f7691ed402-hwp-p214.svg",
                 "text_chars": 0,
                 "digit_ratio": 1.0,
                 "table_score": 0.86
+              },
+              {
+                "page": 107,
+                "image": "../assets/type-samples/publications-5e126b7fe317-f7691ed402-hwp-p107.svg",
+                "text_chars": 332,
+                "digit_ratio": 0.01,
+                "table_score": 0.025
+              },
+              {
+                "page": 3,
+                "image": "../assets/type-samples/publications-5e126b7fe317-f7691ed402-hwp-p3.svg",
+                "text_chars": 25,
+                "digit_ratio": 0.375,
+                "table_score": 0.422
               }
             ]
           },
@@ -1334,14 +1446,42 @@
             "title": "2018년 월간재정동향 1월호",
             "year": "2018",
             "extension": "hwp",
-            "document_pages": 1,
+            "document_pages": 88,
             "pages": [
               {
                 "page": 1,
                 "image": "../assets/type-samples/publications-dfcac2d34a7b-6937ba847f-hwp-p1.svg",
+                "text_chars": 122,
+                "digit_ratio": 0.159,
+                "table_score": 0.125
+              },
+              {
+                "page": 2,
+                "image": "../assets/type-samples/publications-dfcac2d34a7b-6937ba847f-hwp-p2.svg",
                 "text_chars": 457,
                 "digit_ratio": 0.356,
                 "table_score": 0.256
+              },
+              {
+                "page": 45,
+                "image": "../assets/type-samples/publications-dfcac2d34a7b-6937ba847f-hwp-p45.svg",
+                "text_chars": 1640,
+                "digit_ratio": 0.69,
+                "table_score": 0.65
+              },
+              {
+                "page": 4,
+                "image": "../assets/type-samples/publications-dfcac2d34a7b-6937ba847f-hwp-p4.svg",
+                "text_chars": 1062,
+                "digit_ratio": 0.547,
+                "table_score": 0.525
+              },
+              {
+                "page": 3,
+                "image": "../assets/type-samples/publications-dfcac2d34a7b-6937ba847f-hwp-p3.svg",
+                "text_chars": 230,
+                "digit_ratio": 0.31,
+                "table_score": 0.176
               }
             ]
           },
@@ -1452,11 +1592,39 @@
             "title": "2022년도 소관별 재정사업 자율평가 보고서",
             "year": "2023",
             "extension": "hwp",
-            "document_pages": 1,
+            "document_pages": 10,
             "pages": [
               {
-                "page": 1,
-                "image": "../assets/type-samples/publications-5b0abc356960-2898948bb1-hwp-p1.svg",
+                "page": 3,
+                "image": "../assets/type-samples/publications-5b0abc356960-2898948bb1-hwp-p3.svg",
+                "text_chars": 140,
+                "digit_ratio": 0.126,
+                "table_score": 0.109
+              },
+              {
+                "page": 4,
+                "image": "../assets/type-samples/publications-5b0abc356960-2898948bb1-hwp-p4.svg",
+                "text_chars": 358,
+                "digit_ratio": 0.041,
+                "table_score": 0.045
+              },
+              {
+                "page": 6,
+                "image": "../assets/type-samples/publications-5b0abc356960-2898948bb1-hwp-p6.svg",
+                "text_chars": 111,
+                "digit_ratio": 0.211,
+                "table_score": 0.233
+              },
+              {
+                "page": 8,
+                "image": "../assets/type-samples/publications-5b0abc356960-2898948bb1-hwp-p8.svg",
+                "text_chars": 480,
+                "digit_ratio": 0.218,
+                "table_score": 0.245
+              },
+              {
+                "page": 2,
+                "image": "../assets/type-samples/publications-5b0abc356960-2898948bb1-hwp-p2.svg",
                 "text_chars": 54,
                 "digit_ratio": 0.114,
                 "table_score": 0.059
@@ -1467,14 +1635,42 @@
             "title": "2022년도 소관별 재정사업 자율평가 보고서",
             "year": "2023",
             "extension": "hwpx",
-            "document_pages": 1,
+            "document_pages": 7,
             "pages": [
               {
-                "page": 1,
-                "image": "../assets/type-samples/publications-5b0abc356960-d9b85a8750-hwpx-p1.svg",
+                "page": 3,
+                "image": "../assets/type-samples/publications-5b0abc356960-d9b85a8750-hwpx-p3.svg",
+                "text_chars": 402,
+                "digit_ratio": 0.312,
+                "table_score": 0.329
+              },
+              {
+                "page": 6,
+                "image": "../assets/type-samples/publications-5b0abc356960-d9b85a8750-hwpx-p6.svg",
+                "text_chars": 762,
+                "digit_ratio": 0.105,
+                "table_score": 0.069
+              },
+              {
+                "page": 4,
+                "image": "../assets/type-samples/publications-5b0abc356960-d9b85a8750-hwpx-p4.svg",
+                "text_chars": 299,
+                "digit_ratio": 0.24,
+                "table_score": 0.25
+              },
+              {
+                "page": 2,
+                "image": "../assets/type-samples/publications-5b0abc356960-d9b85a8750-hwpx-p2.svg",
                 "text_chars": 33,
                 "digit_ratio": 0.069,
                 "table_score": 0.036
+              },
+              {
+                "page": 1,
+                "image": "../assets/type-samples/publications-5b0abc356960-d9b85a8750-hwpx-p1.svg",
+                "text_chars": 34,
+                "digit_ratio": 0.281,
+                "table_score": 0.231
               }
             ]
           }
@@ -1482,8 +1678,8 @@
       },
       "type_profile": {
         "sampled_documents": 3,
-        "table_score": 0.059,
-        "content_score": 36.1
+        "table_score": 0.231,
+        "content_score": 135.0
       }
     },
     {
@@ -1952,14 +2148,42 @@
             "title": "2019년도 중앙관서별 결산보고서(공정거래위원회).hwp",
             "year": "2019",
             "extension": "hwp",
-            "document_pages": 1,
+            "document_pages": 148,
             "pages": [
+              {
+                "page": 3,
+                "image": "../assets/type-samples/reports-1b6fb9c8a384-c73eef0c32-hwp-p3.svg",
+                "text_chars": 236,
+                "digit_ratio": 0.271,
+                "table_score": 0.141
+              },
+              {
+                "page": 4,
+                "image": "../assets/type-samples/reports-1b6fb9c8a384-c73eef0c32-hwp-p4.svg",
+                "text_chars": 292,
+                "digit_ratio": 0.244,
+                "table_score": 0.127
+              },
+              {
+                "page": 75,
+                "image": "../assets/type-samples/reports-1b6fb9c8a384-c73eef0c32-hwp-p75.svg",
+                "text_chars": 64,
+                "digit_ratio": 0.052,
+                "table_score": 0.058
+              },
               {
                 "page": 1,
                 "image": "../assets/type-samples/reports-1b6fb9c8a384-c73eef0c32-hwp-p1.svg",
-                "text_chars": 0,
-                "digit_ratio": 1.0,
-                "table_score": 0.86
+                "text_chars": 42,
+                "digit_ratio": 0.1,
+                "table_score": 0.052
+              },
+              {
+                "page": 112,
+                "image": "../assets/type-samples/reports-1b6fb9c8a384-c73eef0c32-hwp-p112.svg",
+                "text_chars": 990,
+                "digit_ratio": 0.73,
+                "table_score": 0.593
               }
             ]
           },
@@ -2010,8 +2234,8 @@
       },
       "type_profile": {
         "sampled_documents": 3,
-        "table_score": 0.69,
-        "content_score": 0.0
+        "table_score": 0.364,
+        "content_score": 33.6
       }
     },
     {
@@ -2049,11 +2273,25 @@
             "title": "2020년도 3월 재정증권 발행계획.hwp",
             "year": "2020",
             "extension": "hwp",
-            "document_pages": 1,
+            "document_pages": 3,
             "pages": [
               {
                 "page": 1,
                 "image": "../assets/type-samples/reports-d4e37b1107ee-69678d6dcd-hwp-p1.svg",
+                "text_chars": 554,
+                "digit_ratio": 0.336,
+                "table_score": 0.302
+              },
+              {
+                "page": 3,
+                "image": "../assets/type-samples/reports-d4e37b1107ee-69678d6dcd-hwp-p3.svg",
+                "text_chars": 395,
+                "digit_ratio": 0.038,
+                "table_score": 0.036
+              },
+              {
+                "page": 2,
+                "image": "../assets/type-samples/reports-d4e37b1107ee-69678d6dcd-hwp-p2.svg",
                 "text_chars": 246,
                 "digit_ratio": 0.137,
                 "table_score": 0.131
@@ -2064,11 +2302,25 @@
             "title": "2020년도 2월 재정증권 발행계획.hwp",
             "year": "2020",
             "extension": "hwp",
-            "document_pages": 1,
+            "document_pages": 3,
             "pages": [
               {
                 "page": 1,
                 "image": "../assets/type-samples/reports-d4e37b1107ee-aad163a7e6-hwp-p1.svg",
+                "text_chars": 556,
+                "digit_ratio": 0.337,
+                "table_score": 0.303
+              },
+              {
+                "page": 3,
+                "image": "../assets/type-samples/reports-d4e37b1107ee-aad163a7e6-hwp-p3.svg",
+                "text_chars": 395,
+                "digit_ratio": 0.038,
+                "table_score": 0.036
+              },
+              {
+                "page": 2,
+                "image": "../assets/type-samples/reports-d4e37b1107ee-aad163a7e6-hwp-p2.svg",
                 "text_chars": 268,
                 "digit_ratio": 0.061,
                 "table_score": 0.056
@@ -2080,7 +2332,7 @@
       "type_profile": {
         "sampled_documents": 3,
         "table_score": 0.131,
-        "content_score": 154.8
+        "content_score": 190.6
       }
     },
     {
@@ -2139,14 +2391,42 @@
             "title": "2021년도 기금운용평가보고서(사업운영).hwp",
             "year": "2021",
             "extension": "hwp",
-            "document_pages": 1,
+            "document_pages": 1619,
             "pages": [
               {
-                "page": 1,
-                "image": "../assets/type-samples/reports-2b9719642894-c8a7fbff5f-hwp-p1.svg",
-                "text_chars": 39,
-                "digit_ratio": 0.273,
-                "table_score": 0.161
+                "page": 3,
+                "image": "../assets/type-samples/reports-2b9719642894-c8a7fbff5f-hwp-p3.svg",
+                "text_chars": 237,
+                "digit_ratio": 0.254,
+                "table_score": 0.151
+              },
+              {
+                "page": 810,
+                "image": "../assets/type-samples/reports-2b9719642894-c8a7fbff5f-hwp-p810.svg",
+                "text_chars": 828,
+                "digit_ratio": 0.038,
+                "table_score": 0.045
+              },
+              {
+                "page": 405,
+                "image": "../assets/type-samples/reports-2b9719642894-c8a7fbff5f-hwp-p405.svg",
+                "text_chars": 921,
+                "digit_ratio": 0.19,
+                "table_score": 0.226
+              },
+              {
+                "page": 4,
+                "image": "../assets/type-samples/reports-2b9719642894-c8a7fbff5f-hwp-p4.svg",
+                "text_chars": 238,
+                "digit_ratio": 0.277,
+                "table_score": 0.159
+              },
+              {
+                "page": 1215,
+                "image": "../assets/type-samples/reports-2b9719642894-c8a7fbff5f-hwp-p1215.svg",
+                "text_chars": 222,
+                "digit_ratio": 0.266,
+                "table_score": 0.247
               }
             ]
           },
@@ -2198,7 +2478,7 @@
       "type_profile": {
         "sampled_documents": 3,
         "table_score": 0.161,
-        "content_score": 33.2
+        "content_score": 118.5
       }
     },
     {
@@ -2403,14 +2683,42 @@
             "title": "[07]2026년도 성과계획서_민주평화통일자문회의.hwp",
             "year": "2026",
             "extension": "hwp",
-            "document_pages": 1,
+            "document_pages": 47,
             "pages": [
+              {
+                "page": 12,
+                "image": "../assets/type-samples/reports-2cc61b42755b-9ca228c25b-hwp-p12.svg",
+                "text_chars": 219,
+                "digit_ratio": 0.213,
+                "table_score": 0.167
+              },
+              {
+                "page": 36,
+                "image": "../assets/type-samples/reports-2cc61b42755b-9ca228c25b-hwp-p36.svg",
+                "text_chars": 752,
+                "digit_ratio": 0.007,
+                "table_score": 0.007
+              },
+              {
+                "page": 24,
+                "image": "../assets/type-samples/reports-2cc61b42755b-9ca228c25b-hwp-p24.svg",
+                "text_chars": 512,
+                "digit_ratio": 0.032,
+                "table_score": 0.046
+              },
+              {
+                "page": 3,
+                "image": "../assets/type-samples/reports-2cc61b42755b-9ca228c25b-hwp-p3.svg",
+                "text_chars": 44,
+                "digit_ratio": 0.146,
+                "table_score": 0.076
+              },
               {
                 "page": 1,
                 "image": "../assets/type-samples/reports-2cc61b42755b-9ca228c25b-hwp-p1.svg",
-                "text_chars": 0,
-                "digit_ratio": 1.0,
-                "table_score": 0.86
+                "text_chars": 32,
+                "digit_ratio": 0.133,
+                "table_score": 0.154
               }
             ]
           },
@@ -2418,14 +2726,42 @@
             "title": "2027년도 성과계획서 작성지침.hwpx",
             "year": "2027",
             "extension": "hwpx",
-            "document_pages": 1,
+            "document_pages": 78,
             "pages": [
               {
-                "page": 1,
-                "image": "../assets/type-samples/reports-2cc61b42755b-e532c7802a-hwpx-p1.svg",
-                "text_chars": 0,
-                "digit_ratio": 1.0,
-                "table_score": 0.86
+                "page": 3,
+                "image": "../assets/type-samples/reports-2cc61b42755b-e532c7802a-hwpx-p3.svg",
+                "text_chars": 305,
+                "digit_ratio": 0.192,
+                "table_score": 0.1
+              },
+              {
+                "page": 59,
+                "image": "../assets/type-samples/reports-2cc61b42755b-e532c7802a-hwpx-p59.svg",
+                "text_chars": 809,
+                "digit_ratio": 0.033,
+                "table_score": 0.043
+              },
+              {
+                "page": 40,
+                "image": "../assets/type-samples/reports-2cc61b42755b-e532c7802a-hwpx-p40.svg",
+                "text_chars": 21,
+                "digit_ratio": 0.316,
+                "table_score": 0.278
+              },
+              {
+                "page": 20,
+                "image": "../assets/type-samples/reports-2cc61b42755b-e532c7802a-hwpx-p20.svg",
+                "text_chars": 513,
+                "digit_ratio": 0.011,
+                "table_score": 0.022
+              },
+              {
+                "page": 4,
+                "image": "../assets/type-samples/reports-2cc61b42755b-e532c7802a-hwpx-p4.svg",
+                "text_chars": 488,
+                "digit_ratio": 0.064,
+                "table_score": 0.033
               }
             ]
           }
@@ -2433,8 +2769,8 @@
       },
       "type_profile": {
         "sampled_documents": 3,
-        "table_score": 0.86,
-        "content_score": 0.0
+        "table_score": 0.154,
+        "content_score": 105.3
       }
     },
     {
@@ -2493,14 +2829,42 @@
             "title": "2022년 제2회 추경성과계획서-법제처.hwp",
             "year": "2022",
             "extension": "hwp",
-            "document_pages": 1,
+            "document_pages": 46,
             "pages": [
               {
-                "page": 1,
-                "image": "../assets/type-samples/reports-9365b9f72db3-45f0ab73cd-hwp-p1.svg",
+                "page": 12,
+                "image": "../assets/type-samples/reports-9365b9f72db3-45f0ab73cd-hwp-p12.svg",
+                "text_chars": 201,
+                "digit_ratio": 0.5,
+                "table_score": 0.477
+              },
+              {
+                "page": 24,
+                "image": "../assets/type-samples/reports-9365b9f72db3-45f0ab73cd-hwp-p24.svg",
+                "text_chars": 411,
+                "digit_ratio": 0.064,
+                "table_score": 0.096
+              },
+              {
+                "page": 35,
+                "image": "../assets/type-samples/reports-9365b9f72db3-45f0ab73cd-hwp-p35.svg",
+                "text_chars": 396,
+                "digit_ratio": 0.256,
+                "table_score": 0.263
+              },
+              {
+                "page": 2,
+                "image": "../assets/type-samples/reports-9365b9f72db3-45f0ab73cd-hwp-p2.svg",
                 "text_chars": 48,
                 "digit_ratio": 0.133,
                 "table_score": 0.069
+              },
+              {
+                "page": 1,
+                "image": "../assets/type-samples/reports-9365b9f72db3-45f0ab73cd-hwp-p1.svg",
+                "text_chars": 58,
+                "digit_ratio": 0.2,
+                "table_score": 0.166
               }
             ]
           },
@@ -2508,11 +2872,39 @@
             "title": "2022년 제2회 추경성과계획서-감사원.hwp",
             "year": "2022",
             "extension": "hwp",
-            "document_pages": 1,
+            "document_pages": 34,
             "pages": [
               {
-                "page": 1,
-                "image": "../assets/type-samples/reports-9365b9f72db3-296aa5b097-hwp-p1.svg",
+                "page": 9,
+                "image": "../assets/type-samples/reports-9365b9f72db3-296aa5b097-hwp-p9.svg",
+                "text_chars": 409,
+                "digit_ratio": 0.008,
+                "table_score": 0.021
+              },
+              {
+                "page": 18,
+                "image": "../assets/type-samples/reports-9365b9f72db3-296aa5b097-hwp-p18.svg",
+                "text_chars": 485,
+                "digit_ratio": 0.023,
+                "table_score": 0.034
+              },
+              {
+                "page": 26,
+                "image": "../assets/type-samples/reports-9365b9f72db3-296aa5b097-hwp-p26.svg",
+                "text_chars": 353,
+                "digit_ratio": 0.275,
+                "table_score": 0.27
+              },
+              {
+                "page": 3,
+                "image": "../assets/type-samples/reports-9365b9f72db3-296aa5b097-hwp-p3.svg",
+                "text_chars": 63,
+                "digit_ratio": 0.133,
+                "table_score": 0.069
+              },
+              {
+                "page": 2,
+                "image": "../assets/type-samples/reports-9365b9f72db3-296aa5b097-hwp-p2.svg",
                 "text_chars": 29,
                 "digit_ratio": 0.2,
                 "table_score": 0.163
@@ -2523,8 +2915,8 @@
       },
       "type_profile": {
         "sampled_documents": 3,
-        "table_score": 0.121,
-        "content_score": 35.6
+        "table_score": 0.163,
+        "content_score": 45.5
       }
     },
     {
@@ -2583,14 +2975,42 @@
             "title": "2021회계연도 성과보고서 작성지침.hwp",
             "year": "2021",
             "extension": "hwp",
-            "document_pages": 1,
+            "document_pages": 51,
             "pages": [
               {
-                "page": 1,
-                "image": "../assets/type-samples/reports-dc1830bacb72-ea7192cddc-hwp-p1.svg",
+                "page": 2,
+                "image": "../assets/type-samples/reports-dc1830bacb72-ea7192cddc-hwp-p2.svg",
                 "text_chars": 122,
                 "digit_ratio": 0.17,
                 "table_score": 0.088
+              },
+              {
+                "page": 4,
+                "image": "../assets/type-samples/reports-dc1830bacb72-ea7192cddc-hwp-p4.svg",
+                "text_chars": 474,
+                "digit_ratio": 0.039,
+                "table_score": 0.035
+              },
+              {
+                "page": 26,
+                "image": "../assets/type-samples/reports-dc1830bacb72-ea7192cddc-hwp-p26.svg",
+                "text_chars": 420,
+                "digit_ratio": 0.122,
+                "table_score": 0.112
+              },
+              {
+                "page": 3,
+                "image": "../assets/type-samples/reports-dc1830bacb72-ea7192cddc-hwp-p3.svg",
+                "text_chars": 510,
+                "digit_ratio": 0.055,
+                "table_score": 0.039
+              },
+              {
+                "page": 39,
+                "image": "../assets/type-samples/reports-dc1830bacb72-ea7192cddc-hwp-p39.svg",
+                "text_chars": 163,
+                "digit_ratio": 0.108,
+                "table_score": 0.087
               }
             ]
           },
@@ -2598,14 +3018,42 @@
             "title": "2024회계연도 성과보고서 작성지침.hwpx",
             "year": "2024",
             "extension": "hwpx",
-            "document_pages": 1,
+            "document_pages": 47,
             "pages": [
               {
-                "page": 1,
-                "image": "../assets/type-samples/reports-dc1830bacb72-4d26bb8a1e-hwpx-p1.svg",
+                "page": 2,
+                "image": "../assets/type-samples/reports-dc1830bacb72-4d26bb8a1e-hwpx-p2.svg",
                 "text_chars": 122,
                 "digit_ratio": 0.17,
                 "table_score": 0.088
+              },
+              {
+                "page": 4,
+                "image": "../assets/type-samples/reports-dc1830bacb72-4d26bb8a1e-hwpx-p4.svg",
+                "text_chars": 470,
+                "digit_ratio": 0.03,
+                "table_score": 0.03
+              },
+              {
+                "page": 24,
+                "image": "../assets/type-samples/reports-dc1830bacb72-4d26bb8a1e-hwpx-p24.svg",
+                "text_chars": 350,
+                "digit_ratio": 0.219,
+                "table_score": 0.215
+              },
+              {
+                "page": 3,
+                "image": "../assets/type-samples/reports-dc1830bacb72-4d26bb8a1e-hwpx-p3.svg",
+                "text_chars": 511,
+                "digit_ratio": 0.055,
+                "table_score": 0.039
+              },
+              {
+                "page": 12,
+                "image": "../assets/type-samples/reports-dc1830bacb72-4d26bb8a1e-hwpx-p12.svg",
+                "text_chars": 179,
+                "digit_ratio": 0.182,
+                "table_score": 0.095
               }
             ]
           }
@@ -2614,7 +3062,7 @@
       "type_profile": {
         "sampled_documents": 3,
         "table_score": 0.088,
-        "content_score": 78.1
+        "content_score": 96.1
       }
     },
     {
@@ -2673,14 +3121,42 @@
             "title": "2022년('21회계년도) 재정사업 자율평가 지침.hwp",
             "year": "2021",
             "extension": "hwp",
-            "document_pages": 1,
+            "document_pages": 39,
             "pages": [
               {
-                "page": 1,
-                "image": "../assets/type-samples/reports-d2f6c611b190-38d24983d4-hwp-p1.svg",
+                "page": 2,
+                "image": "../assets/type-samples/reports-d2f6c611b190-38d24983d4-hwp-p2.svg",
                 "text_chars": 231,
                 "digit_ratio": 0.207,
                 "table_score": 0.108
+              },
+              {
+                "page": 3,
+                "image": "../assets/type-samples/reports-d2f6c611b190-38d24983d4-hwp-p3.svg",
+                "text_chars": 543,
+                "digit_ratio": 0.05,
+                "table_score": 0.04
+              },
+              {
+                "page": 20,
+                "image": "../assets/type-samples/reports-d2f6c611b190-38d24983d4-hwp-p20.svg",
+                "text_chars": 336,
+                "digit_ratio": 0.292,
+                "table_score": 0.296
+              },
+              {
+                "page": 4,
+                "image": "../assets/type-samples/reports-d2f6c611b190-38d24983d4-hwp-p4.svg",
+                "text_chars": 669,
+                "digit_ratio": 0.096,
+                "table_score": 0.078
+              },
+              {
+                "page": 10,
+                "image": "../assets/type-samples/reports-d2f6c611b190-38d24983d4-hwp-p10.svg",
+                "text_chars": 375,
+                "digit_ratio": 0.021,
+                "table_score": 0.064
               }
             ]
           },
@@ -2688,14 +3164,42 @@
             "title": "2025회계연도 성과보고서 작성지침.hwpx",
             "year": "2025",
             "extension": "hwpx",
-            "document_pages": 1,
+            "document_pages": 48,
             "pages": [
               {
-                "page": 1,
-                "image": "../assets/type-samples/reports-d2f6c611b190-d7aef0c8e3-hwpx-p1.svg",
+                "page": 2,
+                "image": "../assets/type-samples/reports-d2f6c611b190-d7aef0c8e3-hwpx-p2.svg",
                 "text_chars": 122,
                 "digit_ratio": 0.17,
                 "table_score": 0.088
+              },
+              {
+                "page": 4,
+                "image": "../assets/type-samples/reports-d2f6c611b190-d7aef0c8e3-hwpx-p4.svg",
+                "text_chars": 485,
+                "digit_ratio": 0.029,
+                "table_score": 0.03
+              },
+              {
+                "page": 25,
+                "image": "../assets/type-samples/reports-d2f6c611b190-d7aef0c8e3-hwpx-p25.svg",
+                "text_chars": 334,
+                "digit_ratio": 0.219,
+                "table_score": 0.215
+              },
+              {
+                "page": 3,
+                "image": "../assets/type-samples/reports-d2f6c611b190-d7aef0c8e3-hwpx-p3.svg",
+                "text_chars": 447,
+                "digit_ratio": 0.047,
+                "table_score": 0.035
+              },
+              {
+                "page": 37,
+                "image": "../assets/type-samples/reports-d2f6c611b190-d7aef0c8e3-hwpx-p37.svg",
+                "text_chars": 163,
+                "digit_ratio": 0.108,
+                "table_score": 0.087
               }
             ]
           }
@@ -2703,8 +3207,8 @@
       },
       "type_profile": {
         "sampled_documents": 3,
-        "table_score": 0.108,
-        "content_score": 138.6
+        "table_score": 0.089,
+        "content_score": 190.6
       }
     },
     {
@@ -2763,14 +3267,42 @@
             "title": "2022회계연도 재정사업 자율평가 결과(대통령경호처).hwp",
             "year": "2022",
             "extension": "hwp",
-            "document_pages": 1,
+            "document_pages": 7,
             "pages": [
               {
-                "page": 1,
-                "image": "../assets/type-samples/reports-d81d2982cfb9-8aa18177bf-hwp-p1.svg",
+                "page": 3,
+                "image": "../assets/type-samples/reports-d81d2982cfb9-8aa18177bf-hwp-p3.svg",
+                "text_chars": 368,
+                "digit_ratio": 0.248,
+                "table_score": 0.271
+              },
+              {
+                "page": 6,
+                "image": "../assets/type-samples/reports-d81d2982cfb9-8aa18177bf-hwp-p6.svg",
+                "text_chars": 324,
+                "digit_ratio": 0.097,
+                "table_score": 0.079
+              },
+              {
+                "page": 4,
+                "image": "../assets/type-samples/reports-d81d2982cfb9-8aa18177bf-hwp-p4.svg",
+                "text_chars": 277,
+                "digit_ratio": 0.222,
+                "table_score": 0.237
+              },
+              {
+                "page": 2,
+                "image": "../assets/type-samples/reports-d81d2982cfb9-8aa18177bf-hwp-p2.svg",
                 "text_chars": 30,
                 "digit_ratio": 0.077,
                 "table_score": 0.04
+              },
+              {
+                "page": 1,
+                "image": "../assets/type-samples/reports-d81d2982cfb9-8aa18177bf-hwp-p1.svg",
+                "text_chars": 31,
+                "digit_ratio": 0.31,
+                "table_score": 0.246
               }
             ]
           },
@@ -2778,14 +3310,42 @@
             "title": "2024회계연도 재정사업 자율평가 결과(법무부).hwpx",
             "year": "2024",
             "extension": "hwpx",
-            "document_pages": 1,
+            "document_pages": 24,
             "pages": [
               {
-                "page": 1,
-                "image": "../assets/type-samples/reports-d81d2982cfb9-dcd5f2fa7f-hwpx-p1.svg",
-                "text_chars": 27,
-                "digit_ratio": 0.143,
-                "table_score": 0.159
+                "page": 3,
+                "image": "../assets/type-samples/reports-d81d2982cfb9-dcd5f2fa7f-hwpx-p3.svg",
+                "text_chars": 544,
+                "digit_ratio": 0.411,
+                "table_score": 0.38
+              },
+              {
+                "page": 13,
+                "image": "../assets/type-samples/reports-d81d2982cfb9-dcd5f2fa7f-hwpx-p13.svg",
+                "text_chars": 963,
+                "digit_ratio": 0.089,
+                "table_score": 0.088
+              },
+              {
+                "page": 19,
+                "image": "../assets/type-samples/reports-d81d2982cfb9-dcd5f2fa7f-hwpx-p19.svg",
+                "text_chars": 1044,
+                "digit_ratio": 0.174,
+                "table_score": 0.17
+              },
+              {
+                "page": 4,
+                "image": "../assets/type-samples/reports-d81d2982cfb9-dcd5f2fa7f-hwpx-p4.svg",
+                "text_chars": 820,
+                "digit_ratio": 0.389,
+                "table_score": 0.385
+              },
+              {
+                "page": 7,
+                "image": "../assets/type-samples/reports-d81d2982cfb9-dcd5f2fa7f-hwpx-p7.svg",
+                "text_chars": 70,
+                "digit_ratio": 0.109,
+                "table_score": 0.142
               }
             ]
           }
@@ -2793,8 +3353,8 @@
       },
       "type_profile": {
         "sampled_documents": 3,
-        "table_score": 0.159,
-        "content_score": 22.8
+        "table_score": 0.237,
+        "content_score": 135.0
       }
     },
     {
@@ -3969,8 +4529,36 @@
             "title": "2019년도 나라살림 예산.hwp",
             "year": "2019",
             "extension": "hwp",
-            "document_pages": 1,
+            "document_pages": 847,
             "pages": [
+              {
+                "page": 3,
+                "image": "../assets/type-samples/reports-c8bc78678cec-69169df95f-hwp-p3.svg",
+                "text_chars": 243,
+                "digit_ratio": 0.28,
+                "table_score": 0.146
+              },
+              {
+                "page": 4,
+                "image": "../assets/type-samples/reports-c8bc78678cec-69169df95f-hwp-p4.svg",
+                "text_chars": 393,
+                "digit_ratio": 0.36,
+                "table_score": 0.187
+              },
+              {
+                "page": 424,
+                "image": "../assets/type-samples/reports-c8bc78678cec-69169df95f-hwp-p424.svg",
+                "text_chars": 858,
+                "digit_ratio": 0.837,
+                "table_score": 0.734
+              },
+              {
+                "page": 636,
+                "image": "../assets/type-samples/reports-c8bc78678cec-69169df95f-hwp-p636.svg",
+                "text_chars": 271,
+                "digit_ratio": 0.591,
+                "table_score": 0.518
+              },
               {
                 "page": 1,
                 "image": "../assets/type-samples/reports-c8bc78678cec-69169df95f-hwp-p1.svg",
@@ -4087,14 +4675,42 @@
             "title": "2019년도 예산안 독립기관 및 감사원의 세출예산요구액 감액 규모이유 및 의견.hwp",
             "year": "2019",
             "extension": "hwp",
-            "document_pages": 1,
+            "document_pages": 20,
             "pages": [
+              {
+                "page": 3,
+                "image": "../assets/type-samples/reports-deb8d6d9b398-624493e08b-hwp-p3.svg",
+                "text_chars": 119,
+                "digit_ratio": 0.202,
+                "table_score": 0.105
+              },
+              {
+                "page": 6,
+                "image": "../assets/type-samples/reports-deb8d6d9b398-624493e08b-hwp-p6.svg",
+                "text_chars": 556,
+                "digit_ratio": 0.475,
+                "table_score": 0.402
+              },
+              {
+                "page": 11,
+                "image": "../assets/type-samples/reports-deb8d6d9b398-624493e08b-hwp-p11.svg",
+                "text_chars": 766,
+                "digit_ratio": 0.542,
+                "table_score": 0.448
+              },
+              {
+                "page": 16,
+                "image": "../assets/type-samples/reports-deb8d6d9b398-624493e08b-hwp-p16.svg",
+                "text_chars": 477,
+                "digit_ratio": 0.481,
+                "table_score": 0.404
+              },
               {
                 "page": 1,
                 "image": "../assets/type-samples/reports-deb8d6d9b398-624493e08b-hwp-p1.svg",
-                "text_chars": 0,
-                "digit_ratio": 1.0,
-                "table_score": 0.86
+                "text_chars": 41,
+                "digit_ratio": 0.1,
+                "table_score": 0.052
               }
             ]
           },
@@ -4145,7 +4761,7 @@
       },
       "type_profile": {
         "sampled_documents": 3,
-        "table_score": 0.473,
+        "table_score": 0.404,
         "content_score": 73.1
       }
     },
@@ -4205,14 +4821,42 @@
             "title": "2004년도 기금운용계획안 개요.hwp",
             "year": "2004",
             "extension": "hwp",
-            "document_pages": 1,
+            "document_pages": 25,
             "pages": [
               {
-                "page": 1,
-                "image": "../assets/type-samples/reports-7d7877e517b5-29bffc1896-hwp-p1.svg",
+                "page": 2,
+                "image": "../assets/type-samples/reports-7d7877e517b5-29bffc1896-hwp-p2.svg",
                 "text_chars": 238,
                 "digit_ratio": 0.189,
                 "table_score": 0.098
+              },
+              {
+                "page": 3,
+                "image": "../assets/type-samples/reports-7d7877e517b5-29bffc1896-hwp-p3.svg",
+                "text_chars": 363,
+                "digit_ratio": 0.023,
+                "table_score": 0.03
+              },
+              {
+                "page": 13,
+                "image": "../assets/type-samples/reports-7d7877e517b5-29bffc1896-hwp-p13.svg",
+                "text_chars": 363,
+                "digit_ratio": 0.157,
+                "table_score": 0.12
+              },
+              {
+                "page": 4,
+                "image": "../assets/type-samples/reports-7d7877e517b5-29bffc1896-hwp-p4.svg",
+                "text_chars": 341,
+                "digit_ratio": 0.018,
+                "table_score": 0.029
+              },
+              {
+                "page": 7,
+                "image": "../assets/type-samples/reports-7d7877e517b5-29bffc1896-hwp-p7.svg",
+                "text_chars": 522,
+                "digit_ratio": 0.482,
+                "table_score": 0.455
               }
             ]
           },
@@ -4907,14 +5551,42 @@
             "title": "2013년도 민간투자사업 운영현황 및 추진실적 등에 관한 보고서.hwp",
             "year": "2013",
             "extension": "hwp",
-            "document_pages": 1,
+            "document_pages": 183,
             "pages": [
+              {
+                "page": 46,
+                "image": "../assets/type-samples/reports-85dd2ba9230a-5bf96ac39c-hwp-p46.svg",
+                "text_chars": 584,
+                "digit_ratio": 0.224,
+                "table_score": 0.226
+              },
+              {
+                "page": 92,
+                "image": "../assets/type-samples/reports-85dd2ba9230a-5bf96ac39c-hwp-p92.svg",
+                "text_chars": 326,
+                "digit_ratio": 0.145,
+                "table_score": 0.134
+              },
+              {
+                "page": 138,
+                "image": "../assets/type-samples/reports-85dd2ba9230a-5bf96ac39c-hwp-p138.svg",
+                "text_chars": 344,
+                "digit_ratio": 0.15,
+                "table_score": 0.146
+              },
+              {
+                "page": 3,
+                "image": "../assets/type-samples/reports-85dd2ba9230a-5bf96ac39c-hwp-p3.svg",
+                "text_chars": 55,
+                "digit_ratio": 0.057,
+                "table_score": 0.029
+              },
               {
                 "page": 1,
                 "image": "../assets/type-samples/reports-85dd2ba9230a-5bf96ac39c-hwp-p1.svg",
-                "text_chars": 0,
-                "digit_ratio": 1.0,
-                "table_score": 0.86
+                "text_chars": 40,
+                "digit_ratio": 0.237,
+                "table_score": 0.208
               }
             ]
           },
@@ -4965,7 +5637,7 @@
       },
       "type_profile": {
         "sampled_documents": 3,
-        "table_score": 0.387,
+        "table_score": 0.375,
         "content_score": 46.3
       }
     },
@@ -4982,11 +5654,39 @@
             "title": "2019년도 상반기 복권 및 복권기금 관련 정보 공개.hwp",
             "year": "2019",
             "extension": "hwp",
-            "document_pages": 1,
+            "document_pages": 6,
             "pages": [
               {
                 "page": 1,
                 "image": "../assets/type-samples/reports-d3922b3eecf1-641a7f3387-hwp-p1.svg",
+                "text_chars": 124,
+                "digit_ratio": 0.198,
+                "table_score": 0.141
+              },
+              {
+                "page": 3,
+                "image": "../assets/type-samples/reports-d3922b3eecf1-641a7f3387-hwp-p3.svg",
+                "text_chars": 1330,
+                "digit_ratio": 0.113,
+                "table_score": 0.139
+              },
+              {
+                "page": 4,
+                "image": "../assets/type-samples/reports-d3922b3eecf1-641a7f3387-hwp-p4.svg",
+                "text_chars": 572,
+                "digit_ratio": 0.323,
+                "table_score": 0.307
+              },
+              {
+                "page": 5,
+                "image": "../assets/type-samples/reports-d3922b3eecf1-641a7f3387-hwp-p5.svg",
+                "text_chars": 335,
+                "digit_ratio": 0.305,
+                "table_score": 0.217
+              },
+              {
+                "page": 2,
+                "image": "../assets/type-samples/reports-d3922b3eecf1-641a7f3387-hwp-p2.svg",
                 "text_chars": 935,
                 "digit_ratio": 0.685,
                 "table_score": 0.583
@@ -4997,11 +5697,39 @@
             "title": "2018년도 복권 및 복권기금 관련 정보 공개.hwp",
             "year": "2018",
             "extension": "hwp",
-            "document_pages": 1,
+            "document_pages": 6,
             "pages": [
               {
                 "page": 1,
                 "image": "../assets/type-samples/reports-d3922b3eecf1-ee66056c48-hwp-p1.svg",
+                "text_chars": 118,
+                "digit_ratio": 0.209,
+                "table_score": 0.184
+              },
+              {
+                "page": 3,
+                "image": "../assets/type-samples/reports-d3922b3eecf1-ee66056c48-hwp-p3.svg",
+                "text_chars": 1341,
+                "digit_ratio": 0.119,
+                "table_score": 0.142
+              },
+              {
+                "page": 4,
+                "image": "../assets/type-samples/reports-d3922b3eecf1-ee66056c48-hwp-p4.svg",
+                "text_chars": 576,
+                "digit_ratio": 0.332,
+                "table_score": 0.312
+              },
+              {
+                "page": 5,
+                "image": "../assets/type-samples/reports-d3922b3eecf1-ee66056c48-hwp-p5.svg",
+                "text_chars": 335,
+                "digit_ratio": 0.311,
+                "table_score": 0.22
+              },
+              {
+                "page": 2,
+                "image": "../assets/type-samples/reports-d3922b3eecf1-ee66056c48-hwp-p2.svg",
                 "text_chars": 986,
                 "digit_ratio": 0.702,
                 "table_score": 0.592
@@ -5012,11 +5740,39 @@
             "title": "2018년도 상반기 복권 및 복권기금 관련 정보 공개.hwp",
             "year": "2018",
             "extension": "hwp",
-            "document_pages": 1,
+            "document_pages": 6,
             "pages": [
               {
                 "page": 1,
                 "image": "../assets/type-samples/reports-d3922b3eecf1-7ffa5f2b2a-hwp-p1.svg",
+                "text_chars": 124,
+                "digit_ratio": 0.198,
+                "table_score": 0.141
+              },
+              {
+                "page": 3,
+                "image": "../assets/type-samples/reports-d3922b3eecf1-7ffa5f2b2a-hwp-p3.svg",
+                "text_chars": 1332,
+                "digit_ratio": 0.111,
+                "table_score": 0.135
+              },
+              {
+                "page": 5,
+                "image": "../assets/type-samples/reports-d3922b3eecf1-7ffa5f2b2a-hwp-p5.svg",
+                "text_chars": 646,
+                "digit_ratio": 0.296,
+                "table_score": 0.18
+              },
+              {
+                "page": 4,
+                "image": "../assets/type-samples/reports-d3922b3eecf1-7ffa5f2b2a-hwp-p4.svg",
+                "text_chars": 577,
+                "digit_ratio": 0.321,
+                "table_score": 0.306
+              },
+              {
+                "page": 2,
+                "image": "../assets/type-samples/reports-d3922b3eecf1-7ffa5f2b2a-hwp-p2.svg",
                 "text_chars": 910,
                 "digit_ratio": 0.686,
                 "table_score": 0.613
@@ -5027,8 +5783,8 @@
       },
       "type_profile": {
         "sampled_documents": 3,
-        "table_score": 0.592,
-        "content_score": 30.3
+        "table_score": 0.217,
+        "content_score": 135.1
       }
     }
   ]

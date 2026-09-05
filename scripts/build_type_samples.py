@@ -15,6 +15,7 @@ import math
 import re
 import shutil
 import subprocess
+import tempfile
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -139,29 +140,51 @@ def render_pdf(profile: dict[str, Any], page_info: dict[str, Any], target: Path)
     document.close()
 
 
+def hwp_page_count(path: Path) -> int:
+    """Read the actual HWP/HWPX page count from the renderer.
+
+    `export-text -p N` reports a one-page response even for a multi-page
+    document because it describes the requested page, not the source file.
+    The SVG renderer returns the source's real pageCount.
+    """
+    with tempfile.TemporaryDirectory(prefix="openfiscal-hwp-pages-") as temporary:
+        command = [
+            str(RHWP), "export-svg", str(path), "-p", "0", "-o", temporary,
+            "--profile", "screen", "--json",
+        ]
+        result = subprocess.run(command, check=True, capture_output=True, text=True, timeout=180)
+        return max(1, as_int(json.loads(result.stdout).get("pageCount"), 1))
+
+
 def hwp_profile(row: dict[str, str]) -> dict[str, Any] | None:
     if not RHWP.exists():
         return None
     path = ROOT / row["path"]
     try:
-        command = [str(RHWP), "export-text", str(path), "-p", "1", "--json"]
-        result = subprocess.run(command, check=True, capture_output=True, text=True, timeout=90)
-        payload = json.loads(result.stdout)
-        page = payload["pages"][0]
-        metrics = text_metrics(page.get("text", ""))
+        page_count = hwp_page_count(path)
+        probes: list[dict[str, Any]] = []
+        for index in page_indices(page_count):
+            command = [str(RHWP), "export-text", str(path), "-p", str(index), "--json"]
+            result = subprocess.run(command, check=True, capture_output=True, text=True, timeout=90)
+            payload = json.loads(result.stdout)
+            page = payload["pages"][0]
+            probes.append({"page": index + 1, **text_metrics(page.get("text", ""))})
+        if not probes:
+            return None
+        best = max(probes, key=lambda item: item["content_score"])
         return {
             "row": row,
-            "page_count": as_int(payload.get("pageCount"), 1),
-            "probes": [{"page": page.get("page", 1), **metrics}],
-            "best": {"page": page.get("page", 1), **metrics},
-            "median_table_score": metrics["table_score"],
-            "median_content_score": metrics["content_score"],
+            "page_count": page_count,
+            "probes": probes,
+            "best": best,
+            "median_table_score": round(median(item["table_score"] for item in probes), 3),
+            "median_content_score": round(median(item["content_score"] for item in probes), 1),
         }
     except (subprocess.SubprocessError, json.JSONDecodeError, KeyError, OSError):
         return None
 
 
-def render_hwp(profile: dict[str, Any], target: Path) -> bool:
+def render_hwp(profile: dict[str, Any], page_info: dict[str, Any], target: Path) -> bool:
     if not RHWP.exists():
         return False
     temporary = OUTPUT_ASSETS / f".tmp-{target.stem}"
@@ -169,7 +192,7 @@ def render_hwp(profile: dict[str, Any], target: Path) -> bool:
     try:
         command = [
             str(RHWP), "export-svg", str(ROOT / profile["row"]["path"]),
-            "-p", str(profile["best"]["page"] - 1), "-o", str(temporary), "--profile", "screen", "--json",
+            "-p", str(page_info["page"] - 1), "-o", str(temporary), "--profile", "screen", "--json",
         ]
         subprocess.run(command, check=True, capture_output=True, text=True, timeout=180)
         result = next(temporary.glob("*.svg"), None)
@@ -238,9 +261,6 @@ def representative_pages(profile: dict[str, Any], renderer: str, limit: int) -> 
     readable page, the strongest prose page, and a middle page, allowing the
     reviewer to see both explanatory and tabular portions where they exist.
     """
-    if renderer == "hwp":
-        return [profile["best"]]
-
     probes = profile["probes"]
     readable = [probe for probe in probes if probe["text_chars"] >= 100]
     early = min(readable or probes, key=lambda probe: probe["page"])
@@ -288,7 +308,7 @@ def main() -> None:
                 target = OUTPUT_ASSETS / asset_name
                 if selected_renderer == "pdf":
                     render_pdf(selected_profile, page_info, target)
-                elif not render_hwp(selected_profile, target):
+                elif not render_hwp(selected_profile, page_info, target):
                     document_render_failed = True
                     break
                 used_assets.add(asset_name)
