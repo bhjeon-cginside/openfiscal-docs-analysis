@@ -1,9 +1,10 @@
 {
   "title": "유형별 내용 예시 및 분석 적합성",
-  "generated_at": "2026-09-04T19:16:34+00:00",
+  "generated_at": "2026-09-05T14:50:33+00:00",
   "methodology": [
     "유형별 최근 원본 문서 최대 4건에서 여러 페이지를 표본 추출했습니다.",
-    "각 유형은 한 대표 문서에서 앞부분·서술형·중간 부분 등 최대 3쪽을 저해상도로 발췌합니다.",
+    "각 유형은 대표 문서에서 앞부분·서술형·중간 부분 등 최대 5쪽을 저해상도로 발췌합니다.",
+    "PDF와 HWP/HWPX가 함께 있는 유형은 렌더링 가능한 각 형식에서 대표 페이지를 포함해 형식 편향을 줄입니다.",
     "제외 유형은 대표 페이지와 자료 성격을 함께 검토해 정했으며, 숫자·표 중심 원자료는 별도 데이터 조회 대상으로 분리합니다.",
     "제외된 유형도 전체 인벤토리에는 남으며, 문서 내용 분석 대상에서만 분리합니다."
   ],
@@ -22,31 +23,64 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "[2025 No.4] IMF World Economic Outlook April 2025",
-        "year": "2026",
-        "extension": "pdf",
-        "document_pages": 196,
+        "documents": [
+          {
+            "title": "[2025 No.4] IMF World Economic Outlook April 2025",
+            "year": "2026",
+            "extension": "pdf",
+            "document_pages": 196
+          }
+        ],
         "pages": [
           {
             "page": 1,
-            "image": "../assets/type-samples/publications-5e45453b7353-p1.jpg",
+            "image": "../assets/type-samples/publications-5e45453b7353-pdf-p1.jpg",
+            "title": "[2025 No.4] IMF World Economic Outlook April 2025",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 0,
             "digit_ratio": 1.0,
             "table_score": 0.939
           },
           {
             "page": 148,
-            "image": "../assets/type-samples/publications-5e45453b7353-p148.jpg",
+            "image": "../assets/type-samples/publications-5e45453b7353-pdf-p148.jpg",
+            "title": "[2025 No.4] IMF World Economic Outlook April 2025",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 28,
             "digit_ratio": 0.12,
             "table_score": 0.316
           },
           {
             "page": 99,
-            "image": "../assets/type-samples/publications-5e45453b7353-p99.jpg",
+            "image": "../assets/type-samples/publications-5e45453b7353-pdf-p99.jpg",
+            "title": "[2025 No.4] IMF World Economic Outlook April 2025",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 7,
             "digit_ratio": 1.0,
             "table_score": 0.66
+          },
+          {
+            "page": 50,
+            "image": "../assets/type-samples/publications-5e45453b7353-pdf-p50.jpg",
+            "title": "[2025 No.4] IMF World Economic Outlook April 2025",
+            "year": "2026",
+            "extension": "pdf",
+            "text_chars": 3,
+            "digit_ratio": 0.0,
+            "table_score": 0.14
+          },
+          {
+            "page": 2,
+            "image": "../assets/type-samples/publications-5e45453b7353-pdf-p2.jpg",
+            "title": "[2025 No.4] IMF World Economic Outlook April 2025",
+            "year": "2026",
+            "extension": "pdf",
+            "text_chars": 0,
+            "digit_ratio": 1.0,
+            "table_score": 0.93
           }
         ]
       },
@@ -64,31 +98,64 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "[2025. No.5] OECD Economic Outlook June 2025",
-        "year": "2026",
-        "extension": "pdf",
-        "document_pages": 172,
+        "documents": [
+          {
+            "title": "[2025. No.5] OECD Economic Outlook June 2025",
+            "year": "2026",
+            "extension": "pdf",
+            "document_pages": 172
+          }
+        ],
         "pages": [
           {
             "page": 2,
-            "image": "../assets/type-samples/publications-ff944e0a1d12-p2.jpg",
+            "image": "../assets/type-samples/publications-ff944e0a1d12-pdf-p2.jpg",
+            "title": "[2025. No.5] OECD Economic Outlook June 2025",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 137,
             "digit_ratio": 0.075,
             "table_score": 0.053
           },
           {
             "page": 130,
-            "image": "../assets/type-samples/publications-ff944e0a1d12-p130.jpg",
+            "image": "../assets/type-samples/publications-ff944e0a1d12-pdf-p130.jpg",
+            "title": "[2025. No.5] OECD Economic Outlook June 2025",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 796,
             "digit_ratio": 0.025,
             "table_score": 0.048
           },
           {
             "page": 87,
-            "image": "../assets/type-samples/publications-ff944e0a1d12-p87.jpg",
+            "image": "../assets/type-samples/publications-ff944e0a1d12-pdf-p87.jpg",
+            "title": "[2025. No.5] OECD Economic Outlook June 2025",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 836,
             "digit_ratio": 0.052,
             "table_score": 0.058
+          },
+          {
+            "page": 44,
+            "image": "../assets/type-samples/publications-ff944e0a1d12-pdf-p44.jpg",
+            "title": "[2025. No.5] OECD Economic Outlook June 2025",
+            "year": "2026",
+            "extension": "pdf",
+            "text_chars": 721,
+            "digit_ratio": 0.111,
+            "table_score": 0.105
+          },
+          {
+            "page": 3,
+            "image": "../assets/type-samples/publications-ff944e0a1d12-pdf-p3.jpg",
+            "title": "[2025. No.5] OECD Economic Outlook June 2025",
+            "year": "2026",
+            "extension": "pdf",
+            "text_chars": 1109,
+            "digit_ratio": 0.194,
+            "table_score": 0.261
           }
         ]
       },
@@ -106,31 +173,64 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2026년 5월 최근경제동향",
-        "year": "2026",
-        "extension": "pdf",
-        "document_pages": 76,
+        "documents": [
+          {
+            "title": "2026년 5월 최근경제동향",
+            "year": "2026",
+            "extension": "pdf",
+            "document_pages": 76
+          }
+        ],
         "pages": [
           {
             "page": 3,
-            "image": "../assets/type-samples/publications-56efbec65989-p3.jpg",
+            "image": "../assets/type-samples/publications-56efbec65989-pdf-p3.jpg",
+            "title": "2026년 5월 최근경제동향",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 4204,
             "digit_ratio": 0.374,
             "table_score": 0.236
           },
           {
             "page": 4,
-            "image": "../assets/type-samples/publications-56efbec65989-p4.jpg",
+            "image": "../assets/type-samples/publications-56efbec65989-pdf-p4.jpg",
+            "title": "2026년 5월 최근경제동향",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 1002,
             "digit_ratio": 0.173,
             "table_score": 0.127
           },
           {
             "page": 39,
-            "image": "../assets/type-samples/publications-56efbec65989-p39.jpg",
+            "image": "../assets/type-samples/publications-56efbec65989-pdf-p39.jpg",
+            "title": "2026년 5월 최근경제동향",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 1239,
             "digit_ratio": 0.638,
             "table_score": 0.714
+          },
+          {
+            "page": 20,
+            "image": "../assets/type-samples/publications-56efbec65989-pdf-p20.jpg",
+            "title": "2026년 5월 최근경제동향",
+            "year": "2026",
+            "extension": "pdf",
+            "text_chars": 337,
+            "digit_ratio": 0.607,
+            "table_score": 0.717
+          },
+          {
+            "page": 1,
+            "image": "../assets/type-samples/publications-56efbec65989-pdf-p1.jpg",
+            "title": "2026년 5월 최근경제동향",
+            "year": "2026",
+            "extension": "pdf",
+            "text_chars": 13,
+            "digit_ratio": 0.455,
+            "table_score": 0.434
           }
         ]
       },
@@ -148,31 +248,70 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2025년도 기금운용평가결과",
-        "year": "2026",
-        "extension": "pdf",
-        "document_pages": 532,
+        "documents": [
+          {
+            "title": "2025년도 기금운용평가결과",
+            "year": "2026",
+            "extension": "pdf",
+            "document_pages": 532
+          },
+          {
+            "title": "2018년도 기금운용평가결과",
+            "year": "2019",
+            "extension": "hwp",
+            "document_pages": 1
+          }
+        ],
         "pages": [
           {
             "page": 3,
-            "image": "../assets/type-samples/publications-9d17bb927f9f-p3.jpg",
+            "image": "../assets/type-samples/publications-9d17bb927f9f-pdf-p3.jpg",
+            "title": "2025년도 기금운용평가결과",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 1146,
             "digit_ratio": 0.213,
             "table_score": 0.111
           },
           {
             "page": 267,
-            "image": "../assets/type-samples/publications-9d17bb927f9f-p267.jpg",
+            "image": "../assets/type-samples/publications-9d17bb927f9f-pdf-p267.jpg",
+            "title": "2025년도 기금운용평가결과",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 1089,
             "digit_ratio": 0.043,
             "table_score": 0.033
           },
           {
             "page": 134,
-            "image": "../assets/type-samples/publications-9d17bb927f9f-p134.jpg",
+            "image": "../assets/type-samples/publications-9d17bb927f9f-pdf-p134.jpg",
+            "title": "2025년도 기금운용평가결과",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 910,
             "digit_ratio": 0.04,
             "table_score": 0.032
+          },
+          {
+            "page": 400,
+            "image": "../assets/type-samples/publications-9d17bb927f9f-pdf-p400.jpg",
+            "title": "2025년도 기금운용평가결과",
+            "year": "2026",
+            "extension": "pdf",
+            "text_chars": 747,
+            "digit_ratio": 0.267,
+            "table_score": 0.407
+          },
+          {
+            "page": 1,
+            "image": "../assets/type-samples/publications-9d17bb927f9f-hwp-p1.svg",
+            "title": "2018년도 기금운용평가결과",
+            "year": "2019",
+            "extension": "hwp",
+            "text_chars": 39,
+            "digit_ratio": 0.273,
+            "table_score": 0.161
           }
         ]
       },
@@ -190,31 +329,70 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2026년 기금존치평가보고서",
-        "year": "2026",
-        "extension": "pdf",
-        "document_pages": 208,
+        "documents": [
+          {
+            "title": "2026년 기금존치평가보고서",
+            "year": "2026",
+            "extension": "pdf",
+            "document_pages": 208
+          },
+          {
+            "title": "2019년도 복권판매사업 및 복권기금지원사업",
+            "year": "2019",
+            "extension": "hwp",
+            "document_pages": 1
+          }
+        ],
         "pages": [
           {
             "page": 3,
-            "image": "../assets/type-samples/publications-13d0e2f4e7ad-p3.jpg",
+            "image": "../assets/type-samples/publications-13d0e2f4e7ad-pdf-p3.jpg",
+            "title": "2026년 기금존치평가보고서",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 1122,
             "digit_ratio": 0.241,
             "table_score": 0.125
           },
           {
             "page": 53,
-            "image": "../assets/type-samples/publications-13d0e2f4e7ad-p53.jpg",
+            "image": "../assets/type-samples/publications-13d0e2f4e7ad-pdf-p53.jpg",
+            "title": "2026년 기금존치평가보고서",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 594,
             "digit_ratio": 0.012,
             "table_score": 0.021
           },
           {
             "page": 105,
-            "image": "../assets/type-samples/publications-13d0e2f4e7ad-p105.jpg",
+            "image": "../assets/type-samples/publications-13d0e2f4e7ad-pdf-p105.jpg",
+            "title": "2026년 기금존치평가보고서",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 291,
             "digit_ratio": 0.019,
             "table_score": 0.038
+          },
+          {
+            "page": 4,
+            "image": "../assets/type-samples/publications-13d0e2f4e7ad-pdf-p4.jpg",
+            "title": "2026년 기금존치평가보고서",
+            "year": "2026",
+            "extension": "pdf",
+            "text_chars": 1255,
+            "digit_ratio": 0.285,
+            "table_score": 0.148
+          },
+          {
+            "page": 1,
+            "image": "../assets/type-samples/publications-13d0e2f4e7ad-hwp-p1.svg",
+            "title": "2019년도 복권판매사업 및 복권기금지원사업",
+            "year": "2019",
+            "extension": "hwp",
+            "text_chars": 935,
+            "digit_ratio": 0.685,
+            "table_score": 0.583
           }
         ]
       },
@@ -232,31 +410,70 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2025년도 부담금운용종합계획서",
-        "year": "2025",
-        "extension": "pdf",
-        "document_pages": 709,
+        "documents": [
+          {
+            "title": "2025년도 부담금운용종합계획서",
+            "year": "2025",
+            "extension": "pdf",
+            "document_pages": 709
+          },
+          {
+            "title": "2010년도 부담금운용현황",
+            "year": "2011",
+            "extension": "hwp",
+            "document_pages": 1
+          }
+        ],
         "pages": [
           {
             "page": 178,
-            "image": "../assets/type-samples/publications-0b20231a13a0-p178.jpg",
+            "image": "../assets/type-samples/publications-0b20231a13a0-pdf-p178.jpg",
+            "title": "2025년도 부담금운용종합계획서",
+            "year": "2025",
+            "extension": "pdf",
             "text_chars": 776,
             "digit_ratio": 0.604,
             "table_score": 0.661
           },
           {
             "page": 355,
-            "image": "../assets/type-samples/publications-0b20231a13a0-p355.jpg",
+            "image": "../assets/type-samples/publications-0b20231a13a0-pdf-p355.jpg",
+            "title": "2025년도 부담금운용종합계획서",
+            "year": "2025",
+            "extension": "pdf",
             "text_chars": 571,
             "digit_ratio": 0.028,
             "table_score": 0.072
           },
           {
             "page": 532,
-            "image": "../assets/type-samples/publications-0b20231a13a0-p532.jpg",
+            "image": "../assets/type-samples/publications-0b20231a13a0-pdf-p532.jpg",
+            "title": "2025년도 부담금운용종합계획서",
+            "year": "2025",
+            "extension": "pdf",
             "text_chars": 362,
             "digit_ratio": 0.095,
             "table_score": 0.136
+          },
+          {
+            "page": 3,
+            "image": "../assets/type-samples/publications-0b20231a13a0-pdf-p3.jpg",
+            "title": "2025년도 부담금운용종합계획서",
+            "year": "2025",
+            "extension": "pdf",
+            "text_chars": 69,
+            "digit_ratio": 0.088,
+            "table_score": 0.083
+          },
+          {
+            "page": 1,
+            "image": "../assets/type-samples/publications-0b20231a13a0-hwp-p1.svg",
+            "title": "2010년도 부담금운용현황",
+            "year": "2011",
+            "extension": "hwp",
+            "text_chars": 21,
+            "digit_ratio": 0.19,
+            "table_score": 0.164
           }
         ]
       },
@@ -274,31 +491,64 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2025 국민과 함께 보는 알기 쉬운 나라 살림",
-        "year": "2026",
-        "extension": "pdf",
-        "document_pages": 9,
+        "documents": [
+          {
+            "title": "2025 국민과 함께 보는 알기 쉬운 나라 살림",
+            "year": "2026",
+            "extension": "pdf",
+            "document_pages": 9
+          }
+        ],
         "pages": [
           {
             "page": 1,
-            "image": "../assets/type-samples/publications-1efcd9044efa-p1.jpg",
+            "image": "../assets/type-samples/publications-1efcd9044efa-pdf-p1.jpg",
+            "title": "2025 국민과 함께 보는 알기 쉬운 나라 살림",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 339,
             "digit_ratio": 0.067,
             "table_score": 0.085
           },
           {
             "page": 2,
-            "image": "../assets/type-samples/publications-1efcd9044efa-p2.jpg",
+            "image": "../assets/type-samples/publications-1efcd9044efa-pdf-p2.jpg",
+            "title": "2025 국민과 함께 보는 알기 쉬운 나라 살림",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 977,
             "digit_ratio": 0.322,
             "table_score": 0.46
           },
           {
             "page": 5,
-            "image": "../assets/type-samples/publications-1efcd9044efa-p5.jpg",
+            "image": "../assets/type-samples/publications-1efcd9044efa-pdf-p5.jpg",
+            "title": "2025 국민과 함께 보는 알기 쉬운 나라 살림",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 1559,
             "digit_ratio": 0.643,
             "table_score": 0.744
+          },
+          {
+            "page": 7,
+            "image": "../assets/type-samples/publications-1efcd9044efa-pdf-p7.jpg",
+            "title": "2025 국민과 함께 보는 알기 쉬운 나라 살림",
+            "year": "2026",
+            "extension": "pdf",
+            "text_chars": 614,
+            "digit_ratio": 0.231,
+            "table_score": 0.356
+          },
+          {
+            "page": 4,
+            "image": "../assets/type-samples/publications-1efcd9044efa-pdf-p4.jpg",
+            "title": "2025 국민과 함께 보는 알기 쉬운 나라 살림",
+            "year": "2026",
+            "extension": "pdf",
+            "text_chars": 1238,
+            "digit_ratio": 0.443,
+            "table_score": 0.594
           }
         ]
       },
@@ -316,31 +566,70 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2024년도 예산",
-        "year": "2024",
-        "extension": "pdf",
-        "document_pages": 314,
+        "documents": [
+          {
+            "title": "2024년도 예산",
+            "year": "2024",
+            "extension": "pdf",
+            "document_pages": 314
+          },
+          {
+            "title": "2015년도 예산",
+            "year": "2015",
+            "extension": "hwp",
+            "document_pages": 1
+          }
+        ],
         "pages": [
           {
             "page": 2,
-            "image": "../assets/type-samples/publications-5e126b7fe317-p2.jpg",
+            "image": "../assets/type-samples/publications-5e126b7fe317-pdf-p2.jpg",
+            "title": "2024년도 예산",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 310,
             "digit_ratio": 0.297,
             "table_score": 0.436
           },
           {
             "page": 158,
-            "image": "../assets/type-samples/publications-5e126b7fe317-p158.jpg",
+            "image": "../assets/type-samples/publications-5e126b7fe317-pdf-p158.jpg",
+            "title": "2024년도 예산",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 794,
             "digit_ratio": 0.072,
             "table_score": 0.106
           },
           {
             "page": 236,
-            "image": "../assets/type-samples/publications-5e126b7fe317-p236.jpg",
+            "image": "../assets/type-samples/publications-5e126b7fe317-pdf-p236.jpg",
+            "title": "2024년도 예산",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 563,
             "digit_ratio": 0.092,
             "table_score": 0.22
+          },
+          {
+            "page": 79,
+            "image": "../assets/type-samples/publications-5e126b7fe317-pdf-p79.jpg",
+            "title": "2024년도 예산",
+            "year": "2024",
+            "extension": "pdf",
+            "text_chars": 701,
+            "digit_ratio": 0.254,
+            "table_score": 0.367
+          },
+          {
+            "page": 1,
+            "image": "../assets/type-samples/publications-5e126b7fe317-hwp-p1.svg",
+            "title": "2015년도 예산",
+            "year": "2015",
+            "extension": "hwp",
+            "text_chars": 0,
+            "digit_ratio": 1.0,
+            "table_score": 0.86
           }
         ]
       },
@@ -358,31 +647,64 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2026 예산안분석",
-        "year": "2025",
-        "extension": "pdf",
-        "document_pages": 560,
+        "documents": [
+          {
+            "title": "2026 예산안분석",
+            "year": "2025",
+            "extension": "pdf",
+            "document_pages": 560
+          }
+        ],
         "pages": [
           {
             "page": 4,
-            "image": "../assets/type-samples/publications-54bf1ba245a2-p4.jpg",
+            "image": "../assets/type-samples/publications-54bf1ba245a2-pdf-p4.jpg",
+            "title": "2026 예산안분석",
+            "year": "2025",
+            "extension": "pdf",
             "text_chars": 387,
             "digit_ratio": 0.049,
             "table_score": 0.035
           },
           {
             "page": 141,
-            "image": "../assets/type-samples/publications-54bf1ba245a2-p141.jpg",
+            "image": "../assets/type-samples/publications-54bf1ba245a2-pdf-p141.jpg",
+            "title": "2026 예산안분석",
+            "year": "2025",
+            "extension": "pdf",
             "text_chars": 1158,
             "digit_ratio": 0.041,
             "table_score": 0.035
           },
           {
             "page": 281,
-            "image": "../assets/type-samples/publications-54bf1ba245a2-p281.jpg",
+            "image": "../assets/type-samples/publications-54bf1ba245a2-pdf-p281.jpg",
+            "title": "2026 예산안분석",
+            "year": "2025",
+            "extension": "pdf",
             "text_chars": 974,
             "digit_ratio": 0.124,
             "table_score": 0.102
+          },
+          {
+            "page": 421,
+            "image": "../assets/type-samples/publications-54bf1ba245a2-pdf-p421.jpg",
+            "title": "2026 예산안분석",
+            "year": "2025",
+            "extension": "pdf",
+            "text_chars": 1021,
+            "digit_ratio": 0.158,
+            "table_score": 0.355
+          },
+          {
+            "page": 1,
+            "image": "../assets/type-samples/publications-54bf1ba245a2-pdf-p1.jpg",
+            "title": "2026 예산안분석",
+            "year": "2025",
+            "extension": "pdf",
+            "text_chars": 57,
+            "digit_ratio": 0.185,
+            "table_score": 0.304
           }
         ]
       },
@@ -400,31 +722,64 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2026 월간나라재정 4월",
-        "year": "2026",
-        "extension": "pdf",
-        "document_pages": 80,
+        "documents": [
+          {
+            "title": "2026 월간나라재정 4월",
+            "year": "2026",
+            "extension": "pdf",
+            "document_pages": 80
+          }
+        ],
         "pages": [
           {
             "page": 2,
-            "image": "../assets/type-samples/publications-2f0fb313f888-p2.jpg",
+            "image": "../assets/type-samples/publications-2f0fb313f888-pdf-p2.jpg",
+            "title": "2026 월간나라재정 4월",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 560,
             "digit_ratio": 0.161,
             "table_score": 0.219
           },
           {
             "page": 21,
-            "image": "../assets/type-samples/publications-2f0fb313f888-p21.jpg",
+            "image": "../assets/type-samples/publications-2f0fb313f888-pdf-p21.jpg",
+            "title": "2026 월간나라재정 4월",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 1173,
             "digit_ratio": 0.027,
             "table_score": 0.029
           },
           {
             "page": 41,
-            "image": "../assets/type-samples/publications-2f0fb313f888-p41.jpg",
+            "image": "../assets/type-samples/publications-2f0fb313f888-pdf-p41.jpg",
+            "title": "2026 월간나라재정 4월",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 1475,
             "digit_ratio": 0.084,
             "table_score": 0.202
+          },
+          {
+            "page": 4,
+            "image": "../assets/type-samples/publications-2f0fb313f888-pdf-p4.jpg",
+            "title": "2026 월간나라재정 4월",
+            "year": "2026",
+            "extension": "pdf",
+            "text_chars": 750,
+            "digit_ratio": 0.064,
+            "table_score": 0.061
+          },
+          {
+            "page": 3,
+            "image": "../assets/type-samples/publications-2f0fb313f888-pdf-p3.jpg",
+            "title": "2026 월간나라재정 4월",
+            "year": "2026",
+            "extension": "pdf",
+            "text_chars": 212,
+            "digit_ratio": 0.112,
+            "table_score": 0.199
           }
         ]
       },
@@ -442,31 +797,70 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2026 월간재정동향 4월호",
-        "year": "2026",
-        "extension": "pdf",
-        "document_pages": 63,
+        "documents": [
+          {
+            "title": "2026 월간재정동향 4월호",
+            "year": "2026",
+            "extension": "pdf",
+            "document_pages": 63
+          },
+          {
+            "title": "2018년 월간재정동향 1월호",
+            "year": "2018",
+            "extension": "hwp",
+            "document_pages": 1
+          }
+        ],
         "pages": [
           {
             "page": 2,
-            "image": "../assets/type-samples/publications-dfcac2d34a7b-p2.jpg",
+            "image": "../assets/type-samples/publications-dfcac2d34a7b-pdf-p2.jpg",
+            "title": "2026 월간재정동향 4월호",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 584,
             "digit_ratio": 0.34,
             "table_score": 0.21
           },
           {
             "page": 32,
-            "image": "../assets/type-samples/publications-dfcac2d34a7b-p32.jpg",
+            "image": "../assets/type-samples/publications-dfcac2d34a7b-pdf-p32.jpg",
+            "title": "2026 월간재정동향 4월호",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 463,
             "digit_ratio": 0.123,
             "table_score": 0.248
           },
           {
             "page": 3,
-            "image": "../assets/type-samples/publications-dfcac2d34a7b-p3.jpg",
+            "image": "../assets/type-samples/publications-dfcac2d34a7b-pdf-p3.jpg",
+            "title": "2026 월간재정동향 4월호",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 125,
             "digit_ratio": 0.374,
             "table_score": 0.377
+          },
+          {
+            "page": 16,
+            "image": "../assets/type-samples/publications-dfcac2d34a7b-pdf-p16.jpg",
+            "title": "2026 월간재정동향 4월호",
+            "year": "2026",
+            "extension": "pdf",
+            "text_chars": 1282,
+            "digit_ratio": 0.66,
+            "table_score": 0.713
+          },
+          {
+            "page": 1,
+            "image": "../assets/type-samples/publications-dfcac2d34a7b-hwp-p1.svg",
+            "title": "2018년 월간재정동향 1월호",
+            "year": "2018",
+            "extension": "hwp",
+            "text_chars": 457,
+            "digit_ratio": 0.356,
+            "table_score": 0.256
           }
         ]
       },
@@ -484,31 +878,76 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2024년도 소관별 재정사업 자율평가 보고서",
-        "year": "2025",
-        "extension": "pdf",
-        "document_pages": 59,
+        "documents": [
+          {
+            "title": "2024년도 소관별 재정사업 자율평가 보고서",
+            "year": "2025",
+            "extension": "pdf",
+            "document_pages": 59
+          },
+          {
+            "title": "2022년도 소관별 재정사업 자율평가 보고서",
+            "year": "2023",
+            "extension": "hwp",
+            "document_pages": 1
+          },
+          {
+            "title": "2022년도 소관별 재정사업 자율평가 보고서",
+            "year": "2023",
+            "extension": "hwpx",
+            "document_pages": 1
+          }
+        ],
         "pages": [
           {
             "page": 2,
-            "image": "../assets/type-samples/publications-5b0abc356960-p2.jpg",
+            "image": "../assets/type-samples/publications-5b0abc356960-pdf-p2.jpg",
+            "title": "2024년도 소관별 재정사업 자율평가 보고서",
+            "year": "2025",
+            "extension": "pdf",
             "text_chars": 167,
             "digit_ratio": 0.138,
             "table_score": 0.297
           },
           {
             "page": 30,
-            "image": "../assets/type-samples/publications-5b0abc356960-p30.jpg",
+            "image": "../assets/type-samples/publications-5b0abc356960-pdf-p30.jpg",
+            "title": "2024년도 소관별 재정사업 자율평가 보고서",
+            "year": "2025",
+            "extension": "pdf",
             "text_chars": 1166,
             "digit_ratio": 0.027,
             "table_score": 0.162
           },
           {
             "page": 45,
-            "image": "../assets/type-samples/publications-5b0abc356960-p45.jpg",
+            "image": "../assets/type-samples/publications-5b0abc356960-pdf-p45.jpg",
+            "title": "2024년도 소관별 재정사업 자율평가 보고서",
+            "year": "2025",
+            "extension": "pdf",
             "text_chars": 1137,
             "digit_ratio": 0.053,
             "table_score": 0.174
+          },
+          {
+            "page": 1,
+            "image": "../assets/type-samples/publications-5b0abc356960-hwp-p1.svg",
+            "title": "2022년도 소관별 재정사업 자율평가 보고서",
+            "year": "2023",
+            "extension": "hwp",
+            "text_chars": 54,
+            "digit_ratio": 0.114,
+            "table_score": 0.059
+          },
+          {
+            "page": 1,
+            "image": "../assets/type-samples/publications-5b0abc356960-hwpx-p1.svg",
+            "title": "2022년도 소관별 재정사업 자율평가 보고서",
+            "year": "2023",
+            "extension": "hwpx",
+            "text_chars": 33,
+            "digit_ratio": 0.069,
+            "table_score": 0.036
           }
         ]
       },
@@ -526,31 +965,64 @@
       "status": "excluded",
       "reason": "재정 통계표·시계열 중심 자료로, 원자료 조회 대상으로 분리",
       "sample": {
-        "title": "2026 주요 재정통계 Ⅰ권",
-        "year": "2026",
-        "extension": "pdf",
-        "document_pages": 215,
+        "documents": [
+          {
+            "title": "2026 주요 재정통계 Ⅰ권",
+            "year": "2026",
+            "extension": "pdf",
+            "document_pages": 215
+          }
+        ],
         "pages": [
           {
             "page": 2,
-            "image": "../assets/type-samples/publications-d3f47f544b24-p2.jpg",
+            "image": "../assets/type-samples/publications-d3f47f544b24-pdf-p2.jpg",
+            "title": "2026 주요 재정통계 Ⅰ권",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 135,
             "digit_ratio": 0.114,
             "table_score": 0.059
           },
           {
             "page": 3,
-            "image": "../assets/type-samples/publications-d3f47f544b24-p3.jpg",
+            "image": "../assets/type-samples/publications-d3f47f544b24-pdf-p3.jpg",
+            "title": "2026 주요 재정통계 Ⅰ권",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 689,
             "digit_ratio": 0.032,
             "table_score": 0.032
           },
           {
             "page": 108,
-            "image": "../assets/type-samples/publications-d3f47f544b24-p108.jpg",
+            "image": "../assets/type-samples/publications-d3f47f544b24-pdf-p108.jpg",
+            "title": "2026 주요 재정통계 Ⅰ권",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 820,
             "digit_ratio": 0.12,
             "table_score": 0.26
+          },
+          {
+            "page": 1,
+            "image": "../assets/type-samples/publications-d3f47f544b24-pdf-p1.jpg",
+            "title": "2026 주요 재정통계 Ⅰ권",
+            "year": "2026",
+            "extension": "pdf",
+            "text_chars": 49,
+            "digit_ratio": 0.261,
+            "table_score": 0.361
+          },
+          {
+            "page": 4,
+            "image": "../assets/type-samples/publications-d3f47f544b24-pdf-p4.jpg",
+            "title": "2026 주요 재정통계 Ⅰ권",
+            "year": "2026",
+            "extension": "pdf",
+            "text_chars": 0,
+            "digit_ratio": 1.0,
+            "table_score": 0.86
           }
         ]
       },
@@ -568,31 +1040,64 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "[2026] 해외재정동향 2월",
-        "year": "2026",
-        "extension": "pdf",
-        "document_pages": 68,
+        "documents": [
+          {
+            "title": "[2026] 해외재정동향 2월",
+            "year": "2026",
+            "extension": "pdf",
+            "document_pages": 68
+          }
+        ],
         "pages": [
           {
             "page": 1,
-            "image": "../assets/type-samples/publications-01f8147a05d9-p1.jpg",
+            "image": "../assets/type-samples/publications-01f8147a05d9-pdf-p1.jpg",
+            "title": "[2026] 해외재정동향 2월",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 0,
             "digit_ratio": 1.0,
             "table_score": 0.874
           },
           {
             "page": 35,
-            "image": "../assets/type-samples/publications-01f8147a05d9-p35.jpg",
+            "image": "../assets/type-samples/publications-01f8147a05d9-pdf-p35.jpg",
+            "title": "[2026] 해외재정동향 2월",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 60,
             "digit_ratio": 0.0,
             "table_score": 0.14
           },
           {
             "page": 2,
-            "image": "../assets/type-samples/publications-01f8147a05d9-p2.jpg",
+            "image": "../assets/type-samples/publications-01f8147a05d9-pdf-p2.jpg",
+            "title": "[2026] 해외재정동향 2월",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 0,
             "digit_ratio": 1.0,
             "table_score": 1.0
+          },
+          {
+            "page": 3,
+            "image": "../assets/type-samples/publications-01f8147a05d9-pdf-p3.jpg",
+            "title": "[2026] 해외재정동향 2월",
+            "year": "2026",
+            "extension": "pdf",
+            "text_chars": 0,
+            "digit_ratio": 1.0,
+            "table_score": 0.995
+          },
+          {
+            "page": 4,
+            "image": "../assets/type-samples/publications-01f8147a05d9-pdf-p4.jpg",
+            "title": "[2026] 해외재정동향 2월",
+            "year": "2026",
+            "extension": "pdf",
+            "text_chars": 11,
+            "digit_ratio": 1.0,
+            "table_score": 0.66
           }
         ]
       },
@@ -610,31 +1115,64 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2025 회계/기금 운용구조",
-        "year": "2025",
-        "extension": "pdf",
-        "document_pages": 218,
+        "documents": [
+          {
+            "title": "2025 회계/기금 운용구조",
+            "year": "2025",
+            "extension": "pdf",
+            "document_pages": 218
+          }
+        ],
         "pages": [
           {
             "page": 3,
-            "image": "../assets/type-samples/publications-479c4e28565e-p3.jpg",
+            "image": "../assets/type-samples/publications-479c4e28565e-pdf-p3.jpg",
+            "title": "2025 회계/기금 운용구조",
+            "year": "2025",
+            "extension": "pdf",
             "text_chars": 849,
             "digit_ratio": 0.048,
             "table_score": 0.048
           },
           {
             "page": 110,
-            "image": "../assets/type-samples/publications-479c4e28565e-p110.jpg",
+            "image": "../assets/type-samples/publications-479c4e28565e-pdf-p110.jpg",
+            "title": "2025 회계/기금 운용구조",
+            "year": "2025",
+            "extension": "pdf",
             "text_chars": 1046,
             "digit_ratio": 0.485,
             "table_score": 0.635
           },
           {
             "page": 4,
-            "image": "../assets/type-samples/publications-479c4e28565e-p4.jpg",
+            "image": "../assets/type-samples/publications-479c4e28565e-pdf-p4.jpg",
+            "title": "2025 회계/기금 운용구조",
+            "year": "2025",
+            "extension": "pdf",
             "text_chars": 561,
             "digit_ratio": 0.05,
             "table_score": 0.045
+          },
+          {
+            "page": 55,
+            "image": "../assets/type-samples/publications-479c4e28565e-pdf-p55.jpg",
+            "title": "2025 회계/기금 운용구조",
+            "year": "2025",
+            "extension": "pdf",
+            "text_chars": 728,
+            "digit_ratio": 0.241,
+            "table_score": 0.356
+          },
+          {
+            "page": 164,
+            "image": "../assets/type-samples/publications-479c4e28565e-pdf-p164.jpg",
+            "title": "2025 회계/기금 운용구조",
+            "year": "2025",
+            "extension": "pdf",
+            "text_chars": 1212,
+            "digit_ratio": 0.567,
+            "table_score": 0.677
           }
         ]
       },
@@ -652,31 +1190,70 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2024회계연도 결산개요(통계편).pdf",
-        "year": "2024",
-        "extension": "pdf",
-        "document_pages": 1187,
+        "documents": [
+          {
+            "title": "2024회계연도 결산개요(통계편).pdf",
+            "year": "2024",
+            "extension": "pdf",
+            "document_pages": 1187
+          },
+          {
+            "title": "2019년도 중앙관서별 결산보고서(공정거래위원회).hwp",
+            "year": "2019",
+            "extension": "hwp",
+            "document_pages": 1
+          }
+        ],
         "pages": [
           {
             "page": 1,
-            "image": "../assets/type-samples/reports-1b6fb9c8a384-p1.jpg",
+            "image": "../assets/type-samples/reports-1b6fb9c8a384-pdf-p1.jpg",
+            "title": "2024회계연도 결산개요(통계편).pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 110,
             "digit_ratio": 0.111,
             "table_score": 0.062
           },
           {
             "page": 4,
-            "image": "../assets/type-samples/reports-1b6fb9c8a384-p4.jpg",
+            "image": "../assets/type-samples/reports-1b6fb9c8a384-pdf-p4.jpg",
+            "title": "2024회계연도 결산개요(통계편).pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 2577,
             "digit_ratio": 0.084,
             "table_score": 0.053
           },
           {
             "page": 594,
-            "image": "../assets/type-samples/reports-1b6fb9c8a384-p594.jpg",
+            "image": "../assets/type-samples/reports-1b6fb9c8a384-pdf-p594.jpg",
+            "title": "2024회계연도 결산개요(통계편).pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 701,
             "digit_ratio": 0.369,
             "table_score": 0.417
+          },
+          {
+            "page": 3,
+            "image": "../assets/type-samples/reports-1b6fb9c8a384-pdf-p3.jpg",
+            "title": "2024회계연도 결산개요(통계편).pdf",
+            "year": "2024",
+            "extension": "pdf",
+            "text_chars": 2090,
+            "digit_ratio": 0.076,
+            "table_score": 0.115
+          },
+          {
+            "page": 1,
+            "image": "../assets/type-samples/reports-1b6fb9c8a384-hwp-p1.svg",
+            "title": "2019년도 중앙관서별 결산보고서(공정거래위원회).hwp",
+            "year": "2019",
+            "extension": "hwp",
+            "text_chars": 0,
+            "digit_ratio": 1.0,
+            "table_score": 0.86
           }
         ]
       },
@@ -694,24 +1271,50 @@
       "status": "excluded",
       "reason": "월별 재정증권 발행계획 수치표 중심 자료로, 원자료 조회 대상으로 분리",
       "sample": {
-        "title": "2011년도 재정증권 발행계획.pdf",
-        "year": "2011",
-        "extension": "pdf",
-        "document_pages": 2,
+        "documents": [
+          {
+            "title": "2011년도 재정증권 발행계획.pdf",
+            "year": "2011",
+            "extension": "pdf",
+            "document_pages": 2
+          },
+          {
+            "title": "2020년도 3월 재정증권 발행계획.hwp",
+            "year": "2020",
+            "extension": "hwp",
+            "document_pages": 1
+          }
+        ],
         "pages": [
           {
             "page": 1,
-            "image": "../assets/type-samples/reports-d4e37b1107ee-p1.jpg",
+            "image": "../assets/type-samples/reports-d4e37b1107ee-pdf-p1.jpg",
+            "title": "2011년도 재정증권 발행계획.pdf",
+            "year": "2011",
+            "extension": "pdf",
             "text_chars": 0,
             "digit_ratio": 1.0,
             "table_score": 0.86
           },
           {
             "page": 2,
-            "image": "../assets/type-samples/reports-d4e37b1107ee-p2.jpg",
+            "image": "../assets/type-samples/reports-d4e37b1107ee-pdf-p2.jpg",
+            "title": "2011년도 재정증권 발행계획.pdf",
+            "year": "2011",
+            "extension": "pdf",
             "text_chars": 0,
             "digit_ratio": 1.0,
             "table_score": 0.86
+          },
+          {
+            "page": 1,
+            "image": "../assets/type-samples/reports-d4e37b1107ee-hwp-p1.svg",
+            "title": "2020년도 3월 재정증권 발행계획.hwp",
+            "year": "2020",
+            "extension": "hwp",
+            "text_chars": 246,
+            "digit_ratio": 0.137,
+            "table_score": 0.131
           }
         ]
       },
@@ -729,31 +1332,70 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2021년도 기금운용평가보고서(자산운용).pdf",
-        "year": "2021",
-        "extension": "pdf",
-        "document_pages": 591,
+        "documents": [
+          {
+            "title": "2021년도 기금운용평가보고서(자산운용).pdf",
+            "year": "2021",
+            "extension": "pdf",
+            "document_pages": 591
+          },
+          {
+            "title": "2021년도 기금운용평가보고서(사업운영).hwp",
+            "year": "2021",
+            "extension": "hwp",
+            "document_pages": 1
+          }
+        ],
         "pages": [
           {
             "page": 3,
-            "image": "../assets/type-samples/reports-2b9719642894-p3.jpg",
+            "image": "../assets/type-samples/reports-2b9719642894-pdf-p3.jpg",
+            "title": "2021년도 기금운용평가보고서(자산운용).pdf",
+            "year": "2021",
+            "extension": "pdf",
             "text_chars": 1028,
             "digit_ratio": 0.235,
             "table_score": 0.122
           },
           {
             "page": 148,
-            "image": "../assets/type-samples/reports-2b9719642894-p148.jpg",
+            "image": "../assets/type-samples/reports-2b9719642894-pdf-p148.jpg",
+            "title": "2021년도 기금운용평가보고서(자산운용).pdf",
+            "year": "2021",
+            "extension": "pdf",
             "text_chars": 1236,
             "digit_ratio": 0.051,
             "table_score": 0.036
           },
           {
             "page": 296,
-            "image": "../assets/type-samples/reports-2b9719642894-p296.jpg",
+            "image": "../assets/type-samples/reports-2b9719642894-pdf-p296.jpg",
+            "title": "2021년도 기금운용평가보고서(자산운용).pdf",
+            "year": "2021",
+            "extension": "pdf",
             "text_chars": 674,
             "digit_ratio": 0.009,
             "table_score": 0.017
+          },
+          {
+            "page": 444,
+            "image": "../assets/type-samples/reports-2b9719642894-pdf-p444.jpg",
+            "title": "2021년도 기금운용평가보고서(자산운용).pdf",
+            "year": "2021",
+            "extension": "pdf",
+            "text_chars": 908,
+            "digit_ratio": 0.033,
+            "table_score": 0.029
+          },
+          {
+            "page": 1,
+            "image": "../assets/type-samples/reports-2b9719642894-hwp-p1.svg",
+            "title": "2021년도 기금운용평가보고서(사업운영).hwp",
+            "year": "2021",
+            "extension": "hwp",
+            "text_chars": 39,
+            "digit_ratio": 0.273,
+            "table_score": 0.161
           }
         ]
       },
@@ -771,31 +1413,64 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2022년 국고보조사업 연장평가 보고서.pdf",
-        "year": "2022",
-        "extension": "pdf",
-        "document_pages": 4330,
+        "documents": [
+          {
+            "title": "2022년 국고보조사업 연장평가 보고서.pdf",
+            "year": "2022",
+            "extension": "pdf",
+            "document_pages": 4330
+          }
+        ],
         "pages": [
           {
             "page": 1,
-            "image": "../assets/type-samples/reports-9b8e0c4a7e49-p1.jpg",
+            "image": "../assets/type-samples/reports-9b8e0c4a7e49-pdf-p1.jpg",
+            "title": "2022년 국고보조사업 연장평가 보고서.pdf",
+            "year": "2022",
+            "extension": "pdf",
             "text_chars": 142,
             "digit_ratio": 0.336,
             "table_score": 0.402
           },
           {
             "page": 3248,
-            "image": "../assets/type-samples/reports-9b8e0c4a7e49-p3248.jpg",
+            "image": "../assets/type-samples/reports-9b8e0c4a7e49-pdf-p3248.jpg",
+            "title": "2022년 국고보조사업 연장평가 보고서.pdf",
+            "year": "2022",
+            "extension": "pdf",
             "text_chars": 929,
             "digit_ratio": 0.045,
             "table_score": 0.089
           },
           {
             "page": 2166,
-            "image": "../assets/type-samples/reports-9b8e0c4a7e49-p2166.jpg",
+            "image": "../assets/type-samples/reports-9b8e0c4a7e49-pdf-p2166.jpg",
+            "title": "2022년 국고보조사업 연장평가 보고서.pdf",
+            "year": "2022",
+            "extension": "pdf",
             "text_chars": 543,
             "digit_ratio": 0.023,
             "table_score": 0.063
+          },
+          {
+            "page": 1083,
+            "image": "../assets/type-samples/reports-9b8e0c4a7e49-pdf-p1083.jpg",
+            "title": "2022년 국고보조사업 연장평가 보고서.pdf",
+            "year": "2022",
+            "extension": "pdf",
+            "text_chars": 822,
+            "digit_ratio": 0.034,
+            "table_score": 0.178
+          },
+          {
+            "page": 2,
+            "image": "../assets/type-samples/reports-9b8e0c4a7e49-pdf-p2.jpg",
+            "title": "2022년 국고보조사업 연장평가 보고서.pdf",
+            "year": "2022",
+            "extension": "pdf",
+            "text_chars": 142,
+            "digit_ratio": 0.336,
+            "table_score": 0.402
           }
         ]
       },
@@ -813,31 +1488,76 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2025년 성과계획서 (과학기술정보통신부).pdf",
-        "year": "2025",
-        "extension": "pdf",
-        "document_pages": 652,
+        "documents": [
+          {
+            "title": "2025년 성과계획서 (과학기술정보통신부).pdf",
+            "year": "2025",
+            "extension": "pdf",
+            "document_pages": 652
+          },
+          {
+            "title": "[07]2026년도 성과계획서_민주평화통일자문회의.hwp",
+            "year": "2026",
+            "extension": "hwp",
+            "document_pages": 1
+          },
+          {
+            "title": "2027년도 성과계획서 작성지침.hwpx",
+            "year": "2027",
+            "extension": "hwpx",
+            "document_pages": 1
+          }
+        ],
         "pages": [
           {
             "page": 4,
-            "image": "../assets/type-samples/reports-2cc61b42755b-p4.jpg",
+            "image": "../assets/type-samples/reports-2cc61b42755b-pdf-p4.jpg",
+            "title": "2025년 성과계획서 (과학기술정보통신부).pdf",
+            "year": "2025",
+            "extension": "pdf",
             "text_chars": 141,
             "digit_ratio": 0.033,
             "table_score": 0.104
           },
           {
             "page": 164,
-            "image": "../assets/type-samples/reports-2cc61b42755b-p164.jpg",
+            "image": "../assets/type-samples/reports-2cc61b42755b-pdf-p164.jpg",
+            "title": "2025년 성과계획서 (과학기술정보통신부).pdf",
+            "year": "2025",
+            "extension": "pdf",
             "text_chars": 636,
             "digit_ratio": 0.005,
             "table_score": 0.149
           },
           {
             "page": 327,
-            "image": "../assets/type-samples/reports-2cc61b42755b-p327.jpg",
+            "image": "../assets/type-samples/reports-2cc61b42755b-pdf-p327.jpg",
+            "title": "2025년 성과계획서 (과학기술정보통신부).pdf",
+            "year": "2025",
+            "extension": "pdf",
             "text_chars": 577,
             "digit_ratio": 0.243,
             "table_score": 0.372
+          },
+          {
+            "page": 1,
+            "image": "../assets/type-samples/reports-2cc61b42755b-hwp-p1.svg",
+            "title": "[07]2026년도 성과계획서_민주평화통일자문회의.hwp",
+            "year": "2026",
+            "extension": "hwp",
+            "text_chars": 0,
+            "digit_ratio": 1.0,
+            "table_score": 0.86
+          },
+          {
+            "page": 1,
+            "image": "../assets/type-samples/reports-2cc61b42755b-hwpx-p1.svg",
+            "title": "2027년도 성과계획서 작성지침.hwpx",
+            "year": "2027",
+            "extension": "hwpx",
+            "text_chars": 0,
+            "digit_ratio": 1.0,
+            "table_score": 0.86
           }
         ]
       },
@@ -855,31 +1575,70 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2021년 제1회 추경성과계획서-과학기술정보통신부.pdf",
-        "year": "2021",
-        "extension": "pdf",
-        "document_pages": 1016,
+        "documents": [
+          {
+            "title": "2021년 제1회 추경성과계획서-과학기술정보통신부.pdf",
+            "year": "2021",
+            "extension": "pdf",
+            "document_pages": 1016
+          },
+          {
+            "title": "2022년 제2회 추경성과계획서-법제처.hwp",
+            "year": "2022",
+            "extension": "hwp",
+            "document_pages": 1
+          }
+        ],
         "pages": [
           {
             "page": 255,
-            "image": "../assets/type-samples/reports-9365b9f72db3-p255.jpg",
+            "image": "../assets/type-samples/reports-9365b9f72db3-pdf-p255.jpg",
+            "title": "2021년 제1회 추경성과계획서-과학기술정보통신부.pdf",
+            "year": "2021",
+            "extension": "pdf",
             "text_chars": 311,
             "digit_ratio": 0.06,
             "table_score": 0.095
           },
           {
             "page": 509,
-            "image": "../assets/type-samples/reports-9365b9f72db3-p509.jpg",
+            "image": "../assets/type-samples/reports-9365b9f72db3-pdf-p509.jpg",
+            "title": "2021년 제1회 추경성과계획서-과학기술정보통신부.pdf",
+            "year": "2021",
+            "extension": "pdf",
             "text_chars": 738,
             "digit_ratio": 0.1,
             "table_score": 0.121
           },
           {
             "page": 763,
-            "image": "../assets/type-samples/reports-9365b9f72db3-p763.jpg",
+            "image": "../assets/type-samples/reports-9365b9f72db3-pdf-p763.jpg",
+            "title": "2021년 제1회 추경성과계획서-과학기술정보통신부.pdf",
+            "year": "2021",
+            "extension": "pdf",
             "text_chars": 432,
             "digit_ratio": 0.017,
             "table_score": 0.075
+          },
+          {
+            "page": 3,
+            "image": "../assets/type-samples/reports-9365b9f72db3-pdf-p3.jpg",
+            "title": "2021년 제1회 추경성과계획서-과학기술정보통신부.pdf",
+            "year": "2021",
+            "extension": "pdf",
+            "text_chars": 63,
+            "digit_ratio": 0.133,
+            "table_score": 0.107
+          },
+          {
+            "page": 1,
+            "image": "../assets/type-samples/reports-9365b9f72db3-hwp-p1.svg",
+            "title": "2022년 제2회 추경성과계획서-법제처.hwp",
+            "year": "2022",
+            "extension": "hwp",
+            "text_chars": 48,
+            "digit_ratio": 0.133,
+            "table_score": 0.069
           }
         ]
       },
@@ -897,31 +1656,76 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2024년도 문화체육관광부(성과보고서).pdf",
-        "year": "2024",
-        "extension": "pdf",
-        "document_pages": 456,
+        "documents": [
+          {
+            "title": "2024년도 문화체육관광부(성과보고서).pdf",
+            "year": "2024",
+            "extension": "pdf",
+            "document_pages": 456
+          },
+          {
+            "title": "2021회계연도 성과보고서 작성지침.hwp",
+            "year": "2021",
+            "extension": "hwp",
+            "document_pages": 1
+          },
+          {
+            "title": "2024회계연도 성과보고서 작성지침.hwpx",
+            "year": "2024",
+            "extension": "hwpx",
+            "document_pages": 1
+          }
+        ],
         "pages": [
           {
             "page": 3,
-            "image": "../assets/type-samples/reports-dc1830bacb72-p3.jpg",
+            "image": "../assets/type-samples/reports-dc1830bacb72-pdf-p3.jpg",
+            "title": "2024년도 문화체육관광부(성과보고서).pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 2033,
             "digit_ratio": 0.33,
             "table_score": 0.325
           },
           {
             "page": 115,
-            "image": "../assets/type-samples/reports-dc1830bacb72-p115.jpg",
+            "image": "../assets/type-samples/reports-dc1830bacb72-pdf-p115.jpg",
+            "title": "2024년도 문화체육관광부(성과보고서).pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 630,
             "digit_ratio": 0.005,
             "table_score": 0.105
           },
           {
             "page": 229,
-            "image": "../assets/type-samples/reports-dc1830bacb72-p229.jpg",
+            "image": "../assets/type-samples/reports-dc1830bacb72-pdf-p229.jpg",
+            "title": "2024년도 문화체육관광부(성과보고서).pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 846,
             "digit_ratio": 0.268,
             "table_score": 0.418
+          },
+          {
+            "page": 1,
+            "image": "../assets/type-samples/reports-dc1830bacb72-hwp-p1.svg",
+            "title": "2021회계연도 성과보고서 작성지침.hwp",
+            "year": "2021",
+            "extension": "hwp",
+            "text_chars": 122,
+            "digit_ratio": 0.17,
+            "table_score": 0.088
+          },
+          {
+            "page": 1,
+            "image": "../assets/type-samples/reports-dc1830bacb72-hwpx-p1.svg",
+            "title": "2024회계연도 성과보고서 작성지침.hwpx",
+            "year": "2024",
+            "extension": "hwpx",
+            "text_chars": 122,
+            "digit_ratio": 0.17,
+            "table_score": 0.088
           }
         ]
       },
@@ -939,31 +1743,76 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2018년도 재정사업 자율평가 지침.pdf",
-        "year": "2018",
-        "extension": "pdf",
-        "document_pages": 21,
+        "documents": [
+          {
+            "title": "2018년도 재정사업 자율평가 지침.pdf",
+            "year": "2018",
+            "extension": "pdf",
+            "document_pages": 21
+          },
+          {
+            "title": "2022년('21회계년도) 재정사업 자율평가 지침.hwp",
+            "year": "2021",
+            "extension": "hwp",
+            "document_pages": 1
+          },
+          {
+            "title": "2025회계연도 성과보고서 작성지침.hwpx",
+            "year": "2025",
+            "extension": "hwpx",
+            "document_pages": 1
+          }
+        ],
         "pages": [
           {
             "page": 2,
-            "image": "../assets/type-samples/reports-d2f6c611b190-p2.jpg",
+            "image": "../assets/type-samples/reports-d2f6c611b190-pdf-p2.jpg",
+            "title": "2018년도 재정사업 자율평가 지침.pdf",
+            "year": "2018",
+            "extension": "pdf",
             "text_chars": 580,
             "digit_ratio": 0.2,
             "table_score": 0.132
           },
           {
             "page": 6,
-            "image": "../assets/type-samples/reports-d2f6c611b190-p6.jpg",
+            "image": "../assets/type-samples/reports-d2f6c611b190-pdf-p6.jpg",
+            "title": "2018년도 재정사업 자율평가 지침.pdf",
+            "year": "2018",
+            "extension": "pdf",
             "text_chars": 589,
             "digit_ratio": 0.017,
             "table_score": 0.162
           },
           {
             "page": 11,
-            "image": "../assets/type-samples/reports-d2f6c611b190-p11.jpg",
+            "image": "../assets/type-samples/reports-d2f6c611b190-pdf-p11.jpg",
+            "title": "2018년도 재정사업 자율평가 지침.pdf",
+            "year": "2018",
+            "extension": "pdf",
             "text_chars": 51,
             "digit_ratio": 0.279,
             "table_score": 0.312
+          },
+          {
+            "page": 1,
+            "image": "../assets/type-samples/reports-d2f6c611b190-hwp-p1.svg",
+            "title": "2022년('21회계년도) 재정사업 자율평가 지침.hwp",
+            "year": "2021",
+            "extension": "hwp",
+            "text_chars": 231,
+            "digit_ratio": 0.207,
+            "table_score": 0.108
+          },
+          {
+            "page": 1,
+            "image": "../assets/type-samples/reports-d2f6c611b190-hwpx-p1.svg",
+            "title": "2025회계연도 성과보고서 작성지침.hwpx",
+            "year": "2025",
+            "extension": "hwpx",
+            "text_chars": 122,
+            "digit_ratio": 0.17,
+            "table_score": 0.088
           }
         ]
       },
@@ -981,31 +1830,76 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2024회계연도 재정사업 자율평가 결과(산업통상자원부) .pdf",
-        "year": "2024",
-        "extension": "pdf",
-        "document_pages": 59,
+        "documents": [
+          {
+            "title": "2024회계연도 재정사업 자율평가 결과(산업통상자원부) .pdf",
+            "year": "2024",
+            "extension": "pdf",
+            "document_pages": 59
+          },
+          {
+            "title": "2022회계연도 재정사업 자율평가 결과(대통령경호처).hwp",
+            "year": "2022",
+            "extension": "hwp",
+            "document_pages": 1
+          },
+          {
+            "title": "2024회계연도 재정사업 자율평가 결과(법무부).hwpx",
+            "year": "2024",
+            "extension": "hwpx",
+            "document_pages": 1
+          }
+        ],
         "pages": [
           {
             "page": 2,
-            "image": "../assets/type-samples/reports-d81d2982cfb9-p2.jpg",
+            "image": "../assets/type-samples/reports-d81d2982cfb9-pdf-p2.jpg",
+            "title": "2024회계연도 재정사업 자율평가 결과(산업통상자원부) .pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 167,
             "digit_ratio": 0.138,
             "table_score": 0.297
           },
           {
             "page": 30,
-            "image": "../assets/type-samples/reports-d81d2982cfb9-p30.jpg",
+            "image": "../assets/type-samples/reports-d81d2982cfb9-pdf-p30.jpg",
+            "title": "2024회계연도 재정사업 자율평가 결과(산업통상자원부) .pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 1166,
             "digit_ratio": 0.027,
             "table_score": 0.162
           },
           {
             "page": 45,
-            "image": "../assets/type-samples/reports-d81d2982cfb9-p45.jpg",
+            "image": "../assets/type-samples/reports-d81d2982cfb9-pdf-p45.jpg",
+            "title": "2024회계연도 재정사업 자율평가 결과(산업통상자원부) .pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 1137,
             "digit_ratio": 0.053,
             "table_score": 0.174
+          },
+          {
+            "page": 1,
+            "image": "../assets/type-samples/reports-d81d2982cfb9-hwp-p1.svg",
+            "title": "2022회계연도 재정사업 자율평가 결과(대통령경호처).hwp",
+            "year": "2022",
+            "extension": "hwp",
+            "text_chars": 30,
+            "digit_ratio": 0.077,
+            "table_score": 0.04
+          },
+          {
+            "page": 1,
+            "image": "../assets/type-samples/reports-d81d2982cfb9-hwpx-p1.svg",
+            "title": "2024회계연도 재정사업 자율평가 결과(법무부).hwpx",
+            "year": "2024",
+            "extension": "hwpx",
+            "text_chars": 27,
+            "digit_ratio": 0.143,
+            "table_score": 0.159
           }
         ]
       },
@@ -1023,31 +1917,64 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2024년도 재정사업평가결과(FY2023).pdf",
-        "year": "2023",
-        "extension": "pdf",
-        "document_pages": 30,
+        "documents": [
+          {
+            "title": "2024년도 재정사업평가결과(FY2023).pdf",
+            "year": "2023",
+            "extension": "pdf",
+            "document_pages": 30
+          }
+        ],
         "pages": [
           {
             "page": 1,
-            "image": "../assets/type-samples/reports-9e2170a3f5f8-p1.jpg",
+            "image": "../assets/type-samples/reports-9e2170a3f5f8-pdf-p1.jpg",
+            "title": "2024년도 재정사업평가결과(FY2023).pdf",
+            "year": "2023",
+            "extension": "pdf",
             "text_chars": 1947,
             "digit_ratio": 0.112,
             "table_score": 0.294
           },
           {
             "page": 2,
-            "image": "../assets/type-samples/reports-9e2170a3f5f8-p2.jpg",
+            "image": "../assets/type-samples/reports-9e2170a3f5f8-pdf-p2.jpg",
+            "title": "2024년도 재정사업평가결과(FY2023).pdf",
+            "year": "2023",
+            "extension": "pdf",
             "text_chars": 2209,
             "digit_ratio": 0.11,
             "table_score": 0.285
           },
           {
             "page": 16,
-            "image": "../assets/type-samples/reports-9e2170a3f5f8-p16.jpg",
+            "image": "../assets/type-samples/reports-9e2170a3f5f8-pdf-p16.jpg",
+            "title": "2024년도 재정사업평가결과(FY2023).pdf",
+            "year": "2023",
+            "extension": "pdf",
             "text_chars": 2199,
             "digit_ratio": 0.127,
             "table_score": 0.289
+          },
+          {
+            "page": 4,
+            "image": "../assets/type-samples/reports-9e2170a3f5f8-pdf-p4.jpg",
+            "title": "2024년도 재정사업평가결과(FY2023).pdf",
+            "year": "2023",
+            "extension": "pdf",
+            "text_chars": 2226,
+            "digit_ratio": 0.121,
+            "table_score": 0.288
+          },
+          {
+            "page": 8,
+            "image": "../assets/type-samples/reports-9e2170a3f5f8-pdf-p8.jpg",
+            "title": "2024년도 재정사업평가결과(FY2023).pdf",
+            "year": "2023",
+            "extension": "pdf",
+            "text_chars": 2086,
+            "digit_ratio": 0.13,
+            "table_score": 0.292
           }
         ]
       },
@@ -1065,31 +1992,64 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2025_자체평가보고서_농진청_농업정책지원기술개발.pdf",
-        "year": "2024",
-        "extension": "pdf",
-        "document_pages": 220,
+        "documents": [
+          {
+            "title": "2025_자체평가보고서_농진청_농업정책지원기술개발.pdf",
+            "year": "2024",
+            "extension": "pdf",
+            "document_pages": 220
+          }
+        ],
         "pages": [
           {
             "page": 1,
-            "image": "../assets/type-samples/reports-61e47717a2f5-p1.jpg",
+            "image": "../assets/type-samples/reports-61e47717a2f5-pdf-p1.jpg",
+            "title": "2025_자체평가보고서_농진청_농업정책지원기술개발.pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 151,
             "digit_ratio": 0.261,
             "table_score": 0.307
           },
           {
             "page": 56,
-            "image": "../assets/type-samples/reports-61e47717a2f5-p56.jpg",
+            "image": "../assets/type-samples/reports-61e47717a2f5-pdf-p56.jpg",
+            "title": "2025_자체평가보고서_농진청_농업정책지원기술개발.pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 1442,
             "digit_ratio": 0.103,
             "table_score": 0.25
           },
           {
             "page": 111,
-            "image": "../assets/type-samples/reports-61e47717a2f5-p111.jpg",
+            "image": "../assets/type-samples/reports-61e47717a2f5-pdf-p111.jpg",
+            "title": "2025_자체평가보고서_농진청_농업정책지원기술개발.pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 909,
             "digit_ratio": 0.087,
             "table_score": 0.216
+          },
+          {
+            "page": 4,
+            "image": "../assets/type-samples/reports-61e47717a2f5-pdf-p4.jpg",
+            "title": "2025_자체평가보고서_농진청_농업정책지원기술개발.pdf",
+            "year": "2024",
+            "extension": "pdf",
+            "text_chars": 660,
+            "digit_ratio": 0.016,
+            "table_score": 0.152
+          },
+          {
+            "page": 166,
+            "image": "../assets/type-samples/reports-61e47717a2f5-pdf-p166.jpg",
+            "title": "2025_자체평가보고서_농진청_농업정책지원기술개발.pdf",
+            "year": "2024",
+            "extension": "pdf",
+            "text_chars": 946,
+            "digit_ratio": 0.181,
+            "table_score": 0.442
           }
         ]
       },
@@ -1107,31 +2067,64 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2024년도 성과관리 재정사업평가결과(복권기금사업평가).pdf",
-        "year": "2024",
-        "extension": "pdf",
-        "document_pages": 656,
+        "documents": [
+          {
+            "title": "2024년도 성과관리 재정사업평가결과(복권기금사업평가).pdf",
+            "year": "2024",
+            "extension": "pdf",
+            "document_pages": 656
+          }
+        ],
         "pages": [
           {
             "page": 3,
-            "image": "../assets/type-samples/reports-aa0e443044da-p3.jpg",
+            "image": "../assets/type-samples/reports-aa0e443044da-pdf-p3.jpg",
+            "title": "2024년도 성과관리 재정사업평가결과(복권기금사업평가).pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 2460,
             "digit_ratio": 0.254,
             "table_score": 0.137
           },
           {
             "page": 165,
-            "image": "../assets/type-samples/reports-aa0e443044da-p165.jpg",
+            "image": "../assets/type-samples/reports-aa0e443044da-pdf-p165.jpg",
+            "title": "2024년도 성과관리 재정사업평가결과(복권기금사업평가).pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 618,
             "digit_ratio": 0.075,
             "table_score": 0.23
           },
           {
             "page": 329,
-            "image": "../assets/type-samples/reports-aa0e443044da-p329.jpg",
+            "image": "../assets/type-samples/reports-aa0e443044da-pdf-p329.jpg",
+            "title": "2024년도 성과관리 재정사업평가결과(복권기금사업평가).pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 662,
             "digit_ratio": 0.155,
             "table_score": 0.271
+          },
+          {
+            "page": 4,
+            "image": "../assets/type-samples/reports-aa0e443044da-pdf-p4.jpg",
+            "title": "2024년도 성과관리 재정사업평가결과(복권기금사업평가).pdf",
+            "year": "2024",
+            "extension": "pdf",
+            "text_chars": 3081,
+            "digit_ratio": 0.263,
+            "table_score": 0.141
+          },
+          {
+            "page": 493,
+            "image": "../assets/type-samples/reports-aa0e443044da-pdf-p493.jpg",
+            "title": "2024년도 성과관리 재정사업평가결과(복권기금사업평가).pdf",
+            "year": "2024",
+            "extension": "pdf",
+            "text_chars": 413,
+            "digit_ratio": 0.041,
+            "table_score": 0.166
           }
         ]
       },
@@ -1149,31 +2142,64 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "(직업훈련) 07~09 (고용부) 내일배움카드(고보)(3종).pdf",
-        "year": "2024",
-        "extension": "pdf",
-        "document_pages": 16,
+        "documents": [
+          {
+            "title": "(직업훈련) 07~09 (고용부) 내일배움카드(고보)(3종).pdf",
+            "year": "2024",
+            "extension": "pdf",
+            "document_pages": 16
+          }
+        ],
         "pages": [
           {
             "page": 1,
-            "image": "../assets/type-samples/reports-5e033a9b699c-p1.jpg",
+            "image": "../assets/type-samples/reports-5e033a9b699c-pdf-p1.jpg",
+            "title": "(직업훈련) 07~09 (고용부) 내일배움카드(고보)(3종).pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 928,
             "digit_ratio": 0.08,
             "table_score": 0.215
           },
           {
             "page": 9,
-            "image": "../assets/type-samples/reports-5e033a9b699c-p9.jpg",
+            "image": "../assets/type-samples/reports-5e033a9b699c-pdf-p9.jpg",
+            "title": "(직업훈련) 07~09 (고용부) 내일배움카드(고보)(3종).pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 963,
             "digit_ratio": 0.011,
             "table_score": 0.021
           },
           {
             "page": 2,
-            "image": "../assets/type-samples/reports-5e033a9b699c-p2.jpg",
+            "image": "../assets/type-samples/reports-5e033a9b699c-pdf-p2.jpg",
+            "title": "(직업훈련) 07~09 (고용부) 내일배움카드(고보)(3종).pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 956,
             "digit_ratio": 0.101,
             "table_score": 0.233
+          },
+          {
+            "page": 13,
+            "image": "../assets/type-samples/reports-5e033a9b699c-pdf-p13.jpg",
+            "title": "(직업훈련) 07~09 (고용부) 내일배움카드(고보)(3종).pdf",
+            "year": "2024",
+            "extension": "pdf",
+            "text_chars": 1075,
+            "digit_ratio": 0.185,
+            "table_score": 0.356
+          },
+          {
+            "page": 3,
+            "image": "../assets/type-samples/reports-5e033a9b699c-pdf-p3.jpg",
+            "title": "(직업훈련) 07~09 (고용부) 내일배움카드(고보)(3종).pdf",
+            "year": "2024",
+            "extension": "pdf",
+            "text_chars": 666,
+            "digit_ratio": 0.104,
+            "table_score": 0.242
           }
         ]
       },
@@ -1191,31 +2217,64 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2024년도 성과관리 재정사업평가결과(재난안전사업평가).pdf",
-        "year": "2024",
-        "extension": "pdf",
-        "document_pages": 31,
+        "documents": [
+          {
+            "title": "2024년도 성과관리 재정사업평가결과(재난안전사업평가).pdf",
+            "year": "2024",
+            "extension": "pdf",
+            "document_pages": 31
+          }
+        ],
         "pages": [
           {
             "page": 2,
-            "image": "../assets/type-samples/reports-27bba89e248a-p2.jpg",
+            "image": "../assets/type-samples/reports-27bba89e248a-pdf-p2.jpg",
+            "title": "2024년도 성과관리 재정사업평가결과(재난안전사업평가).pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 514,
             "digit_ratio": 0.236,
             "table_score": 0.141
           },
           {
             "page": 4,
-            "image": "../assets/type-samples/reports-27bba89e248a-p4.jpg",
+            "image": "../assets/type-samples/reports-27bba89e248a-pdf-p4.jpg",
+            "title": "2024년도 성과관리 재정사업평가결과(재난안전사업평가).pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 749,
             "digit_ratio": 0.134,
             "table_score": 0.25
           },
           {
             "page": 16,
-            "image": "../assets/type-samples/reports-27bba89e248a-p16.jpg",
+            "image": "../assets/type-samples/reports-27bba89e248a-pdf-p16.jpg",
+            "title": "2024년도 성과관리 재정사업평가결과(재난안전사업평가).pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 698,
             "digit_ratio": 0.592,
             "table_score": 0.676
+          },
+          {
+            "page": 3,
+            "image": "../assets/type-samples/reports-27bba89e248a-pdf-p3.jpg",
+            "title": "2024년도 성과관리 재정사업평가결과(재난안전사업평가).pdf",
+            "year": "2024",
+            "extension": "pdf",
+            "text_chars": 486,
+            "digit_ratio": 0.093,
+            "table_score": 0.205
+          },
+          {
+            "page": 8,
+            "image": "../assets/type-samples/reports-27bba89e248a-pdf-p8.jpg",
+            "title": "2024년도 성과관리 재정사업평가결과(재난안전사업평가).pdf",
+            "year": "2024",
+            "extension": "pdf",
+            "text_chars": 591,
+            "digit_ratio": 0.187,
+            "table_score": 0.362
           }
         ]
       },
@@ -1233,31 +2292,64 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "094_경영판로_과기부_클라우드컴퓨팅산업육성(정보화).pdf",
-        "year": "2024",
-        "extension": "pdf",
-        "document_pages": 11,
+        "documents": [
+          {
+            "title": "094_경영판로_과기부_클라우드컴퓨팅산업육성(정보화).pdf",
+            "year": "2024",
+            "extension": "pdf",
+            "document_pages": 11
+          }
+        ],
         "pages": [
           {
             "page": 1,
-            "image": "../assets/type-samples/reports-d4c88dc28e33-p1.jpg",
+            "image": "../assets/type-samples/reports-d4c88dc28e33-pdf-p1.jpg",
+            "title": "094_경영판로_과기부_클라우드컴퓨팅산업육성(정보화).pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 883,
             "digit_ratio": 0.131,
             "table_score": 0.279
           },
           {
             "page": 3,
-            "image": "../assets/type-samples/reports-d4c88dc28e33-p3.jpg",
+            "image": "../assets/type-samples/reports-d4c88dc28e33-pdf-p3.jpg",
+            "title": "094_경영판로_과기부_클라우드컴퓨팅산업육성(정보화).pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 1513,
             "digit_ratio": 0.027,
             "table_score": 0.037
           },
           {
             "page": 6,
-            "image": "../assets/type-samples/reports-d4c88dc28e33-p6.jpg",
+            "image": "../assets/type-samples/reports-d4c88dc28e33-pdf-p6.jpg",
+            "title": "094_경영판로_과기부_클라우드컴퓨팅산업육성(정보화).pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 1515,
             "digit_ratio": 0.041,
             "table_score": 0.221
+          },
+          {
+            "page": 4,
+            "image": "../assets/type-samples/reports-d4c88dc28e33-pdf-p4.jpg",
+            "title": "094_경영판로_과기부_클라우드컴퓨팅산업육성(정보화).pdf",
+            "year": "2024",
+            "extension": "pdf",
+            "text_chars": 1510,
+            "digit_ratio": 0.029,
+            "table_score": 0.067
+          },
+          {
+            "page": 2,
+            "image": "../assets/type-samples/reports-d4c88dc28e33-pdf-p2.jpg",
+            "title": "094_경영판로_과기부_클라우드컴퓨팅산업육성(정보화).pdf",
+            "year": "2024",
+            "extension": "pdf",
+            "text_chars": 1621,
+            "digit_ratio": 0.155,
+            "table_score": 0.161
           }
         ]
       },
@@ -1275,31 +2367,64 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2024년도 성과관리 재정사업평가결과(지역균형발전사업평가).pdf",
-        "year": "2024",
-        "extension": "pdf",
-        "document_pages": 157,
+        "documents": [
+          {
+            "title": "2024년도 성과관리 재정사업평가결과(지역균형발전사업평가).pdf",
+            "year": "2024",
+            "extension": "pdf",
+            "document_pages": 157
+          }
+        ],
         "pages": [
           {
             "page": 2,
-            "image": "../assets/type-samples/reports-41dcedf8c640-p2.jpg",
+            "image": "../assets/type-samples/reports-41dcedf8c640-pdf-p2.jpg",
+            "title": "2024년도 성과관리 재정사업평가결과(지역균형발전사업평가).pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 306,
             "digit_ratio": 0.309,
             "table_score": 0.344
           },
           {
             "page": 79,
-            "image": "../assets/type-samples/reports-41dcedf8c640-p79.jpg",
+            "image": "../assets/type-samples/reports-41dcedf8c640-pdf-p79.jpg",
+            "title": "2024년도 성과관리 재정사업평가결과(지역균형발전사업평가).pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 624,
             "digit_ratio": 0.117,
             "table_score": 0.206
           },
           {
             "page": 40,
-            "image": "../assets/type-samples/reports-41dcedf8c640-p40.jpg",
+            "image": "../assets/type-samples/reports-41dcedf8c640-pdf-p40.jpg",
+            "title": "2024년도 성과관리 재정사업평가결과(지역균형발전사업평가).pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 375,
             "digit_ratio": 0.146,
             "table_score": 0.158
+          },
+          {
+            "page": 4,
+            "image": "../assets/type-samples/reports-41dcedf8c640-pdf-p4.jpg",
+            "title": "2024년도 성과관리 재정사업평가결과(지역균형발전사업평가).pdf",
+            "year": "2024",
+            "extension": "pdf",
+            "text_chars": 524,
+            "digit_ratio": 0.309,
+            "table_score": 0.331
+          },
+          {
+            "page": 118,
+            "image": "../assets/type-samples/reports-41dcedf8c640-pdf-p118.jpg",
+            "title": "2024년도 성과관리 재정사업평가결과(지역균형발전사업평가).pdf",
+            "year": "2024",
+            "extension": "pdf",
+            "text_chars": 466,
+            "digit_ratio": 0.221,
+            "table_score": 0.444
           }
         ]
       },
@@ -1317,31 +2442,64 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2026년 통합재정사업 성과평가 보고서(vol.04).pdf",
-        "year": "2026",
-        "extension": "pdf",
-        "document_pages": 1250,
+        "documents": [
+          {
+            "title": "2026년 통합재정사업 성과평가 보고서(vol.04).pdf",
+            "year": "2026",
+            "extension": "pdf",
+            "document_pages": 1250
+          }
+        ],
         "pages": [
           {
             "page": 3,
-            "image": "../assets/type-samples/reports-0b68abaa5c6d-p3.jpg",
+            "image": "../assets/type-samples/reports-0b68abaa5c6d-pdf-p3.jpg",
+            "title": "2026년 통합재정사업 성과평가 보고서(vol.04).pdf",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 925,
             "digit_ratio": 0.237,
             "table_score": 0.175
           },
           {
             "page": 626,
-            "image": "../assets/type-samples/reports-0b68abaa5c6d-p626.jpg",
+            "image": "../assets/type-samples/reports-0b68abaa5c6d-pdf-p626.jpg",
+            "title": "2026년 통합재정사업 성과평가 보고서(vol.04).pdf",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 819,
             "digit_ratio": 0.039,
             "table_score": 0.02
           },
           {
             "page": 313,
-            "image": "../assets/type-samples/reports-0b68abaa5c6d-p313.jpg",
+            "image": "../assets/type-samples/reports-0b68abaa5c6d-pdf-p313.jpg",
+            "title": "2026년 통합재정사업 성과평가 보고서(vol.04).pdf",
+            "year": "2026",
+            "extension": "pdf",
             "text_chars": 689,
             "digit_ratio": 0.053,
             "table_score": 0.028
+          },
+          {
+            "page": 938,
+            "image": "../assets/type-samples/reports-0b68abaa5c6d-pdf-p938.jpg",
+            "title": "2026년 통합재정사업 성과평가 보고서(vol.04).pdf",
+            "year": "2026",
+            "extension": "pdf",
+            "text_chars": 306,
+            "digit_ratio": 0.027,
+            "table_score": 0.014
+          },
+          {
+            "page": 4,
+            "image": "../assets/type-samples/reports-0b68abaa5c6d-pdf-p4.jpg",
+            "title": "2026년 통합재정사업 성과평가 보고서(vol.04).pdf",
+            "year": "2026",
+            "extension": "pdf",
+            "text_chars": 1967,
+            "digit_ratio": 0.329,
+            "table_score": 0.199
           }
         ]
       },
@@ -1359,31 +2517,64 @@
       "status": "excluded",
       "reason": "통합재정수지 수치표 중심 자료로, 원자료 조회 대상으로 분리",
       "sample": {
-        "title": "2021회계연도 한국통합재정수지.pdf",
-        "year": "2021",
-        "extension": "pdf",
-        "document_pages": 198,
+        "documents": [
+          {
+            "title": "2021회계연도 한국통합재정수지.pdf",
+            "year": "2021",
+            "extension": "pdf",
+            "document_pages": 198
+          }
+        ],
         "pages": [
           {
             "page": 1,
-            "image": "../assets/type-samples/reports-58ad4f840fe7-p1.jpg",
+            "image": "../assets/type-samples/reports-58ad4f840fe7-pdf-p1.jpg",
+            "title": "2021회계연도 한국통합재정수지.pdf",
+            "year": "2021",
+            "extension": "pdf",
             "text_chars": 103,
             "digit_ratio": 0.26,
             "table_score": 0.318
           },
           {
             "page": 149,
-            "image": "../assets/type-samples/reports-58ad4f840fe7-p149.jpg",
+            "image": "../assets/type-samples/reports-58ad4f840fe7-pdf-p149.jpg",
+            "title": "2021회계연도 한국통합재정수지.pdf",
+            "year": "2021",
+            "extension": "pdf",
             "text_chars": 873,
             "digit_ratio": 0.394,
             "table_score": 0.473
           },
           {
             "page": 100,
-            "image": "../assets/type-samples/reports-58ad4f840fe7-p100.jpg",
+            "image": "../assets/type-samples/reports-58ad4f840fe7-pdf-p100.jpg",
+            "title": "2021회계연도 한국통합재정수지.pdf",
+            "year": "2021",
+            "extension": "pdf",
             "text_chars": 333,
             "digit_ratio": 0.58,
             "table_score": 0.545
+          },
+          {
+            "page": 3,
+            "image": "../assets/type-samples/reports-58ad4f840fe7-pdf-p3.jpg",
+            "title": "2021회계연도 한국통합재정수지.pdf",
+            "year": "2021",
+            "extension": "pdf",
+            "text_chars": 305,
+            "digit_ratio": 0.207,
+            "table_score": 0.179
+          },
+          {
+            "page": 50,
+            "image": "../assets/type-samples/reports-58ad4f840fe7-pdf-p50.jpg",
+            "title": "2021회계연도 한국통합재정수지.pdf",
+            "year": "2021",
+            "extension": "pdf",
+            "text_chars": 414,
+            "digit_ratio": 0.325,
+            "table_score": 0.487
           }
         ]
       },
@@ -1401,31 +2592,64 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2024~2028년 국가재정운용계획.pdf",
-        "year": "2024",
-        "extension": "pdf",
-        "document_pages": 218,
+        "documents": [
+          {
+            "title": "2024~2028년 국가재정운용계획.pdf",
+            "year": "2024",
+            "extension": "pdf",
+            "document_pages": 218
+          }
+        ],
         "pages": [
           {
             "page": 3,
-            "image": "../assets/type-samples/reports-a9f7cbdc3780-p3.jpg",
+            "image": "../assets/type-samples/reports-a9f7cbdc3780-pdf-p3.jpg",
+            "title": "2024~2028년 국가재정운용계획.pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 348,
             "digit_ratio": 0.332,
             "table_score": 0.247
           },
           {
             "page": 110,
-            "image": "../assets/type-samples/reports-a9f7cbdc3780-p110.jpg",
+            "image": "../assets/type-samples/reports-a9f7cbdc3780-pdf-p110.jpg",
+            "title": "2024~2028년 국가재정운용계획.pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 544,
             "digit_ratio": 0.025,
             "table_score": 0.042
           },
           {
             "page": 55,
-            "image": "../assets/type-samples/reports-a9f7cbdc3780-p55.jpg",
+            "image": "../assets/type-samples/reports-a9f7cbdc3780-pdf-p55.jpg",
+            "title": "2024~2028년 국가재정운용계획.pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 557,
             "digit_ratio": 0.215,
             "table_score": 0.365
+          },
+          {
+            "page": 164,
+            "image": "../assets/type-samples/reports-a9f7cbdc3780-pdf-p164.jpg",
+            "title": "2024~2028년 국가재정운용계획.pdf",
+            "year": "2024",
+            "extension": "pdf",
+            "text_chars": 544,
+            "digit_ratio": 0.308,
+            "table_score": 0.436
+          },
+          {
+            "page": 4,
+            "image": "../assets/type-samples/reports-a9f7cbdc3780-pdf-p4.jpg",
+            "title": "2024~2028년 국가재정운용계획.pdf",
+            "year": "2024",
+            "extension": "pdf",
+            "text_chars": 262,
+            "digit_ratio": 0.289,
+            "table_score": 0.155
           }
         ]
       },
@@ -1443,31 +2667,70 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2025년도 나라살림 예산개요.pdf",
-        "year": "2025",
-        "extension": "pdf",
-        "document_pages": 330,
+        "documents": [
+          {
+            "title": "2025년도 나라살림 예산개요.pdf",
+            "year": "2025",
+            "extension": "pdf",
+            "document_pages": 330
+          },
+          {
+            "title": "2019년도 나라살림 예산.hwp",
+            "year": "2019",
+            "extension": "hwp",
+            "document_pages": 1
+          }
+        ],
         "pages": [
           {
             "page": 2,
-            "image": "../assets/type-samples/reports-c8bc78678cec-p2.jpg",
+            "image": "../assets/type-samples/reports-c8bc78678cec-pdf-p2.jpg",
+            "title": "2025년도 나라살림 예산개요.pdf",
+            "year": "2025",
+            "extension": "pdf",
             "text_chars": 306,
             "digit_ratio": 0.299,
             "table_score": 0.338
           },
           {
             "page": 83,
-            "image": "../assets/type-samples/reports-c8bc78678cec-p83.jpg",
+            "image": "../assets/type-samples/reports-c8bc78678cec-pdf-p83.jpg",
+            "title": "2025년도 나라살림 예산개요.pdf",
+            "year": "2025",
+            "extension": "pdf",
             "text_chars": 833,
             "digit_ratio": 0.104,
             "table_score": 0.116
           },
           {
             "page": 166,
-            "image": "../assets/type-samples/reports-c8bc78678cec-p166.jpg",
+            "image": "../assets/type-samples/reports-c8bc78678cec-pdf-p166.jpg",
+            "title": "2025년도 나라살림 예산개요.pdf",
+            "year": "2025",
+            "extension": "pdf",
             "text_chars": 641,
             "digit_ratio": 0.268,
             "table_score": 0.476
+          },
+          {
+            "page": 248,
+            "image": "../assets/type-samples/reports-c8bc78678cec-pdf-p248.jpg",
+            "title": "2025년도 나라살림 예산개요.pdf",
+            "year": "2025",
+            "extension": "pdf",
+            "text_chars": 693,
+            "digit_ratio": 0.142,
+            "table_score": 0.341
+          },
+          {
+            "page": 1,
+            "image": "../assets/type-samples/reports-c8bc78678cec-hwp-p1.svg",
+            "title": "2019년도 나라살림 예산.hwp",
+            "year": "2019",
+            "extension": "hwp",
+            "text_chars": 0,
+            "digit_ratio": 1.0,
+            "table_score": 0.86
           }
         ]
       },
@@ -1485,31 +2748,70 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2025년 성인지예산서.pdf",
-        "year": "2025",
-        "extension": "pdf",
-        "document_pages": 784,
+        "documents": [
+          {
+            "title": "2025년 성인지예산서.pdf",
+            "year": "2025",
+            "extension": "pdf",
+            "document_pages": 784
+          },
+          {
+            "title": "2019년도 예산안 독립기관 및 감사원의 세출예산요구액 감액 규모이유 및 의견.hwp",
+            "year": "2019",
+            "extension": "hwp",
+            "document_pages": 1
+          }
+        ],
         "pages": [
           {
             "page": 1,
-            "image": "../assets/type-samples/reports-deb8d6d9b398-p1.jpg",
+            "image": "../assets/type-samples/reports-deb8d6d9b398-pdf-p1.jpg",
+            "title": "2025년 성인지예산서.pdf",
+            "year": "2025",
+            "extension": "pdf",
             "text_chars": 192,
             "digit_ratio": 0.021,
             "table_score": 0.056
           },
           {
             "page": 589,
-            "image": "../assets/type-samples/reports-deb8d6d9b398-p589.jpg",
+            "image": "../assets/type-samples/reports-deb8d6d9b398-pdf-p589.jpg",
+            "title": "2025년 성인지예산서.pdf",
+            "year": "2025",
+            "extension": "pdf",
             "text_chars": 1235,
             "digit_ratio": 0.08,
             "table_score": 0.202
           },
           {
             "page": 393,
-            "image": "../assets/type-samples/reports-deb8d6d9b398-p393.jpg",
+            "image": "../assets/type-samples/reports-deb8d6d9b398-pdf-p393.jpg",
+            "title": "2025년 성인지예산서.pdf",
+            "year": "2025",
+            "extension": "pdf",
             "text_chars": 181,
             "digit_ratio": 0.089,
             "table_score": 0.13
+          },
+          {
+            "page": 197,
+            "image": "../assets/type-samples/reports-deb8d6d9b398-pdf-p197.jpg",
+            "title": "2025년 성인지예산서.pdf",
+            "year": "2025",
+            "extension": "pdf",
+            "text_chars": 311,
+            "digit_ratio": 0.069,
+            "table_score": 0.071
+          },
+          {
+            "page": 1,
+            "image": "../assets/type-samples/reports-deb8d6d9b398-hwp-p1.svg",
+            "title": "2019년도 예산안 독립기관 및 감사원의 세출예산요구액 감액 규모이유 및 의견.hwp",
+            "year": "2019",
+            "extension": "hwp",
+            "text_chars": 0,
+            "digit_ratio": 1.0,
+            "table_score": 0.86
           }
         ]
       },
@@ -1527,31 +2829,70 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2025년도 기금운용계획안.pdf",
-        "year": "2025",
-        "extension": "pdf",
-        "document_pages": 390,
+        "documents": [
+          {
+            "title": "2025년도 기금운용계획안.pdf",
+            "year": "2025",
+            "extension": "pdf",
+            "document_pages": 390
+          },
+          {
+            "title": "2004년도 기금운용계획안 개요.hwp",
+            "year": "2004",
+            "extension": "hwp",
+            "document_pages": 1
+          }
+        ],
         "pages": [
           {
             "page": 3,
-            "image": "../assets/type-samples/reports-7d7877e517b5-p3.jpg",
+            "image": "../assets/type-samples/reports-7d7877e517b5-pdf-p3.jpg",
+            "title": "2025년도 기금운용계획안.pdf",
+            "year": "2025",
+            "extension": "pdf",
             "text_chars": 2008,
             "digit_ratio": 0.184,
             "table_score": 0.096
           },
           {
             "page": 196,
-            "image": "../assets/type-samples/reports-7d7877e517b5-p196.jpg",
+            "image": "../assets/type-samples/reports-7d7877e517b5-pdf-p196.jpg",
+            "title": "2025년도 기금운용계획안.pdf",
+            "year": "2025",
+            "extension": "pdf",
             "text_chars": 507,
             "digit_ratio": 0.027,
             "table_score": 0.077
           },
           {
             "page": 4,
-            "image": "../assets/type-samples/reports-7d7877e517b5-p4.jpg",
+            "image": "../assets/type-samples/reports-7d7877e517b5-pdf-p4.jpg",
+            "title": "2025년도 기금운용계획안.pdf",
+            "year": "2025",
+            "extension": "pdf",
             "text_chars": 3008,
             "digit_ratio": 0.251,
             "table_score": 0.131
+          },
+          {
+            "page": 98,
+            "image": "../assets/type-samples/reports-7d7877e517b5-pdf-p98.jpg",
+            "title": "2025년도 기금운용계획안.pdf",
+            "year": "2025",
+            "extension": "pdf",
+            "text_chars": 699,
+            "digit_ratio": 0.557,
+            "table_score": 0.46
+          },
+          {
+            "page": 1,
+            "image": "../assets/type-samples/reports-7d7877e517b5-hwp-p1.svg",
+            "title": "2004년도 기금운용계획안 개요.hwp",
+            "year": "2004",
+            "extension": "hwp",
+            "text_chars": 238,
+            "digit_ratio": 0.189,
+            "table_score": 0.098
           }
         ]
       },
@@ -1569,31 +2910,64 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2017년도 임대형 민자사업(BTL) 한도액안.pdf",
-        "year": "2017",
-        "extension": "pdf",
-        "document_pages": 9,
+        "documents": [
+          {
+            "title": "2017년도 임대형 민자사업(BTL) 한도액안.pdf",
+            "year": "2017",
+            "extension": "pdf",
+            "document_pages": 9
+          }
+        ],
         "pages": [
           {
             "page": 3,
-            "image": "../assets/type-samples/reports-2172c45ba8e4-p3.jpg",
+            "image": "../assets/type-samples/reports-2172c45ba8e4-pdf-p3.jpg",
+            "title": "2017년도 임대형 민자사업(BTL) 한도액안.pdf",
+            "year": "2017",
+            "extension": "pdf",
             "text_chars": 423,
             "digit_ratio": 0.172,
             "table_score": 0.11
           },
           {
             "page": 5,
-            "image": "../assets/type-samples/reports-2172c45ba8e4-p5.jpg",
+            "image": "../assets/type-samples/reports-2172c45ba8e4-pdf-p5.jpg",
+            "title": "2017년도 임대형 민자사업(BTL) 한도액안.pdf",
+            "year": "2017",
+            "extension": "pdf",
             "text_chars": 138,
             "digit_ratio": 0.212,
             "table_score": 0.326
           },
           {
             "page": 4,
-            "image": "../assets/type-samples/reports-2172c45ba8e4-p4.jpg",
+            "image": "../assets/type-samples/reports-2172c45ba8e4-pdf-p4.jpg",
+            "title": "2017년도 임대형 민자사업(BTL) 한도액안.pdf",
+            "year": "2017",
+            "extension": "pdf",
             "text_chars": 141,
             "digit_ratio": 0.103,
             "table_score": 0.096
+          },
+          {
+            "page": 7,
+            "image": "../assets/type-samples/reports-2172c45ba8e4-pdf-p7.jpg",
+            "title": "2017년도 임대형 민자사업(BTL) 한도액안.pdf",
+            "year": "2017",
+            "extension": "pdf",
+            "text_chars": 284,
+            "digit_ratio": 0.417,
+            "table_score": 0.495
+          },
+          {
+            "page": 1,
+            "image": "../assets/type-samples/reports-2172c45ba8e4-pdf-p1.jpg",
+            "title": "2017년도 임대형 민자사업(BTL) 한도액안.pdf",
+            "year": "2017",
+            "extension": "pdf",
+            "text_chars": 28,
+            "digit_ratio": 0.154,
+            "table_score": 0.198
           }
         ]
       },
@@ -1611,31 +2985,64 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2022년도 제2회 추가경정예산안 세입세출예산사업별 설명서 1권.pdf",
-        "year": "2022",
-        "extension": "pdf",
-        "document_pages": 438,
+        "documents": [
+          {
+            "title": "2022년도 제2회 추가경정예산안 세입세출예산사업별 설명서 1권.pdf",
+            "year": "2022",
+            "extension": "pdf",
+            "document_pages": 438
+          }
+        ],
         "pages": [
           {
             "page": 1,
-            "image": "../assets/type-samples/reports-7cac987552b7-p1.jpg",
+            "image": "../assets/type-samples/reports-7cac987552b7-pdf-p1.jpg",
+            "title": "2022년도 제2회 추가경정예산안 세입세출예산사업별 설명서 1권.pdf",
+            "year": "2022",
+            "extension": "pdf",
             "text_chars": 258,
             "digit_ratio": 0.032,
             "table_score": 0.096
           },
           {
             "page": 220,
-            "image": "../assets/type-samples/reports-7cac987552b7-p220.jpg",
+            "image": "../assets/type-samples/reports-7cac987552b7-pdf-p220.jpg",
+            "title": "2022년도 제2회 추가경정예산안 세입세출예산사업별 설명서 1권.pdf",
+            "year": "2022",
+            "extension": "pdf",
             "text_chars": 202,
             "digit_ratio": 0.274,
             "table_score": 0.303
           },
           {
             "page": 4,
-            "image": "../assets/type-samples/reports-7cac987552b7-p4.jpg",
+            "image": "../assets/type-samples/reports-7cac987552b7-pdf-p4.jpg",
+            "title": "2022년도 제2회 추가경정예산안 세입세출예산사업별 설명서 1권.pdf",
+            "year": "2022",
+            "extension": "pdf",
             "text_chars": 2434,
             "digit_ratio": 0.326,
             "table_score": 0.17
+          },
+          {
+            "page": 3,
+            "image": "../assets/type-samples/reports-7cac987552b7-pdf-p3.jpg",
+            "title": "2022년도 제2회 추가경정예산안 세입세출예산사업별 설명서 1권.pdf",
+            "year": "2022",
+            "extension": "pdf",
+            "text_chars": 1962,
+            "digit_ratio": 0.245,
+            "table_score": 0.15
+          },
+          {
+            "page": 329,
+            "image": "../assets/type-samples/reports-7cac987552b7-pdf-p329.jpg",
+            "title": "2022년도 제2회 추가경정예산안 세입세출예산사업별 설명서 1권.pdf",
+            "year": "2022",
+            "extension": "pdf",
+            "text_chars": 605,
+            "digit_ratio": 0.592,
+            "table_score": 0.6
           }
         ]
       },
@@ -1653,31 +3060,64 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2022회계연도 지방교육재정 분석 종합보고서.pdf",
-        "year": "2022",
-        "extension": "pdf",
-        "document_pages": 294,
+        "documents": [
+          {
+            "title": "2022회계연도 지방교육재정 분석 종합보고서.pdf",
+            "year": "2022",
+            "extension": "pdf",
+            "document_pages": 294
+          }
+        ],
         "pages": [
           {
             "page": 3,
-            "image": "../assets/type-samples/reports-d6479de5638a-p3.jpg",
+            "image": "../assets/type-samples/reports-d6479de5638a-pdf-p3.jpg",
+            "title": "2022회계연도 지방교육재정 분석 종합보고서.pdf",
+            "year": "2022",
+            "extension": "pdf",
             "text_chars": 885,
             "digit_ratio": 0.024,
             "table_score": 0.045
           },
           {
             "page": 221,
-            "image": "../assets/type-samples/reports-d6479de5638a-p221.jpg",
+            "image": "../assets/type-samples/reports-d6479de5638a-pdf-p221.jpg",
+            "title": "2022회계연도 지방교육재정 분석 종합보고서.pdf",
+            "year": "2022",
+            "extension": "pdf",
             "text_chars": 1110,
             "digit_ratio": 0.092,
             "table_score": 0.112
           },
           {
             "page": 148,
-            "image": "../assets/type-samples/reports-d6479de5638a-p148.jpg",
+            "image": "../assets/type-samples/reports-d6479de5638a-pdf-p148.jpg",
+            "title": "2022회계연도 지방교육재정 분석 종합보고서.pdf",
+            "year": "2022",
+            "extension": "pdf",
             "text_chars": 0,
             "digit_ratio": 1.0,
             "table_score": 0.86
+          },
+          {
+            "page": 74,
+            "image": "../assets/type-samples/reports-d6479de5638a-pdf-p74.jpg",
+            "title": "2022회계연도 지방교육재정 분석 종합보고서.pdf",
+            "year": "2022",
+            "extension": "pdf",
+            "text_chars": 858,
+            "digit_ratio": 0.272,
+            "table_score": 0.428
+          },
+          {
+            "page": 1,
+            "image": "../assets/type-samples/reports-d6479de5638a-pdf-p1.jpg",
+            "title": "2022회계연도 지방교육재정 분석 종합보고서.pdf",
+            "year": "2022",
+            "extension": "pdf",
+            "text_chars": 45,
+            "digit_ratio": 0.372,
+            "table_score": 0.401
           }
         ]
       },
@@ -1695,31 +3135,64 @@
       "status": "excluded",
       "reason": "지방재정 연감·통합재정 수치표 중심 자료로, 원자료 조회 대상으로 분리",
       "sample": {
-        "title": "2021년도 지방자치단체 통합재정 개요(하).pdf",
-        "year": "2021",
-        "extension": "pdf",
-        "document_pages": 1082,
+        "documents": [
+          {
+            "title": "2021년도 지방자치단체 통합재정 개요(하).pdf",
+            "year": "2021",
+            "extension": "pdf",
+            "document_pages": 1082
+          }
+        ],
         "pages": [
           {
             "page": 3,
-            "image": "../assets/type-samples/reports-eeabee1fd65e-p3.jpg",
+            "image": "../assets/type-samples/reports-eeabee1fd65e-pdf-p3.jpg",
+            "title": "2021년도 지방자치단체 통합재정 개요(하).pdf",
+            "year": "2021",
+            "extension": "pdf",
             "text_chars": 2188,
             "digit_ratio": 0.001,
             "table_score": 0.117
           },
           {
             "page": 4,
-            "image": "../assets/type-samples/reports-eeabee1fd65e-p4.jpg",
+            "image": "../assets/type-samples/reports-eeabee1fd65e-pdf-p4.jpg",
+            "title": "2021년도 지방자치단체 통합재정 개요(하).pdf",
+            "year": "2021",
+            "extension": "pdf",
             "text_chars": 2973,
             "digit_ratio": 0.001,
             "table_score": 0.042
           },
           {
             "page": 542,
-            "image": "../assets/type-samples/reports-eeabee1fd65e-p542.jpg",
+            "image": "../assets/type-samples/reports-eeabee1fd65e-pdf-p542.jpg",
+            "title": "2021년도 지방자치단체 통합재정 개요(하).pdf",
+            "year": "2021",
+            "extension": "pdf",
             "text_chars": 330,
             "digit_ratio": 0.702,
             "table_score": 0.621
+          },
+          {
+            "page": 812,
+            "image": "../assets/type-samples/reports-eeabee1fd65e-pdf-p812.jpg",
+            "title": "2021년도 지방자치단체 통합재정 개요(하).pdf",
+            "year": "2021",
+            "extension": "pdf",
+            "text_chars": 378,
+            "digit_ratio": 0.443,
+            "table_score": 0.438
+          },
+          {
+            "page": 1,
+            "image": "../assets/type-samples/reports-eeabee1fd65e-pdf-p1.jpg",
+            "title": "2021년도 지방자치단체 통합재정 개요(하).pdf",
+            "year": "2021",
+            "extension": "pdf",
+            "text_chars": 0,
+            "digit_ratio": 1.0,
+            "table_score": 1.0
           }
         ]
       },
@@ -1737,31 +3210,70 @@
       "status": "included",
       "reason": "대표 페이지에서 서술형 내용이 확인되어 문서 내용 분석 대상으로 유지",
       "sample": {
-        "title": "2024년도 민간투자사업 운영현황 및 추진실적 등에 관한 보고서.pdf",
-        "year": "2024",
-        "extension": "pdf",
-        "document_pages": 225,
+        "documents": [
+          {
+            "title": "2024년도 민간투자사업 운영현황 및 추진실적 등에 관한 보고서.pdf",
+            "year": "2024",
+            "extension": "pdf",
+            "document_pages": 225
+          },
+          {
+            "title": "2013년도 민간투자사업 운영현황 및 추진실적 등에 관한 보고서.hwp",
+            "year": "2013",
+            "extension": "hwp",
+            "document_pages": 1
+          }
+        ],
         "pages": [
           {
             "page": 57,
-            "image": "../assets/type-samples/reports-85dd2ba9230a-p57.jpg",
+            "image": "../assets/type-samples/reports-85dd2ba9230a-pdf-p57.jpg",
+            "title": "2024년도 민간투자사업 운영현황 및 추진실적 등에 관한 보고서.pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 665,
             "digit_ratio": 0.268,
             "table_score": 0.448
           },
           {
             "page": 113,
-            "image": "../assets/type-samples/reports-85dd2ba9230a-p113.jpg",
+            "image": "../assets/type-samples/reports-85dd2ba9230a-pdf-p113.jpg",
+            "title": "2024년도 민간투자사업 운영현황 및 추진실적 등에 관한 보고서.pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 440,
             "digit_ratio": 0.229,
             "table_score": 0.387
           },
           {
             "page": 169,
-            "image": "../assets/type-samples/reports-85dd2ba9230a-p169.jpg",
+            "image": "../assets/type-samples/reports-85dd2ba9230a-pdf-p169.jpg",
+            "title": "2024년도 민간투자사업 운영현황 및 추진실적 등에 관한 보고서.pdf",
+            "year": "2024",
+            "extension": "pdf",
             "text_chars": 504,
             "digit_ratio": 0.273,
             "table_score": 0.434
+          },
+          {
+            "page": 3,
+            "image": "../assets/type-samples/reports-85dd2ba9230a-pdf-p3.jpg",
+            "title": "2024년도 민간투자사업 운영현황 및 추진실적 등에 관한 보고서.pdf",
+            "year": "2024",
+            "extension": "pdf",
+            "text_chars": 55,
+            "digit_ratio": 0.057,
+            "table_score": 0.067
+          },
+          {
+            "page": 1,
+            "image": "../assets/type-samples/reports-85dd2ba9230a-hwp-p1.svg",
+            "title": "2013년도 민간투자사업 운영현황 및 추진실적 등에 관한 보고서.hwp",
+            "year": "2013",
+            "extension": "hwp",
+            "text_chars": 0,
+            "digit_ratio": 1.0,
+            "table_score": 0.86
           }
         ]
       },
@@ -1779,14 +3291,21 @@
       "status": "excluded",
       "reason": "복권 판매·기금 집행 수치표 중심 자료로, 원자료 조회 대상으로 분리",
       "sample": {
-        "title": "2019년도 상반기 복권 및 복권기금 관련 정보 공개.hwp",
-        "year": "2019",
-        "extension": "hwp",
-        "document_pages": 1,
+        "documents": [
+          {
+            "title": "2019년도 상반기 복권 및 복권기금 관련 정보 공개.hwp",
+            "year": "2019",
+            "extension": "hwp",
+            "document_pages": 1
+          }
+        ],
         "pages": [
           {
             "page": 1,
-            "image": "../assets/type-samples/reports-d3922b3eecf1-p1.svg",
+            "image": "../assets/type-samples/reports-d3922b3eecf1-hwp-p1.svg",
+            "title": "2019년도 상반기 복권 및 복권기금 관련 정보 공개.hwp",
+            "year": "2019",
+            "extension": "hwp",
             "text_chars": 935,
             "digit_ratio": 0.685,
             "table_score": 0.583
