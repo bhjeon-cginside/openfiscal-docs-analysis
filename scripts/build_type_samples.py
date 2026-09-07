@@ -70,9 +70,11 @@ def document_stem(row: dict[str, str]) -> str:
 
 
 def page_indices(page_count: int) -> list[int]:
-    # A short spread catches introductory prose, interior tables, and summary pages.
-    raw = [0, 1, 2, 3, page_count // 4, page_count // 2, (page_count * 3) // 4]
-    return sorted({index for index in raw if 0 <= index < page_count})
+    """Return up to ten evenly distributed source-page indices."""
+    target = min(10, page_count)
+    if target <= 1:
+        return [0] if page_count else []
+    return [round(position * (page_count - 1) / (target - 1)) for position in range(target)]
 
 
 def text_metrics(text: str, drawing_count: int = 0) -> dict[str, float | int]:
@@ -302,7 +304,7 @@ def main() -> None:
             selected_row = selected_profile["row"]
             document_pages: list[dict[str, Any]] = []
             document_render_failed = False
-            for page_info in representative_pages(selected_profile, selected_renderer, limit=5):
+            for page_info in representative_pages(selected_profile, selected_renderer, limit=10):
                 asset_extension = ".jpg" if selected_renderer == "pdf" else ".svg"
                 asset_name = f"{asset_stem(corpus, category)}-{document_stem(selected_row)}-{selected_row['file_ext']}-p{page_info['page']}{asset_extension}"
                 target = OUTPUT_ASSETS / asset_name
@@ -354,7 +356,7 @@ def main() -> None:
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "methodology": [
             "각 유형에서 최근성과 형식 다양성을 고려해 대표 원본 문서를 최대 3건 선정했습니다.",
-            "선정된 각 문서에서 앞부분·서술형·중간 부분 등 최대 5쪽을 저해상도로 발췌합니다.",
+            "선정된 각 문서에서 앞부분·서술형·중간 부분 등 최대 10쪽을 저해상도로 발췌합니다.",
             "PDF와 HWP/HWPX가 함께 있는 유형은 가능한 한 각 형식의 대표 문서를 포함해 형식 편향을 줄입니다.",
             "제외 유형은 대표 페이지와 자료 성격을 함께 검토해 정했으며, 숫자·표 중심 원자료는 별도 데이터 조회 대상으로 분리합니다.",
             "제외된 유형도 전체 인벤토리에는 남으며, 문서 내용 분석 대상에서만 분리합니다.",
