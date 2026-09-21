@@ -11,8 +11,9 @@ cards, restrained badges, readable document images. Avoid unverified judgments.
 
 ## Product goals
 Browse report samples by 대분류 → 중분류 → 소분류 → 재정데이터명 to support later
-exclusion decisions. Export exact review units. Do not decide exclusions, rename
-source files, publish originals, or change the main inventory in this task.
+exclusion decisions. Users can check groups, record reasons, save progress in
+their browser and export the final exclusion list. Do not automatically decide
+exclusions, rename source files, publish originals, or change the main inventory.
 
 ## Personas and jobs
 Analysts inspect representative content before choosing reports to exclude.
@@ -35,6 +36,10 @@ background, white rounded cards. Native selects; no new icon/font dependency.
 ## Components
 Source switch, four labeled cascading selects, search, reset, filtered summary,
 CSV export, paginated sample cards, document tabs and image enlargement dialog.
+Each report card has an exclusion checkbox and optional reason. A review panel
+shows global selected counts, final CSV export and a review-state filter. Bulk
+actions target every group matching current filters, not just the visible page.
+Backup/restore JSON and confirmed reset live in a secondary disclosure section.
 
 ## Accessibility
 Aim for WCAG 2.2 AA: visible focus, labels, native keyboard controls, descriptive
@@ -47,10 +52,19 @@ Filters and cards wrap on narrow screens. No page-wide horizontal scroll at
 ## Interaction states
 Explicit loading/error/empty states; child filters reset when a parent changes.
 Missing preview is not an exclusion decision. Images load lazily.
+Persist choices in versioned localStorage keyed by stable group ID. Unchecked
+means not selected, not confirmed inclusion. Show storage failures and retain
+in-memory operation/export; do not overwrite unreadable saved data silently.
+Unknown saved IDs remain in backups with an explicit warning. Final CSV covers
+all currently known excluded groups regardless of filters. Restoring JSON replaces
+existing choices only after validation and confirmation.
 
 ## Content voice
 Use source terminology, distinguish 재정데이터명 from individual 파일명. Report
-review state is 제외 여부 미선정; original publication decisions are legacy only.
+review state is 제외 미선택 or 제외 선택; original publication decisions are legacy only.
+State plainly that browser storage is not shared, can be cleared, and is not a
+server-side decision. Checking a card excludes its entire data group, not merely
+the representative document or image currently displayed.
 
 ## Implementation constraints
 Static GitHub Pages; existing Python renderers; no new project dependencies.
@@ -59,5 +73,5 @@ Preserve existing user modifications to report manifest. Test joins and filters,
 desktop/mobile screenshots and sample image loading before completion.
 
 ## Open questions
-- [ ] Analyst: future exclusion decisions and persistence/import workflow are
-  out of scope; blank review columns in export support the next step.
+- [ ] Shared accounts, real-time collaboration and server-side storage remain
+  out of scope. JSON backup/import supports manual transfer between browsers.

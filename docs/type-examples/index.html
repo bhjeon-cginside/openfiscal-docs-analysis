@@ -11,6 +11,8 @@
     :root{--ink:#172033;--sub:#5e6b82;--line:#dce3ed;--wash:#f4f7fb;--paper:#fff;--navy:#12243e;--blue:#1463d7;--green:#05715f;--amber:#9a6000;--red:#a33737}*{box-sizing:border-box}body{margin:0;background:var(--wash);color:var(--ink);font-family:"Noto Sans KR",-apple-system,sans-serif;line-height:1.55}header{padding:44px 24px 68px;color:#fff;background:radial-gradient(circle at 88% 8%,#2779d9 0,transparent 27%),linear-gradient(125deg,#0c1a30,#163f76)}.wrap{max-width:1240px;margin:0 auto}.eyebrow{margin:0 0 8px;color:#b9d9ff;font-size:12px;font-weight:800;letter-spacing:.08em}h1{margin:0;font-size:clamp(29px,5vw,44px);letter-spacing:-.045em;line-height:1.2}.intro{max-width:840px;color:#e1ebf8;margin:14px 0 0}main{margin-top:-38px;padding:0 24px 44px}.panel,.card{background:var(--paper);border:1px solid var(--line);border-radius:17px;box-shadow:0 10px 30px rgba(17,42,76,.07)}.panel{padding:15px 18px;display:flex;gap:10px;justify-content:space-between;align-items:center;flex-wrap:wrap}.panel a{color:var(--blue);font-weight:800;text-decoration:none}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:28px 0}.stat{padding:17px}.stat .label{font-size:13px;font-weight:700;color:var(--sub)}.stat .value{margin-top:5px;font-size:28px;font-weight:800;letter-spacing:-.04em}.card{padding:18px;margin:18px 0}.notice{border-left:4px solid var(--amber);border-radius:8px;background:#fff8e9;padding:13px 14px;color:#684c12;font-size:14px}.notice.error{border-color:var(--red);background:#fff1f1;color:#7c2525}.methods{margin:10px 0 0;padding-left:20px;color:var(--sub);font-size:14px}.methods li{margin:5px 0}.filters{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}.filter,.doc-tab,.pager button,.csv-button{appearance:none;border:1px solid #bfd0e7;border-radius:999px;background:#fff;color:#36506f;cursor:pointer;font:inherit;font-size:14px;font-weight:750;padding:7px 12px}.filter[aria-pressed="true"],.doc-tab[aria-pressed="true"],.pager button[aria-current="page"]{background:var(--navy);border-color:var(--navy);color:#fff}.filter:focus-visible,.doc-tab:focus-visible,.preview:focus-visible,select:focus-visible,input:focus-visible,.pager button:focus-visible,.csv-button:focus-visible,.close:focus-visible{outline:3px solid #8ec5ff;outline-offset:2px}.controls{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:14px 0}.field{display:flex;flex-direction:column;gap:5px}.field label{font-size:12px;font-weight:800;color:#42536e}.field select,.field input{width:100%;border:1px solid #bfd0e7;border-radius:10px;background:#fff;color:#1f3048;font:inherit;font-size:14px;padding:9px 10px}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:14px 0}.countline{color:var(--sub);font-size:14px}.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.sample{overflow:hidden;padding:0}.sample .body{padding:15px}.sample h3{font-size:17px;line-height:1.35;margin:8px 0}.breadcrumb{color:#36506f;font-size:12px;font-weight:800}.document-tabs{display:flex;gap:6px;flex-wrap:wrap;padding:0 12px 10px}.doc-tab{font-size:11px;padding:5px 8px}.document-meta{margin:0 12px 10px;padding:9px 10px;border-radius:8px;background:#f4f7fb;color:var(--sub);font-size:11px;line-height:1.45}.document-meta strong{display:block;color:var(--ink);font-size:12px}.previews{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;padding:0 12px 13px}.preview{appearance:none;position:relative;overflow:hidden;border:1px solid #d2dce9;border-radius:7px;background:#e8edf5;padding:0;cursor:zoom-in;text-align:left}.preview img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;object-position:top}.page-label{position:absolute;right:4px;bottom:4px;border-radius:4px;background:rgba(12,26,48,.84);color:#fff;font-size:10px;font-weight:800;padding:2px 5px}.source,.status{display:inline-block;border-radius:999px;padding:3px 8px;font-size:11px;font-weight:800}.source{background:#e2f6f6;color:#075e71}.status.included{background:#e6f7ee;color:var(--green)}.status.excluded{background:#ffeded;color:var(--red)}.status.review_required{background:#fff3d9;color:var(--amber)}.status.unreviewed{background:#eef3fb;color:#36506f}.meta,.reason{font-size:13px;color:var(--sub);margin:8px 0 0}.reason{color:#3d4a60}.empty{display:none;padding:18px;color:var(--sub)}.pager{display:flex;justify-content:center;gap:7px;flex-wrap:wrap;margin:20px 0 0}.pager button[disabled]{opacity:.45;cursor:not-allowed}dialog{max-width:min(1000px,94vw);width:auto;border:0;padding:0;border-radius:14px;box-shadow:0 30px 100px rgba(0,0,0,.5)}dialog::backdrop{background:rgba(10,22,40,.82)}.viewer{position:relative;background:#fff}.viewer img{display:block;max-width:92vw;max-height:88vh}.close{position:absolute;right:10px;top:10px;width:36px;height:36px;border:0;border-radius:50%;background:rgba(12,26,48,.86);color:#fff;font-size:24px;cursor:pointer}@media(max-width:900px){.grid,.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.controls{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:580px){header{padding:34px 18px 58px}main{padding:0 14px 32px}.grid,.cards,.controls{grid-template-columns:1fr}.panel,.toolbar{align-items:flex-start;flex-direction:column}.csv-button{width:100%}}
     header{padding:30px 24px 38px}.grid{margin:20px 0}.stat{margin:0}.review-methods{padding:12px 18px;margin:14px 0}.review-methods summary{cursor:pointer;font-weight:700}.methods,.countline,.breadcrumb,.reason,.meta{overflow-wrap:anywhere}.field{min-width:0}.field select,.field input{max-width:100%}.sample .body{overflow-wrap:anywhere}.sample a{color:var(--blue)}.toolbar>*{min-width:0}.csv-button:disabled{opacity:.5;cursor:not-allowed}button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
     @media(max-width:580px){header{padding:26px 18px 32px}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.stat{padding:13px}.stat .value{font-size:24px}.toolbar .filters{width:100%}.toolbar .filters button{flex:1}.countline{width:100%}.intro{font-size:14px}}
+    .review-panel h3{margin:0;font-size:18px}.review-panel .toolbar{margin:0 0 8px}.review-panel[hidden]{display:none}.review-state{max-width:260px;margin-top:12px}.review-tools{border-top:1px solid var(--line);margin-top:14px;padding-top:12px}.review-tools summary{cursor:pointer;font-weight:700;font-size:14px}.review-tools .toolbar{margin-top:12px}.bulk-reason{flex:1;min-width:220px}.csv-button.primary{background:var(--blue);border-color:var(--blue);color:white}.review-choice{border-top:1px solid var(--line);margin-top:12px;padding-top:8px}.review-choice label{display:flex;align-items:center;gap:8px;min-height:40px;font-size:14px;font-weight:700;cursor:pointer}.review-choice input{width:19px;height:19px;accent-color:var(--red);flex-shrink:0}.review-note label{font-size:12px;min-height:28px;color:var(--sub)}.review-note textarea{display:block;width:100%;min-height:76px;resize:vertical;font:inherit;font-size:13px;line-height:1.5;padding:8px;border:1px solid #bfd0e7;border-radius:8px}.review-note textarea:focus-visible{outline:3px solid #8ec5ff;outline-offset:2px}.selected-exclusion{border-color:#c97474}.storage-warning{color:var(--red)!important;font-weight:700}.review-panel button:disabled{opacity:.5;cursor:not-allowed}#reviewSummary{margin:4px 0;font-weight:700;font-size:14px}#storageStatus{font-size:12px}
+    @media(max-width:580px){.review-state{max-width:none}.review-tools .toolbar>button{width:100%}.bulk-reason{width:100%;min-width:0}.review-tools .filters{gap:6px}.review-tools .filter{flex:1;font-size:12px}.review-panel .primary{width:100%}}
   </style>
 </head>
 <body>
@@ -21,7 +23,7 @@
     <details class="card review-methods"><summary>검토 기준 · 데이터 출처</summary><ul class="methods" id="methods"></ul></details>
     <section>
       <h2>대표 문서 여러 건 검토</h2>
-      <p class="meta">보고서는 열린재정 목록의 대분류·중분류·소분류·재정데이터명 조합 단위로 묶어 표시합니다. 소분류나 재정데이터명 단위 제외 후보를 고르기 위한 화면이므로 새 보고서 그룹의 제외 여부는 모두 미선정 상태로 둡니다.</p>
+      <p class="meta">샘플을 확인한 뒤 제외할 재정데이터 그룹을 체크하세요. 체크는 대표 문서 한 건이 아니라 해당 그룹의 전체 첨부에 적용됩니다. 체크하지 않은 항목은 포함 확정이 아닌 ‘제외 미선택’입니다.</p>
       <div class="filters" id="sourceFilters" aria-label="자료 소스 선택"></div>
       <section class="card" id="reportControls" aria-label="보고서 분류 필터">
         <div class="controls">
@@ -34,6 +36,26 @@
           <div class="field" style="min-width:min(430px,100%);flex:1"><label for="searchInput">재정데이터명·대표 문서명 검색</label><input id="searchInput" type="search" placeholder="예: 예산사업설명서, 세출, 사업명"></div>
           <div class="filters" style="margin:0"><button class="filter" id="resetButton" type="button">필터 초기화</button><button class="csv-button" id="csvButton" type="button">검토 목록 CSV</button></div>
         </div>
+      </section>
+      <section class="card review-panel" id="reviewPanel" hidden aria-label="제외 목록 작성">
+        <div class="toolbar">
+          <div><h3>나의 제외 목록</h3><p id="reviewSummary" aria-live="polite"></p></div>
+          <button class="csv-button primary" id="exportExcluded" type="button" disabled>최종 제외 CSV</button>
+        </div>
+        <p class="meta">최종 CSV는 필터·페이지와 관계없이 모든 제외 선택을 내보냅니다.</p>
+        <p class="meta">이 브라우저에만 자동 저장됩니다. 다른 기기와 자동 공유되지 않으며, 브라우저 데이터 삭제·시크릿 모드 종료 시 사라질 수 있습니다. 중요한 작업은 JSON으로 백업하세요.</p>
+        <p class="meta" id="storageStatus" role="status"></p>
+        <div class="field review-state"><label for="reviewFilter">선택 상태로 보기</label><select id="reviewFilter"><option value="all">전체 그룹</option><option value="excluded">제외 선택만</option><option value="unselected">제외 미선택만</option></select></div>
+        <details class="review-tools"><summary>일괄 선택 · 백업 / 복원</summary>
+          <p class="meta" id="bulkScope"></p>
+          <div class="toolbar">
+            <div class="field bulk-reason"><label for="bulkReason">일괄 제외 사유 (선택 · 비워두면 기존 사유 유지)</label><input id="bulkReason" maxlength="2000" placeholder="예: 수치표 중심 자료"></div>
+            <button class="filter" id="bulkExclude" type="button">필터 결과 전체 제외</button>
+            <button class="filter" id="bulkRestore" type="button">필터 결과 제외 해제</button>
+          </div>
+          <div class="filters"><button class="filter" id="backupReview" type="button">JSON 백업</button><button class="filter" id="importReviewButton" type="button">JSON 복원</button><button class="filter" id="clearReview" type="button">모든 선택 초기화</button></div>
+          <input id="importReview" type="file" accept=".json,application/json" hidden>
+        </details>
       </section>
       <div class="toolbar"><p class="countline" id="countline" aria-live="polite"></p><p class="countline" id="sourceNote"></p></div>
       <div class="cards" id="cards"></div>
@@ -48,7 +70,7 @@
     const PAGE_SIZE=12;
     const noneLabel='해당 없음';
     const n=value=>new Intl.NumberFormat('ko-KR').format(value||0);
-    const escape=value=>String(value??'').replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+    const escape=value=>String(value??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
     const display=value=>String(value??'')||noneLabel;
     const uniq=values=>[...new Set(values.map(value=>String(value??'')))].sort((a,b)=>display(a).localeCompare(display(b),'ko'));
     const normalize=value=>String(value??'').trim().toLocaleLowerCase('ko-KR');
@@ -56,7 +78,7 @@
     const EMPTY='__EMPTY__';
     const encodeOption=value=>value===''?EMPTY:String(value);
     const decodeOption=value=>value===ALL?null:value===EMPTY?'':value;
-    const state={source:'reports',large:null,middle:null,small:null,dataName:null,query:'',page:1,publicationStatus:'all',publicationSource:'publications',documentIndex:{}};
+    const state={source:'reports',large:null,middle:null,small:null,dataName:null,query:'',page:1,publicationStatus:'all',publicationSource:'publications',documentIndex:{},review:'all'};
     const data={reports:null,publications:null,reportError:null,publicationError:null};
     const sourceFilters=document.getElementById('sourceFilters');
     const reportControls=document.getElementById('reportControls');
@@ -87,23 +109,157 @@
     function refreshSelects(){fillSelect('large','대분류');fillSelect('middle','중분류');fillSelect('small','소분류');fillSelect('dataName','재정데이터명');}
     Object.entries(selects).forEach(([level,select])=>select.addEventListener('change',()=>{state[level]=decodeOption(select.value);if(level==='large'){state.middle=null;state.small=null;state.dataName=null;}if(level==='middle'){state.small=null;state.dataName=null;}if(level==='small'){state.dataName=null;}state.page=1;render();}));
     searchInput.addEventListener('input',()=>{state.query=searchInput.value;state.page=1;render();});
-    document.getElementById('resetButton').addEventListener('click',()=>{state.large=null;state.middle=null;state.small=null;state.dataName=null;state.query='';searchInput.value='';state.page=1;render();});
+    document.getElementById('resetButton').addEventListener('click',()=>{state.large=null;state.middle=null;state.small=null;state.dataName=null;state.query='';searchInput.value='';state.review='all';state.page=1;render();});
     document.getElementById('csvButton').addEventListener('click',()=>downloadReportCsv(filteredReports()));
 
-    function filteredReports(){const query=normalize(state.query);return reportGroups().filter(group=>{const c=group.classification||{};if(state.large!==null&&c.large!==state.large)return false;if(state.middle!==null&&c.middle!==state.middle)return false;if(state.small!==null&&c.small!==state.small)return false;if(state.dataName!==null&&String(group.id??'')!==state.dataName)return false;if(!query)return true;const haystack=[group.data_name,group.odt_id,group.classification_path,...(group.documents||[]).map(doc=>doc.title)].map(normalize).join(' ');return haystack.includes(query);});}
+    function filteredReports(){const query=normalize(state.query);return reportGroups().filter(group=>{const c=group.classification||{};if(state.large!==null&&c.large!==state.large)return false;if(state.middle!==null&&c.middle!==state.middle)return false;if(state.small!==null&&c.small!==state.small)return false;if(state.dataName!==null&&String(group.id??'')!==state.dataName)return false;if(state.review==='excluded'&&!isExcluded(group.id))return false;if(state.review==='unselected'&&isExcluded(group.id))return false;if(!query)return true;const haystack=[group.data_name,group.odt_id,group.classification_path,...(group.documents||[]).map(doc=>doc.title)].map(normalize).join(' ');return haystack.includes(query);});}
     function paged(items){const totalPages=Math.max(1,Math.ceil(items.length/PAGE_SIZE));state.page=Math.min(Math.max(1,state.page),totalPages);const start=(state.page-1)*PAGE_SIZE;return {items:items.slice(start,start+PAGE_SIZE),totalPages,start};}
-    function renderReports(){refreshSelects();document.getElementById('csvButton').disabled=!data.reports||!!data.reportError;reportControls.style.display='block';if(data.reportError){stats.innerHTML='';methods.innerHTML='';sourceNote.textContent='';cards.innerHTML=`<p class="notice error">보고서 분류 데이터를 불러오지 못했습니다: ${escape(data.reportError.message)}</p>`;empty.style.display='none';pager.innerHTML='';countline.textContent='보고서 데이터 로딩 실패';return;}if(!data.reports){cards.innerHTML='<p class="notice">보고서 분류 데이터를 불러오는 중입니다.</p>';empty.style.display='none';pager.innerHTML='';countline.textContent='로딩 중';return;}const items=filteredReports();const page=paged(items);stats.innerHTML=[['분류 그룹',`${n(data.reports.summary?.group_count??reportGroups().length)}개`],['샘플 보유 그룹',`${n(data.reports.summary?.groups_with_samples)}개`],['대표 문서',`${n(data.reports.summary?.representative_documents)}건`],['현재 필터',`${n(items.length)}개`]].map(statCard).join('');methods.innerHTML=[`보고서 그룹 단위는 <strong>대분류 / 중분류 / 소분류 / 재정데이터명 / odt_id</strong> 조합입니다.`, '빈 중분류·소분류 값은 “해당 없음”으로 표시하되 독립 선택값으로 유지합니다.', '열린재정 링크는 데이터명 검색이며 동명의 다른 자료를 포함할 수 있습니다. 정확한 검토 단위는 카드와 CSV의 분류·ID로 확인하세요.', '새 보고서 분류 그룹은 기존 포함·제외 판단을 승계하지 않고 “제외 여부 미선정”으로 표시합니다.', '단위별 대표 원문 최대 2건 · 신규 샘플 최대 6쪽(기존 재사용 샘플 최대 10쪽). 검색은 재정데이터명과 대표 문서명을 대상으로 합니다.', `현재 목록의 첨부 ${n(data.reports.summary.file_count)}건이 대상이며, 과거 목록 첨부 ${n(data.reports.summary.omitted_historical_files)}건은 이 검토 화면에서만 제외합니다. 전체 인벤토리와 기준 시점이 다를 수 있습니다.`, `데이터 출처: ${escape(data.reports.source_url||REPORTS_URL)}${data.reports.source_checked_at?` · 확인 ${escape(data.reports.source_checked_at.slice(0,10))}`:''}`].map(item=>`<li>${item}</li>`).join('');sourceNote.textContent=`${data.reports.generated_at?`목록 확인: ${(data.reports.source_checked_at||data.reports.generated_at).slice(0,10)}`:''}`;countline.textContent=`현재 ${n(items.length)}개 그룹 중 ${n(items.length?page.start+1:0)}–${n(Math.min(page.start+PAGE_SIZE,items.length))} 표시 · 파일 ${n(items.reduce((sum,item)=>sum+item.file_count,0))}건`;cards.innerHTML=page.items.map(renderReportCard).join('');empty.style.display=items.length?'none':'block';bindCards();renderPager(page.totalPages);}
+    function renderReports(){refreshSelects();document.getElementById('csvButton').disabled=!data.reports||!!data.reportError;reportControls.style.display='block';if(data.reportError){stats.innerHTML='';methods.innerHTML='';sourceNote.textContent='';cards.innerHTML=`<p class="notice error">보고서 분류 데이터를 불러오지 못했습니다: ${escape(data.reportError.message)}</p>`;empty.style.display='none';pager.innerHTML='';countline.textContent='보고서 데이터 로딩 실패';return;}if(!data.reports){cards.innerHTML='<p class="notice">보고서 분류 데이터를 불러오는 중입니다.</p>';empty.style.display='none';pager.innerHTML='';countline.textContent='로딩 중';return;}const items=filteredReports();const page=paged(items);stats.innerHTML=[['분류 그룹',`${n(data.reports.summary?.group_count??reportGroups().length)}개`],['샘플 보유 그룹',`${n(data.reports.summary?.groups_with_samples)}개`],['대표 문서',`${n(data.reports.summary?.representative_documents)}건`],['현재 필터',`${n(items.length)}개`]].map(statCard).join('');methods.innerHTML=[`보고서 그룹 단위는 <strong>대분류 / 중분류 / 소분류 / 재정데이터명 / odt_id</strong> 조합입니다.`, '빈 중분류·소분류 값은 “해당 없음”으로 표시하되 독립 선택값으로 유지합니다.', '열린재정 링크는 데이터명 검색이며 동명의 다른 자료를 포함할 수 있습니다. 정확한 검토 단위는 카드와 CSV의 분류·ID로 확인하세요.', '제외 여부는 사용자가 직접 체크합니다. 기존 유형별 제외 판정은 자동 적용하지 않으며, 선택 결과는 현재 브라우저에만 저장됩니다.', '단위별 대표 원문 최대 2건 · 신규 샘플 최대 6쪽(기존 재사용 샘플 최대 10쪽). 검색은 재정데이터명과 대표 문서명을 대상으로 합니다.', `현재 목록의 첨부 ${n(data.reports.summary.file_count)}건이 대상이며, 과거 목록 첨부 ${n(data.reports.summary.omitted_historical_files)}건은 이 검토 화면에서만 제외합니다. 전체 인벤토리와 기준 시점이 다를 수 있습니다.`, `데이터 출처: ${escape(data.reports.source_url||REPORTS_URL)}${data.reports.source_checked_at?` · 확인 ${escape(data.reports.source_checked_at.slice(0,10))}`:''}`].map(item=>`<li>${item}</li>`).join('');sourceNote.textContent=`${data.reports.generated_at?`목록 확인: ${(data.reports.source_checked_at||data.reports.generated_at).slice(0,10)}`:''}`;countline.textContent=`현재 ${n(items.length)}개 그룹 중 ${n(items.length?page.start+1:0)}–${n(Math.min(page.start+PAGE_SIZE,items.length))} 표시 · 파일 ${n(items.reduce((sum,item)=>sum+item.file_count,0))}건`;cards.innerHTML=page.items.map(renderReportCard).join('');empty.style.display=items.length?'none':'block';bindCards();renderPager(page.totalPages);}
     function statCard([label,value]){return `<article class="card stat"><div class="label">${escape(label)}</div><div class="value">${escape(value)}</div></article>`;}
-    function renderReportCard(group){const documents=group.documents||[];const selectedIndex=Math.min(state.documentIndex[group.id]||0,Math.max(documents.length-1,0));const document=documents[selectedIndex];const years=group.years?.length?(group.years.length===1?group.years[0]:`${group.years[0]}–${group.years[group.years.length-1]}`):'';const formats=(group.extensions||[]).map(value=>String(value).toUpperCase()).join(' · ');const breadcrumb=[group.classification?.large,group.classification?.middle,group.classification?.small].map(display).join(' › ');return `<article class="card sample"><div class="body"><div class="breadcrumb">${escape(breadcrumb)}</div><span class="source">${escape(group.odt_id||'odt_id 없음')}</span> <span class="status unreviewed">제외 여부 미선정</span><h3>${escape(group.data_name||'재정데이터명 없음')}</h3><p class="meta">파일 ${n(group.file_count)}건${years?` · 연도 ${escape(years)}`:''}${formats?` · 형식 ${escape(formats)}`:''}</p>${group.no_preview_reason?`<p class="reason">${escape(group.no_preview_reason)}</p>`:''}<p class="meta"><a href="${escape(group.source_url)}" target="_blank" rel="noopener noreferrer">열린재정 데이터명 검색 ↗</a></p>${documents.length?`<p class="meta">대표 문서 ${n(documents.length)}건</p>`:''}</div>${documents.length?renderDocumentViewer(group,documents,document,selectedIndex):''}</article>`;}
+    function renderReportCard(group){const documents=group.documents||[];const selectedIndex=Math.min(state.documentIndex[group.id]||0,Math.max(documents.length-1,0));const document=documents[selectedIndex];const years=group.years?.length?(group.years.length===1?group.years[0]:`${group.years[0]}–${group.years[group.years.length-1]}`):'';const formats=(group.extensions||[]).map(value=>String(value).toUpperCase()).join(' · ');const breadcrumb=[group.classification?.large,group.classification?.middle,group.classification?.small].map(display).join(' › ');return `<article class="card sample ${isExcluded(group.id)?'selected-exclusion':''}"><div class="body"><div class="breadcrumb">${escape(breadcrumb)}</div><span class="source">${escape(group.odt_id||'odt_id 없음')}</span> <span class="status ${isExcluded(group.id)?'excluded':'unreviewed'}">${isExcluded(group.id)?'제외 선택':'제외 미선택'}</span><h3>${escape(group.data_name||'재정데이터명 없음')}</h3><p class="meta">파일 ${n(group.file_count)}건${years?` · 연도 ${escape(years)}`:''}${formats?` · 형식 ${escape(formats)}`:''}</p>${group.no_preview_reason?`<p class="reason">${escape(group.no_preview_reason)}</p>`:''}<p class="meta"><a href="${escape(group.source_url)}" target="_blank" rel="noopener noreferrer">열린재정 데이터명 검색 ↗</a></p>${documents.length?`<p class="meta">대표 문서 ${n(documents.length)}건</p>`:''}${renderReviewChoice(group)}</div>${documents.length?renderDocumentViewer(group,documents,document,selectedIndex):''}</article>`;}
     function renderDocumentViewer(group,documents,document,selectedIndex){const label=group.data_name||group.type||group.id||'문서';return `<div class="document-tabs">${documents.map((item,index)=>`<button class="doc-tab" type="button" aria-pressed="${index===selectedIndex}" data-sample-id="${escape(group.id)}" data-document-index="${index}">문서 ${index+1} · ${escape(item.year||'연도 없음')} · ${escape(item.extension||'').toUpperCase()}</button>`).join('')}</div><div class="document-meta"><strong>${escape(document.year||'연도 없음')} · ${escape(document.extension||'').toUpperCase()||'형식 없음'} · ${n(document.document_pages)}쪽</strong>${escape(document.title||'제목 없음')}</div><div class="previews">${(document.pages||[]).map(page=>`<button class="preview" type="button" data-image="${escape(page.image)}" data-alt="${escape(label)} · 문서 ${selectedIndex+1} · ${escape(document.extension).toUpperCase()} · ${n(page.page)}쪽 · ${escape(document.title)}"><img loading="lazy" src="${escape(page.image)}" alt="${escape(label)} 문서 ${selectedIndex+1} ${escape(document.extension).toUpperCase()} ${n(page.page)}쪽 대표 페이지"><span class="page-label">${escape(document.extension).toUpperCase()} ${n(page.page)}쪽</span></button>`).join('')}</div>`;}
     function renderPager(totalPages){if(totalPages<=1){pager.innerHTML='';return;}const buttons=[];buttons.push(`<button type="button" data-page="${state.page-1}" ${state.page===1?'disabled':''}>이전</button>`);for(let page=1;page<=totalPages;page++){if(page===1||page===totalPages||Math.abs(page-state.page)<=2)buttons.push(`<button type="button" data-page="${page}" ${page===state.page?'aria-current="page"':''}>${page}</button>`);else if(buttons[buttons.length-1]!=='<span>…</span>')buttons.push('<span>…</span>');}buttons.push(`<button type="button" data-page="${state.page+1}" ${state.page===totalPages?'disabled':''}>다음</button>`);pager.innerHTML=buttons.join('');pager.querySelectorAll('button[data-page]').forEach(button=>button.addEventListener('click',()=>{state.page=Number(button.dataset.page);render();}));}
-    function downloadReportCsv(items){const header=['large','middle','small','odt_id','data_name','file_count','years','extensions','exclusion_decision','exclusion_reason'];const rows=items.map(group=>{const c=group.classification||{};return [c.large??'',c.middle??'',c.small??'',group.odt_id??'',group.data_name??'',group.file_count??0,(group.years||[]).join('|'),(group.extensions||[]).join('|'),'',''];});const csv=[header,...rows].map(row=>row.map(value=>{const text=String(value);const safe=/^[=+@\-\t\r]/.test(text)?"'"+text:text;return `"${safe.replace(/"/g,'""')}"`;}).join(',')).join('\n');const blob=new Blob(['\ufeff'+csv],{type:'text/csv;charset=utf-8'});const url=URL.createObjectURL(blob);const link=document.createElement('a');link.href=url;link.download='openfiscal-report-review-filtered.csv';link.click();URL.revokeObjectURL(url);}
+    function downloadReportCsv(items,excludedOnly=false){
+      const header=['group_id','large','middle','small','odt_id','data_name','file_count','years','extensions','exclusion_decision','exclusion_reason'];
+      const rows=items.map(group=>{const c=group.classification||{};return [group.id,c.large??'',c.middle??'',c.small??'',group.odt_id??'',group.data_name??'',group.file_count??0,(group.years||[]).join('|'),(group.extensions||[]).join('|'),isExcluded(group.id)?'제외':'',isExcluded(group.id)?reviews.get(group.id)?.reason||'':''];});
+      const csv=[header,...rows].map(row=>row.map(value=>{const text=String(value);const safe=/^[\s]*[=+@-]/.test(text)?"'"+text:text;return `"${safe.replace(/"/g,'""')}"`;}).join(',')).join('\n');
+      downloadFile('\ufeff'+csv,excludedOnly?'openfiscal-report-exclusions.csv':'openfiscal-report-review-filtered.csv','text/csv;charset=utf-8');
+    }
+
+    const REVIEW_KEY='openfiscal-docs-analysis:report-exclusions:v1';
+    let reviews=new Map();
+    let storageBlocked=false;
+    let storageMessage='';
+    let reviewNotice='';
+    const reviewPanel=document.getElementById('reviewPanel');
+    const reviewFilter=document.getElementById('reviewFilter');
+
+    function parseReview(raw){
+      if(raw.length>2*1024*1024)throw new Error('백업 파일은 2MB 이하여야 합니다.');
+      const payload=JSON.parse(raw);
+      if(!payload||payload.version!==1||payload.source!=='openfiscal-report-review'||!Array.isArray(payload.records)||payload.records.length>10000)throw new Error('지원하지 않는 제외 목록 형식입니다.');
+      const records=new Map();
+      for(const record of payload.records){
+        if(!record||typeof record.id!=='string'||!record.id||record.id.length>128||typeof record.excluded!=='boolean'||typeof record.reason!=='string'||record.reason.length>2000||records.has(record.id))throw new Error('선택 항목 또는 제외 사유 형식이 올바르지 않습니다.');
+        const saved={id:record.id,excluded:record.excluded,reason:record.reason};
+        for(const key of ['odt_id','data_name','classification_path']){
+          if(record[key]!==undefined&&(typeof record[key]!=='string'||record[key].length>2000))throw new Error('분류 정보 형식이 올바르지 않습니다.');
+          saved[key]=record[key]||'';
+        }
+        records.set(saved.id,saved);
+      }
+      return records;
+    }
+    function loadReview(){
+      try{
+        const raw=localStorage.getItem(REVIEW_KEY);
+        reviews=raw===null?new Map():parseReview(raw);
+        storageBlocked=false;
+        storageMessage=raw===null?'선택하면 이 브라우저에 자동 저장됩니다.':'이 브라우저의 저장된 선택을 불러왔습니다.';
+      }catch(error){
+        storageBlocked=true;
+        storageMessage='저장 자료를 읽지 못했습니다. 기존 저장값은 덮어쓰지 않습니다. 새 선택은 이 탭에만 유지되므로 JSON으로 백업하세요.';
+      }
+    }
+    function reviewPayload(){
+      return {version:1,source:'openfiscal-report-review',updated_at:new Date().toISOString(),source_checked_at:data.reports?.source_checked_at||'',records:[...reviews.values()]};
+    }
+    function saveReview(){
+      if(storageBlocked)return;
+      try{
+        localStorage.setItem(REVIEW_KEY,JSON.stringify(reviewPayload()));
+        storageMessage='브라우저에 저장됨 · '+new Date().toLocaleTimeString('ko-KR');
+      }catch(error){
+        storageBlocked=true;
+        storageMessage='브라우저에 저장하지 못했습니다. 선택은 이 탭에만 유지됩니다. 페이지를 닫기 전에 CSV 또는 JSON으로 내보내세요.';
+      }
+    }
+    function isExcluded(id){return reviews.get(id)?.excluded===true;}
+    function selectedGroups(){return reportGroups().filter(group=>isExcluded(group.id));}
+    function setReview(group,excluded,reason){
+      const previous=reviews.get(group.id);
+      if(!excluded&&!previous)return;
+      reviews.set(group.id,{id:group.id,excluded,reason:reason??previous?.reason??'',odt_id:group.odt_id,data_name:group.data_name,classification_path:group.classification_path});
+    }
+    function renderReviewChoice(group){
+      const selected=isExcluded(group.id);
+      return `<div class="review-choice"><label><input type="checkbox" data-exclude-id="${escape(group.id)}" ${selected?'checked':''} aria-label="${escape(group.data_name)} (${escape(group.odt_id)}) 그룹 전체 제외">이 그룹 전체 제외 · ${n(group.file_count)}건</label><div class="review-note" ${selected?'':'hidden'}><label for="reason-${escape(group.id)}">제외 사유 (선택)</label><textarea id="reason-${escape(group.id)}" data-reason-id="${escape(group.id)}" maxlength="2000" ${selected?'':'disabled'} placeholder="예: 숫자·표 중심 자료">${escape(reviews.get(group.id)?.reason||'')}</textarea></div></div>`;
+    }
+    function bindReviewCards(){
+      cards.querySelectorAll('[data-exclude-id]').forEach(input=>input.addEventListener('change',()=>{
+        const id=input.dataset.excludeId;
+        const group=reportGroups().find(item=>item.id===id);
+        if(!group)return;
+        setReview(group,input.checked);
+        reviewNotice='';saveReview();render();
+        (cards.querySelector(`[data-exclude-id="${CSS.escape(id)}"]`)||reviewFilter).focus();
+      }));
+      cards.querySelectorAll('[data-reason-id]').forEach(input=>input.addEventListener('input',()=>{
+        const group=reportGroups().find(item=>item.id===input.dataset.reasonId);
+        if(!group)return;
+        setReview(group,true,input.value);reviewNotice='';saveReview();renderReviewPanel();
+      }));
+    }
+    function renderReviewPanel(){
+      reviewPanel.hidden=state.source!=='reports'||!data.reports||!!data.reportError;
+      if(reviewPanel.hidden)return;
+      reviewFilter.value=state.review;
+      const selected=selectedGroups();
+      const unknown=[...reviews.values()].filter(record=>!reportGroups().some(group=>group.id===record.id));
+      document.getElementById('reviewSummary').textContent=`제외 ${n(selected.length)}개 그룹 · 재정데이터명 ${n(new Set(selected.map(group=>group.data_name)).size)}개 · 첨부 ${n(selected.reduce((sum,group)=>sum+group.file_count,0))}건`;
+      const status=document.getElementById('storageStatus');
+      status.textContent=[storageMessage,reviewNotice,unknown.length?`현재 목록에서 찾을 수 없는 저장 항목 ${n(unknown.length)}개는 최종 CSV에 포함되지 않습니다. JSON 백업에는 보존됩니다.`:''].filter(Boolean).join(' ');
+      status.classList.toggle('storage-warning',storageBlocked||unknown.length>0||reviewNotice.startsWith('복원 실패'));
+      const filtered=filteredReports();
+      document.getElementById('bulkScope').textContent=`현재 필터 결과 전체 ${n(filtered.length)}개 그룹에 적용됩니다. 현재 페이지에 보이지 않는 항목도 포함됩니다.`;
+      document.getElementById('bulkExclude').disabled=!filtered.length;
+      document.getElementById('bulkRestore').disabled=!filtered.some(group=>isExcluded(group.id));
+      document.getElementById('exportExcluded').disabled=!selected.length;
+    }
+    function downloadFile(contents,name,type){
+      const url=URL.createObjectURL(new Blob([contents],{type}));
+      const link=document.createElement('a');link.href=url;link.download=name;document.body.append(link);link.click();link.remove();
+      setTimeout(()=>URL.revokeObjectURL(url),1000);
+    }
+    reviewFilter.addEventListener('change',()=>{state.review=reviewFilter.value;state.page=1;render();});
+    document.getElementById('bulkExclude').addEventListener('click',()=>{
+      const reason=document.getElementById('bulkReason').value.trim()||undefined;
+      const groups=filteredReports();groups.forEach(group=>setReview(group,true,reason));
+      reviewNotice=`${n(groups.length)}개 그룹을 제외 선택했습니다.`;saveReview();render();
+    });
+    document.getElementById('bulkRestore').addEventListener('click',()=>{
+      const groups=filteredReports();groups.forEach(group=>setReview(group,false));
+      reviewNotice=`필터 결과 ${n(groups.length)}개 그룹의 제외 선택을 해제했습니다.`;saveReview();render();
+    });
+    document.getElementById('exportExcluded').addEventListener('click',()=>downloadReportCsv(selectedGroups(),true));
+    document.getElementById('backupReview').addEventListener('click',()=>downloadFile(JSON.stringify(reviewPayload(),null,2),'openfiscal-report-review-backup.json','application/json;charset=utf-8'));
+    document.getElementById('importReviewButton').addEventListener('click',()=>document.getElementById('importReview').click());
+    document.getElementById('importReview').addEventListener('change',async event=>{
+      const file=event.target.files[0];if(!file)return;
+      try{
+        if(file.size>2*1024*1024)throw new Error('백업 파일은 2MB 이하여야 합니다.');
+        const imported=parseReview(await file.text());
+        if((reviews.size||storageBlocked)&&!window.confirm('백업 내용으로 현재 선택과 사유를 교체하시겠습니까? 필요한 경우 먼저 JSON으로 백업하세요.'))return;
+        reviews=imported;storageBlocked=false;reviewNotice=`백업 ${n(imported.size)}개 항목을 복원했습니다.`;saveReview();render();
+      }catch(error){reviewNotice='복원 실패: '+error.message;renderReviewPanel();}
+      finally{event.target.value='';}
+    });
+    document.getElementById('clearReview').addEventListener('click',()=>{
+      if(!window.confirm('모든 제외 선택과 사유를 지우시겠습니까? 필터 밖의 선택과 이전 목록 항목도 삭제됩니다.'))return;
+      reviews=new Map();storageBlocked=false;reviewNotice='모든 제외 선택과 사유를 초기화했습니다.';saveReview();render();
+    });
+    window.addEventListener('storage',event=>{
+      if(event.key!==REVIEW_KEY&&event.key!==null)return;
+      if(storageBlocked){reviewNotice='다른 탭에서 저장값이 변경되었습니다. 이 탭의 선택은 먼저 JSON으로 백업하세요.';renderReviewPanel();return;}
+      loadReview();reviewNotice='다른 탭의 저장 상태를 반영했습니다.';render();
+    });
+    loadReview();
 
     function publicationSamples(){return (data.publications?.samples||[]).filter(sample=>sample.source_id==='publications');}
     function renderPublications(){reportControls.style.display='none';if(data.publicationError){stats.innerHTML='';methods.innerHTML='';sourceNote.textContent='';cards.innerHTML=`<p class="notice error">간행물 유형 데이터를 불러오지 못했습니다: ${escape(data.publicationError.message)}</p>`;empty.style.display='none';pager.innerHTML='';countline.textContent='간행물 데이터 로딩 실패';return;}if(!data.publications){cards.innerHTML='<p class="notice">간행물 유형 데이터를 불러오는 중입니다.</p>';empty.style.display='none';pager.innerHTML='';countline.textContent='로딩 중';return;}const samples=publicationSamples();const visible=samples.filter(sample=>state.publicationStatus==='all'||sample.status===state.publicationStatus);const representativeDocuments=samples.reduce((total,sample)=>total+(sample.sample?.documents?.length||0),0);stats.innerHTML=[['간행물 유형',`${n(samples.length)}개`],['대표 문서',`${n(representativeDocuments)}건`],['내용 분석 포함',`${n(samples.filter(item=>item.status==='included').length)}개`],['현재 필터',`${n(visible.length)}개`]].map(statCard).join('');methods.innerHTML=(data.publications.methodology||[]).map(item=>`<li>${escape(item)}</li>`).join('');sourceNote.textContent='기존 재정간행물 유형 분류 기준';countline.innerHTML=`현재 ${n(visible.length)}개 유형 표시 · <button class="filter" type="button" data-pub-status="all" aria-pressed="${state.publicationStatus==='all'}">전체</button> <button class="filter" type="button" data-pub-status="included" aria-pressed="${state.publicationStatus==='included'}">포함</button> <button class="filter" type="button" data-pub-status="excluded" aria-pressed="${state.publicationStatus==='excluded'}">제외</button>`;cards.innerHTML=visible.map(renderPublicationCard).join('');empty.style.display=visible.length?'none':'block';pager.innerHTML='';countline.querySelectorAll('[data-pub-status]').forEach(button=>button.addEventListener('click',()=>{state.publicationStatus=button.dataset.pubStatus;render();}));bindCards();}
     function renderPublicationCard(sample){const documents=sample.sample?.documents||[];const selectedIndex=Math.min(state.documentIndex[sample.id]||0,Math.max(documents.length-1,0));const document=documents[selectedIndex];const formats=[...new Set(documents.map(item=>String(item.extension).toUpperCase()))].join(' · ');return `<article class="card sample"><div class="body"><span class="source">${escape(sample.source_name)}</span> <span class="status ${sample.status}">${sample.status==='included'?'내용 분석 포함':sample.status==='excluded'?'내용 분석 제외':'수동 검토 필요'}</span><h3>${escape(sample.type)}</h3><p class="reason">${escape(sample.reason)}</p>${documents.length?`<p class="meta">대표 문서 ${n(documents.length)}건 · ${escape(formats)}</p>`:''}</div>${documents.length?renderDocumentViewer(sample,documents,document,selectedIndex):''}</article>`;}
-    function bindCards(){cards.querySelectorAll('[data-document-index]').forEach(element=>element.addEventListener('click',()=>{const id=element.dataset.sampleId;const index=element.dataset.documentIndex;state.documentIndex[id]=Number(index);render();cards.querySelector(`[data-sample-id="${CSS.escape(id)}"][data-document-index="${index}"]`)?.focus();}));cards.querySelectorAll('[data-image]').forEach(element=>element.addEventListener('click',()=>{viewerImage.src=element.dataset.image;viewerImage.alt=element.dataset.alt;dialog.showModal();}));}
-    function render(){sourceFilters.querySelectorAll('button').forEach(button=>button.setAttribute('aria-pressed',String(button.textContent.includes('보고서')?state.source==='reports':state.source==='publications')));if(state.source==='reports')renderReports();else renderPublications();}
+    function bindCards(){bindReviewCards();cards.querySelectorAll('[data-document-index]').forEach(element=>element.addEventListener('click',()=>{const id=element.dataset.sampleId;const index=element.dataset.documentIndex;state.documentIndex[id]=Number(index);render();cards.querySelector(`[data-sample-id="${CSS.escape(id)}"][data-document-index="${index}"]`)?.focus();}));cards.querySelectorAll('[data-image]').forEach(element=>element.addEventListener('click',()=>{viewerImage.src=element.dataset.image;viewerImage.alt=element.dataset.alt;dialog.showModal();}));}
+    function render(){sourceFilters.querySelectorAll('button').forEach(button=>button.setAttribute('aria-pressed',String(button.textContent.includes('보고서')?state.source==='reports':state.source==='publications')));if(state.source==='reports')renderReports();else renderPublications();renderReviewPanel();}
 
     Promise.allSettled([
       fetch(REPORTS_URL).then(response=>response.ok?response.json():Promise.reject(new Error(`HTTP ${response.status}`))).then(json=>{data.reports=json;}).catch(error=>{data.reportError=error;}),
