@@ -1,0 +1,6317 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-21T01:29:55+00:00",
+  "source_checked_at": "2026-09-18T15:24:53.562456+09:00",
+  "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03",
+  "summary": {
+    "file_count": 7262,
+    "group_count": 60,
+    "groups_with_samples": 57,
+    "representative_documents": 109,
+    "omitted_historical_files": 72
+  },
+  "groups": [
+    {
+      "id": "441a9482b0e5745f",
+      "classification": {
+        "large": "결산",
+        "middle": "결산보고서",
+        "small": ""
+      },
+      "classification_path": "결산>결산보고서",
+      "odt_id": "020ZX8S8Z6EJ6D0VU66D737ZD",
+      "data_name": "기금재무제표",
+      "file_count": 135,
+      "years": [
+        "1967",
+        "1968",
+        "1969",
+        "1970",
+        "1971",
+        "1972",
+        "1973",
+        "1974",
+        "1975",
+        "1976",
+        "1977",
+        "1978",
+        "1979",
+        "1980",
+        "1981",
+        "1982",
+        "1983",
+        "1984",
+        "1985",
+        "1986",
+        "1987",
+        "1988",
+        "1989",
+        "1990",
+        "1991",
+        "1992",
+        "1993",
+        "1994",
+        "1995",
+        "1996",
+        "1997",
+        "1998",
+        "1999",
+        "2000",
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "extensions": [
+        "hwp",
+        "pdf",
+        "zip"
+      ],
+      "documents": [
+        {
+          "id": "C5710000000000000001:131",
+          "title": "2024회계연도 기금 재무제표(종합)",
+          "year": "2024",
+          "extension": "pdf",
+          "source_fingerprint": "540690:1782825156535555113",
+          "document_pages": 94,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/report-review/31633b0d694a2350-p1.jpg"
+            },
+            {
+              "page": 32,
+              "image": "../assets/report-review/31633b0d694a2350-p32.jpg"
+            },
+            {
+              "page": 42,
+              "image": "../assets/report-review/31633b0d694a2350-p42.jpg"
+            },
+            {
+              "page": 11,
+              "image": "../assets/report-review/31633b0d694a2350-p11.jpg"
+            },
+            {
+              "page": 22,
+              "image": "../assets/report-review/31633b0d694a2350-p22.jpg"
+            },
+            {
+              "page": 94,
+              "image": "../assets/report-review/31633b0d694a2350-p94.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C5710000000000000001:108",
+          "title": "2017회계연도 기금 재무제표(종합)",
+          "year": "2017",
+          "extension": "hwp",
+          "source_fingerprint": "2321920:1782825309571585877",
+          "document_pages": 95,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/report-review/9e138d7f141979ec-p1.svg"
+            },
+            {
+              "page": 11,
+              "image": "../assets/report-review/9e138d7f141979ec-p11.svg"
+            },
+            {
+              "page": 43,
+              "image": "../assets/report-review/9e138d7f141979ec-p43.svg"
+            },
+            {
+              "page": 95,
+              "image": "../assets/report-review/9e138d7f141979ec-p95.svg"
+            },
+            {
+              "page": 22,
+              "image": "../assets/report-review/9e138d7f141979ec-p22.svg"
+            },
+            {
+              "page": 32,
+              "image": "../assets/report-review/9e138d7f141979ec-p32.svg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EA%B8%B0%EA%B8%88%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C"
+    },
+    {
+      "id": "55ddfe85ce4c6601",
+      "classification": {
+        "large": "결산",
+        "middle": "결산보고서",
+        "small": ""
+      },
+      "classification_path": "결산>결산보고서",
+      "odt_id": "0I4WGI2051OXQ6YF0152P8D3P",
+      "data_name": "중앙관서별 결산보고서",
+      "file_count": 1058,
+      "years": [
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "extensions": [
+        "hwp",
+        "pdf",
+        "zip"
+      ],
+      "documents": [
+        {
+          "id": "C5680000000000000001:1059",
+          "title": "2025년_헌법재판소(결산보고서)",
+          "year": "2025",
+          "extension": "pdf",
+          "source_fingerprint": "640815:1789712692296785322",
+          "document_pages": 164,
+          "pages": [
+            {
+              "page": 37,
+              "image": "../assets/report-review/7cbe4f1e0f02c6db-p37.jpg"
+            },
+            {
+              "page": 146,
+              "image": "../assets/report-review/7cbe4f1e0f02c6db-p146.jpg"
+            },
+            {
+              "page": 73,
+              "image": "../assets/report-review/7cbe4f1e0f02c6db-p73.jpg"
+            },
+            {
+              "page": 92,
+              "image": "../assets/report-review/7cbe4f1e0f02c6db-p92.jpg"
+            },
+            {
+              "page": 110,
+              "image": "../assets/report-review/7cbe4f1e0f02c6db-p110.jpg"
+            },
+            {
+              "page": 55,
+              "image": "../assets/report-review/7cbe4f1e0f02c6db-p55.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C5680000000000000001:116",
+          "title": "2019년도 중앙관서별 결산보고서(환경부)",
+          "year": "2019",
+          "extension": "hwp",
+          "source_fingerprint": "2654720:1782825248125973387",
+          "document_pages": 513,
+          "pages": [
+            {
+              "page": 58,
+              "image": "../assets/report-review/033e5a0babdfdb2d-p58.svg"
+            },
+            {
+              "page": 456,
+              "image": "../assets/report-review/033e5a0babdfdb2d-p456.svg"
+            },
+            {
+              "page": 229,
+              "image": "../assets/report-review/033e5a0babdfdb2d-p229.svg"
+            },
+            {
+              "page": 285,
+              "image": "../assets/report-review/033e5a0babdfdb2d-p285.svg"
+            },
+            {
+              "page": 115,
+              "image": "../assets/report-review/033e5a0babdfdb2d-p115.svg"
+            },
+            {
+              "page": 342,
+              "image": "../assets/report-review/033e5a0babdfdb2d-p342.svg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%A4%91%EC%95%99%EA%B4%80%EC%84%9C%EB%B3%84+%EA%B2%B0%EC%82%B0%EB%B3%B4%EA%B3%A0%EC%84%9C"
+    },
+    {
+      "id": "3114e8fd0d129571",
+      "classification": {
+        "large": "결산",
+        "middle": "결산보고서",
+        "small": ""
+      },
+      "classification_path": "결산>결산보고서",
+      "odt_id": "1173707J50G85FP205AE40OUQ",
+      "data_name": "국가채무관리보고서",
+      "file_count": 52,
+      "years": [
+        "1949",
+        "1952",
+        "1953",
+        "1954",
+        "1977",
+        "1978",
+        "1979",
+        "1980",
+        "1981",
+        "1982",
+        "1983",
+        "1984",
+        "1985",
+        "1986",
+        "1987",
+        "1988",
+        "1989",
+        "1990",
+        "1991",
+        "1992",
+        "1993",
+        "1994",
+        "1995",
+        "1996",
+        "1997",
+        "1998",
+        "1999",
+        "2000",
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C5660000000000000001:52",
+          "title": "2024회계연도 국가채무관리보고서",
+          "year": "2024",
+          "extension": "pdf",
+          "source_fingerprint": "1025605:1782825155568561284",
+          "document_pages": 359,
+          "pages": [
+            {
+              "page": 41,
+              "image": "../assets/report-review/24fc04e1aa8feefa-p41.jpg"
+            },
+            {
+              "page": 1,
+              "image": "../assets/report-review/24fc04e1aa8feefa-p1.jpg"
+            },
+            {
+              "page": 160,
+              "image": "../assets/report-review/24fc04e1aa8feefa-p160.jpg"
+            },
+            {
+              "page": 319,
+              "image": "../assets/report-review/24fc04e1aa8feefa-p319.jpg"
+            },
+            {
+              "page": 359,
+              "image": "../assets/report-review/24fc04e1aa8feefa-p359.jpg"
+            },
+            {
+              "page": 120,
+              "image": "../assets/report-review/24fc04e1aa8feefa-p120.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C5660000000000000001:51",
+          "title": "2023회계연도 국가채무관리보고서",
+          "year": "2023",
+          "extension": "pdf",
+          "source_fingerprint": "1004547:1782825185164372708",
+          "document_pages": 355,
+          "pages": [
+            {
+              "page": 40,
+              "image": "../assets/report-review/3bcb2627486c1e0f-p40.jpg"
+            },
+            {
+              "page": 158,
+              "image": "../assets/report-review/3bcb2627486c1e0f-p158.jpg"
+            },
+            {
+              "page": 1,
+              "image": "../assets/report-review/3bcb2627486c1e0f-p1.jpg"
+            },
+            {
+              "page": 316,
+              "image": "../assets/report-review/3bcb2627486c1e0f-p316.jpg"
+            },
+            {
+              "page": 355,
+              "image": "../assets/report-review/3bcb2627486c1e0f-p355.jpg"
+            },
+            {
+              "page": 276,
+              "image": "../assets/report-review/3bcb2627486c1e0f-p276.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EA%B5%AD%EA%B0%80%EC%B1%84%EB%AC%B4%EA%B4%80%EB%A6%AC%EB%B3%B4%EA%B3%A0%EC%84%9C"
+    },
+    {
+      "id": "6fc78c1359ec5ff8",
+      "classification": {
+        "large": "결산",
+        "middle": "결산보고서",
+        "small": ""
+      },
+      "classification_path": "결산>결산보고서",
+      "odt_id": "3E1SZGZF4J71X234E0268D0XO",
+      "data_name": "국가결산보고서",
+      "file_count": 196,
+      "years": [
+        "1949",
+        "1950",
+        "1951",
+        "1952",
+        "1953",
+        "1954",
+        "1955",
+        "1957",
+        "1958",
+        "1959",
+        "1960",
+        "1961",
+        "1962",
+        "1963",
+        "1964",
+        "1965",
+        "1966",
+        "1967",
+        "1968",
+        "1969",
+        "1970",
+        "1971",
+        "1972",
+        "1973",
+        "1974",
+        "1975",
+        "1976",
+        "1977",
+        "1978",
+        "1979",
+        "1980",
+        "1981",
+        "1982",
+        "1983",
+        "1984",
+        "1985",
+        "1986",
+        "1987",
+        "1988",
+        "1989",
+        "1990",
+        "1991",
+        "1992",
+        "1993",
+        "1994",
+        "1995",
+        "1996",
+        "1997",
+        "1998",
+        "1999",
+        "2000",
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "extensions": [
+        "pdf",
+        "zip"
+      ],
+      "documents": [
+        {
+          "id": "C5670000000000000001:196",
+          "title": "2025회계연도 국가결산보고서",
+          "year": "2025",
+          "extension": "pdf",
+          "source_fingerprint": "9649382:1789712693506775274",
+          "document_pages": 1624,
+          "pages": [
+            {
+              "page": 181,
+              "image": "../assets/report-review/0cca6495627aa5eb-p181.jpg"
+            },
+            {
+              "page": 722,
+              "image": "../assets/report-review/0cca6495627aa5eb-p722.jpg"
+            },
+            {
+              "page": 542,
+              "image": "../assets/report-review/0cca6495627aa5eb-p542.jpg"
+            },
+            {
+              "page": 1624,
+              "image": "../assets/report-review/0cca6495627aa5eb-p1624.jpg"
+            },
+            {
+              "page": 1,
+              "image": "../assets/report-review/0cca6495627aa5eb-p1.jpg"
+            },
+            {
+              "page": 362,
+              "image": "../assets/report-review/0cca6495627aa5eb-p362.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C5670000000000000001:195",
+          "title": "2024회계연도 국가결산보고서",
+          "year": "2024",
+          "extension": "pdf",
+          "source_fingerprint": "8911909:1782825156341556351",
+          "document_pages": 1500,
+          "pages": [
+            {
+              "page": 168,
+              "image": "../assets/report-review/b0f2090a73d00e24-p168.jpg"
+            },
+            {
+              "page": 1,
+              "image": "../assets/report-review/b0f2090a73d00e24-p1.jpg"
+            },
+            {
+              "page": 667,
+              "image": "../assets/report-review/b0f2090a73d00e24-p667.jpg"
+            },
+            {
+              "page": 334,
+              "image": "../assets/report-review/b0f2090a73d00e24-p334.jpg"
+            },
+            {
+              "page": 1500,
+              "image": "../assets/report-review/b0f2090a73d00e24-p1500.jpg"
+            },
+            {
+              "page": 1000,
+              "image": "../assets/report-review/b0f2090a73d00e24-p1000.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EA%B5%AD%EA%B0%80%EA%B2%B0%EC%82%B0%EB%B3%B4%EA%B3%A0%EC%84%9C"
+    },
+    {
+      "id": "4e8ad819bb24189e",
+      "classification": {
+        "large": "결산",
+        "middle": "결산보고서",
+        "small": ""
+      },
+      "classification_path": "결산>결산보고서",
+      "odt_id": "8Q736BKM4RY8163XC4A8Y2G13",
+      "data_name": "국유재산관리운용총보고서",
+      "file_count": 55,
+      "years": [
+        "1963",
+        "1965",
+        "1966",
+        "1972",
+        "1973",
+        "1974",
+        "1975",
+        "1976",
+        "1977",
+        "1978",
+        "1979",
+        "1980",
+        "1982",
+        "1983",
+        "1984",
+        "1985",
+        "1986",
+        "1987",
+        "1988",
+        "1989",
+        "1990",
+        "1991",
+        "1992",
+        "1993",
+        "1994",
+        "1995",
+        "1996",
+        "1997",
+        "1998",
+        "1999",
+        "2000",
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C5700000000000000001:55",
+          "title": "2024회계연도 국유재산관리운용총보고서",
+          "year": "2024",
+          "extension": "pdf",
+          "source_fingerprint": "2693594:1782825156621554564",
+          "document_pages": 721,
+          "pages": [
+            {
+              "page": 81,
+              "image": "../assets/report-review/198f4f421a6d9f5c-p81.jpg"
+            },
+            {
+              "page": 1,
+              "image": "../assets/report-review/198f4f421a6d9f5c-p1.jpg"
+            },
+            {
+              "page": 321,
+              "image": "../assets/report-review/198f4f421a6d9f5c-p321.jpg"
+            },
+            {
+              "page": 401,
+              "image": "../assets/report-review/198f4f421a6d9f5c-p401.jpg"
+            },
+            {
+              "page": 721,
+              "image": "../assets/report-review/198f4f421a6d9f5c-p721.jpg"
+            },
+            {
+              "page": 561,
+              "image": "../assets/report-review/198f4f421a6d9f5c-p561.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C5700000000000000001:54",
+          "title": "2023회계연도 국유재산관리운용총보고서",
+          "year": "2023",
+          "extension": "pdf",
+          "source_fingerprint": "2716484:1782825186894361703",
+          "document_pages": 717,
+          "pages": [
+            {
+              "page": 81,
+              "image": "../assets/report-review/caa8bc363c5ef4f7-p81.jpg"
+            },
+            {
+              "page": 478,
+              "image": "../assets/report-review/caa8bc363c5ef4f7-p478.jpg"
+            },
+            {
+              "page": 319,
+              "image": "../assets/report-review/caa8bc363c5ef4f7-p319.jpg"
+            },
+            {
+              "page": 1,
+              "image": "../assets/report-review/caa8bc363c5ef4f7-p1.jpg"
+            },
+            {
+              "page": 399,
+              "image": "../assets/report-review/caa8bc363c5ef4f7-p399.jpg"
+            },
+            {
+              "page": 717,
+              "image": "../assets/report-review/caa8bc363c5ef4f7-p717.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EA%B5%AD%EC%9C%A0%EC%9E%AC%EC%82%B0%EA%B4%80%EB%A6%AC%EC%9A%B4%EC%9A%A9%EC%B4%9D%EB%B3%B4%EA%B3%A0%EC%84%9C"
+    },
+    {
+      "id": "7d69dd17ddd1c751",
+      "classification": {
+        "large": "결산",
+        "middle": "결산보고서",
+        "small": ""
+      },
+      "classification_path": "결산>결산보고서",
+      "odt_id": "HGIEN331RGG5YHI3IFFOUE21Z",
+      "data_name": "물품관리운용보고서",
+      "file_count": 59,
+      "years": [
+        "1963",
+        "1964",
+        "1965",
+        "1966",
+        "1967",
+        "1968",
+        "1969",
+        "1970",
+        "1972",
+        "1973",
+        "1974",
+        "1975",
+        "1976",
+        "1977",
+        "1978",
+        "1979",
+        "1980",
+        "1982",
+        "1983",
+        "1985",
+        "1986",
+        "1987",
+        "1988",
+        "1989",
+        "1990",
+        "1991",
+        "1992",
+        "1993",
+        "1994",
+        "1995",
+        "1996",
+        "1997",
+        "1998",
+        "1999",
+        "2000",
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C3570000000000000001:59",
+          "title": "2024회계연도 물품관리운용보고서",
+          "year": "2024",
+          "extension": "pdf",
+          "source_fingerprint": "1190533:1782825155564561310",
+          "document_pages": 295,
+          "pages": [
+            {
+              "page": 34,
+              "image": "../assets/report-review/4f8a42bff24eda67-p34.jpg"
+            },
+            {
+              "page": 1,
+              "image": "../assets/report-review/4f8a42bff24eda67-p1.jpg"
+            },
+            {
+              "page": 132,
+              "image": "../assets/report-review/4f8a42bff24eda67-p132.jpg"
+            },
+            {
+              "page": 197,
+              "image": "../assets/report-review/4f8a42bff24eda67-p197.jpg"
+            },
+            {
+              "page": 230,
+              "image": "../assets/report-review/4f8a42bff24eda67-p230.jpg"
+            },
+            {
+              "page": 295,
+              "image": "../assets/report-review/4f8a42bff24eda67-p295.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C3570000000000000001:58",
+          "title": "2023회계연도 물품관리운용보고서",
+          "year": "2023",
+          "extension": "pdf",
+          "source_fingerprint": "1487690:1782825185128372937",
+          "document_pages": 289,
+          "pages": [
+            {
+              "page": 33,
+              "image": "../assets/report-review/ed6a9eccb2db598e-p33.jpg"
+            },
+            {
+              "page": 1,
+              "image": "../assets/report-review/ed6a9eccb2db598e-p1.jpg"
+            },
+            {
+              "page": 129,
+              "image": "../assets/report-review/ed6a9eccb2db598e-p129.jpg"
+            },
+            {
+              "page": 225,
+              "image": "../assets/report-review/ed6a9eccb2db598e-p225.jpg"
+            },
+            {
+              "page": 193,
+              "image": "../assets/report-review/ed6a9eccb2db598e-p193.jpg"
+            },
+            {
+              "page": 289,
+              "image": "../assets/report-review/ed6a9eccb2db598e-p289.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EB%AC%BC%ED%92%88%EA%B4%80%EB%A6%AC%EC%9A%B4%EC%9A%A9%EB%B3%B4%EA%B3%A0%EC%84%9C"
+    },
+    {
+      "id": "0c372eb66b7e0099",
+      "classification": {
+        "large": "결산",
+        "middle": "결산보고서",
+        "small": ""
+      },
+      "classification_path": "결산>결산보고서",
+      "odt_id": "J00I8LVP68QSKE20TES82113N",
+      "data_name": "정부기업특별회계 및 책임운영기관특별회계 재무제표",
+      "file_count": 16,
+      "years": [
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C5720000000000000001:16",
+          "title": "2024회계연도 정부기업특별회계 및 책임운영기관특별회계 재무제표",
+          "year": "2024",
+          "extension": "pdf",
+          "source_fingerprint": "2012903:1782825156455555624",
+          "document_pages": 878,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/report-review/6b9926eb43882da0-p1.jpg"
+            },
+            {
+              "page": 391,
+              "image": "../assets/report-review/6b9926eb43882da0-p391.jpg"
+            },
+            {
+              "page": 781,
+              "image": "../assets/report-review/6b9926eb43882da0-p781.jpg"
+            },
+            {
+              "page": 878,
+              "image": "../assets/report-review/6b9926eb43882da0-p878.jpg"
+            },
+            {
+              "page": 488,
+              "image": "../assets/report-review/6b9926eb43882da0-p488.jpg"
+            },
+            {
+              "page": 586,
+              "image": "../assets/report-review/6b9926eb43882da0-p586.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C5720000000000000001:15",
+          "title": "2023회계연도 정부기업특별회계 및 책임운영기관특별회계 재무제표",
+          "year": "2023",
+          "extension": "pdf",
+          "source_fingerprint": "2127546:1782825185972367568",
+          "document_pages": 862,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/report-review/bcac62e6802243e3-p1.jpg"
+            },
+            {
+              "page": 384,
+              "image": "../assets/report-review/bcac62e6802243e3-p384.jpg"
+            },
+            {
+              "page": 288,
+              "image": "../assets/report-review/bcac62e6802243e3-p288.jpg"
+            },
+            {
+              "page": 862,
+              "image": "../assets/report-review/bcac62e6802243e3-p862.jpg"
+            },
+            {
+              "page": 192,
+              "image": "../assets/report-review/bcac62e6802243e3-p192.jpg"
+            },
+            {
+              "page": 97,
+              "image": "../assets/report-review/bcac62e6802243e3-p97.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%A0%95%EB%B6%80%EA%B8%B0%EC%97%85%ED%8A%B9%EB%B3%84%ED%9A%8C%EA%B3%84+%EB%B0%8F+%EC%B1%85%EC%9E%84%EC%9A%B4%EC%98%81%EA%B8%B0%EA%B4%80%ED%8A%B9%EB%B3%84%ED%9A%8C%EA%B3%84+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C"
+    },
+    {
+      "id": "78b2aa0b724d2e31",
+      "classification": {
+        "large": "결산",
+        "middle": "결산보고서",
+        "small": ""
+      },
+      "classification_path": "결산>결산보고서",
+      "odt_id": "LUL30ITT634J37I1S6M12D2Y2",
+      "data_name": "기타 결산관련문서",
+      "file_count": 108,
+      "years": [
+        "1949",
+        "1950",
+        "1951",
+        "1952",
+        "1953",
+        "1954",
+        "1955",
+        "1957",
+        "1962",
+        "1999",
+        "2000",
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C5760000000000000001:108",
+          "title": "2024회계연도 총사업비관리대상사업 사업별 집행명세서",
+          "year": "2024",
+          "extension": "pdf",
+          "source_fingerprint": "654696:1782825156275556772",
+          "document_pages": 125,
+          "pages": [
+            {
+              "page": 15,
+              "image": "../assets/report-review/f3158edf13032cb3-p15.jpg"
+            },
+            {
+              "page": 42,
+              "image": "../assets/report-review/f3158edf13032cb3-p42.jpg"
+            },
+            {
+              "page": 56,
+              "image": "../assets/report-review/f3158edf13032cb3-p56.jpg"
+            },
+            {
+              "page": 84,
+              "image": "../assets/report-review/f3158edf13032cb3-p84.jpg"
+            },
+            {
+              "page": 70,
+              "image": "../assets/report-review/f3158edf13032cb3-p70.jpg"
+            },
+            {
+              "page": 1,
+              "image": "../assets/report-review/f3158edf13032cb3-p1.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C5760000000000000001:107",
+          "title": "2024회계연도 채권현재액총계산서",
+          "year": "2024",
+          "extension": "pdf",
+          "source_fingerprint": "1626273:1782825156463555573",
+          "document_pages": 373,
+          "pages": [
+            {
+              "page": 84,
+              "image": "../assets/report-review/b84e87d8313f64f1-p84.jpg"
+            },
+            {
+              "page": 1,
+              "image": "../assets/report-review/b84e87d8313f64f1-p1.jpg"
+            },
+            {
+              "page": 166,
+              "image": "../assets/report-review/b84e87d8313f64f1-p166.jpg"
+            },
+            {
+              "page": 290,
+              "image": "../assets/report-review/b84e87d8313f64f1-p290.jpg"
+            },
+            {
+              "page": 332,
+              "image": "../assets/report-review/b84e87d8313f64f1-p332.jpg"
+            },
+            {
+              "page": 42,
+              "image": "../assets/report-review/b84e87d8313f64f1-p42.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EA%B8%B0%ED%83%80+%EA%B2%B0%EC%82%B0%EA%B4%80%EB%A0%A8%EB%AC%B8%EC%84%9C"
+    },
+    {
+      "id": "cc278188fa849d79",
+      "classification": {
+        "large": "결산",
+        "middle": "결산보고서",
+        "small": ""
+      },
+      "classification_path": "결산>결산보고서",
+      "odt_id": "UYI4O1IG1SK528G1KK5B38P20",
+      "data_name": "결산개요",
+      "file_count": 101,
+      "years": [
+        "1961",
+        "1962",
+        "1963",
+        "1964",
+        "1965",
+        "1966",
+        "1967",
+        "1968",
+        "1969",
+        "1970",
+        "1971",
+        "1972",
+        "1973",
+        "1974",
+        "1975",
+        "1976",
+        "1977",
+        "1978",
+        "1979",
+        "1980",
+        "1981",
+        "1982",
+        "1983",
+        "1984",
+        "1985",
+        "1986",
+        "1987",
+        "1988",
+        "1989",
+        "1990",
+        "1991",
+        "1992",
+        "1993",
+        "1994",
+        "1995",
+        "1996",
+        "1997",
+        "1998",
+        "1999",
+        "2000",
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C5740000000000000001:101",
+          "title": "2024회계연도 결산개요(통계편)",
+          "year": "2024",
+          "extension": "pdf",
+          "source_fingerprint": "3643906:1782825156690554124",
+          "document_pages": 1187,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/report-review/2ba4588c80d73c16-p1.jpg"
+            },
+            {
+              "page": 396,
+              "image": "../assets/report-review/2ba4588c80d73c16-p396.jpg"
+            },
+            {
+              "page": 528,
+              "image": "../assets/report-review/2ba4588c80d73c16-p528.jpg"
+            },
+            {
+              "page": 792,
+              "image": "../assets/report-review/2ba4588c80d73c16-p792.jpg"
+            },
+            {
+              "page": 923,
+              "image": "../assets/report-review/2ba4588c80d73c16-p923.jpg"
+            },
+            {
+              "page": 660,
+              "image": "../assets/report-review/2ba4588c80d73c16-p660.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C5740000000000000001:100",
+          "title": "2023회계연도 결산개요(통계편)",
+          "year": "2023",
+          "extension": "pdf",
+          "source_fingerprint": "3758177:1782825186610363510",
+          "document_pages": 1225,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/report-review/bc4377aa912b2f25-p1.jpg"
+            },
+            {
+              "page": 409,
+              "image": "../assets/report-review/bc4377aa912b2f25-p409.jpg"
+            },
+            {
+              "page": 545,
+              "image": "../assets/report-review/bc4377aa912b2f25-p545.jpg"
+            },
+            {
+              "page": 817,
+              "image": "../assets/report-review/bc4377aa912b2f25-p817.jpg"
+            },
+            {
+              "page": 273,
+              "image": "../assets/report-review/bc4377aa912b2f25-p273.jpg"
+            },
+            {
+              "page": 953,
+              "image": "../assets/report-review/bc4377aa912b2f25-p953.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EA%B2%B0%EC%82%B0%EA%B0%9C%EC%9A%94"
+    },
+    {
+      "id": "b6b0091b5a18cd40",
+      "classification": {
+        "large": "결산",
+        "middle": "재정증권",
+        "small": ""
+      },
+      "classification_path": "결산>재정증권",
+      "odt_id": "N8O3V0M0BWG84V1Y106L7WDS4",
+      "data_name": "재정증권 발행 계획",
+      "file_count": 61,
+      "years": [
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020"
+      ],
+      "extensions": [
+        "hwp",
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C3630000000000000001:33",
+          "title": "2011년도 재정증권 발행계획",
+          "year": "2011",
+          "extension": "pdf",
+          "source_fingerprint": "52357:1782825447717721346",
+          "document_pages": 2,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/report-review/cd8985ac30f8cbf7-p1.jpg"
+            },
+            {
+              "page": 2,
+              "image": "../assets/report-review/cd8985ac30f8cbf7-p2.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C3630000000000000001:29",
+          "title": "2020년도 9월 재정증권 발행계획",
+          "year": "2020",
+          "extension": "hwp",
+          "source_fingerprint": "167936:1782825232396072927",
+          "document_pages": 3,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/report-review/6dc6fdae6f9b012d-p1.svg"
+            },
+            {
+              "page": 3,
+              "image": "../assets/report-review/6dc6fdae6f9b012d-p3.svg"
+            },
+            {
+              "page": 2,
+              "image": "../assets/report-review/6dc6fdae6f9b012d-p2.svg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%9E%AC%EC%A0%95%EC%A6%9D%EA%B6%8C+%EB%B0%9C%ED%96%89+%EA%B3%84%ED%9A%8D"
+    },
+    {
+      "id": "c62c41b67a654c1a",
+      "classification": {
+        "large": "성과관리",
+        "middle": "기금운용평가보고서",
+        "small": ""
+      },
+      "classification_path": "성과관리>기금운용평가보고서",
+      "odt_id": "XT6DFQ4G42HK8RXVOF5233F1U",
+      "data_name": "기금운용평가보고서",
+      "file_count": 40,
+      "years": [
+        "1999",
+        "2000",
+        "2001",
+        "2002",
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "extensions": [
+        "hwp",
+        "pdf",
+        "zip"
+      ],
+      "documents": [
+        {
+          "id": "C2320000000000000001:40",
+          "title": "2024년도 기금운용평가보고서(자산운용)",
+          "year": "2024",
+          "extension": "pdf",
+          "source_fingerprint": "5539521:1782825164540504055",
+          "document_pages": 526,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/report-review/5aaca232c9e199df-p1.jpg"
+            },
+            {
+              "page": 293,
+              "image": "../assets/report-review/5aaca232c9e199df-p293.jpg"
+            },
+            {
+              "page": 234,
+              "image": "../assets/report-review/5aaca232c9e199df-p234.jpg"
+            },
+            {
+              "page": 468,
+              "image": "../assets/report-review/5aaca232c9e199df-p468.jpg"
+            },
+            {
+              "page": 59,
+              "image": "../assets/report-review/5aaca232c9e199df-p59.jpg"
+            },
+            {
+              "page": 409,
+              "image": "../assets/report-review/5aaca232c9e199df-p409.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C2320000000000000001:37",
+          "title": "2021년도 기금운용평가보고서(사업운영)",
+          "year": "2021",
+          "extension": "hwp",
+          "source_fingerprint": "44547584:1782825223164131415",
+          "document_pages": 1619,
+          "pages": [
+            {
+              "page": 181,
+              "image": "../assets/report-review/4bddbba5d92208bb-p181.svg"
+            },
+            {
+              "page": 720,
+              "image": "../assets/report-review/4bddbba5d92208bb-p720.svg"
+            },
+            {
+              "page": 1439,
+              "image": "../assets/report-review/4bddbba5d92208bb-p1439.svg"
+            },
+            {
+              "page": 1259,
+              "image": "../assets/report-review/4bddbba5d92208bb-p1259.svg"
+            },
+            {
+              "page": 361,
+              "image": "../assets/report-review/4bddbba5d92208bb-p361.svg"
+            },
+            {
+              "page": 900,
+              "image": "../assets/report-review/4bddbba5d92208bb-p900.svg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EA%B8%B0%EA%B8%88%EC%9A%B4%EC%9A%A9%ED%8F%89%EA%B0%80%EB%B3%B4%EA%B3%A0%EC%84%9C"
+    },
+    {
+      "id": "bda93564951dc6b1",
+      "classification": {
+        "large": "성과관리",
+        "middle": "보조사업 연장평가보고서",
+        "small": ""
+      },
+      "classification_path": "성과관리>보조사업 연장평가보고서",
+      "odt_id": "086C0UYW34VY48BBH804YHY3X",
+      "data_name": "보조사업 연장평가보고서",
+      "file_count": 15,
+      "years": [
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "F0000000000000004667:15",
+          "title": "2026년 국고보조사업 연장평가 보고서(3권)",
+          "year": "2026",
+          "extension": "pdf",
+          "source_fingerprint": "22597874:1789712661790038816",
+          "document_pages": 805,
+          "pages": [
+            {
+              "page": 90,
+              "image": "../assets/report-review/6002ed2c30a1ee67-p90.jpg"
+            },
+            {
+              "page": 537,
+              "image": "../assets/report-review/6002ed2c30a1ee67-p537.jpg"
+            },
+            {
+              "page": 358,
+              "image": "../assets/report-review/6002ed2c30a1ee67-p358.jpg"
+            },
+            {
+              "page": 716,
+              "image": "../assets/report-review/6002ed2c30a1ee67-p716.jpg"
+            },
+            {
+              "page": 626,
+              "image": "../assets/report-review/6002ed2c30a1ee67-p626.jpg"
+            },
+            {
+              "page": 448,
+              "image": "../assets/report-review/6002ed2c30a1ee67-p448.jpg"
+            }
+          ]
+        },
+        {
+          "id": "F0000000000000004667:14",
+          "title": "2026년 국고보조사업 연장평가 보고서(2권)",
+          "year": "2026",
+          "extension": "pdf",
+          "source_fingerprint": "25244935:1789712662375033953",
+          "document_pages": 872,
+          "pages": [
+            {
+              "page": 98,
+              "image": "../assets/report-review/85a575c80a24d831-p98.jpg"
+            },
+            {
+              "page": 291,
+              "image": "../assets/report-review/85a575c80a24d831-p291.jpg"
+            },
+            {
+              "page": 388,
+              "image": "../assets/report-review/85a575c80a24d831-p388.jpg"
+            },
+            {
+              "page": 582,
+              "image": "../assets/report-review/85a575c80a24d831-p582.jpg"
+            },
+            {
+              "page": 678,
+              "image": "../assets/report-review/85a575c80a24d831-p678.jpg"
+            },
+            {
+              "page": 485,
+              "image": "../assets/report-review/85a575c80a24d831-p485.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EB%B3%B4%EC%A1%B0%EC%82%AC%EC%97%85+%EC%97%B0%EC%9E%A5%ED%8F%89%EA%B0%80%EB%B3%B4%EA%B3%A0%EC%84%9C"
+    },
+    {
+      "id": "5d21832ceca1e0c0",
+      "classification": {
+        "large": "성과관리",
+        "middle": "성과계획서(안)",
+        "small": ""
+      },
+      "classification_path": "성과관리>성과계획서(안)",
+      "odt_id": "N54BY8W6I0MY1UDW8OPLQL570",
+      "data_name": "성과계획서(안)",
+      "file_count": 1016,
+      "years": [
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026",
+        "2027"
+      ],
+      "extensions": [
+        "hwp",
+        "hwpx",
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C2220000000000000001:939",
+          "title": "2025년 성과계획서 (환경부)",
+          "year": "2025",
+          "extension": "pdf",
+          "source_fingerprint": "3166382:1782825155454562011",
+          "document_pages": 370,
+          "pages": [
+            {
+              "page": 42,
+              "image": "../assets/report-review/4b989dbcba505b83-p42.jpg"
+            },
+            {
+              "page": 165,
+              "image": "../assets/report-review/4b989dbcba505b83-p165.jpg"
+            },
+            {
+              "page": 83,
+              "image": "../assets/report-review/4b989dbcba505b83-p83.jpg"
+            },
+            {
+              "page": 288,
+              "image": "../assets/report-review/4b989dbcba505b83-p288.jpg"
+            },
+            {
+              "page": 206,
+              "image": "../assets/report-review/4b989dbcba505b83-p206.jpg"
+            },
+            {
+              "page": 124,
+              "image": "../assets/report-review/4b989dbcba505b83-p124.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C2220000000000000001:1000",
+          "title": "[60]2026년도 성과계획서_10·29이태원참사 진상규명과 재발방지를 위한 특별조사위원회",
+          "year": "2026",
+          "extension": "hwp",
+          "source_fingerprint": "245760:1782825150886591170",
+          "document_pages": 32,
+          "pages": [
+            {
+              "page": 11,
+              "image": "../assets/report-review/b10eae7ebde9399c-p11.svg"
+            },
+            {
+              "page": 22,
+              "image": "../assets/report-review/b10eae7ebde9399c-p22.svg"
+            },
+            {
+              "page": 15,
+              "image": "../assets/report-review/b10eae7ebde9399c-p15.svg"
+            },
+            {
+              "page": 25,
+              "image": "../assets/report-review/b10eae7ebde9399c-p25.svg"
+            },
+            {
+              "page": 29,
+              "image": "../assets/report-review/b10eae7ebde9399c-p29.svg"
+            },
+            {
+              "page": 18,
+              "image": "../assets/report-review/b10eae7ebde9399c-p18.svg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%84%B1%EA%B3%BC%EA%B3%84%ED%9A%8D%EC%84%9C%28%EC%95%88%29"
+    },
+    {
+      "id": "2617b0f64cb61f8d",
+      "classification": {
+        "large": "성과관리",
+        "middle": "성과계획서(안)(추경)",
+        "small": ""
+      },
+      "classification_path": "성과관리>성과계획서(안)(추경)",
+      "odt_id": "038P3531FJN5S0V2K7XUI567M",
+      "data_name": "성과계획서(안)(추경)",
+      "file_count": 336,
+      "years": [
+        "2013",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022"
+      ],
+      "extensions": [
+        "hwp",
+        "pdf",
+        "zip"
+      ],
+      "documents": [
+        {
+          "id": "C5650000000000000001:93",
+          "title": "2021년 제1회 추경성과계획서-환경부",
+          "year": "2021",
+          "extension": "pdf",
+          "source_fingerprint": "60044433:1782825230912082325",
+          "document_pages": 591,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/report-review/2c9b49f03f5886fa-p1.jpg"
+            },
+            {
+              "page": 263,
+              "image": "../assets/report-review/2c9b49f03f5886fa-p263.jpg"
+            },
+            {
+              "page": 67,
+              "image": "../assets/report-review/2c9b49f03f5886fa-p67.jpg"
+            },
+            {
+              "page": 132,
+              "image": "../assets/report-review/2c9b49f03f5886fa-p132.jpg"
+            },
+            {
+              "page": 198,
+              "image": "../assets/report-review/2c9b49f03f5886fa-p198.jpg"
+            },
+            {
+              "page": 329,
+              "image": "../assets/report-review/2c9b49f03f5886fa-p329.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C5650000000000000001:335",
+          "title": "2022년 제2회 추경성과계획서-환경부",
+          "year": "2022",
+          "extension": "hwp",
+          "source_fingerprint": "1222144:1782825205412244025",
+          "document_pages": 312,
+          "pages": [
+            {
+              "page": 36,
+              "image": "../assets/report-review/e7dec707f187258e-p36.svg"
+            },
+            {
+              "page": 208,
+              "image": "../assets/report-review/e7dec707f187258e-p208.svg"
+            },
+            {
+              "page": 139,
+              "image": "../assets/report-review/e7dec707f187258e-p139.svg"
+            },
+            {
+              "page": 105,
+              "image": "../assets/report-review/e7dec707f187258e-p105.svg"
+            },
+            {
+              "page": 243,
+              "image": "../assets/report-review/e7dec707f187258e-p243.svg"
+            },
+            {
+              "page": 174,
+              "image": "../assets/report-review/e7dec707f187258e-p174.svg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%84%B1%EA%B3%BC%EA%B3%84%ED%9A%8D%EC%84%9C%28%EC%95%88%29%28%EC%B6%94%EA%B2%BD%29"
+    },
+    {
+      "id": "1b7d0140649637cf",
+      "classification": {
+        "large": "성과관리",
+        "middle": "성과보고서",
+        "small": ""
+      },
+      "classification_path": "성과관리>성과보고서",
+      "odt_id": "1QAWAA467U72MBYY7VOZIZ5SF",
+      "data_name": "중앙관서별 성과보고서",
+      "file_count": 874,
+      "years": [
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "extensions": [
+        "hwp",
+        "hwpx",
+        "pdf",
+        "zip"
+      ],
+      "documents": [
+        {
+          "id": "C2300000000000000001:805",
+          "title": "2024년도 환경부(성과보고서)",
+          "year": "2024",
+          "extension": "pdf",
+          "source_fingerprint": "12479471:1782825160822527764",
+          "document_pages": 308,
+          "pages": [
+            {
+              "page": 35,
+              "image": "../assets/report-review/c9ef9d0360fb5eaa-p35.jpg"
+            },
+            {
+              "page": 172,
+              "image": "../assets/report-review/c9ef9d0360fb5eaa-p172.jpg"
+            },
+            {
+              "page": 137,
+              "image": "../assets/report-review/c9ef9d0360fb5eaa-p137.jpg"
+            },
+            {
+              "page": 69,
+              "image": "../assets/report-review/c9ef9d0360fb5eaa-p69.jpg"
+            },
+            {
+              "page": 308,
+              "image": "../assets/report-review/c9ef9d0360fb5eaa-p308.jpg"
+            },
+            {
+              "page": 103,
+              "image": "../assets/report-review/c9ef9d0360fb5eaa-p103.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C2300000000000000001:864",
+          "title": "2021회계연도 성과보고서 작성지침",
+          "year": "2021",
+          "extension": "hwp",
+          "source_fingerprint": "243712:1782825208463224657",
+          "document_pages": 51,
+          "pages": [
+            {
+              "page": 7,
+              "image": "../assets/report-review/f913b8d49c119844-p7.svg"
+            },
+            {
+              "page": 34,
+              "image": "../assets/report-review/f913b8d49c119844-p34.svg"
+            },
+            {
+              "page": 23,
+              "image": "../assets/report-review/f913b8d49c119844-p23.svg"
+            },
+            {
+              "page": 29,
+              "image": "../assets/report-review/f913b8d49c119844-p29.svg"
+            },
+            {
+              "page": 51,
+              "image": "../assets/report-review/f913b8d49c119844-p51.svg"
+            },
+            {
+              "page": 45,
+              "image": "../assets/report-review/f913b8d49c119844-p45.svg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%A4%91%EC%95%99%EA%B4%80%EC%84%9C%EB%B3%84+%EC%84%B1%EA%B3%BC%EB%B3%B4%EA%B3%A0%EC%84%9C"
+    },
+    {
+      "id": "9c0cc2633c16294b",
+      "classification": {
+        "large": "성과관리",
+        "middle": "성과평가관련 지침",
+        "small": ""
+      },
+      "classification_path": "성과관리>성과평가관련 지침",
+      "odt_id": "2N4L5G1480ZLP11143R656684",
+      "data_name": "성과평가관련 지침",
+      "file_count": 1,
+      "years": [
+        "2025"
+      ],
+      "extensions": [
+        "hwpx"
+      ],
+      "documents": [
+        {
+          "id": "F0000000000000004737:10",
+          "title": "2025회계연도 성과보고서 작성지침",
+          "year": "2025",
+          "extension": "hwpx",
+          "source_fingerprint": "277084:1782825155438562113",
+          "document_pages": 48,
+          "pages": [
+            {
+              "page": 6,
+              "image": "../assets/report-review/36358b6c46937125-p6.svg"
+            },
+            {
+              "page": 22,
+              "image": "../assets/report-review/36358b6c46937125-p22.svg"
+            },
+            {
+              "page": 11,
+              "image": "../assets/report-review/36358b6c46937125-p11.svg"
+            },
+            {
+              "page": 27,
+              "image": "../assets/report-review/36358b6c46937125-p27.svg"
+            },
+            {
+              "page": 32,
+              "image": "../assets/report-review/36358b6c46937125-p32.svg"
+            },
+            {
+              "page": 17,
+              "image": "../assets/report-review/36358b6c46937125-p17.svg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%84%B1%EA%B3%BC%ED%8F%89%EA%B0%80%EA%B4%80%EB%A0%A8+%EC%A7%80%EC%B9%A8"
+    },
+    {
+      "id": "10f4c230a1d08945",
+      "classification": {
+        "large": "성과관리",
+        "middle": "성과평가관련 지침",
+        "small": ""
+      },
+      "classification_path": "성과관리>성과평가관련 지침",
+      "odt_id": "F3O84R32JEA66A37036LRQP5N",
+      "data_name": "성과평가관련 지침",
+      "file_count": 19,
+      "years": [
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "extensions": [
+        "hwp",
+        "hwpx",
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C8400000000000000001:8",
+          "title": "2018년도 재정사업 자율평가 지침",
+          "year": "2018",
+          "extension": "pdf",
+          "source_fingerprint": "623070:1782825305247613081",
+          "document_pages": 21,
+          "pages": [
+            {
+              "page": 3,
+              "image": "../assets/report-review/58db898e49adba28-p3.jpg"
+            },
+            {
+              "page": 5,
+              "image": "../assets/report-review/58db898e49adba28-p5.jpg"
+            },
+            {
+              "page": 10,
+              "image": "../assets/report-review/58db898e49adba28-p10.jpg"
+            },
+            {
+              "page": 8,
+              "image": "../assets/report-review/58db898e49adba28-p8.jpg"
+            },
+            {
+              "page": 21,
+              "image": "../assets/report-review/58db898e49adba28-p21.jpg"
+            },
+            {
+              "page": 17,
+              "image": "../assets/report-review/58db898e49adba28-p17.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C8400000000000000001:37",
+          "title": "2022년('21회계년도) 재정사업 자율평가 지침",
+          "year": "2021",
+          "extension": "hwp",
+          "source_fingerprint": "160256:1782825227183105947",
+          "document_pages": 39,
+          "pages": [
+            {
+              "page": 5,
+              "image": "../assets/report-review/232af3a16aaa000a-p5.svg"
+            },
+            {
+              "page": 18,
+              "image": "../assets/report-review/232af3a16aaa000a-p18.svg"
+            },
+            {
+              "page": 9,
+              "image": "../assets/report-review/232af3a16aaa000a-p9.svg"
+            },
+            {
+              "page": 26,
+              "image": "../assets/report-review/232af3a16aaa000a-p26.svg"
+            },
+            {
+              "page": 35,
+              "image": "../assets/report-review/232af3a16aaa000a-p35.svg"
+            },
+            {
+              "page": 31,
+              "image": "../assets/report-review/232af3a16aaa000a-p31.svg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%84%B1%EA%B3%BC%ED%8F%89%EA%B0%80%EA%B4%80%EB%A0%A8+%EC%A7%80%EC%B9%A8"
+    },
+    {
+      "id": "99f49cce6fd5e860",
+      "classification": {
+        "large": "성과관리",
+        "middle": "소관별 재정사업 자율평가 보고서",
+        "small": ""
+      },
+      "classification_path": "성과관리>소관별 재정사업 자율평가 보고서",
+      "odt_id": "6W40751J6V0368U446CHNSW0V",
+      "data_name": "소관별 재정사업 자율평가 보고서",
+      "file_count": 928,
+      "years": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "extensions": [
+        "hwp",
+        "hwpx",
+        "pdf",
+        "zip"
+      ],
+      "documents": [
+        {
+          "id": "C2310000000000000001:942",
+          "title": "2024회계연도 재정사업 자율평가 결과_(보건복지부)",
+          "year": "2024",
+          "extension": "pdf",
+          "source_fingerprint": "870002:1782825163834508557",
+          "document_pages": 41,
+          "pages": [
+            {
+              "page": 5,
+              "image": "../assets/report-review/cec82932d5ce25d5-p5.jpg"
+            },
+            {
+              "page": 37,
+              "image": "../assets/report-review/cec82932d5ce25d5-p37.jpg"
+            },
+            {
+              "page": 19,
+              "image": "../assets/report-review/cec82932d5ce25d5-p19.jpg"
+            },
+            {
+              "page": 23,
+              "image": "../assets/report-review/cec82932d5ce25d5-p23.jpg"
+            },
+            {
+              "page": 28,
+              "image": "../assets/report-review/cec82932d5ce25d5-p28.jpg"
+            },
+            {
+              "page": 41,
+              "image": "../assets/report-review/cec82932d5ce25d5-p41.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C2310000000000000001:823",
+          "title": "2022회계연도 재정사업 자율평가 결과(환경부)",
+          "year": "2022",
+          "extension": "hwp",
+          "source_fingerprint": "167936:1782825202820260484",
+          "document_pages": 61,
+          "pages": [
+            {
+              "page": 8,
+              "image": "../assets/report-review/deb3c18acf55e085-p8.svg"
+            },
+            {
+              "page": 61,
+              "image": "../assets/report-review/deb3c18acf55e085-p61.svg"
+            },
+            {
+              "page": 28,
+              "image": "../assets/report-review/deb3c18acf55e085-p28.svg"
+            },
+            {
+              "page": 41,
+              "image": "../assets/report-review/deb3c18acf55e085-p41.svg"
+            },
+            {
+              "page": 54,
+              "image": "../assets/report-review/deb3c18acf55e085-p54.svg"
+            },
+            {
+              "page": 48,
+              "image": "../assets/report-review/deb3c18acf55e085-p48.svg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%86%8C%EA%B4%80%EB%B3%84+%EC%9E%AC%EC%A0%95%EC%82%AC%EC%97%85+%EC%9E%90%EC%9C%A8%ED%8F%89%EA%B0%80+%EB%B3%B4%EA%B3%A0%EC%84%9C"
+    },
+    {
+      "id": "abbd1db4a98e1fe1",
+      "classification": {
+        "large": "성과관리",
+        "middle": "재정사업평가결과",
+        "small": ""
+      },
+      "classification_path": "성과관리>재정사업평가결과",
+      "odt_id": "MBJ1JMMB2T0037Q30N72811AK",
+      "data_name": "재정사업평가결과",
+      "file_count": 1,
+      "years": [
+        "2023"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "F0000000000000004370:1",
+          "title": "2024년도 재정사업평가결과(FY2023)",
+          "year": "2023",
+          "extension": "pdf",
+          "source_fingerprint": "499913:1782825194954310457",
+          "document_pages": 30,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/report-review/889dce2630da4d57-p1.jpg"
+            },
+            {
+              "page": 4,
+              "image": "../assets/report-review/889dce2630da4d57-p4.jpg"
+            },
+            {
+              "page": 14,
+              "image": "../assets/report-review/889dce2630da4d57-p14.jpg"
+            },
+            {
+              "page": 11,
+              "image": "../assets/report-review/889dce2630da4d57-p11.jpg"
+            },
+            {
+              "page": 20,
+              "image": "../assets/report-review/889dce2630da4d57-p20.jpg"
+            },
+            {
+              "page": 7,
+              "image": "../assets/report-review/889dce2630da4d57-p7.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%9E%AC%EC%A0%95%EC%82%AC%EC%97%85%ED%8F%89%EA%B0%80%EA%B2%B0%EA%B3%BC"
+    },
+    {
+      "id": "010fd311c501a6a8",
+      "classification": {
+        "large": "성과관리",
+        "middle": "재정사업평가결과",
+        "small": "R&D사업평가"
+      },
+      "classification_path": "성과관리>재정사업평가결과>R&D사업평가",
+      "odt_id": "3X2V86DE4R484R00FQL4A52R5",
+      "data_name": "R&D사업평가",
+      "file_count": 205,
+      "years": [
+        "2024"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "F0000000000000004694:1",
+          "title": "2025_자체평가보고서_환경부_화학사고예측‧예방고도화기술개발사업",
+          "year": "2024",
+          "extension": "pdf",
+          "source_fingerprint": "2844338:1782825172132455671",
+          "document_pages": 127,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/report-review/1ee1dd624983cb95-p1.jpg"
+            },
+            {
+              "page": 99,
+              "image": "../assets/report-review/1ee1dd624983cb95-p99.jpg"
+            },
+            {
+              "page": 57,
+              "image": "../assets/report-review/1ee1dd624983cb95-p57.jpg"
+            },
+            {
+              "page": 71,
+              "image": "../assets/report-review/1ee1dd624983cb95-p71.jpg"
+            },
+            {
+              "page": 113,
+              "image": "../assets/report-review/1ee1dd624983cb95-p113.jpg"
+            },
+            {
+              "page": 43,
+              "image": "../assets/report-review/1ee1dd624983cb95-p43.jpg"
+            }
+          ]
+        },
+        {
+          "id": "F0000000000000004694:17",
+          "title": "2025_자체평가보고서_환경부_폐자원활용에너지전환실증기술개발사업",
+          "year": "2024",
+          "extension": "pdf",
+          "source_fingerprint": "5974885:1782825172357454238",
+          "document_pages": 116,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/report-review/fabde9ff2961651b-p1.jpg"
+            },
+            {
+              "page": 103,
+              "image": "../assets/report-review/fabde9ff2961651b-p103.jpg"
+            },
+            {
+              "page": 52,
+              "image": "../assets/report-review/fabde9ff2961651b-p52.jpg"
+            },
+            {
+              "page": 65,
+              "image": "../assets/report-review/fabde9ff2961651b-p65.jpg"
+            },
+            {
+              "page": 39,
+              "image": "../assets/report-review/fabde9ff2961651b-p39.jpg"
+            },
+            {
+              "page": 90,
+              "image": "../assets/report-review/fabde9ff2961651b-p90.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=R%26D%EC%82%AC%EC%97%85%ED%8F%89%EA%B0%80"
+    },
+    {
+      "id": "4ae6a4be7b1e4857",
+      "classification": {
+        "large": "성과관리",
+        "middle": "재정사업평가결과",
+        "small": "복권기금사업평가"
+      },
+      "classification_path": "성과관리>재정사업평가결과>복권기금사업평가",
+      "odt_id": "8CGI48S8GB76YE56N82W8C18E",
+      "data_name": "복권기금사업평가",
+      "file_count": 1,
+      "years": [
+        "2024"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "F0000000000000004687:1",
+          "title": "2024년도 성과관리 재정사업평가결과(복권기금사업평가)",
+          "year": "2024",
+          "extension": "pdf",
+          "source_fingerprint": "4407178:1782825171519459577",
+          "document_pages": 656,
+          "pages": [
+            {
+              "page": 74,
+              "image": "../assets/report-review/5014020dd67a0bef-p74.jpg"
+            },
+            {
+              "page": 510,
+              "image": "../assets/report-review/5014020dd67a0bef-p510.jpg"
+            },
+            {
+              "page": 292,
+              "image": "../assets/report-review/5014020dd67a0bef-p292.jpg"
+            },
+            {
+              "page": 147,
+              "image": "../assets/report-review/5014020dd67a0bef-p147.jpg"
+            },
+            {
+              "page": 583,
+              "image": "../assets/report-review/5014020dd67a0bef-p583.jpg"
+            },
+            {
+              "page": 365,
+              "image": "../assets/report-review/5014020dd67a0bef-p365.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EB%B3%B5%EA%B6%8C%EA%B8%B0%EA%B8%88%EC%82%AC%EC%97%85%ED%8F%89%EA%B0%80"
+    },
+    {
+      "id": "2e2f8e7c5325c3bb",
+      "classification": {
+        "large": "성과관리",
+        "middle": "재정사업평가결과",
+        "small": "일자리사업평가"
+      },
+      "classification_path": "성과관리>재정사업평가결과>일자리사업평가",
+      "odt_id": "BT54FQ6JD76ZM166B3WH7RCMM",
+      "data_name": "일자리사업평가",
+      "file_count": 160,
+      "years": [
+        "2024"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "F0000000000000004685:137",
+          "title": "(창업지원) 24 (해수부) 해양수산신산업 육성 및 기업투자 유치 지원(해양신산업 인큐베이팅 지원)",
+          "year": "2024",
+          "extension": "pdf",
+          "source_fingerprint": "268248:1782825168837476666",
+          "document_pages": 6,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/report-review/74eba4f7246a06e4-p1.jpg"
+            },
+            {
+              "page": 4,
+              "image": "../assets/report-review/74eba4f7246a06e4-p4.jpg"
+            },
+            {
+              "page": 3,
+              "image": "../assets/report-review/74eba4f7246a06e4-p3.jpg"
+            },
+            {
+              "page": 5,
+              "image": "../assets/report-review/74eba4f7246a06e4-p5.jpg"
+            },
+            {
+              "page": 6,
+              "image": "../assets/report-review/74eba4f7246a06e4-p6.jpg"
+            },
+            {
+              "page": 2,
+              "image": "../assets/report-review/74eba4f7246a06e4-p2.jpg"
+            }
+          ]
+        },
+        {
+          "id": "F0000000000000004685:136",
+          "title": "(창업지원) 23 (해수부) 수산산업 창업투자 지원(지역별 창업투자지원센터 운영)",
+          "year": "2024",
+          "extension": "pdf",
+          "source_fingerprint": "254616:1782825169141474728",
+          "document_pages": 5,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/report-review/376bc9770727faeb-p1.jpg"
+            },
+            {
+              "page": 4,
+              "image": "../assets/report-review/376bc9770727faeb-p4.jpg"
+            },
+            {
+              "page": 3,
+              "image": "../assets/report-review/376bc9770727faeb-p3.jpg"
+            },
+            {
+              "page": 5,
+              "image": "../assets/report-review/376bc9770727faeb-p5.jpg"
+            },
+            {
+              "page": 2,
+              "image": "../assets/report-review/376bc9770727faeb-p2.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%9D%BC%EC%9E%90%EB%A6%AC%EC%82%AC%EC%97%85%ED%8F%89%EA%B0%80"
+    },
+    {
+      "id": "b80fd27c6c44c495",
+      "classification": {
+        "large": "성과관리",
+        "middle": "재정사업평가결과",
+        "small": "재난안전사업평가"
+      },
+      "classification_path": "성과관리>재정사업평가결과>재난안전사업평가",
+      "odt_id": "ZKDKFL1Z8174N5GX577TIJ0MN",
+      "data_name": "재난안전사업평가",
+      "file_count": 1,
+      "years": [
+        "2024"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "F0000000000000004692:1",
+          "title": "2024년도 성과관리 재정사업평가결과(재난안전사업평가)",
+          "year": "2024",
+          "extension": "pdf",
+          "source_fingerprint": "714960:1782825171156461889",
+          "document_pages": 31,
+          "pages": [
+            {
+              "page": 4,
+              "image": "../assets/report-review/d869685a41e7e763-p4.jpg"
+            },
+            {
+              "page": 14,
+              "image": "../assets/report-review/d869685a41e7e763-p14.jpg"
+            },
+            {
+              "page": 11,
+              "image": "../assets/report-review/d869685a41e7e763-p11.jpg"
+            },
+            {
+              "page": 8,
+              "image": "../assets/report-review/d869685a41e7e763-p8.jpg"
+            },
+            {
+              "page": 18,
+              "image": "../assets/report-review/d869685a41e7e763-p18.jpg"
+            },
+            {
+              "page": 21,
+              "image": "../assets/report-review/d869685a41e7e763-p21.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%9E%AC%EB%82%9C%EC%95%88%EC%A0%84%EC%82%AC%EC%97%85%ED%8F%89%EA%B0%80"
+    },
+    {
+      "id": "7572f44c4216271a",
+      "classification": {
+        "large": "성과관리",
+        "middle": "재정사업평가결과",
+        "small": "중소기업지원사업평가"
+      },
+      "classification_path": "성과관리>재정사업평가결과>중소기업지원사업평가",
+      "odt_id": "N277K4MGHX5AVB1I6O34CK630",
+      "data_name": "중소기업지원사업평가",
+      "file_count": 130,
+      "years": [
+        "2024"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "F0000000000000004686:119",
+          "title": "130_인프라_특허청_발명장려문화조성",
+          "year": "2024",
+          "extension": "pdf",
+          "source_fingerprint": "480657:1782825171126462080",
+          "document_pages": 5,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/report-review/4bcdc39e138753b4-p1.jpg"
+            },
+            {
+              "page": 2,
+              "image": "../assets/report-review/4bcdc39e138753b4-p2.jpg"
+            },
+            {
+              "page": 3,
+              "image": "../assets/report-review/4bcdc39e138753b4-p3.jpg"
+            },
+            {
+              "page": 4,
+              "image": "../assets/report-review/4bcdc39e138753b4-p4.jpg"
+            },
+            {
+              "page": 5,
+              "image": "../assets/report-review/4bcdc39e138753b4-p5.jpg"
+            }
+          ]
+        },
+        {
+          "id": "F0000000000000004686:118",
+          "title": "129_인프라_환경부_온실가스관리인프라구축",
+          "year": "2024",
+          "extension": "pdf",
+          "source_fingerprint": "474641:1782825170462466311",
+          "document_pages": 5,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/report-review/66de8891844b1fb8-p1.jpg"
+            },
+            {
+              "page": 3,
+              "image": "../assets/report-review/66de8891844b1fb8-p3.jpg"
+            },
+            {
+              "page": 2,
+              "image": "../assets/report-review/66de8891844b1fb8-p2.jpg"
+            },
+            {
+              "page": 4,
+              "image": "../assets/report-review/66de8891844b1fb8-p4.jpg"
+            },
+            {
+              "page": 5,
+              "image": "../assets/report-review/66de8891844b1fb8-p5.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%A4%91%EC%86%8C%EA%B8%B0%EC%97%85%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85%ED%8F%89%EA%B0%80"
+    },
+    {
+      "id": "d655032fad914b4c",
+      "classification": {
+        "large": "성과관리",
+        "middle": "재정사업평가결과",
+        "small": "지역균형발전사업평가"
+      },
+      "classification_path": "성과관리>재정사업평가결과>지역균형발전사업평가",
+      "odt_id": "T002623H0Y2V2B48823023TV4",
+      "data_name": "지역균형발전사업평가",
+      "file_count": 1,
+      "years": [
+        "2024"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "F0000000000000004693:1",
+          "title": "2024년도 성과관리 재정사업평가결과(지역균형발전사업평가)",
+          "year": "2024",
+          "extension": "pdf",
+          "source_fingerprint": "14097996:1782825172539453079",
+          "document_pages": 157,
+          "pages": [
+            {
+              "page": 18,
+              "image": "../assets/report-review/09b504338520dba8-p18.jpg"
+            },
+            {
+              "page": 88,
+              "image": "../assets/report-review/09b504338520dba8-p88.jpg"
+            },
+            {
+              "page": 70,
+              "image": "../assets/report-review/09b504338520dba8-p70.jpg"
+            },
+            {
+              "page": 140,
+              "image": "../assets/report-review/09b504338520dba8-p140.jpg"
+            },
+            {
+              "page": 105,
+              "image": "../assets/report-review/09b504338520dba8-p105.jpg"
+            },
+            {
+              "page": 53,
+              "image": "../assets/report-review/09b504338520dba8-p53.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%A7%80%EC%97%AD%EA%B7%A0%ED%98%95%EB%B0%9C%EC%A0%84%EC%82%AC%EC%97%85%ED%8F%89%EA%B0%80"
+    },
+    {
+      "id": "68eef52952f64243",
+      "classification": {
+        "large": "성과관리",
+        "middle": "통합재정사업평가결과",
+        "small": ""
+      },
+      "classification_path": "성과관리>통합재정사업평가결과",
+      "odt_id": "ZD1I312X31VL8X888DPNN0I65",
+      "data_name": "통합재정사업평가결과",
+      "file_count": 71,
+      "years": [
+        "2026"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "F0000000000000004823:201",
+          "title": "58. 기획예산처",
+          "year": "2026",
+          "extension": "pdf",
+          "source_fingerprint": "532620:1789712670068969992",
+          "document_pages": 26,
+          "pages": [
+            {
+              "page": 4,
+              "image": "../assets/report-review/8cd33c1644fde5af-p4.jpg"
+            },
+            {
+              "page": 20,
+              "image": "../assets/report-review/8cd33c1644fde5af-p20.jpg"
+            },
+            {
+              "page": 12,
+              "image": "../assets/report-review/8cd33c1644fde5af-p12.jpg"
+            },
+            {
+              "page": 15,
+              "image": "../assets/report-review/8cd33c1644fde5af-p15.jpg"
+            },
+            {
+              "page": 18,
+              "image": "../assets/report-review/8cd33c1644fde5af-p18.jpg"
+            },
+            {
+              "page": 23,
+              "image": "../assets/report-review/8cd33c1644fde5af-p23.jpg"
+            }
+          ]
+        },
+        {
+          "id": "F0000000000000004823:200",
+          "title": "57. 해양경찰청",
+          "year": "2026",
+          "extension": "pdf",
+          "source_fingerprint": "975285:1789712669917971247",
+          "document_pages": 118,
+          "pages": [
+            {
+              "page": 14,
+              "image": "../assets/report-review/ebbe17d8cfbb177c-p14.jpg"
+            },
+            {
+              "page": 105,
+              "image": "../assets/report-review/ebbe17d8cfbb177c-p105.jpg"
+            },
+            {
+              "page": 53,
+              "image": "../assets/report-review/ebbe17d8cfbb177c-p53.jpg"
+            },
+            {
+              "page": 27,
+              "image": "../assets/report-review/ebbe17d8cfbb177c-p27.jpg"
+            },
+            {
+              "page": 118,
+              "image": "../assets/report-review/ebbe17d8cfbb177c-p118.jpg"
+            },
+            {
+              "page": 66,
+              "image": "../assets/report-review/ebbe17d8cfbb177c-p66.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%ED%86%B5%ED%95%A9%EC%9E%AC%EC%A0%95%EC%82%AC%EC%97%85%ED%8F%89%EA%B0%80%EA%B2%B0%EA%B3%BC"
+    },
+    {
+      "id": "6fcd0c2837eda4c8",
+      "classification": {
+        "large": "성과관리",
+        "middle": "통합재정사업평가결과 환류계획",
+        "small": ""
+      },
+      "classification_path": "성과관리>통합재정사업평가결과 환류계획",
+      "odt_id": "3M0V303441T64DFL2X5FPQC7S",
+      "data_name": "통합재정사업평가결과 환류계획",
+      "file_count": 58,
+      "years": [
+        "2026"
+      ],
+      "extensions": [
+        "hwpx"
+      ],
+      "documents": [
+        {
+          "id": "F0000000000000004923:1",
+          "title": "64. 기획예산처_통합 재정사업 평가결과 환류계획",
+          "year": "2026",
+          "extension": "hwpx",
+          "source_fingerprint": "58355:1789712684185852689",
+          "document_pages": 8,
+          "pages": [
+            {
+              "page": 2,
+              "image": "../assets/report-review/76e52b805a6bec7c-p2.svg"
+            },
+            {
+              "page": 6,
+              "image": "../assets/report-review/76e52b805a6bec7c-p6.svg"
+            },
+            {
+              "page": 4,
+              "image": "../assets/report-review/76e52b805a6bec7c-p4.svg"
+            },
+            {
+              "page": 7,
+              "image": "../assets/report-review/76e52b805a6bec7c-p7.svg"
+            },
+            {
+              "page": 5,
+              "image": "../assets/report-review/76e52b805a6bec7c-p5.svg"
+            },
+            {
+              "page": 8,
+              "image": "../assets/report-review/76e52b805a6bec7c-p8.svg"
+            }
+          ]
+        },
+        {
+          "id": "F0000000000000004923:2",
+          "title": "61. 해양경찰청_통합 재정사업 평가결과 환류계획",
+          "year": "2026",
+          "extension": "hwpx",
+          "source_fingerprint": "1158114:1789712685105845048",
+          "document_pages": 37,
+          "pages": [
+            {
+              "page": 5,
+              "image": "../assets/report-review/1dadc18cad0be5aa-p5.svg"
+            },
+            {
+              "page": 9,
+              "image": "../assets/report-review/1dadc18cad0be5aa-p9.svg"
+            },
+            {
+              "page": 17,
+              "image": "../assets/report-review/1dadc18cad0be5aa-p17.svg"
+            },
+            {
+              "page": 29,
+              "image": "../assets/report-review/1dadc18cad0be5aa-p29.svg"
+            },
+            {
+              "page": 21,
+              "image": "../assets/report-review/1dadc18cad0be5aa-p21.svg"
+            },
+            {
+              "page": 37,
+              "image": "../assets/report-review/1dadc18cad0be5aa-p37.svg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%ED%86%B5%ED%95%A9%EC%9E%AC%EC%A0%95%EC%82%AC%EC%97%85%ED%8F%89%EA%B0%80%EA%B2%B0%EA%B3%BC+%ED%99%98%EB%A5%98%EA%B3%84%ED%9A%8D"
+    },
+    {
+      "id": "8e6c68e31f7cd95a",
+      "classification": {
+        "large": "수지",
+        "middle": "",
+        "small": ""
+      },
+      "classification_path": "수지",
+      "odt_id": "6U3743M24O5QMFTM48RMFWJD2",
+      "data_name": "한국통합재정수지",
+      "file_count": 17,
+      "years": [
+        "1997",
+        "1998",
+        "1999",
+        "2004",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C8620000000000000001:18",
+          "title": "2022회계연도 한국통합재정수지",
+          "year": "2022",
+          "extension": "pdf",
+          "source_fingerprint": "3043313:1781248834000000000",
+          "document_pages": 202,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/report-review/5289f2f4771c9341-p1.jpg"
+            },
+            {
+              "page": 46,
+              "image": "../assets/report-review/5289f2f4771c9341-p46.jpg"
+            },
+            {
+              "page": 90,
+              "image": "../assets/report-review/5289f2f4771c9341-p90.jpg"
+            },
+            {
+              "page": 23,
+              "image": "../assets/report-review/5289f2f4771c9341-p23.jpg"
+            },
+            {
+              "page": 157,
+              "image": "../assets/report-review/5289f2f4771c9341-p157.jpg"
+            },
+            {
+              "page": 135,
+              "image": "../assets/report-review/5289f2f4771c9341-p135.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C8620000000000000001:16",
+          "title": "2021회계연도 한국통합재정수지",
+          "year": "2021",
+          "extension": "pdf",
+          "source_fingerprint": "2509350:1781248837000000000",
+          "document_pages": 198,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/report-review/ca9016500b71738f-p1.jpg"
+            },
+            {
+              "page": 45,
+              "image": "../assets/report-review/ca9016500b71738f-p45.jpg"
+            },
+            {
+              "page": 89,
+              "image": "../assets/report-review/ca9016500b71738f-p89.jpg"
+            },
+            {
+              "page": 23,
+              "image": "../assets/report-review/ca9016500b71738f-p23.jpg"
+            },
+            {
+              "page": 198,
+              "image": "../assets/report-review/ca9016500b71738f-p198.jpg"
+            },
+            {
+              "page": 176,
+              "image": "../assets/report-review/ca9016500b71738f-p176.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%ED%95%9C%EA%B5%AD%ED%86%B5%ED%95%A9%EC%9E%AC%EC%A0%95%EC%88%98%EC%A7%80"
+    },
+    {
+      "id": "812c16f38cbd8dc6",
+      "classification": {
+        "large": "예산",
+        "middle": "국가재정운용계획",
+        "small": ""
+      },
+      "classification_path": "예산>국가재정운용계획",
+      "odt_id": "2S334GQUADQ781S430BI435W4",
+      "data_name": "국가재정운용계획",
+      "file_count": 22,
+      "years": [
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C0010000000000000001:20",
+          "title": "2025_2029년 국가재정운용계획",
+          "year": "2025",
+          "extension": "pdf",
+          "source_fingerprint": "936979:1781250265000000000",
+          "document_pages": 37,
+          "pages": [
+            {
+              "page": 5,
+              "image": "../assets/report-review/1f75a7ac1ca272fd-p5.jpg"
+            },
+            {
+              "page": 25,
+              "image": "../assets/report-review/1f75a7ac1ca272fd-p25.jpg"
+            },
+            {
+              "page": 17,
+              "image": "../assets/report-review/1f75a7ac1ca272fd-p17.jpg"
+            },
+            {
+              "page": 29,
+              "image": "../assets/report-review/1f75a7ac1ca272fd-p29.jpg"
+            },
+            {
+              "page": 13,
+              "image": "../assets/report-review/1f75a7ac1ca272fd-p13.jpg"
+            },
+            {
+              "page": 33,
+              "image": "../assets/report-review/1f75a7ac1ca272fd-p33.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C0010000000000000001:19",
+          "title": "2024~2028년 국가재정운용계획",
+          "year": "2024",
+          "extension": "pdf",
+          "source_fingerprint": "2151625:1781250298000000000",
+          "document_pages": 218,
+          "pages": [
+            {
+              "page": 25,
+              "image": "../assets/report-review/be5eed1d3d0b2516-p25.jpg"
+            },
+            {
+              "page": 49,
+              "image": "../assets/report-review/be5eed1d3d0b2516-p49.jpg"
+            },
+            {
+              "page": 97,
+              "image": "../assets/report-review/be5eed1d3d0b2516-p97.jpg"
+            },
+            {
+              "page": 146,
+              "image": "../assets/report-review/be5eed1d3d0b2516-p146.jpg"
+            },
+            {
+              "page": 194,
+              "image": "../assets/report-review/be5eed1d3d0b2516-p194.jpg"
+            },
+            {
+              "page": 218,
+              "image": "../assets/report-review/be5eed1d3d0b2516-p218.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EA%B5%AD%EA%B0%80%EC%9E%AC%EC%A0%95%EC%9A%B4%EC%9A%A9%EA%B3%84%ED%9A%8D"
+    },
+    {
+      "id": "ac5bca5d14286376",
+      "classification": {
+        "large": "예산",
+        "middle": "국가재정운용계획",
+        "small": ""
+      },
+      "classification_path": "예산>국가재정운용계획",
+      "odt_id": "N2BO1J4PPF0GO11F8O7KC8SK4",
+      "data_name": "국가재정운용계획 첨부서류",
+      "file_count": 16,
+      "years": [
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C5540000000000000001:18",
+          "title": "2025~2029년 국가재정운용계획 첨부서류",
+          "year": "2025",
+          "extension": "pdf",
+          "source_fingerprint": "3934048:1789712685339843104",
+          "document_pages": 251,
+          "pages": [
+            {
+              "page": 29,
+              "image": "../assets/report-review/de51ffbcc94b6c3f-p29.jpg"
+            },
+            {
+              "page": 112,
+              "image": "../assets/report-review/de51ffbcc94b6c3f-p112.jpg"
+            },
+            {
+              "page": 57,
+              "image": "../assets/report-review/de51ffbcc94b6c3f-p57.jpg"
+            },
+            {
+              "page": 223,
+              "image": "../assets/report-review/de51ffbcc94b6c3f-p223.jpg"
+            },
+            {
+              "page": 251,
+              "image": "../assets/report-review/de51ffbcc94b6c3f-p251.jpg"
+            },
+            {
+              "page": 1,
+              "image": "../assets/report-review/de51ffbcc94b6c3f-p1.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C5540000000000000001:13",
+          "title": "2024~2028년 국가재정운용계획 첨부서류",
+          "year": "2024",
+          "extension": "pdf",
+          "source_fingerprint": "1824619:1781250296000000000",
+          "document_pages": 212,
+          "pages": [
+            {
+              "page": 24,
+              "image": "../assets/report-review/d526da1a0d6429a8-p24.jpg"
+            },
+            {
+              "page": 95,
+              "image": "../assets/report-review/d526da1a0d6429a8-p95.jpg"
+            },
+            {
+              "page": 118,
+              "image": "../assets/report-review/d526da1a0d6429a8-p118.jpg"
+            },
+            {
+              "page": 212,
+              "image": "../assets/report-review/d526da1a0d6429a8-p212.jpg"
+            },
+            {
+              "page": 165,
+              "image": "../assets/report-review/d526da1a0d6429a8-p165.jpg"
+            },
+            {
+              "page": 71,
+              "image": "../assets/report-review/d526da1a0d6429a8-p71.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EA%B5%AD%EA%B0%80%EC%9E%AC%EC%A0%95%EC%9A%B4%EC%9A%A9%EA%B3%84%ED%9A%8D+%EC%B2%A8%EB%B6%80%EC%84%9C%EB%A5%98"
+    },
+    {
+      "id": "d3350ec87db8e08b",
+      "classification": {
+        "large": "예산",
+        "middle": "국회예산기금확정",
+        "small": ""
+      },
+      "classification_path": "예산>국회예산기금확정",
+      "odt_id": "05B508G1VTC865C1KR12D3X37",
+      "data_name": "기금운용계획",
+      "file_count": 29,
+      "years": [
+        "2003",
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C3600000000000000001:29",
+          "title": "2026년도 기금운용계획",
+          "year": "2026",
+          "extension": "pdf",
+          "source_fingerprint": "1045211:1789712660313051097",
+          "document_pages": 386,
+          "pages": [
+            {
+              "page": 44,
+              "image": "../assets/report-review/b8b429a1ccdaace8-p44.jpg"
+            },
+            {
+              "page": 215,
+              "image": "../assets/report-review/b8b429a1ccdaace8-p215.jpg"
+            },
+            {
+              "page": 172,
+              "image": "../assets/report-review/b8b429a1ccdaace8-p172.jpg"
+            },
+            {
+              "page": 343,
+              "image": "../assets/report-review/b8b429a1ccdaace8-p343.jpg"
+            },
+            {
+              "page": 87,
+              "image": "../assets/report-review/b8b429a1ccdaace8-p87.jpg"
+            },
+            {
+              "page": 386,
+              "image": "../assets/report-review/b8b429a1ccdaace8-p386.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C3600000000000000001:24",
+          "title": "2025년도 기금운용계획",
+          "year": "2025",
+          "extension": "pdf",
+          "source_fingerprint": "1007711:1781250259000000000",
+          "document_pages": 368,
+          "pages": [
+            {
+              "page": 42,
+              "image": "../assets/report-review/d8405502ffeee72a-p42.jpg"
+            },
+            {
+              "page": 286,
+              "image": "../assets/report-review/d8405502ffeee72a-p286.jpg"
+            },
+            {
+              "page": 164,
+              "image": "../assets/report-review/d8405502ffeee72a-p164.jpg"
+            },
+            {
+              "page": 246,
+              "image": "../assets/report-review/d8405502ffeee72a-p246.jpg"
+            },
+            {
+              "page": 83,
+              "image": "../assets/report-review/d8405502ffeee72a-p83.jpg"
+            },
+            {
+              "page": 205,
+              "image": "../assets/report-review/d8405502ffeee72a-p205.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EA%B8%B0%EA%B8%88%EC%9A%B4%EC%9A%A9%EA%B3%84%ED%9A%8D"
+    },
+    {
+      "id": "4b146bac65844be3",
+      "classification": {
+        "large": "예산",
+        "middle": "국회예산기금확정",
+        "small": ""
+      },
+      "classification_path": "예산>국회예산기금확정",
+      "odt_id": "1XQ3O1I5UE261XIZVQ56VWV20",
+      "data_name": "추가경정예산",
+      "file_count": 75,
+      "years": [
+        "1955",
+        "1961",
+        "1962",
+        "1963",
+        "1964",
+        "1967",
+        "1968",
+        "1969",
+        "1970",
+        "1980",
+        "1981",
+        "1982",
+        "1984",
+        "1985",
+        "1987",
+        "1988",
+        "1989",
+        "1990",
+        "1991",
+        "1992",
+        "1994",
+        "1995",
+        "1996",
+        "1998",
+        "1999",
+        "2008",
+        "2009",
+        "2013",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C4620000000000000001:75",
+          "title": "2022년도 확정예산(제2회 추경예산)",
+          "year": "2022",
+          "extension": "pdf",
+          "source_fingerprint": "847151:1781250357000000000",
+          "document_pages": 389,
+          "pages": [
+            {
+              "page": 44,
+              "image": "../assets/report-review/f8d50924d800730b-p44.jpg"
+            },
+            {
+              "page": 173,
+              "image": "../assets/report-review/f8d50924d800730b-p173.jpg"
+            },
+            {
+              "page": 346,
+              "image": "../assets/report-review/f8d50924d800730b-p346.jpg"
+            },
+            {
+              "page": 303,
+              "image": "../assets/report-review/f8d50924d800730b-p303.jpg"
+            },
+            {
+              "page": 1,
+              "image": "../assets/report-review/f8d50924d800730b-p1.jpg"
+            },
+            {
+              "page": 260,
+              "image": "../assets/report-review/f8d50924d800730b-p260.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C4620000000000000001:74",
+          "title": "2022년도 확정예산(제1회 추경예산)",
+          "year": "2022",
+          "extension": "pdf",
+          "source_fingerprint": "781641:1781250356000000000",
+          "document_pages": 389,
+          "pages": [
+            {
+              "page": 44,
+              "image": "../assets/report-review/55ce7fbd8984260c-p44.jpg"
+            },
+            {
+              "page": 173,
+              "image": "../assets/report-review/55ce7fbd8984260c-p173.jpg"
+            },
+            {
+              "page": 346,
+              "image": "../assets/report-review/55ce7fbd8984260c-p346.jpg"
+            },
+            {
+              "page": 303,
+              "image": "../assets/report-review/55ce7fbd8984260c-p303.jpg"
+            },
+            {
+              "page": 1,
+              "image": "../assets/report-review/55ce7fbd8984260c-p1.jpg"
+            },
+            {
+              "page": 130,
+              "image": "../assets/report-review/55ce7fbd8984260c-p130.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%B6%94%EA%B0%80%EA%B2%BD%EC%A0%95%EC%98%88%EC%82%B0"
+    },
+    {
+      "id": "aa8e5a17f0cd475c",
+      "classification": {
+        "large": "예산",
+        "middle": "국회예산기금확정",
+        "small": ""
+      },
+      "classification_path": "예산>국회예산기금확정",
+      "odt_id": "503XU7XY52J5SQQX27L24785K",
+      "data_name": "예산",
+      "file_count": 63,
+      "years": [
+        "1954",
+        "1958",
+        "1959",
+        "1960",
+        "1961",
+        "1962",
+        "1965",
+        "1966",
+        "1967",
+        "1968",
+        "1969",
+        "1970",
+        "1971",
+        "1972",
+        "1980",
+        "1981",
+        "1982",
+        "1983",
+        "1984",
+        "1985",
+        "1986",
+        "1987",
+        "1988",
+        "1989",
+        "1990",
+        "1991",
+        "1992",
+        "1993",
+        "1994",
+        "1995",
+        "1996",
+        "1997",
+        "1999",
+        "2001",
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "extensions": [
+        "hwp",
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C9720000000000000001:65",
+          "title": "2026년도 예산",
+          "year": "2026",
+          "extension": "pdf",
+          "source_fingerprint": "1067128:1789712659797055387",
+          "document_pages": 431,
+          "pages": [
+            {
+              "page": 49,
+              "image": "../assets/report-review/7872487ac0c9b7eb-p49.jpg"
+            },
+            {
+              "page": 144,
+              "image": "../assets/report-review/7872487ac0c9b7eb-p144.jpg"
+            },
+            {
+              "page": 192,
+              "image": "../assets/report-review/7872487ac0c9b7eb-p192.jpg"
+            },
+            {
+              "page": 288,
+              "image": "../assets/report-review/7872487ac0c9b7eb-p288.jpg"
+            },
+            {
+              "page": 335,
+              "image": "../assets/report-review/7872487ac0c9b7eb-p335.jpg"
+            },
+            {
+              "page": 1,
+              "image": "../assets/report-review/7872487ac0c9b7eb-p1.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C9720000000000000001:26",
+          "title": "2019년도 나라살림 예산",
+          "year": "2019",
+          "extension": "hwp",
+          "source_fingerprint": "7840768:1781250820000000000",
+          "document_pages": 847,
+          "pages": [
+            {
+              "page": 95,
+              "image": "../assets/report-review/8910952d40e7cc03-p95.svg"
+            },
+            {
+              "page": 847,
+              "image": "../assets/report-review/8910952d40e7cc03-p847.svg"
+            },
+            {
+              "page": 377,
+              "image": "../assets/report-review/8910952d40e7cc03-p377.svg"
+            },
+            {
+              "page": 753,
+              "image": "../assets/report-review/8910952d40e7cc03-p753.svg"
+            },
+            {
+              "page": 565,
+              "image": "../assets/report-review/8910952d40e7cc03-p565.svg"
+            },
+            {
+              "page": 1,
+              "image": "../assets/report-review/8910952d40e7cc03-p1.svg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%98%88%EC%82%B0"
+    },
+    {
+      "id": "20ceec5f697272af",
+      "classification": {
+        "large": "예산",
+        "middle": "국회예산기금확정",
+        "small": ""
+      },
+      "classification_path": "예산>국회예산기금확정",
+      "odt_id": "6KR5Z50Y31H4HRV768JDJ41D4",
+      "data_name": "나라살림 예산개요 참고자료",
+      "file_count": 37,
+      "years": [
+        "1978",
+        "1980",
+        "1982",
+        "1983",
+        "1984",
+        "1985",
+        "1986",
+        "1987",
+        "1988",
+        "1989",
+        "1990",
+        "1991",
+        "1992",
+        "1993",
+        "1994",
+        "1995",
+        "1998",
+        "1999",
+        "2000",
+        "2001",
+        "2002",
+        "2004",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C9710000000000000001:17",
+          "title": "2020년도 나라살림 예산개요 참고자료",
+          "year": "2020",
+          "extension": "pdf",
+          "source_fingerprint": "6655684:1781250556000000000",
+          "document_pages": 923,
+          "pages": [
+            {
+              "page": 103,
+              "image": "../assets/report-review/017013bdefa611a4-p103.jpg"
+            },
+            {
+              "page": 718,
+              "image": "../assets/report-review/017013bdefa611a4-p718.jpg"
+            },
+            {
+              "page": 411,
+              "image": "../assets/report-review/017013bdefa611a4-p411.jpg"
+            },
+            {
+              "page": 821,
+              "image": "../assets/report-review/017013bdefa611a4-p821.jpg"
+            },
+            {
+              "page": 513,
+              "image": "../assets/report-review/017013bdefa611a4-p513.jpg"
+            },
+            {
+              "page": 923,
+              "image": "../assets/report-review/017013bdefa611a4-p923.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C9710000000000000001:16",
+          "title": "2019년도 나라살림 예산개요 참고자료",
+          "year": "2019",
+          "extension": "pdf",
+          "source_fingerprint": "4272968:1781250819000000000",
+          "document_pages": 866,
+          "pages": [
+            {
+              "page": 97,
+              "image": "../assets/report-review/b24f473c63ef5dcc-p97.jpg"
+            },
+            {
+              "page": 770,
+              "image": "../assets/report-review/b24f473c63ef5dcc-p770.jpg"
+            },
+            {
+              "page": 385,
+              "image": "../assets/report-review/b24f473c63ef5dcc-p385.jpg"
+            },
+            {
+              "page": 674,
+              "image": "../assets/report-review/b24f473c63ef5dcc-p674.jpg"
+            },
+            {
+              "page": 193,
+              "image": "../assets/report-review/b24f473c63ef5dcc-p193.jpg"
+            },
+            {
+              "page": 289,
+              "image": "../assets/report-review/b24f473c63ef5dcc-p289.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EB%82%98%EB%9D%BC%EC%82%B4%EB%A6%BC+%EC%98%88%EC%82%B0%EA%B0%9C%EC%9A%94+%EC%B0%B8%EA%B3%A0%EC%9E%90%EB%A3%8C"
+    },
+    {
+      "id": "bb0327aaaa05274a",
+      "classification": {
+        "large": "예산",
+        "middle": "국회예산기금확정",
+        "small": ""
+      },
+      "classification_path": "예산>국회예산기금확정",
+      "odt_id": "R7N6D7GD1EME2FOD45L2D073W",
+      "data_name": "임대형 민자사업(BTL) 한도액",
+      "file_count": 9,
+      "years": [
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2017",
+        "2018",
+        "2019",
+        "2020"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C5610000000000000001:1",
+          "title": "2020년도 임대형 민자사업(BTL) 한도액(원안가결)",
+          "year": "2020",
+          "extension": "pdf",
+          "source_fingerprint": "100315:1781250548000000000",
+          "document_pages": 9,
+          "pages": [
+            {
+              "page": 3,
+              "image": "../assets/report-review/1757954efdb9d70c-p3.jpg"
+            },
+            {
+              "page": 5,
+              "image": "../assets/report-review/1757954efdb9d70c-p5.jpg"
+            },
+            {
+              "page": 8,
+              "image": "../assets/report-review/1757954efdb9d70c-p8.jpg"
+            },
+            {
+              "page": 9,
+              "image": "../assets/report-review/1757954efdb9d70c-p9.jpg"
+            },
+            {
+              "page": 4,
+              "image": "../assets/report-review/1757954efdb9d70c-p4.jpg"
+            },
+            {
+              "page": 7,
+              "image": "../assets/report-review/1757954efdb9d70c-p7.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C5610000000000000001:2",
+          "title": "2019년도 임대형 민자사업(BTL) 한도액(원안가결)",
+          "year": "2019",
+          "extension": "pdf",
+          "source_fingerprint": "98411:1781250813000000000",
+          "document_pages": 9,
+          "pages": [
+            {
+              "page": 3,
+              "image": "../assets/report-review/ab1df0b3968914f6-p3.jpg"
+            },
+            {
+              "page": 5,
+              "image": "../assets/report-review/ab1df0b3968914f6-p5.jpg"
+            },
+            {
+              "page": 8,
+              "image": "../assets/report-review/ab1df0b3968914f6-p8.jpg"
+            },
+            {
+              "page": 9,
+              "image": "../assets/report-review/ab1df0b3968914f6-p9.jpg"
+            },
+            {
+              "page": 4,
+              "image": "../assets/report-review/ab1df0b3968914f6-p4.jpg"
+            },
+            {
+              "page": 7,
+              "image": "../assets/report-review/ab1df0b3968914f6-p7.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%9E%84%EB%8C%80%ED%98%95+%EB%AF%BC%EC%9E%90%EC%82%AC%EC%97%85%28BTL%29+%ED%95%9C%EB%8F%84%EC%95%A1"
+    },
+    {
+      "id": "b9bc33b2c67ef5e9",
+      "classification": {
+        "large": "예산",
+        "middle": "국회예산기금확정",
+        "small": ""
+      },
+      "classification_path": "예산>국회예산기금확정",
+      "odt_id": "VK0HYYP081PY4OW6TSAWK362V",
+      "data_name": "나라살림 예산개요",
+      "file_count": 65,
+      "years": [
+        "1960",
+        "1961",
+        "1962",
+        "1966",
+        "1967",
+        "1968",
+        "1969",
+        "1970",
+        "1971",
+        "1972",
+        "1974",
+        "1975",
+        "1976",
+        "1977",
+        "1978",
+        "1980",
+        "1982",
+        "1983",
+        "1984",
+        "1985",
+        "1986",
+        "1987",
+        "1988",
+        "1989",
+        "1990",
+        "1991",
+        "1992",
+        "1993",
+        "1994",
+        "1995",
+        "1996",
+        "1997",
+        "1998",
+        "1999",
+        "2000",
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005",
+        "2007",
+        "2008",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C9700000000000000001:65",
+          "title": "2026년 나라살림 예산개요",
+          "year": "2026",
+          "extension": "pdf",
+          "source_fingerprint": "8680845:1789712660841046707",
+          "document_pages": 312,
+          "pages": [
+            {
+              "page": 70,
+              "image": "../assets/report-review/e5106b6f9d27e2f5-p70.jpg"
+            },
+            {
+              "page": 139,
+              "image": "../assets/report-review/e5106b6f9d27e2f5-p139.jpg"
+            },
+            {
+              "page": 174,
+              "image": "../assets/report-review/e5106b6f9d27e2f5-p174.jpg"
+            },
+            {
+              "page": 208,
+              "image": "../assets/report-review/e5106b6f9d27e2f5-p208.jpg"
+            },
+            {
+              "page": 105,
+              "image": "../assets/report-review/e5106b6f9d27e2f5-p105.jpg"
+            },
+            {
+              "page": 312,
+              "image": "../assets/report-review/e5106b6f9d27e2f5-p312.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C9700000000000000001:64",
+          "title": "2025년도 나라살림 예산개요",
+          "year": "2025",
+          "extension": "pdf",
+          "source_fingerprint": "4540286:1781250264000000000",
+          "document_pages": 330,
+          "pages": [
+            {
+              "page": 38,
+              "image": "../assets/report-review/f09f51f54b1e150e-p38.jpg"
+            },
+            {
+              "page": 147,
+              "image": "../assets/report-review/f09f51f54b1e150e-p147.jpg"
+            },
+            {
+              "page": 220,
+              "image": "../assets/report-review/f09f51f54b1e150e-p220.jpg"
+            },
+            {
+              "page": 111,
+              "image": "../assets/report-review/f09f51f54b1e150e-p111.jpg"
+            },
+            {
+              "page": 74,
+              "image": "../assets/report-review/f09f51f54b1e150e-p74.jpg"
+            },
+            {
+              "page": 257,
+              "image": "../assets/report-review/f09f51f54b1e150e-p257.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EB%82%98%EB%9D%BC%EC%82%B4%EB%A6%BC+%EC%98%88%EC%82%B0%EA%B0%9C%EC%9A%94"
+    },
+    {
+      "id": "f00a5a93622e3c77",
+      "classification": {
+        "large": "예산",
+        "middle": "정부예산기금안",
+        "small": ""
+      },
+      "classification_path": "예산>정부예산기금안",
+      "odt_id": "1641U86Q13HC75Y8A05I4ND78",
+      "data_name": "세입세출예산안 사업별 설명서",
+      "file_count": 614,
+      "years": [
+        "1990",
+        "1991",
+        "1992",
+        "1993",
+        "1994",
+        "1995",
+        "1996",
+        "1997",
+        "1998",
+        "1999",
+        "2000",
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026",
+        "2027"
+      ],
+      "extensions": [
+        "pdf",
+        "zip"
+      ],
+      "documents": [
+        {
+          "id": "C2190000000000000001:614",
+          "title": "2027년도 세입세출예산안사업별 설명서 5권",
+          "year": "2027",
+          "extension": "pdf",
+          "source_fingerprint": "1494776:1789712657162077300",
+          "document_pages": 402,
+          "pages": [
+            {
+              "page": 46,
+              "image": "../assets/report-review/da93ce34c015e7d7-p46.jpg"
+            },
+            {
+              "page": 268,
+              "image": "../assets/report-review/da93ce34c015e7d7-p268.jpg"
+            },
+            {
+              "page": 179,
+              "image": "../assets/report-review/da93ce34c015e7d7-p179.jpg"
+            },
+            {
+              "page": 135,
+              "image": "../assets/report-review/da93ce34c015e7d7-p135.jpg"
+            },
+            {
+              "page": 90,
+              "image": "../assets/report-review/da93ce34c015e7d7-p90.jpg"
+            },
+            {
+              "page": 313,
+              "image": "../assets/report-review/da93ce34c015e7d7-p313.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C2190000000000000001:613",
+          "title": "2027년도 세입세출예산안사업별 설명서 4권",
+          "year": "2027",
+          "extension": "pdf",
+          "source_fingerprint": "1515602:1789712656712081042",
+          "document_pages": 413,
+          "pages": [
+            {
+              "page": 47,
+              "image": "../assets/report-review/4802193ce5ec5b2a-p47.jpg"
+            },
+            {
+              "page": 93,
+              "image": "../assets/report-review/4802193ce5ec5b2a-p93.jpg"
+            },
+            {
+              "page": 184,
+              "image": "../assets/report-review/4802193ce5ec5b2a-p184.jpg"
+            },
+            {
+              "page": 230,
+              "image": "../assets/report-review/4802193ce5ec5b2a-p230.jpg"
+            },
+            {
+              "page": 138,
+              "image": "../assets/report-review/4802193ce5ec5b2a-p138.jpg"
+            },
+            {
+              "page": 321,
+              "image": "../assets/report-review/4802193ce5ec5b2a-p321.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%84%B8%EC%9E%85%EC%84%B8%EC%B6%9C%EC%98%88%EC%82%B0%EC%95%88+%EC%82%AC%EC%97%85%EB%B3%84+%EC%84%A4%EB%AA%85%EC%84%9C"
+    },
+    {
+      "id": "8332db215a0564cd",
+      "classification": {
+        "large": "예산",
+        "middle": "정부예산기금안",
+        "small": ""
+      },
+      "classification_path": "예산>정부예산기금안",
+      "odt_id": "75473B2S65RX84G1G3B71YJ6R",
+      "data_name": "예산안 독립기관 및 감사원의 세출예산요구액 감액규모, 이유 및 의견",
+      "file_count": 38,
+      "years": [
+        "1996",
+        "1997",
+        "1998",
+        "1999",
+        "2000",
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026",
+        "2027"
+      ],
+      "extensions": [
+        "hwp",
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C2210000000000000001:38",
+          "title": "2027년도 예산안 독립기관 및 감사원의 세출예산요구액 감액규모,이유 및 의견",
+          "year": "2027",
+          "extension": "pdf",
+          "source_fingerprint": "154573:1789712656853079869",
+          "document_pages": 28,
+          "pages": [
+            {
+              "page": 7,
+              "image": "../assets/report-review/86794a4e7ea5c4e3-p7.jpg"
+            },
+            {
+              "page": 13,
+              "image": "../assets/report-review/86794a4e7ea5c4e3-p13.jpg"
+            },
+            {
+              "page": 25,
+              "image": "../assets/report-review/86794a4e7ea5c4e3-p25.jpg"
+            },
+            {
+              "page": 16,
+              "image": "../assets/report-review/86794a4e7ea5c4e3-p16.jpg"
+            },
+            {
+              "page": 10,
+              "image": "../assets/report-review/86794a4e7ea5c4e3-p10.jpg"
+            },
+            {
+              "page": 28,
+              "image": "../assets/report-review/86794a4e7ea5c4e3-p28.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C2210000000000000001:11",
+          "title": "2019년도 예산안 독립기관 및 감사원의 세출예산요구액 감액 규모이유 및 의견",
+          "year": "2019",
+          "extension": "hwp",
+          "source_fingerprint": "81408:1781250560000000000",
+          "document_pages": 20,
+          "pages": [
+            {
+              "page": 3,
+              "image": "../assets/report-review/25a682d4393e5209-p3.svg"
+            },
+            {
+              "page": 5,
+              "image": "../assets/report-review/25a682d4393e5209-p5.svg"
+            },
+            {
+              "page": 9,
+              "image": "../assets/report-review/25a682d4393e5209-p9.svg"
+            },
+            {
+              "page": 7,
+              "image": "../assets/report-review/25a682d4393e5209-p7.svg"
+            },
+            {
+              "page": 18,
+              "image": "../assets/report-review/25a682d4393e5209-p18.svg"
+            },
+            {
+              "page": 16,
+              "image": "../assets/report-review/25a682d4393e5209-p16.svg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%98%88%EC%82%B0%EC%95%88+%EB%8F%85%EB%A6%BD%EA%B8%B0%EA%B4%80+%EB%B0%8F+%EA%B0%90%EC%82%AC%EC%9B%90%EC%9D%98+%EC%84%B8%EC%B6%9C%EC%98%88%EC%82%B0%EC%9A%94%EA%B5%AC%EC%95%A1+%EA%B0%90%EC%95%A1%EA%B7%9C%EB%AA%A8%2C+%EC%9D%B4%EC%9C%A0+%EB%B0%8F+%EC%9D%98%EA%B2%AC"
+    },
+    {
+      "id": "1e008e9998e49b5c",
+      "classification": {
+        "large": "예산",
+        "middle": "정부예산기금안",
+        "small": ""
+      },
+      "classification_path": "예산>정부예산기금안",
+      "odt_id": "7YOFG8EC4V62024416SF6H1B0",
+      "data_name": "예산안(총괄)",
+      "file_count": 76,
+      "years": [
+        "1990",
+        "1991",
+        "1992",
+        "1993",
+        "1994",
+        "1995",
+        "1996",
+        "1997",
+        "1998",
+        "1999",
+        "2000",
+        "2001",
+        "2002",
+        "2004",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026",
+        "2027"
+      ],
+      "extensions": [
+        "hwp",
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C0080000000000000001:76",
+          "title": "2027년도 예산안",
+          "year": "2027",
+          "extension": "pdf",
+          "source_fingerprint": "1051949:1789712656779080485",
+          "document_pages": 441,
+          "pages": [
+            {
+              "page": 50,
+              "image": "../assets/report-review/977b2da2e779527e-p50.jpg"
+            },
+            {
+              "page": 294,
+              "image": "../assets/report-review/977b2da2e779527e-p294.jpg"
+            },
+            {
+              "page": 197,
+              "image": "../assets/report-review/977b2da2e779527e-p197.jpg"
+            },
+            {
+              "page": 343,
+              "image": "../assets/report-review/977b2da2e779527e-p343.jpg"
+            },
+            {
+              "page": 392,
+              "image": "../assets/report-review/977b2da2e779527e-p392.jpg"
+            },
+            {
+              "page": 441,
+              "image": "../assets/report-review/977b2da2e779527e-p441.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C0080000000000000001:68",
+          "title": "2019년도 예산안",
+          "year": "2019",
+          "extension": "hwp",
+          "source_fingerprint": "506368:1781250561000000000",
+          "document_pages": 367,
+          "pages": [
+            {
+              "page": 42,
+              "image": "../assets/report-review/dd8b42fb64665712-p42.svg"
+            },
+            {
+              "page": 245,
+              "image": "../assets/report-review/dd8b42fb64665712-p245.svg"
+            },
+            {
+              "page": 164,
+              "image": "../assets/report-review/dd8b42fb64665712-p164.svg"
+            },
+            {
+              "page": 286,
+              "image": "../assets/report-review/dd8b42fb64665712-p286.svg"
+            },
+            {
+              "page": 123,
+              "image": "../assets/report-review/dd8b42fb64665712-p123.svg"
+            },
+            {
+              "page": 1,
+              "image": "../assets/report-review/dd8b42fb64665712-p1.svg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%98%88%EC%82%B0%EC%95%88%28%EC%B4%9D%EA%B4%84%29"
+    },
+    {
+      "id": "d63a305a47f594e0",
+      "classification": {
+        "large": "예산",
+        "middle": "정부예산기금안",
+        "small": ""
+      },
+      "classification_path": "예산>정부예산기금안",
+      "odt_id": "A5QO2378WC883EI6N3A58SGWW",
+      "data_name": "예산안 개요",
+      "file_count": 27,
+      "years": [
+        "2002",
+        "2003",
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026",
+        "2027"
+      ],
+      "extensions": [
+        "hwp",
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C2170000000000000001:28",
+          "title": "2027년도 예산안 개요",
+          "year": "2027",
+          "extension": "pdf",
+          "source_fingerprint": "325198:1789712656930079229",
+          "document_pages": 40,
+          "pages": [
+            {
+              "page": 5,
+              "image": "../assets/report-review/f6f7d3eae22cd5ba-p5.jpg"
+            },
+            {
+              "page": 36,
+              "image": "../assets/report-review/f6f7d3eae22cd5ba-p36.jpg"
+            },
+            {
+              "page": 18,
+              "image": "../assets/report-review/f6f7d3eae22cd5ba-p18.jpg"
+            },
+            {
+              "page": 10,
+              "image": "../assets/report-review/f6f7d3eae22cd5ba-p10.jpg"
+            },
+            {
+              "page": 40,
+              "image": "../assets/report-review/f6f7d3eae22cd5ba-p40.jpg"
+            },
+            {
+              "page": 23,
+              "image": "../assets/report-review/f6f7d3eae22cd5ba-p23.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C2170000000000000001:8",
+          "title": "2019년도 예산안개요",
+          "year": "2019",
+          "extension": "hwp",
+          "source_fingerprint": "95744:1781250561000000000",
+          "document_pages": 37,
+          "pages": [
+            {
+              "page": 5,
+              "image": "../assets/report-review/0ee5d67c0bfee06c-p5.svg"
+            },
+            {
+              "page": 33,
+              "image": "../assets/report-review/0ee5d67c0bfee06c-p33.svg"
+            },
+            {
+              "page": 17,
+              "image": "../assets/report-review/0ee5d67c0bfee06c-p17.svg"
+            },
+            {
+              "page": 9,
+              "image": "../assets/report-review/0ee5d67c0bfee06c-p9.svg"
+            },
+            {
+              "page": 29,
+              "image": "../assets/report-review/0ee5d67c0bfee06c-p29.svg"
+            },
+            {
+              "page": 21,
+              "image": "../assets/report-review/0ee5d67c0bfee06c-p21.svg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%98%88%EC%82%B0%EC%95%88+%EA%B0%9C%EC%9A%94"
+    },
+    {
+      "id": "7c2263cdb0c6f551",
+      "classification": {
+        "large": "예산",
+        "middle": "정부예산기금안",
+        "small": ""
+      },
+      "classification_path": "예산>정부예산기금안",
+      "odt_id": "N23T8I30Z8R7WVD1ZL2T0PLUZ",
+      "data_name": "성인지예산서(안)",
+      "file_count": 18,
+      "years": [
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026",
+        "2027"
+      ],
+      "extensions": [
+        "hwp",
+        "pdf",
+        "zip"
+      ],
+      "documents": [
+        {
+          "id": "C2230000000000000001:19",
+          "title": "2027년도 성인지 예산서",
+          "year": "2027",
+          "extension": "pdf",
+          "source_fingerprint": "2657048:1789712657202076967",
+          "document_pages": 916,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/report-review/2ae0bb52e93a61f7-p1.jpg"
+            },
+            {
+              "page": 713,
+              "image": "../assets/report-review/2ae0bb52e93a61f7-p713.jpg"
+            },
+            {
+              "page": 408,
+              "image": "../assets/report-review/2ae0bb52e93a61f7-p408.jpg"
+            },
+            {
+              "page": 204,
+              "image": "../assets/report-review/2ae0bb52e93a61f7-p204.jpg"
+            },
+            {
+              "page": 611,
+              "image": "../assets/report-review/2ae0bb52e93a61f7-p611.jpg"
+            },
+            {
+              "page": 306,
+              "image": "../assets/report-review/2ae0bb52e93a61f7-p306.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C2230000000000000001:7",
+          "title": "2019년도 성인지예산서",
+          "year": "2019",
+          "extension": "hwp",
+          "source_fingerprint": "1396736:1781250775000000000",
+          "document_pages": 740,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/report-review/1b03255b52ba93ab-p1.svg"
+            },
+            {
+              "page": 412,
+              "image": "../assets/report-review/1b03255b52ba93ab-p412.svg"
+            },
+            {
+              "page": 329,
+              "image": "../assets/report-review/1b03255b52ba93ab-p329.svg"
+            },
+            {
+              "page": 740,
+              "image": "../assets/report-review/1b03255b52ba93ab-p740.svg"
+            },
+            {
+              "page": 494,
+              "image": "../assets/report-review/1b03255b52ba93ab-p494.svg"
+            },
+            {
+              "page": 247,
+              "image": "../assets/report-review/1b03255b52ba93ab-p247.svg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%84%B1%EC%9D%B8%EC%A7%80%EC%98%88%EC%82%B0%EC%84%9C%28%EC%95%88%29"
+    },
+    {
+      "id": "887ebbd47b55041d",
+      "classification": {
+        "large": "예산",
+        "middle": "정부예산기금안",
+        "small": ""
+      },
+      "classification_path": "예산>정부예산기금안",
+      "odt_id": "R7ON5CK242SYOE8J20KRMNF17",
+      "data_name": "조세지출예산서(안)",
+      "file_count": 17,
+      "years": [
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026",
+        "2027"
+      ],
+      "extensions": [
+        "hwp",
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C2240000000000000001:18",
+          "title": "2027년도 조세지출예산서",
+          "year": "2027",
+          "extension": "pdf",
+          "source_fingerprint": "1450615:1789712657222076801",
+          "document_pages": 175,
+          "pages": [
+            {
+              "page": 20,
+              "image": "../assets/report-review/55a8de5fe9f7c4f4-p20.jpg"
+            },
+            {
+              "page": 40,
+              "image": "../assets/report-review/55a8de5fe9f7c4f4-p40.jpg"
+            },
+            {
+              "page": 78,
+              "image": "../assets/report-review/55a8de5fe9f7c4f4-p78.jpg"
+            },
+            {
+              "page": 117,
+              "image": "../assets/report-review/55a8de5fe9f7c4f4-p117.jpg"
+            },
+            {
+              "page": 59,
+              "image": "../assets/report-review/55a8de5fe9f7c4f4-p59.jpg"
+            },
+            {
+              "page": 136,
+              "image": "../assets/report-review/55a8de5fe9f7c4f4-p136.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C2240000000000000001:3",
+          "title": "2019년도 조세지출예산서",
+          "year": "2019",
+          "extension": "hwp",
+          "source_fingerprint": "425984:1781250774000000000",
+          "document_pages": 173,
+          "pages": [
+            {
+              "page": 20,
+              "image": "../assets/report-review/d5330a727cb68cd0-p20.svg"
+            },
+            {
+              "page": 77,
+              "image": "../assets/report-review/d5330a727cb68cd0-p77.svg"
+            },
+            {
+              "page": 58,
+              "image": "../assets/report-review/d5330a727cb68cd0-p58.svg"
+            },
+            {
+              "page": 39,
+              "image": "../assets/report-review/d5330a727cb68cd0-p39.svg"
+            },
+            {
+              "page": 97,
+              "image": "../assets/report-review/d5330a727cb68cd0-p97.svg"
+            },
+            {
+              "page": 116,
+              "image": "../assets/report-review/d5330a727cb68cd0-p116.svg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%A1%B0%EC%84%B8%EC%A7%80%EC%B6%9C%EC%98%88%EC%82%B0%EC%84%9C%28%EC%95%88%29"
+    },
+    {
+      "id": "00472d457eaa19f7",
+      "classification": {
+        "large": "예산",
+        "middle": "정부예산기금안",
+        "small": "기금운용계획안"
+      },
+      "classification_path": "예산>정부예산기금안>기금운용계획안",
+      "odt_id": "203548O2862NK43T60CH1U55R",
+      "data_name": "기금운용계획안(총괄)",
+      "file_count": 23,
+      "years": [
+        "2003",
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2025",
+        "2026",
+        "2027"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C3590000000000000001:23",
+          "title": "2027년도 기금운용계획안",
+          "year": "2027",
+          "extension": "pdf",
+          "source_fingerprint": "1116903:1789712657348075753",
+          "document_pages": 425,
+          "pages": [
+            {
+              "page": 48,
+              "image": "../assets/report-review/9a135e36a8ed6119-p48.jpg"
+            },
+            {
+              "page": 189,
+              "image": "../assets/report-review/9a135e36a8ed6119-p189.jpg"
+            },
+            {
+              "page": 284,
+              "image": "../assets/report-review/9a135e36a8ed6119-p284.jpg"
+            },
+            {
+              "page": 95,
+              "image": "../assets/report-review/9a135e36a8ed6119-p95.jpg"
+            },
+            {
+              "page": 378,
+              "image": "../assets/report-review/9a135e36a8ed6119-p378.jpg"
+            },
+            {
+              "page": 425,
+              "image": "../assets/report-review/9a135e36a8ed6119-p425.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C3590000000000000001:22",
+          "title": "2026년도 기금운용계획안",
+          "year": "2026",
+          "extension": "pdf",
+          "source_fingerprint": "1043366:1789712659268059786",
+          "document_pages": 386,
+          "pages": [
+            {
+              "page": 44,
+              "image": "../assets/report-review/38840b4e31741d0f-p44.jpg"
+            },
+            {
+              "page": 300,
+              "image": "../assets/report-review/38840b4e31741d0f-p300.jpg"
+            },
+            {
+              "page": 172,
+              "image": "../assets/report-review/38840b4e31741d0f-p172.jpg"
+            },
+            {
+              "page": 215,
+              "image": "../assets/report-review/38840b4e31741d0f-p215.jpg"
+            },
+            {
+              "page": 87,
+              "image": "../assets/report-review/38840b4e31741d0f-p87.jpg"
+            },
+            {
+              "page": 386,
+              "image": "../assets/report-review/38840b4e31741d0f-p386.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EA%B8%B0%EA%B8%88%EC%9A%B4%EC%9A%A9%EA%B3%84%ED%9A%8D%EC%95%88%28%EC%B4%9D%EA%B4%84%29"
+    },
+    {
+      "id": "885070e90041672c",
+      "classification": {
+        "large": "예산",
+        "middle": "정부예산기금안",
+        "small": "기금운용계획안"
+      },
+      "classification_path": "예산>정부예산기금안>기금운용계획안",
+      "odt_id": "3HY6RK6Z3R1D4HPFJ06QHE61R",
+      "data_name": "기금운용계획안 개요",
+      "file_count": 22,
+      "years": [
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2025",
+        "2026",
+        "2027"
+      ],
+      "extensions": [
+        "hwp",
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C5600000000000000001:22",
+          "title": "2027년도 기금운용계획안 개요",
+          "year": "2027",
+          "extension": "pdf",
+          "source_fingerprint": "221500:1789712657425075113",
+          "document_pages": 17,
+          "pages": [
+            {
+              "page": 3,
+              "image": "../assets/report-review/435c429cad672711-p3.jpg"
+            },
+            {
+              "page": 10,
+              "image": "../assets/report-review/435c429cad672711-p10.jpg"
+            },
+            {
+              "page": 8,
+              "image": "../assets/report-review/435c429cad672711-p8.jpg"
+            },
+            {
+              "page": 6,
+              "image": "../assets/report-review/435c429cad672711-p6.jpg"
+            },
+            {
+              "page": 5,
+              "image": "../assets/report-review/435c429cad672711-p5.jpg"
+            },
+            {
+              "page": 13,
+              "image": "../assets/report-review/435c429cad672711-p13.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C5600000000000000001:12",
+          "title": "2004년도 기금운용계획안 개요",
+          "year": "2004",
+          "extension": "hwp",
+          "source_fingerprint": "91255:1781253086000000000",
+          "document_pages": 25,
+          "pages": [
+            {
+              "page": 4,
+              "image": "../assets/report-review/bdad7f3188eb6879-p4.svg"
+            },
+            {
+              "page": 12,
+              "image": "../assets/report-review/bdad7f3188eb6879-p12.svg"
+            },
+            {
+              "page": 14,
+              "image": "../assets/report-review/bdad7f3188eb6879-p14.svg"
+            },
+            {
+              "page": 9,
+              "image": "../assets/report-review/bdad7f3188eb6879-p9.svg"
+            },
+            {
+              "page": 6,
+              "image": "../assets/report-review/bdad7f3188eb6879-p6.svg"
+            },
+            {
+              "page": 20,
+              "image": "../assets/report-review/bdad7f3188eb6879-p20.svg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EA%B8%B0%EA%B8%88%EC%9A%B4%EC%9A%A9%EA%B3%84%ED%9A%8D%EC%95%88+%EA%B0%9C%EC%9A%94"
+    },
+    {
+      "id": "e577e8acf2383602",
+      "classification": {
+        "large": "예산",
+        "middle": "정부예산기금안",
+        "small": "기금운용계획안"
+      },
+      "classification_path": "예산>정부예산기금안>기금운용계획안",
+      "odt_id": "3T8PU20D6VSJ643M6746H3386",
+      "data_name": "기금운용계획안 심의 참고자료",
+      "file_count": 21,
+      "years": [
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2025",
+        "2026",
+        "2027"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C5580000000000000001:21",
+          "title": "2027년도 기금운용계획안 심의참고자료",
+          "year": "2027",
+          "extension": "pdf",
+          "source_fingerprint": "1165746:1789712657586073774",
+          "document_pages": 326,
+          "pages": [
+            {
+              "page": 37,
+              "image": "../assets/report-review/90ea48cb3ca86ac6-p37.jpg"
+            },
+            {
+              "page": 218,
+              "image": "../assets/report-review/90ea48cb3ca86ac6-p218.jpg"
+            },
+            {
+              "page": 145,
+              "image": "../assets/report-review/90ea48cb3ca86ac6-p145.jpg"
+            },
+            {
+              "page": 182,
+              "image": "../assets/report-review/90ea48cb3ca86ac6-p182.jpg"
+            },
+            {
+              "page": 290,
+              "image": "../assets/report-review/90ea48cb3ca86ac6-p290.jpg"
+            },
+            {
+              "page": 73,
+              "image": "../assets/report-review/90ea48cb3ca86ac6-p73.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C5580000000000000001:20",
+          "title": "2026년도 기금운용계획안 심의참고자료",
+          "year": "2026",
+          "extension": "pdf",
+          "source_fingerprint": "759660:1789712659493057915",
+          "document_pages": 247,
+          "pages": [
+            {
+              "page": 28,
+              "image": "../assets/report-review/84f8944ee558e079-p28.jpg"
+            },
+            {
+              "page": 110,
+              "image": "../assets/report-review/84f8944ee558e079-p110.jpg"
+            },
+            {
+              "page": 220,
+              "image": "../assets/report-review/84f8944ee558e079-p220.jpg"
+            },
+            {
+              "page": 192,
+              "image": "../assets/report-review/84f8944ee558e079-p192.jpg"
+            },
+            {
+              "page": 56,
+              "image": "../assets/report-review/84f8944ee558e079-p56.jpg"
+            },
+            {
+              "page": 83,
+              "image": "../assets/report-review/84f8944ee558e079-p83.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EA%B8%B0%EA%B8%88%EC%9A%B4%EC%9A%A9%EA%B3%84%ED%9A%8D%EC%95%88+%EC%8B%AC%EC%9D%98+%EC%B0%B8%EA%B3%A0%EC%9E%90%EB%A3%8C"
+    },
+    {
+      "id": "acab478a0fcdd652",
+      "classification": {
+        "large": "예산",
+        "middle": "정부예산기금안",
+        "small": "기금운용계획안"
+      },
+      "classification_path": "예산>정부예산기금안>기금운용계획안",
+      "odt_id": "GX1Y2A6630RKQB13FGXF0SD0W",
+      "data_name": "기금운용계획안 첨부서류",
+      "file_count": 21,
+      "years": [
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2025",
+        "2026",
+        "2027"
+      ],
+      "extensions": [
+        "hwp",
+        "pdf",
+        "zip"
+      ],
+      "documents": [
+        {
+          "id": "C5570000000000000001:20",
+          "title": "2026년도 기금운용계획안 첨부서류",
+          "year": "2026",
+          "extension": "pdf",
+          "source_fingerprint": "2538133:1789712659534057574",
+          "document_pages": 1109,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/report-review/cbda941cd5724a12-p1.jpg"
+            },
+            {
+              "page": 1109,
+              "image": "../assets/report-review/cbda941cd5724a12-p1109.jpg"
+            },
+            {
+              "page": 493,
+              "image": "../assets/report-review/cbda941cd5724a12-p493.jpg"
+            },
+            {
+              "page": 370,
+              "image": "../assets/report-review/cbda941cd5724a12-p370.jpg"
+            },
+            {
+              "page": 986,
+              "image": "../assets/report-review/cbda941cd5724a12-p986.jpg"
+            },
+            {
+              "page": 863,
+              "image": "../assets/report-review/cbda941cd5724a12-p863.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C5570000000000000001:21",
+          "title": "2027년도 기금운용계획안 첨부서류",
+          "year": "2027",
+          "extension": "hwp",
+          "source_fingerprint": "4504064:1789712657812071895",
+          "document_pages": 1221,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/report-review/79b457e842142fc4-p1.svg"
+            },
+            {
+              "page": 1221,
+              "image": "../assets/report-review/79b457e842142fc4-p1221.svg"
+            },
+            {
+              "page": 543,
+              "image": "../assets/report-review/79b457e842142fc4-p543.svg"
+            },
+            {
+              "page": 408,
+              "image": "../assets/report-review/79b457e842142fc4-p408.svg"
+            },
+            {
+              "page": 814,
+              "image": "../assets/report-review/79b457e842142fc4-p814.svg"
+            },
+            {
+              "page": 1085,
+              "image": "../assets/report-review/79b457e842142fc4-p1085.svg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EA%B8%B0%EA%B8%88%EC%9A%B4%EC%9A%A9%EA%B3%84%ED%9A%8D%EC%95%88+%EC%B2%A8%EB%B6%80%EC%84%9C%EB%A5%98"
+    },
+    {
+      "id": "29c384e41cddc563",
+      "classification": {
+        "large": "예산",
+        "middle": "정부예산기금안",
+        "small": "기금운용계획안"
+      },
+      "classification_path": "예산>정부예산기금안>기금운용계획안",
+      "odt_id": "YYF0Q87RRQWTSHCXQ3TMD4420",
+      "data_name": "성인지 기금운용계획서(안)",
+      "file_count": 14,
+      "years": [
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2025",
+        "2026",
+        "2027"
+      ],
+      "extensions": [
+        "pdf",
+        "zip"
+      ],
+      "documents": [
+        {
+          "id": "C5590000000000000001:14",
+          "title": "2027년도 성인지기금운용계획서",
+          "year": "2027",
+          "extension": "pdf",
+          "source_fingerprint": "1386150:1789712657701072818",
+          "document_pages": 393,
+          "pages": [
+            {
+              "page": 45,
+              "image": "../assets/report-review/e9e23285b9a861d6-p45.jpg"
+            },
+            {
+              "page": 219,
+              "image": "../assets/report-review/e9e23285b9a861d6-p219.jpg"
+            },
+            {
+              "page": 175,
+              "image": "../assets/report-review/e9e23285b9a861d6-p175.jpg"
+            },
+            {
+              "page": 349,
+              "image": "../assets/report-review/e9e23285b9a861d6-p349.jpg"
+            },
+            {
+              "page": 132,
+              "image": "../assets/report-review/e9e23285b9a861d6-p132.jpg"
+            },
+            {
+              "page": 88,
+              "image": "../assets/report-review/e9e23285b9a861d6-p88.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C5590000000000000001:13",
+          "title": "2026년도 성인지기금운용계획서",
+          "year": "2026",
+          "extension": "pdf",
+          "source_fingerprint": "1580262:1789712659610056942",
+          "document_pages": 300,
+          "pages": [
+            {
+              "page": 34,
+              "image": "../assets/report-review/4cbbce4a1111da49-p34.jpg"
+            },
+            {
+              "page": 200,
+              "image": "../assets/report-review/4cbbce4a1111da49-p200.jpg"
+            },
+            {
+              "page": 134,
+              "image": "../assets/report-review/4cbbce4a1111da49-p134.jpg"
+            },
+            {
+              "page": 267,
+              "image": "../assets/report-review/4cbbce4a1111da49-p267.jpg"
+            },
+            {
+              "page": 101,
+              "image": "../assets/report-review/4cbbce4a1111da49-p101.jpg"
+            },
+            {
+              "page": 167,
+              "image": "../assets/report-review/4cbbce4a1111da49-p167.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%84%B1%EC%9D%B8%EC%A7%80+%EA%B8%B0%EA%B8%88%EC%9A%B4%EC%9A%A9%EA%B3%84%ED%9A%8D%EC%84%9C%28%EC%95%88%29"
+    },
+    {
+      "id": "6e5ad2ee6903bbf9",
+      "classification": {
+        "large": "예산",
+        "middle": "정부예산기금안",
+        "small": "임대형 민자사업(BTL) 한도액안"
+      },
+      "classification_path": "예산>정부예산기금안>임대형 민자사업(BTL) 한도액안",
+      "odt_id": "M3UU8S8KYUT62035ANP0I2AIK",
+      "data_name": "임대형 민자사업(BTL) 한도액안",
+      "file_count": 14,
+      "years": [
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C2280000000000000001:13",
+          "title": "2020년도 임대형 민자사업(BTL) 한도액안",
+          "year": "2020",
+          "extension": "pdf",
+          "source_fingerprint": "100315:1781250479000000000",
+          "document_pages": 9,
+          "pages": [
+            {
+              "page": 3,
+              "image": "../assets/report-review/41b24fecfad0296c-p3.jpg"
+            },
+            {
+              "page": 5,
+              "image": "../assets/report-review/41b24fecfad0296c-p5.jpg"
+            },
+            {
+              "page": 8,
+              "image": "../assets/report-review/41b24fecfad0296c-p8.jpg"
+            },
+            {
+              "page": 9,
+              "image": "../assets/report-review/41b24fecfad0296c-p9.jpg"
+            },
+            {
+              "page": 4,
+              "image": "../assets/report-review/41b24fecfad0296c-p4.jpg"
+            },
+            {
+              "page": 7,
+              "image": "../assets/report-review/41b24fecfad0296c-p7.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C2280000000000000001:12",
+          "title": "2019년도 임대형 민자사업(BTL) 한도액안",
+          "year": "2019",
+          "extension": "pdf",
+          "source_fingerprint": "98411:1781250775000000000",
+          "document_pages": 9,
+          "pages": [
+            {
+              "page": 3,
+              "image": "../assets/report-review/4adbc1bc13a8915b-p3.jpg"
+            },
+            {
+              "page": 5,
+              "image": "../assets/report-review/4adbc1bc13a8915b-p5.jpg"
+            },
+            {
+              "page": 8,
+              "image": "../assets/report-review/4adbc1bc13a8915b-p8.jpg"
+            },
+            {
+              "page": 9,
+              "image": "../assets/report-review/4adbc1bc13a8915b-p9.jpg"
+            },
+            {
+              "page": 4,
+              "image": "../assets/report-review/4adbc1bc13a8915b-p4.jpg"
+            },
+            {
+              "page": 7,
+              "image": "../assets/report-review/4adbc1bc13a8915b-p7.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%9E%84%EB%8C%80%ED%98%95+%EB%AF%BC%EC%9E%90%EC%82%AC%EC%97%85%28BTL%29+%ED%95%9C%EB%8F%84%EC%95%A1%EC%95%88"
+    },
+    {
+      "id": "65367594059c024f",
+      "classification": {
+        "large": "예산",
+        "middle": "정부예산기금안",
+        "small": "추가경정예산안"
+      },
+      "classification_path": "예산>정부예산기금안>추가경정예산안",
+      "odt_id": "3E8230EY40VA5WIV0377MMWJO",
+      "data_name": "추가경정예산안",
+      "file_count": 93,
+      "years": [
+        "1951",
+        "1952",
+        "1953",
+        "1954",
+        "1955",
+        "1958",
+        "1960",
+        "1961",
+        "1962",
+        "1963",
+        "1964",
+        "1965",
+        "1966",
+        "1967",
+        "1968",
+        "1969",
+        "1970",
+        "1971",
+        "1972",
+        "1974",
+        "1975",
+        "1976",
+        "1977",
+        "1978",
+        "1979",
+        "1980",
+        "1981",
+        "1982",
+        "1984",
+        "1985",
+        "1987",
+        "1988",
+        "1989",
+        "1990",
+        "1991",
+        "1992",
+        "1994",
+        "1995",
+        "1996",
+        "1997",
+        "1998",
+        "1999",
+        "2000",
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005",
+        "2006",
+        "2008",
+        "2009",
+        "2013",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C4610000000000000001:93",
+          "title": "2022년도 제2회 추가경정예산안",
+          "year": "2022",
+          "extension": "pdf",
+          "source_fingerprint": "832499:1781250338000000000",
+          "document_pages": 389,
+          "pages": [
+            {
+              "page": 44,
+              "image": "../assets/report-review/809b348cfc4ca3d4-p44.jpg"
+            },
+            {
+              "page": 173,
+              "image": "../assets/report-review/809b348cfc4ca3d4-p173.jpg"
+            },
+            {
+              "page": 346,
+              "image": "../assets/report-review/809b348cfc4ca3d4-p346.jpg"
+            },
+            {
+              "page": 303,
+              "image": "../assets/report-review/809b348cfc4ca3d4-p303.jpg"
+            },
+            {
+              "page": 1,
+              "image": "../assets/report-review/809b348cfc4ca3d4-p1.jpg"
+            },
+            {
+              "page": 260,
+              "image": "../assets/report-review/809b348cfc4ca3d4-p260.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C4610000000000000001:92",
+          "title": "2022년도 제1회 추가경정예산안",
+          "year": "2022",
+          "extension": "pdf",
+          "source_fingerprint": "840641:1781250340000000000",
+          "document_pages": 389,
+          "pages": [
+            {
+              "page": 44,
+              "image": "../assets/report-review/65900415f2c7f724-p44.jpg"
+            },
+            {
+              "page": 173,
+              "image": "../assets/report-review/65900415f2c7f724-p173.jpg"
+            },
+            {
+              "page": 346,
+              "image": "../assets/report-review/65900415f2c7f724-p346.jpg"
+            },
+            {
+              "page": 303,
+              "image": "../assets/report-review/65900415f2c7f724-p303.jpg"
+            },
+            {
+              "page": 1,
+              "image": "../assets/report-review/65900415f2c7f724-p1.jpg"
+            },
+            {
+              "page": 130,
+              "image": "../assets/report-review/65900415f2c7f724-p130.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%B6%94%EA%B0%80%EA%B2%BD%EC%A0%95%EC%98%88%EC%82%B0%EC%95%88"
+    },
+    {
+      "id": "f6e84e0e9f6cfd23",
+      "classification": {
+        "large": "예산",
+        "middle": "정부예산기금안",
+        "small": "추가경정예산안"
+      },
+      "classification_path": "예산>정부예산기금안>추가경정예산안",
+      "odt_id": "A3G5Y3U1LBBQD7E33K3388456",
+      "data_name": "추가경정예산안 첨부서류",
+      "file_count": 57,
+      "years": [
+        "1958",
+        "1960",
+        "1962",
+        "1964",
+        "1965",
+        "1966",
+        "1967",
+        "1968",
+        "1969",
+        "1970",
+        "1971",
+        "1974",
+        "1975",
+        "1976",
+        "1977",
+        "1979",
+        "1980",
+        "1981",
+        "1982",
+        "1984",
+        "1985",
+        "1987",
+        "1988",
+        "1990",
+        "1991",
+        "1992",
+        "1994",
+        "1995",
+        "1996",
+        "1997",
+        "1998",
+        "1999",
+        "2000",
+        "2005",
+        "2013",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C5620000000000000001:57",
+          "title": "2022년도 제2회 추가경정예산안 첨부서류",
+          "year": "2022",
+          "extension": "pdf",
+          "source_fingerprint": "1134942:1781250337000000000",
+          "document_pages": 349,
+          "pages": [
+            {
+              "page": 78,
+              "image": "../assets/report-review/aeb9ad6e01a528cb-p78.jpg"
+            },
+            {
+              "page": 310,
+              "image": "../assets/report-review/aeb9ad6e01a528cb-p310.jpg"
+            },
+            {
+              "page": 156,
+              "image": "../assets/report-review/aeb9ad6e01a528cb-p156.jpg"
+            },
+            {
+              "page": 194,
+              "image": "../assets/report-review/aeb9ad6e01a528cb-p194.jpg"
+            },
+            {
+              "page": 233,
+              "image": "../assets/report-review/aeb9ad6e01a528cb-p233.jpg"
+            },
+            {
+              "page": 117,
+              "image": "../assets/report-review/aeb9ad6e01a528cb-p117.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C5620000000000000001:56",
+          "title": "2022년도 제1회 추가경정예산안 첨부서류",
+          "year": "2022",
+          "extension": "pdf",
+          "source_fingerprint": "606332:1781250336000000000",
+          "document_pages": 143,
+          "pages": [
+            {
+              "page": 17,
+              "image": "../assets/report-review/797e2db756fe9a5d-p17.jpg"
+            },
+            {
+              "page": 96,
+              "image": "../assets/report-review/797e2db756fe9a5d-p96.jpg"
+            },
+            {
+              "page": 64,
+              "image": "../assets/report-review/797e2db756fe9a5d-p64.jpg"
+            },
+            {
+              "page": 1,
+              "image": "../assets/report-review/797e2db756fe9a5d-p1.jpg"
+            },
+            {
+              "page": 48,
+              "image": "../assets/report-review/797e2db756fe9a5d-p48.jpg"
+            },
+            {
+              "page": 80,
+              "image": "../assets/report-review/797e2db756fe9a5d-p80.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%B6%94%EA%B0%80%EA%B2%BD%EC%A0%95%EC%98%88%EC%82%B0%EC%95%88+%EC%B2%A8%EB%B6%80%EC%84%9C%EB%A5%98"
+    },
+    {
+      "id": "0b04f7d380137487",
+      "classification": {
+        "large": "예산",
+        "middle": "정부예산기금안",
+        "small": "추가경정예산안"
+      },
+      "classification_path": "예산>정부예산기금안>추가경정예산안",
+      "odt_id": "ML2KB183N4P2553U2BY4285Y7",
+      "data_name": "추가경정예산안 세입세출 예산 사업별 설명서(안)",
+      "file_count": 78,
+      "years": [
+        "1951",
+        "1953",
+        "1954",
+        "1955",
+        "1960",
+        "1962",
+        "1963",
+        "1965",
+        "1966",
+        "1967",
+        "1968",
+        "1969",
+        "1970",
+        "1975",
+        "1976",
+        "1977",
+        "1979",
+        "1980",
+        "1981",
+        "1984",
+        "1985",
+        "1987",
+        "1988",
+        "1990",
+        "1991",
+        "1992",
+        "1994",
+        "1995",
+        "1996",
+        "1997",
+        "1998",
+        "1999",
+        "2002",
+        "2013",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022"
+      ],
+      "extensions": [
+        "pdf",
+        "zip"
+      ],
+      "documents": [
+        {
+          "id": "C5640000000000000001:78",
+          "title": "2022년도 제2회 추가경정예산안 세입세출예산사업별 설명서 3권",
+          "year": "2022",
+          "extension": "pdf",
+          "source_fingerprint": "1708664:1781250343000000000",
+          "document_pages": 408,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/report-review/608d806d916c4d21-p1.jpg"
+            },
+            {
+              "page": 363,
+              "image": "../assets/report-review/608d806d916c4d21-p363.jpg"
+            },
+            {
+              "page": 182,
+              "image": "../assets/report-review/608d806d916c4d21-p182.jpg"
+            },
+            {
+              "page": 46,
+              "image": "../assets/report-review/608d806d916c4d21-p46.jpg"
+            },
+            {
+              "page": 408,
+              "image": "../assets/report-review/608d806d916c4d21-p408.jpg"
+            },
+            {
+              "page": 318,
+              "image": "../assets/report-review/608d806d916c4d21-p318.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C5640000000000000001:77",
+          "title": "2022년도 제2회 추가경정예산안 세입세출예산사업별 설명서 2권",
+          "year": "2022",
+          "extension": "pdf",
+          "source_fingerprint": "1839025:1781250347000000000",
+          "document_pages": 416,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/report-review/fe6fe03f97281539-p1.jpg"
+            },
+            {
+              "page": 47,
+              "image": "../assets/report-review/fe6fe03f97281539-p47.jpg"
+            },
+            {
+              "page": 185,
+              "image": "../assets/report-review/fe6fe03f97281539-p185.jpg"
+            },
+            {
+              "page": 93,
+              "image": "../assets/report-review/fe6fe03f97281539-p93.jpg"
+            },
+            {
+              "page": 324,
+              "image": "../assets/report-review/fe6fe03f97281539-p324.jpg"
+            },
+            {
+              "page": 370,
+              "image": "../assets/report-review/fe6fe03f97281539-p370.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%B6%94%EA%B0%80%EA%B2%BD%EC%A0%95%EC%98%88%EC%82%B0%EC%95%88+%EC%84%B8%EC%9E%85%EC%84%B8%EC%B6%9C+%EC%98%88%EC%82%B0+%EC%82%AC%EC%97%85%EB%B3%84+%EC%84%A4%EB%AA%85%EC%84%9C%28%EC%95%88%29"
+    },
+    {
+      "id": "f2bab21bdef700a9",
+      "classification": {
+        "large": "예산",
+        "middle": "정부예산기금안",
+        "small": "추가경정예산안"
+      },
+      "classification_path": "예산>정부예산기금안>추가경정예산안",
+      "odt_id": "ZJ8C8VBR0D46SJE87AO7T7C80",
+      "data_name": "추가경정예산안 개요",
+      "file_count": 16,
+      "years": [
+        "1963",
+        "2005",
+        "2013",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C5630000000000000001:16",
+          "title": "2022년도 제2회 추가경정예산안 개요",
+          "year": "2022",
+          "extension": "pdf",
+          "source_fingerprint": "800834:1781250346000000000",
+          "document_pages": 20,
+          "pages": [
+            {
+              "page": 3,
+              "image": "../assets/report-review/81c959235ab067c7-p3.jpg"
+            },
+            {
+              "page": 20,
+              "image": "../assets/report-review/81c959235ab067c7-p20.jpg"
+            },
+            {
+              "page": 9,
+              "image": "../assets/report-review/81c959235ab067c7-p9.jpg"
+            },
+            {
+              "page": 14,
+              "image": "../assets/report-review/81c959235ab067c7-p14.jpg"
+            },
+            {
+              "page": 5,
+              "image": "../assets/report-review/81c959235ab067c7-p5.jpg"
+            },
+            {
+              "page": 12,
+              "image": "../assets/report-review/81c959235ab067c7-p12.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C5630000000000000001:15",
+          "title": "2022년도 제1회 추가경정예산안 개요",
+          "year": "2022",
+          "extension": "pdf",
+          "source_fingerprint": "484544:1781250344000000000",
+          "document_pages": 15,
+          "pages": [
+            {
+              "page": 3,
+              "image": "../assets/report-review/e863c70eefd77273-p3.jpg"
+            },
+            {
+              "page": 9,
+              "image": "../assets/report-review/e863c70eefd77273-p9.jpg"
+            },
+            {
+              "page": 7,
+              "image": "../assets/report-review/e863c70eefd77273-p7.jpg"
+            },
+            {
+              "page": 10,
+              "image": "../assets/report-review/e863c70eefd77273-p10.jpg"
+            },
+            {
+              "page": 15,
+              "image": "../assets/report-review/e863c70eefd77273-p15.jpg"
+            },
+            {
+              "page": 12,
+              "image": "../assets/report-review/e863c70eefd77273-p12.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%B6%94%EA%B0%80%EA%B2%BD%EC%A0%95%EC%98%88%EC%82%B0%EC%95%88+%EA%B0%9C%EC%9A%94"
+    },
+    {
+      "id": "b478ddb378f7fca4",
+      "classification": {
+        "large": "예산",
+        "middle": "지출구조조정",
+        "small": ""
+      },
+      "classification_path": "예산>지출구조조정",
+      "odt_id": "4AY2D42YI083680Z3S37X6047",
+      "data_name": "지출구조조정",
+      "file_count": 1,
+      "years": [
+        "2027"
+      ],
+      "extensions": [
+        "zip"
+      ],
+      "documents": [],
+      "no_preview_reason": "미리보기 미생성: ZIP 전용·원본 미확보·렌더링 실패 여부를 원문에서 확인하세요. 제외 판정이 아닙니다.",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%A7%80%EC%B6%9C%EA%B5%AC%EC%A1%B0%EC%A1%B0%EC%A0%95"
+    },
+    {
+      "id": "6981863e8350ddaf",
+      "classification": {
+        "large": "지방교육재정",
+        "middle": "",
+        "small": ""
+      },
+      "classification_path": "지방교육재정",
+      "odt_id": "2FC01MV65ON1470E66725U77K",
+      "data_name": "교육비특별회계 세입세출 본예산 분석",
+      "file_count": 8,
+      "years": [
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C9210000000000000001:8",
+          "title": "2024회계연도 교육비특별회계 세입세출 본예산 분석",
+          "year": "2024",
+          "extension": "pdf",
+          "source_fingerprint": "3937092:1781249877000000000",
+          "document_pages": 162,
+          "pages": [
+            {
+              "page": 19,
+              "image": "../assets/report-review/3a31d36194a22eb5-p19.jpg"
+            },
+            {
+              "page": 126,
+              "image": "../assets/report-review/3a31d36194a22eb5-p126.jpg"
+            },
+            {
+              "page": 73,
+              "image": "../assets/report-review/3a31d36194a22eb5-p73.jpg"
+            },
+            {
+              "page": 144,
+              "image": "../assets/report-review/3a31d36194a22eb5-p144.jpg"
+            },
+            {
+              "page": 55,
+              "image": "../assets/report-review/3a31d36194a22eb5-p55.jpg"
+            },
+            {
+              "page": 90,
+              "image": "../assets/report-review/3a31d36194a22eb5-p90.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C9210000000000000001:7",
+          "title": "2023회계연도 교육비특별회계 세입세출 본예산 분석",
+          "year": "2023",
+          "extension": "pdf",
+          "source_fingerprint": "5199455:1781249881000000000",
+          "document_pages": 158,
+          "pages": [
+            {
+              "page": 18,
+              "image": "../assets/report-review/b7b787be41a5f9c2-p18.jpg"
+            },
+            {
+              "page": 141,
+              "image": "../assets/report-review/b7b787be41a5f9c2-p141.jpg"
+            },
+            {
+              "page": 71,
+              "image": "../assets/report-review/b7b787be41a5f9c2-p71.jpg"
+            },
+            {
+              "page": 53,
+              "image": "../assets/report-review/b7b787be41a5f9c2-p53.jpg"
+            },
+            {
+              "page": 123,
+              "image": "../assets/report-review/b7b787be41a5f9c2-p123.jpg"
+            },
+            {
+              "page": 36,
+              "image": "../assets/report-review/b7b787be41a5f9c2-p36.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EA%B5%90%EC%9C%A1%EB%B9%84%ED%8A%B9%EB%B3%84%ED%9A%8C%EA%B3%84+%EC%84%B8%EC%9E%85%EC%84%B8%EC%B6%9C+%EB%B3%B8%EC%98%88%EC%82%B0+%EB%B6%84%EC%84%9D"
+    },
+    {
+      "id": "94624aa9ad58dc8d",
+      "classification": {
+        "large": "지방교육재정",
+        "middle": "",
+        "small": ""
+      },
+      "classification_path": "지방교육재정",
+      "odt_id": "G37063V8KUF16Y447H3O5P45G",
+      "data_name": "지방교육재정분석 종합보고서",
+      "file_count": 14,
+      "years": [
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C9200000000000000001:16",
+          "title": "2022회계연도 지방교육재정 분석 종합보고서",
+          "year": "2022",
+          "extension": "pdf",
+          "source_fingerprint": "5828485:1781249910000000000",
+          "document_pages": 294,
+          "pages": [
+            {
+              "page": 34,
+              "image": "../assets/report-review/f2e95f597a6b3d12-p34.jpg"
+            },
+            {
+              "page": 164,
+              "image": "../assets/report-review/f2e95f597a6b3d12-p164.jpg"
+            },
+            {
+              "page": 131,
+              "image": "../assets/report-review/f2e95f597a6b3d12-p131.jpg"
+            },
+            {
+              "page": 261,
+              "image": "../assets/report-review/f2e95f597a6b3d12-p261.jpg"
+            },
+            {
+              "page": 196,
+              "image": "../assets/report-review/f2e95f597a6b3d12-p196.jpg"
+            },
+            {
+              "page": 229,
+              "image": "../assets/report-review/f2e95f597a6b3d12-p229.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C9200000000000000001:15",
+          "title": "2022 지방교육재정분석 종합보고서 부록",
+          "year": "2022",
+          "extension": "pdf",
+          "source_fingerprint": "108135856:1781249908000000000",
+          "document_pages": 300,
+          "pages": [
+            {
+              "page": 34,
+              "image": "../assets/report-review/3204a15081dd8a45-p34.jpg"
+            },
+            {
+              "page": 200,
+              "image": "../assets/report-review/3204a15081dd8a45-p200.jpg"
+            },
+            {
+              "page": 134,
+              "image": "../assets/report-review/3204a15081dd8a45-p134.jpg"
+            },
+            {
+              "page": 234,
+              "image": "../assets/report-review/3204a15081dd8a45-p234.jpg"
+            },
+            {
+              "page": 267,
+              "image": "../assets/report-review/3204a15081dd8a45-p267.jpg"
+            },
+            {
+              "page": 167,
+              "image": "../assets/report-review/3204a15081dd8a45-p167.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%A7%80%EB%B0%A9%EA%B5%90%EC%9C%A1%EC%9E%AC%EC%A0%95%EB%B6%84%EC%84%9D+%EC%A2%85%ED%95%A9%EB%B3%B4%EA%B3%A0%EC%84%9C"
+    },
+    {
+      "id": "51cfaec45ade96bc",
+      "classification": {
+        "large": "지방재정",
+        "middle": "",
+        "small": ""
+      },
+      "classification_path": "지방재정",
+      "odt_id": "0DMT4H2HDO7Q06407YTSATL83",
+      "data_name": "지방자치단체 통합재정 개요",
+      "file_count": 14,
+      "years": [
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021"
+      ],
+      "extensions": [
+        "pdf",
+        "zip"
+      ],
+      "documents": [
+        {
+          "id": "C9190000000000000001:2",
+          "title": "2021년도 지방자치단체 통합재정 개요(하)",
+          "year": "2021",
+          "extension": "pdf",
+          "source_fingerprint": "5101045:1781249739000000000",
+          "document_pages": 1082,
+          "pages": [
+            {
+              "page": 121,
+              "image": "../assets/report-review/4eef20972783ab4f-p121.jpg"
+            },
+            {
+              "page": 842,
+              "image": "../assets/report-review/4eef20972783ab4f-p842.jpg"
+            },
+            {
+              "page": 481,
+              "image": "../assets/report-review/4eef20972783ab4f-p481.jpg"
+            },
+            {
+              "page": 602,
+              "image": "../assets/report-review/4eef20972783ab4f-p602.jpg"
+            },
+            {
+              "page": 962,
+              "image": "../assets/report-review/4eef20972783ab4f-p962.jpg"
+            },
+            {
+              "page": 722,
+              "image": "../assets/report-review/4eef20972783ab4f-p722.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C9190000000000000001:14",
+          "title": "2021년도 지방자치단체 통합재정 개요(상)",
+          "year": "2021",
+          "extension": "pdf",
+          "source_fingerprint": "9664735:1781249742000000000",
+          "document_pages": 398,
+          "pages": [
+            {
+              "page": 45,
+              "image": "../assets/report-review/f0df6c20286aff04-p45.jpg"
+            },
+            {
+              "page": 133,
+              "image": "../assets/report-review/f0df6c20286aff04-p133.jpg"
+            },
+            {
+              "page": 177,
+              "image": "../assets/report-review/f0df6c20286aff04-p177.jpg"
+            },
+            {
+              "page": 89,
+              "image": "../assets/report-review/f0df6c20286aff04-p89.jpg"
+            },
+            {
+              "page": 1,
+              "image": "../assets/report-review/f0df6c20286aff04-p1.jpg"
+            },
+            {
+              "page": 266,
+              "image": "../assets/report-review/f0df6c20286aff04-p266.jpg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%A7%80%EB%B0%A9%EC%9E%90%EC%B9%98%EB%8B%A8%EC%B2%B4+%ED%86%B5%ED%95%A9%EC%9E%AC%EC%A0%95+%EA%B0%9C%EC%9A%94"
+    },
+    {
+      "id": "f652400863fff022",
+      "classification": {
+        "large": "지방재정",
+        "middle": "",
+        "small": ""
+      },
+      "classification_path": "지방재정",
+      "odt_id": "GT8O0K148NEY7GA30PM0O0Q31",
+      "data_name": "지방재정연감(결산)",
+      "file_count": 5,
+      "years": [
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017"
+      ],
+      "extensions": [
+        "zip"
+      ],
+      "documents": [],
+      "no_preview_reason": "미리보기 미생성: ZIP 전용·원본 미확보·렌더링 실패 여부를 원문에서 확인하세요. 제외 판정이 아닙니다.",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%A7%80%EB%B0%A9%EC%9E%AC%EC%A0%95%EC%97%B0%EA%B0%90%28%EA%B2%B0%EC%82%B0%29"
+    },
+    {
+      "id": "43f44eaf883f48b4",
+      "classification": {
+        "large": "지방재정",
+        "middle": "",
+        "small": ""
+      },
+      "classification_path": "지방재정",
+      "odt_id": "SH1R76EPGKFD31HE47X24181I",
+      "data_name": "지방재정연감(예산)",
+      "file_count": 5,
+      "years": [
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017"
+      ],
+      "extensions": [
+        "zip"
+      ],
+      "documents": [],
+      "no_preview_reason": "미리보기 미생성: ZIP 전용·원본 미확보·렌더링 실패 여부를 원문에서 확인하세요. 제외 판정이 아닙니다.",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EC%A7%80%EB%B0%A9%EC%9E%AC%EC%A0%95%EC%97%B0%EA%B0%90%28%EC%98%88%EC%82%B0%29"
+    },
+    {
+      "id": "1dc03aac436a0efb",
+      "classification": {
+        "large": "집행실적",
+        "middle": "민간투자",
+        "small": ""
+      },
+      "classification_path": "집행실적>민간투자",
+      "odt_id": "W1H2QE3TTS7E5SSKMY120BSI0",
+      "data_name": "민간투자사업 운영현황 및 추진실적 등에 관한 보고서",
+      "file_count": 17,
+      "years": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "extensions": [
+        "hwp",
+        "pdf"
+      ],
+      "documents": [
+        {
+          "id": "C2290000000000000001:17",
+          "title": "2024년도 민간투자사업 운영현황 및 추진실적 등에 관한 보고서",
+          "year": "2024",
+          "extension": "pdf",
+          "source_fingerprint": "1848689:1781593715000000000",
+          "document_pages": 225,
+          "pages": [
+            {
+              "page": 51,
+              "image": "../assets/report-review/caa44de4c39bcf8c-p51.jpg"
+            },
+            {
+              "page": 175,
+              "image": "../assets/report-review/caa44de4c39bcf8c-p175.jpg"
+            },
+            {
+              "page": 101,
+              "image": "../assets/report-review/caa44de4c39bcf8c-p101.jpg"
+            },
+            {
+              "page": 225,
+              "image": "../assets/report-review/caa44de4c39bcf8c-p225.jpg"
+            },
+            {
+              "page": 150,
+              "image": "../assets/report-review/caa44de4c39bcf8c-p150.jpg"
+            },
+            {
+              "page": 125,
+              "image": "../assets/report-review/caa44de4c39bcf8c-p125.jpg"
+            }
+          ]
+        },
+        {
+          "id": "C2290000000000000001:9",
+          "title": "2013년도 민간투자사업 운영현황 및 추진실적 등에 관한 보고서",
+          "year": "2013",
+          "extension": "hwp",
+          "source_fingerprint": "592896:1781593740000000000",
+          "document_pages": 183,
+          "pages": [
+            {
+              "page": 21,
+              "image": "../assets/report-review/54ce46bad74b6c19-p21.svg"
+            },
+            {
+              "page": 41,
+              "image": "../assets/report-review/54ce46bad74b6c19-p41.svg"
+            },
+            {
+              "page": 82,
+              "image": "../assets/report-review/54ce46bad74b6c19-p82.svg"
+            },
+            {
+              "page": 143,
+              "image": "../assets/report-review/54ce46bad74b6c19-p143.svg"
+            },
+            {
+              "page": 122,
+              "image": "../assets/report-review/54ce46bad74b6c19-p122.svg"
+            },
+            {
+              "page": 102,
+              "image": "../assets/report-review/54ce46bad74b6c19-p102.svg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EB%AF%BC%EA%B0%84%ED%88%AC%EC%9E%90%EC%82%AC%EC%97%85+%EC%9A%B4%EC%98%81%ED%98%84%ED%99%A9+%EB%B0%8F+%EC%B6%94%EC%A7%84%EC%8B%A4%EC%A0%81+%EB%93%B1%EC%97%90+%EA%B4%80%ED%95%9C+%EB%B3%B4%EA%B3%A0%EC%84%9C"
+    },
+    {
+      "id": "f9f9040040331b29",
+      "classification": {
+        "large": "집행실적",
+        "middle": "복권",
+        "small": ""
+      },
+      "classification_path": "집행실적>복권",
+      "odt_id": "XZKN250T8387377E64RB161I1",
+      "data_name": "복권판매실적 및 복권기금사업 현황",
+      "file_count": 18,
+      "years": [
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019"
+      ],
+      "extensions": [
+        "hwp"
+      ],
+      "documents": [
+        {
+          "id": "C3220000000000000001:18",
+          "title": "2019년도 상반기 복권 및 복권기금 관련 정보 공개",
+          "year": "2019",
+          "extension": "hwp",
+          "source_fingerprint": "34304:1781593724000000000",
+          "document_pages": 6,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/report-review/2ae40ae381315392-p1.svg"
+            },
+            {
+              "page": 3,
+              "image": "../assets/report-review/2ae40ae381315392-p3.svg"
+            },
+            {
+              "page": 6,
+              "image": "../assets/report-review/2ae40ae381315392-p6.svg"
+            },
+            {
+              "page": 4,
+              "image": "../assets/report-review/2ae40ae381315392-p4.svg"
+            },
+            {
+              "page": 5,
+              "image": "../assets/report-review/2ae40ae381315392-p5.svg"
+            },
+            {
+              "page": 2,
+              "image": "../assets/report-review/2ae40ae381315392-p2.svg"
+            }
+          ]
+        },
+        {
+          "id": "C3220000000000000001:2",
+          "title": "2018년도 상반기 복권 및 복권기금 관련 정보 공개",
+          "year": "2018",
+          "extension": "hwp",
+          "source_fingerprint": "35328:1781593726000000000",
+          "document_pages": 6,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/report-review/cde77cfcb1a132bf-p1.svg"
+            },
+            {
+              "page": 3,
+              "image": "../assets/report-review/cde77cfcb1a132bf-p3.svg"
+            },
+            {
+              "page": 6,
+              "image": "../assets/report-review/cde77cfcb1a132bf-p6.svg"
+            },
+            {
+              "page": 5,
+              "image": "../assets/report-review/cde77cfcb1a132bf-p5.svg"
+            },
+            {
+              "page": 4,
+              "image": "../assets/report-review/cde77cfcb1a132bf-p4.svg"
+            },
+            {
+              "page": 2,
+              "image": "../assets/report-review/cde77cfcb1a132bf-p2.svg"
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EB%B3%B5%EA%B6%8C%ED%8C%90%EB%A7%A4%EC%8B%A4%EC%A0%81+%EB%B0%8F+%EB%B3%B5%EA%B6%8C%EA%B8%B0%EA%B8%88%EC%82%AC%EC%97%85+%ED%98%84%ED%99%A9"
+    }
+  ]
+}
