@@ -1,0 +1,4 @@
+﻿group_id,large,middle,small,odt_id,data_name,file_count,years,extensions,exclusion_decision,exclusion_reason
+b478ddb378f7fca4,예산,지출구조조정,,4AY2D42YI083680Z3S37X6047,지출구조조정,1,2027,zip,제외,사용자 지정 제외: ZIP 내부 엑셀 자료
+f652400863fff022,지방재정,,,GT8O0K148NEY7GA30PM0O0Q31,지방재정연감(결산),5,2013|2014|2015|2016|2017,zip,제외,사용자 지정 제외: ZIP 내부 엑셀 자료
+43f44eaf883f48b4,지방재정,,,SH1R76EPGKFD31HE47X24181I,지방재정연감(예산),5,2013|2014|2015|2016|2017,zip,제외,사용자 지정 제외: ZIP 내부 엑셀 자료

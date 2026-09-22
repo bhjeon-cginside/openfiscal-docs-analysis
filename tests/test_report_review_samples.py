@@ -85,6 +85,19 @@ class PublishedDataTests(unittest.TestCase):
             self.assertNotIn("status", group, "Do not inherit broad exclusion judgments")
         self.assertEqual(counts, {})
 
+    def test_declared_exclusions_are_only_three_explicit_zip_groups(self):
+        declared = build.declared_exclusions(self.data["groups"])
+        self.assertEqual(self.data["exclusion_sets"], [declared])
+        ids = {record["id"] for record in declared["records"]}
+        groups = [group for group in self.data["groups"] if group["id"] in ids]
+        self.assertEqual({g["data_name"] for g in groups},
+                         {"지출구조조정", "지방재정연감(결산)", "지방재정연감(예산)"})
+        self.assertEqual(sum(g["file_count"] for g in groups), 11)
+        self.assertTrue(all(g["extensions"] == ["zip"] for g in groups))
+        exported = build.renderer.read_csv(build.OUTPUT.with_name("report_exclusions.csv"))
+        self.assertEqual({r["group_id"] for r in exported}, ids)
+        self.assertTrue(all(r["exclusion_decision"] == "제외" for r in exported))
+
     def test_sample_identity_belongs_to_group_and_assets_exist(self):
         rows = build.current_rows(build.renderer.read_csv(build.MANIFEST))
         allowed = {build.group_key(row): set() for row in rows}

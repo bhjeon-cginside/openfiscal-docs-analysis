@@ -7,6 +7,7 @@ Missing previews remain visible; no broad legacy exclusion decision is inherited
 from __future__ import annotations
 
 import argparse
+import csv
 from collections import defaultdict
 from datetime import datetime, timezone
 import hashlib
@@ -22,6 +23,7 @@ FILES_ROOT = ROOT / "openfiscal_report_documents/files"
 OUTPUT = ROOT / "docs/data/report_review_samples.json"
 ASSETS = ROOT / "docs/assets/report-review"
 SOURCE_URL = "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03"
+DECISIONS = ROOT / "docs/data/report_exclusion_decisions.json"
 
 
 def classification(path: str) -> dict[str, str]:
@@ -46,6 +48,22 @@ def attachment_id(row: dict[str, str]) -> str:
 
 def current_rows(rows: list[dict[str, str]]) -> list[dict[str, str]]:
     return [row for row in rows if row.get("source_in_current_list", "").lower() != "false"]
+
+
+def declared_exclusions(groups: list[dict]) -> dict:
+    """Explicit user decisions only; do not infer exclusion from missing previews."""
+    decisions = json.loads(DECISIONS.read_text(encoding="utf-8"))
+    by_key = {(g["classification_path"], g["odt_id"], g["data_name"]): g for g in groups}
+    records = []
+    for decision in decisions["groups"]:
+        key = (decision["classification_path"], decision["odt_id"], decision["data_name"])
+        if key not in by_key:
+            raise ValueError(f"Declared exclusion not found in current groups: {key}")
+        group = by_key[key]
+        records.append({"id": group["id"], "excluded": True, "reason": decisions["reason"], **decision})
+    if len({r["id"] for r in records}) != len(records):
+        raise ValueError("Duplicate declared exclusion")
+    return {"id": decisions["id"], "records": records}
 
 
 def resolve_source_path(dest_path: str) -> Path:
@@ -161,6 +179,7 @@ def main() -> None:
         }
         groups.append(group)
         print(f"[{index}/{len(grouped)}] {path} / {name}: {len(documents)} samples", flush=True)
+    exclusion_set = declared_exclusions(groups)
     output = {
         "schema_version": 1, "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "source_checked_at": max((r.get("last_checked_at", "") for r in active), default=""),
@@ -170,10 +189,21 @@ def main() -> None:
                     "representative_documents": sum(len(g["documents"]) for g in groups),
                     "omitted_historical_files": len(rows) - len(active)},
         "groups": groups,
+        "exclusion_sets": [exclusion_set],
     }
     temporary = OUTPUT.with_suffix(".tmp")
     temporary.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     temporary.replace(OUTPUT)
+    excluded_ids = {record["id"] for record in exclusion_set["records"]}
+    with OUTPUT.with_name("report_exclusions.csv").open("w", encoding="utf-8-sig", newline="") as stream:
+        writer = csv.writer(stream)
+        writer.writerow(["group_id", "large", "middle", "small", "odt_id", "data_name",
+                         "file_count", "years", "extensions", "exclusion_decision", "exclusion_reason"])
+        for group in groups:
+            if group["id"] in excluded_ids:
+                writer.writerow([group["id"], *group["classification"].values(), group["odt_id"],
+                                 group["data_name"], group["file_count"], "|".join(group["years"]),
+                                 "|".join(group["extensions"]), "제외", exclusion_set["records"][0]["reason"]])
     print(json.dumps(output["summary"], ensure_ascii=False))
 
 

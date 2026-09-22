@@ -29,7 +29,7 @@
 **대분류 → 중분류 → 소분류 → 재정데이터명**으로 좁혀 대표 페이지를 검토합니다.
 분류는 원천 `allDtaClsNm`의 각 단계, 재정데이터명은 `odtNm`입니다.
 소분류가 없는 자료는 `해당 없음`으로 유지하며, 동일 이름이라도 `odtId`가 다르면
-별도 검토 단위로 표시합니다. 재정간행물은 기존 유형별 보기로 분리합니다.
+별도 검토 단위로 표시합니다. 재정간행물은 별도 유형별 검토·제외 목록으로 분리합니다.
 각 카드의 열린재정 링크는 재정데이터명 검색입니다. 원천 사이트에서는 동명의 다른
 `odtId` 자료도 함께 나올 수 있으므로 정확한 검토 단위는 카드·CSV의 분류와 ID로 확인합니다.
 
@@ -49,6 +49,13 @@
 - 저장이 차단되거나 기존 저장 자료가 손상되면 경고하고 현재 탭에서만 계속 작업합니다.
   읽지 못한 저장값을 자동으로 덮어쓰지 않습니다. 창을 닫기 전에 CSV/JSON을 저장하세요.
   현재 목록에 없는 과거 선택은 경고하고 JSON 백업에 보존하되 최종 CSV에서는 제외합니다.
+- **사용자 지정 제외(2026-09-21):** 지출구조조정 1건, 지방재정연감(결산) 5건,
+  지방재정연감(예산) 5건 — 총 3개 그룹·ZIP 첨부 11건입니다. 이 결정은
+  `docs/data/report_exclusion_decisions.json`에 정확한 분류·재정데이터 ID로 기록하며,
+  [`report_exclusions.csv`](docs/data/report_exclusions.csv)로도 제공합니다.
+  배포 후 처음 방문할 때 이 3개 그룹만 저장된 선택에 병합합니다. 다른 선택은 유지하고,
+  적용 이후 사용자가 해제·초기화하거나 백업을 복원한 결과를 반복해서 덮어쓰지 않습니다.
+  미리보기 없음만으로 다른 그룹을 자동 제외하지는 않습니다.
 - 원본 목록에서 `source_in_current_list=False`인 과거 첨부는 이 검토 화면에서만 제외합니다.
   전체 인벤토리와 검토 화면의 목록 기준일·집계 범위는 다를 수 있습니다.
 - 단위별 대표 원문은 최대 2건입니다. 신규 샘플은 최대 6쪽, 재사용한 기존 샘플은
@@ -67,11 +74,55 @@
 (`PLAYWRIGHT_MODULE`, `CHROMIUM_PATH`, `REVIEW_BASE_URL`로 설치된 도구·로컬 서버 지정).
 제외 선택·저장·CSV·JSON 복원 검증은 `tests/test_report_exclusions_browser.cjs`를 사용합니다.
 
+## 재정간행물 검토 및 제외 목록
+
+같은 페이지의 **재정간행물 유형** 탭에서 유형·대표 문서명으로 검색하고,
+대표 문서 탭과 페이지 확대를 확인한 뒤 **이 유형 전체 제외**를 선택합니다.
+현재 공개 인벤토리 기준 **15개 유형·목록 1,698행(첨부 1,695건 + 첨부 없는 게시물 3건)·대표 문서 43건**입니다.
+보고서의 대·중·소분류나 `odt_id`는 간행물에 임의로 부여하지 않습니다.
+
+- 기존 자동 분석의 포함·제외 판정은 초기 선택으로 가져오지 않습니다.
+- 체크와 사유는 간행물 유형 전체에 적용합니다. ZIP은 첨부 1건이며 내부 파일을 별도 집계하지 않습니다.
+- 선택 상태 필터, 전체 필터 결과 일괄 선택/해제, 최종 제외 CSV, 검토 목록 CSV,
+  JSON 백업/복원, 확인 후 초기화를 보고서와 동일하게 지원합니다.
+- **보고서와 간행물은 저장 키·백업 형식·내보내기 파일이 분리됩니다.** 현재 자료의
+  초기화나 복원은 다른 자료에 영향을 주지 않습니다. 다른 종류의 JSON 복원은 거부합니다.
+- 기존 보고서 저장 키 `openfiscal-docs-analysis:report-exclusions:v1`과 백업 형식은 유지합니다.
+  간행물은 `openfiscal-docs-analysis:publication-exclusions:v1`을 사용합니다.
+- 인벤토리 생성일은 2026-08-25, 대표 샘플 생성일은 2026-09-07입니다.
+  새 검토 JSON 생성일은 원천 사이트의 최신 조회일을 뜻하지 않습니다.
+- 간행물 CSV 컬럼: `group_id,type,category_code,record_count,file_count,no_attachment_count,years,extensions,exclusion_decision,exclusion_reason`.
+  개별 원본이 아닌 유형별 목록입니다. 최종 제외 CSV는 현재 필터와 무관하게 모든 선택을 포함합니다.
+
+간행물 유형은 서버의 **`ofdBrdiDtsClsCd`**로 구분됩니다. 공통코드 API
+`POST /op/ko/cm/selectItgCdList.do`의 `itgClsCd=OP061`, `uprItgDtsCd=05` 응답
+`itgDtsCd`/`itgDtsCdNm`이 코드/명칭입니다. 예: `501` 월간재정동향,
+`504` 주요재정통계, `509` IMF, `516` 월간나라재정. 2026-09-23 서버 응답에서
+기존 15개 코드 매핑을 재확인했으며, 전체 게시물 목록을 새로 수집한 것은 아닙니다.
+보고서 `odtId`나 화면 내부의 `publications-...` 샘플 ID와는 다른 값입니다.
+기존 내부 ID를 유지하여 코드 표시 추가가 저장된 선택을 바꾸지 않습니다.
+
+**[재정간행물 전체 목록 Excel](docs/data/publication_full_list.xlsx)**에는
+전체 목록·유형코드표·작성 기준을 별도 시트로 제공합니다. 첨부 없는 3건도 비고로
+명시하며, 현재 수집 인벤토리 전체를 보존합니다. 표지 제외·원문 우선 수집 기준이므로
+사이트의 모든 표지·목차 파일 목록이나 개인 브라우저의 제외 결과와는 다릅니다.
+
+기존 인벤토리와 대표 이미지로 재생성하며 원문 재다운로드나 렌더링은 필요하지 않습니다.
+
+```bash
+.venv/bin/python scripts/build_publication_review_samples.py
+.venv/bin/python scripts/export_publication_list.py
+.venv/bin/python -m unittest discover -s tests -v
+# docs/ 로컬 서버와 설치된 Playwright를 지정한 뒤 실행
+node tests/test_publication_exclusions_browser.cjs
+```
+
 ## 갱신 및 로컬 확인
 
 ```bash
 .venv/bin/python scripts/build_type_samples.py
 python3 scripts/build_github_pages.py
+.venv/bin/python scripts/build_publication_review_samples.py
 python3 -m http.server 8000 --directory docs
 ```
 

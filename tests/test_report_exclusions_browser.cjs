@@ -139,10 +139,15 @@ function findGroup(predicate, message) {
     assert.equal(data.groups.length, 60, 'Fixture contract remains 60 report groups');
     assert.equal(distinctNames, 59, 'Fixture contract remains 59 distinct financial data names');
     const initialSummary = await page.locator('#reviewSummary').innerText();
-    assert.match(initialSummary, /제외\s*0/);
-    assert.match(initialSummary, /재정데이터명\s*0/);
-    assert.match(initialSummary, /첨부\s*0/);
-    assert.equal(await page.locator('[data-exclude-id]:checked').count(), 0, 'No default exclusions or legacy inherited judgments');
+    assert.match(initialSummary, /제외\s*3/);
+    assert.match(initialSummary, /재정데이터명\s*3/);
+    assert.match(initialSummary, /첨부\s*11/);
+    const declaredIds = data.exclusion_sets.flatMap(set => set.records.map(record => record.id)).sort();
+    assert.deepEqual((await storagePayload(page)).records.filter(r => r.excluded).map(r => r.id).sort(), declaredIds);
+    await clearChoices(page, true);
+    await page.reload({ waitUntil: 'networkidle' });
+    await page.locator('#reviewPanel').waitFor({ state: 'visible' });
+    assert.match(await page.locator('#reviewSummary').innerText(), /제외\s*0/, 'Explicit clear must not reapply the same declared set');
     assert.equal(await page.locator('[data-reason-id]:enabled').count(), 0, 'Unchecked records do not enable reason inputs');
 
     const quotedReason = '업무 제외 후보, "중복"\n한글 사유';
@@ -181,11 +186,15 @@ function findGroup(predicate, message) {
     await setDecision(page, String(duplicates[0].id), true, '동명 ID 중 첫 번째만 제외');
     assert.equal(await page.locator(`[data-exclude-id="${duplicates[1].id}"]`).isChecked(), false, 'Checking one same-name ID does not check the other');
 
+    const reportRawBeforePublication = await page.evaluate(key => localStorage.getItem(key), STORAGE_KEY);
     await page.locator('#sourceFilters button').filter({ hasText: '재정간행물' }).click();
-    assert.equal(await page.locator('#reviewPanel').isHidden(), true, 'Review panel is hidden for publication samples');
+    await page.locator('#publicationControls').waitFor({ state: 'visible' });
+    assert.equal(await page.locator('#reviewPanel').isVisible(), true, 'Review panel is active for publication samples');
+    assert.equal(await page.locator('#reportControls').isHidden(), true, 'Report filters are hidden while publication review is active');
+    assert.equal(await page.evaluate(key => localStorage.getItem(key), STORAGE_KEY), reportRawBeforePublication, 'Opening publication review does not rewrite report decisions');
     await page.locator('#sourceFilters button').filter({ hasText: '재정보고서' }).click();
     await page.selectOption('#reviewFilter', 'excluded');
-    assert.equal(await page.locator(`[data-exclude-id="${duplicates[0].id}"]`).count() > 0, true, 'Excluded decision survives source switches');
+    assert.equal(await page.locator(`[data-exclude-id="${duplicates[0].id}"]`).count() > 0, true, 'Excluded report decision survives source switches');
     await page.selectOption('#reviewFilter', 'unselected');
     assert.equal(await page.locator(`[data-exclude-id="${duplicates[0].id}"]`).count(), 0, 'Review filter can hide already excluded records');
 
@@ -315,6 +324,35 @@ function findGroup(predicate, message) {
     assert.equal(await noStorage.locator(`[data-exclude-id="${first.id}"]`).isChecked(), true, 'Storage-disabled mode remains usable in memory');
     assert.match(await noStorage.locator('#storageStatus').innerText(), /저장|storage|브라우저|localStorage|오류/i, 'Storage-disabled mode warns the reviewer');
     await noStorage.close();
+
+    // Apply the new project decision once to old browsers, without replacing
+    // unrelated choices. Subsequent manual changes and imported backups win.
+    const migrated = await browser.newPage();
+    const oldPayload = {version:1,source:'openfiscal-report-review',records:[
+      expectedRecord(first,true,'기존 선택 유지'),
+      expectedRecord(byId.get(declaredIds[0]),false,'지정 전 선택'),
+    ]};
+    await migrated.route('**/report_review_samples.json', route => route.fulfill({
+      contentType:'application/json',body:JSON.stringify({...data,exclusion_sets:[]}),
+    }));
+    await gotoReview(migrated);
+    await migrated.evaluate(({key,payload})=>localStorage.setItem(key,JSON.stringify(payload)), {key:STORAGE_KEY,payload:oldPayload});
+    await migrated.unroute('**/report_review_samples.json');
+    await migrated.reload({waitUntil:'networkidle'});
+    assert.match(await migrated.locator('#reviewSummary').innerText(), /제외\s*4/);
+    const migratedPayload = await storagePayload(migrated);
+    assert.equal(migratedPayload.records.find(r=>r.id===first.id).reason,'기존 선택 유지');
+    assert.ok(declaredIds.every(id=>migratedPayload.records.some(r=>r.id===id&&r.excluded)));
+    await migrated.selectOption('#dataNameSelect',declaredIds[0]);
+    await setDecision(migrated,declaredIds[0],false);
+    await migrated.reload({waitUntil:'networkidle'});
+    assert.equal((await storagePayload(migrated)).records.find(r=>r.id===declaredIds[0]).excluded,false);
+    await migrated.evaluate(()=>{window.confirm=()=>true;});
+    await migrated.locator('#importReview').setInputFiles({name:'old-empty-backup.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify({version:1,source:'openfiscal-report-review',records:[]}))});
+    await migrated.waitForFunction(key=>JSON.parse(localStorage.getItem(key)).records.length===0,STORAGE_KEY);
+    await migrated.reload({waitUntil:'networkidle'});
+    assert.match(await migrated.locator('#reviewSummary').innerText(), /제외\s*0/);
+    await migrated.close();
 
     assert.deepEqual(errors, []);
     console.log('PASS: exclusion review persistence, same-name IDs, filters/source switches, bulk all-pages, CSV/JSON export-import, clear/reset, storage failures, corrupted payloads, screenshots');

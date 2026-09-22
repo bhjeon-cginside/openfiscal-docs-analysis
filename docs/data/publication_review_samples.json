@@ -1,0 +1,3713 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-22T22:44:52+00:00",
+  "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA01",
+  "inventory_generated_at": "2026-08-25T23:01:39+00:00",
+  "samples_generated_at": "2026-09-07T01:17:19+00:00",
+  "summary": {
+    "record_count": 1698,
+    "file_count": 1695,
+    "no_attachment_count": 3,
+    "group_count": 15,
+    "groups_with_samples": 15,
+    "representative_documents": 43
+  },
+  "groups": [
+    {
+      "id": "publications-5e45453b7353",
+      "type": "IMF",
+      "data_name": "IMF",
+      "category_code": "509",
+      "record_count": 37,
+      "no_attachment_count": 0,
+      "file_count": 37,
+      "years": [
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2026"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "title": "[2025 No.4] IMF World Economic Outlook April 2025",
+          "year": "2026",
+          "extension": "pdf",
+          "document_pages": 196,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-5e45453b7353-02bf5eb302-pdf-p1.jpg",
+              "text_chars": 0,
+              "digit_ratio": 1.0,
+              "table_score": 0.939
+            },
+            {
+              "page": 109,
+              "image": "../assets/type-samples/publications-5e45453b7353-02bf5eb302-pdf-p109.jpg",
+              "text_chars": 46,
+              "digit_ratio": 0.091,
+              "table_score": 0.213
+            },
+            {
+              "page": 88,
+              "image": "../assets/type-samples/publications-5e45453b7353-02bf5eb302-pdf-p88.jpg",
+              "text_chars": 14,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 131,
+              "image": "../assets/type-samples/publications-5e45453b7353-02bf5eb302-pdf-p131.jpg",
+              "text_chars": 29,
+              "digit_ratio": 0.12,
+              "table_score": 0.287
+            },
+            {
+              "page": 174,
+              "image": "../assets/type-samples/publications-5e45453b7353-02bf5eb302-pdf-p174.jpg",
+              "text_chars": 18,
+              "digit_ratio": 0.2,
+              "table_score": 0.207
+            },
+            {
+              "page": 153,
+              "image": "../assets/type-samples/publications-5e45453b7353-02bf5eb302-pdf-p153.jpg",
+              "text_chars": 28,
+              "digit_ratio": 0.2,
+              "table_score": 0.244
+            },
+            {
+              "page": 196,
+              "image": "../assets/type-samples/publications-5e45453b7353-02bf5eb302-pdf-p196.jpg",
+              "text_chars": 18,
+              "digit_ratio": 0.2,
+              "table_score": 0.244
+            },
+            {
+              "page": 23,
+              "image": "../assets/type-samples/publications-5e45453b7353-02bf5eb302-pdf-p23.jpg",
+              "text_chars": 2,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 44,
+              "image": "../assets/type-samples/publications-5e45453b7353-02bf5eb302-pdf-p44.jpg",
+              "text_chars": 7,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 66,
+              "image": "../assets/type-samples/publications-5e45453b7353-02bf5eb302-pdf-p66.jpg",
+              "text_chars": 2,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            }
+          ]
+        },
+        {
+          "title": "[2025 No.10] IMF World Economic Outlook October 2025",
+          "year": "2026",
+          "extension": "pdf",
+          "document_pages": 195,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-5e45453b7353-9cf4ea31c7-pdf-p1.jpg",
+              "text_chars": 0,
+              "digit_ratio": 1.0,
+              "table_score": 0.939
+            },
+            {
+              "page": 195,
+              "image": "../assets/type-samples/publications-5e45453b7353-9cf4ea31c7-pdf-p195.jpg",
+              "text_chars": 7,
+              "digit_ratio": 0.0,
+              "table_score": 0.14
+            },
+            {
+              "page": 87,
+              "image": "../assets/type-samples/publications-5e45453b7353-9cf4ea31c7-pdf-p87.jpg",
+              "text_chars": 1,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 23,
+              "image": "../assets/type-samples/publications-5e45453b7353-9cf4ea31c7-pdf-p23.jpg",
+              "text_chars": 1,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 44,
+              "image": "../assets/type-samples/publications-5e45453b7353-9cf4ea31c7-pdf-p44.jpg",
+              "text_chars": 11,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 66,
+              "image": "../assets/type-samples/publications-5e45453b7353-9cf4ea31c7-pdf-p66.jpg",
+              "text_chars": 9,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 109,
+              "image": "../assets/type-samples/publications-5e45453b7353-9cf4ea31c7-pdf-p109.jpg",
+              "text_chars": 10,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 130,
+              "image": "../assets/type-samples/publications-5e45453b7353-9cf4ea31c7-pdf-p130.jpg",
+              "text_chars": 7,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 152,
+              "image": "../assets/type-samples/publications-5e45453b7353-9cf4ea31c7-pdf-p152.jpg",
+              "text_chars": 12,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 173,
+              "image": "../assets/type-samples/publications-5e45453b7353-9cf4ea31c7-pdf-p173.jpg",
+              "text_chars": 5,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            }
+          ]
+        },
+        {
+          "title": "[2024 No.1] IMF World Economic Outlook April 2024",
+          "year": "2026",
+          "extension": "pdf",
+          "document_pages": 141,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-5e45453b7353-9d17033add-pdf-p1.jpg",
+              "text_chars": 0,
+              "digit_ratio": 1.0,
+              "table_score": 0.939
+            },
+            {
+              "page": 79,
+              "image": "../assets/type-samples/publications-5e45453b7353-9d17033add-pdf-p79.jpg",
+              "text_chars": 35,
+              "digit_ratio": 0.095,
+              "table_score": 0.212
+            },
+            {
+              "page": 63,
+              "image": "../assets/type-samples/publications-5e45453b7353-9d17033add-pdf-p63.jpg",
+              "text_chars": 29,
+              "digit_ratio": 0.105,
+              "table_score": 0.226
+            },
+            {
+              "page": 94,
+              "image": "../assets/type-samples/publications-5e45453b7353-9d17033add-pdf-p94.jpg",
+              "text_chars": 29,
+              "digit_ratio": 0.095,
+              "table_score": 0.227
+            },
+            {
+              "page": 48,
+              "image": "../assets/type-samples/publications-5e45453b7353-9d17033add-pdf-p48.jpg",
+              "text_chars": 23,
+              "digit_ratio": 0.105,
+              "table_score": 0.263
+            },
+            {
+              "page": 17,
+              "image": "../assets/type-samples/publications-5e45453b7353-9d17033add-pdf-p17.jpg",
+              "text_chars": 4,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 32,
+              "image": "../assets/type-samples/publications-5e45453b7353-9d17033add-pdf-p32.jpg",
+              "text_chars": 9,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 110,
+              "image": "../assets/type-samples/publications-5e45453b7353-9d17033add-pdf-p110.jpg",
+              "text_chars": 3,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 125,
+              "image": "../assets/type-samples/publications-5e45453b7353-9d17033add-pdf-p125.jpg",
+              "text_chars": 1,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 141,
+              "image": "../assets/type-samples/publications-5e45453b7353-9d17033add-pdf-p141.jpg",
+              "text_chars": 9,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA01"
+    },
+    {
+      "id": "publications-ff944e0a1d12",
+      "type": "OECD",
+      "data_name": "OECD",
+      "category_code": "511",
+      "record_count": 29,
+      "no_attachment_count": 0,
+      "file_count": 29,
+      "years": [
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2026"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "title": "[2025. No.5] OECD Economic Outlook June 2025",
+          "year": "2026",
+          "extension": "pdf",
+          "document_pages": 172,
+          "pages": [
+            {
+              "page": 20,
+              "image": "../assets/type-samples/publications-ff944e0a1d12-e3c854e53b-pdf-p20.jpg",
+              "text_chars": 650,
+              "digit_ratio": 0.085,
+              "table_score": 0.077
+            },
+            {
+              "page": 96,
+              "image": "../assets/type-samples/publications-ff944e0a1d12-e3c854e53b-pdf-p96.jpg",
+              "text_chars": 841,
+              "digit_ratio": 0.059,
+              "table_score": 0.064
+            },
+            {
+              "page": 77,
+              "image": "../assets/type-samples/publications-ff944e0a1d12-e3c854e53b-pdf-p77.jpg",
+              "text_chars": 580,
+              "digit_ratio": 0.053,
+              "table_score": 0.062
+            },
+            {
+              "page": 134,
+              "image": "../assets/type-samples/publications-ff944e0a1d12-e3c854e53b-pdf-p134.jpg",
+              "text_chars": 772,
+              "digit_ratio": 0.039,
+              "table_score": 0.055
+            },
+            {
+              "page": 58,
+              "image": "../assets/type-samples/publications-ff944e0a1d12-e3c854e53b-pdf-p58.jpg",
+              "text_chars": 849,
+              "digit_ratio": 0.054,
+              "table_score": 0.191
+            },
+            {
+              "page": 115,
+              "image": "../assets/type-samples/publications-ff944e0a1d12-e3c854e53b-pdf-p115.jpg",
+              "text_chars": 791,
+              "digit_ratio": 0.054,
+              "table_score": 0.18
+            },
+            {
+              "page": 39,
+              "image": "../assets/type-samples/publications-ff944e0a1d12-e3c854e53b-pdf-p39.jpg",
+              "text_chars": 656,
+              "digit_ratio": 0.052,
+              "table_score": 0.059
+            },
+            {
+              "page": 153,
+              "image": "../assets/type-samples/publications-ff944e0a1d12-e3c854e53b-pdf-p153.jpg",
+              "text_chars": 1030,
+              "digit_ratio": 0.135,
+              "table_score": 0.325
+            },
+            {
+              "page": 172,
+              "image": "../assets/type-samples/publications-ff944e0a1d12-e3c854e53b-pdf-p172.jpg",
+              "text_chars": 848,
+              "digit_ratio": 0.152,
+              "table_score": 0.346
+            },
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-ff944e0a1d12-e3c854e53b-pdf-p1.jpg",
+              "text_chars": 52,
+              "digit_ratio": 0.306,
+              "table_score": 0.277
+            }
+          ]
+        },
+        {
+          "title": "[2025. No.1] OECD Economic Outlook December 2024",
+          "year": "2026",
+          "extension": "pdf",
+          "document_pages": 142,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-ff944e0a1d12-9f18da88ac-pdf-p1.jpg",
+              "text_chars": 0,
+              "digit_ratio": 1.0,
+              "table_score": 0.939
+            },
+            {
+              "page": 79,
+              "image": "../assets/type-samples/publications-ff944e0a1d12-9f18da88ac-pdf-p79.jpg",
+              "text_chars": 82,
+              "digit_ratio": 0.0,
+              "table_score": 0.14
+            },
+            {
+              "page": 64,
+              "image": "../assets/type-samples/publications-ff944e0a1d12-9f18da88ac-pdf-p64.jpg",
+              "text_chars": 63,
+              "digit_ratio": 0.16,
+              "table_score": 0.254
+            },
+            {
+              "page": 95,
+              "image": "../assets/type-samples/publications-ff944e0a1d12-9f18da88ac-pdf-p95.jpg",
+              "text_chars": 82,
+              "digit_ratio": 0.2,
+              "table_score": 0.244
+            },
+            {
+              "page": 17,
+              "image": "../assets/type-samples/publications-ff944e0a1d12-9f18da88ac-pdf-p17.jpg",
+              "text_chars": 5,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 32,
+              "image": "../assets/type-samples/publications-ff944e0a1d12-9f18da88ac-pdf-p32.jpg",
+              "text_chars": 12,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 48,
+              "image": "../assets/type-samples/publications-ff944e0a1d12-9f18da88ac-pdf-p48.jpg",
+              "text_chars": 6,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 111,
+              "image": "../assets/type-samples/publications-ff944e0a1d12-9f18da88ac-pdf-p111.jpg",
+              "text_chars": 12,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 126,
+              "image": "../assets/type-samples/publications-ff944e0a1d12-9f18da88ac-pdf-p126.jpg",
+              "text_chars": 14,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 142,
+              "image": "../assets/type-samples/publications-ff944e0a1d12-9f18da88ac-pdf-p142.jpg",
+              "text_chars": 3,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            }
+          ]
+        },
+        {
+          "title": "[2024. No.3] OECD Economic Outlook May 2024",
+          "year": "2026",
+          "extension": "pdf",
+          "document_pages": 99,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-ff944e0a1d12-6fc2177385-pdf-p1.jpg",
+              "text_chars": 0,
+              "digit_ratio": 1.0,
+              "table_score": 0.939
+            },
+            {
+              "page": 66,
+              "image": "../assets/type-samples/publications-ff944e0a1d12-6fc2177385-pdf-p66.jpg",
+              "text_chars": 31,
+              "digit_ratio": 0.0,
+              "table_score": 0.14
+            },
+            {
+              "page": 45,
+              "image": "../assets/type-samples/publications-ff944e0a1d12-6fc2177385-pdf-p45.jpg",
+              "text_chars": 12,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 12,
+              "image": "../assets/type-samples/publications-ff944e0a1d12-6fc2177385-pdf-p12.jpg",
+              "text_chars": 4,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 23,
+              "image": "../assets/type-samples/publications-ff944e0a1d12-6fc2177385-pdf-p23.jpg",
+              "text_chars": 10,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 34,
+              "image": "../assets/type-samples/publications-ff944e0a1d12-6fc2177385-pdf-p34.jpg",
+              "text_chars": 9,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 55,
+              "image": "../assets/type-samples/publications-ff944e0a1d12-6fc2177385-pdf-p55.jpg",
+              "text_chars": 10,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 77,
+              "image": "../assets/type-samples/publications-ff944e0a1d12-6fc2177385-pdf-p77.jpg",
+              "text_chars": 12,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 88,
+              "image": "../assets/type-samples/publications-ff944e0a1d12-6fc2177385-pdf-p88.jpg",
+              "text_chars": 13,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 99,
+              "image": "../assets/type-samples/publications-ff944e0a1d12-6fc2177385-pdf-p99.jpg",
+              "text_chars": 4,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA01"
+    },
+    {
+      "id": "publications-56efbec65989",
+      "type": "경제동향",
+      "data_name": "경제동향",
+      "category_code": "508",
+      "record_count": 103,
+      "no_attachment_count": 0,
+      "file_count": 103,
+      "years": [
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "extensions": [
+        "pdf",
+        "zip"
+      ],
+      "documents": [
+        {
+          "title": "2026년 2월 최근경제동향",
+          "year": "2026",
+          "extension": "pdf",
+          "document_pages": 77,
+          "pages": [
+            {
+              "page": 9,
+              "image": "../assets/type-samples/publications-56efbec65989-bf38f9e2a6-pdf-p9.jpg",
+              "text_chars": 370,
+              "digit_ratio": 0.723,
+              "table_score": 0.734
+            },
+            {
+              "page": 18,
+              "image": "../assets/type-samples/publications-56efbec65989-bf38f9e2a6-pdf-p18.jpg",
+              "text_chars": 1157,
+              "digit_ratio": 0.513,
+              "table_score": 0.647
+            },
+            {
+              "page": 35,
+              "image": "../assets/type-samples/publications-56efbec65989-bf38f9e2a6-pdf-p35.jpg",
+              "text_chars": 274,
+              "digit_ratio": 0.707,
+              "table_score": 0.788
+            },
+            {
+              "page": 26,
+              "image": "../assets/type-samples/publications-56efbec65989-bf38f9e2a6-pdf-p26.jpg",
+              "text_chars": 1074,
+              "digit_ratio": 0.591,
+              "table_score": 0.698
+            },
+            {
+              "page": 43,
+              "image": "../assets/type-samples/publications-56efbec65989-bf38f9e2a6-pdf-p43.jpg",
+              "text_chars": 381,
+              "digit_ratio": 0.618,
+              "table_score": 0.727
+            },
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-56efbec65989-bf38f9e2a6-pdf-p1.jpg",
+              "text_chars": 13,
+              "digit_ratio": 0.455,
+              "table_score": 0.434
+            },
+            {
+              "page": 69,
+              "image": "../assets/type-samples/publications-56efbec65989-bf38f9e2a6-pdf-p69.jpg",
+              "text_chars": 1103,
+              "digit_ratio": 0.923,
+              "table_score": 0.95
+            },
+            {
+              "page": 77,
+              "image": "../assets/type-samples/publications-56efbec65989-bf38f9e2a6-pdf-p77.jpg",
+              "text_chars": 1051,
+              "digit_ratio": 0.928,
+              "table_score": 0.948
+            },
+            {
+              "page": 60,
+              "image": "../assets/type-samples/publications-56efbec65989-bf38f9e2a6-pdf-p60.jpg",
+              "text_chars": 2120,
+              "digit_ratio": 0.975,
+              "table_score": 0.971
+            },
+            {
+              "page": 52,
+              "image": "../assets/type-samples/publications-56efbec65989-bf38f9e2a6-pdf-p52.jpg",
+              "text_chars": 2511,
+              "digit_ratio": 0.945,
+              "table_score": 0.961
+            }
+          ]
+        },
+        {
+          "title": "2026년 6월 최근경제동향",
+          "year": "2026",
+          "extension": "pdf",
+          "document_pages": 76,
+          "pages": [
+            {
+              "page": 9,
+              "image": "../assets/type-samples/publications-56efbec65989-3d8824d7f8-pdf-p9.jpg",
+              "text_chars": 1409,
+              "digit_ratio": 0.494,
+              "table_score": 0.669
+            },
+            {
+              "page": 34,
+              "image": "../assets/type-samples/publications-56efbec65989-3d8824d7f8-pdf-p34.jpg",
+              "text_chars": 280,
+              "digit_ratio": 0.714,
+              "table_score": 0.821
+            },
+            {
+              "page": 18,
+              "image": "../assets/type-samples/publications-56efbec65989-3d8824d7f8-pdf-p18.jpg",
+              "text_chars": 374,
+              "digit_ratio": 0.618,
+              "table_score": 0.684
+            },
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-56efbec65989-3d8824d7f8-pdf-p1.jpg",
+              "text_chars": 13,
+              "digit_ratio": 0.455,
+              "table_score": 0.434
+            },
+            {
+              "page": 43,
+              "image": "../assets/type-samples/publications-56efbec65989-3d8824d7f8-pdf-p43.jpg",
+              "text_chars": 0,
+              "digit_ratio": 1.0,
+              "table_score": 0.86
+            },
+            {
+              "page": 26,
+              "image": "../assets/type-samples/publications-56efbec65989-3d8824d7f8-pdf-p26.jpg",
+              "text_chars": 485,
+              "digit_ratio": 0.739,
+              "table_score": 0.81
+            },
+            {
+              "page": 68,
+              "image": "../assets/type-samples/publications-56efbec65989-3d8824d7f8-pdf-p68.jpg",
+              "text_chars": 1086,
+              "digit_ratio": 0.921,
+              "table_score": 0.945
+            },
+            {
+              "page": 76,
+              "image": "../assets/type-samples/publications-56efbec65989-3d8824d7f8-pdf-p76.jpg",
+              "text_chars": 1094,
+              "digit_ratio": 0.929,
+              "table_score": 0.948
+            },
+            {
+              "page": 59,
+              "image": "../assets/type-samples/publications-56efbec65989-3d8824d7f8-pdf-p59.jpg",
+              "text_chars": 2091,
+              "digit_ratio": 0.974,
+              "table_score": 0.971
+            },
+            {
+              "page": 51,
+              "image": "../assets/type-samples/publications-56efbec65989-3d8824d7f8-pdf-p51.jpg",
+              "text_chars": 2580,
+              "digit_ratio": 0.947,
+              "table_score": 0.959
+            }
+          ]
+        },
+        {
+          "title": "2026년 5월 최근경제동향",
+          "year": "2026",
+          "extension": "pdf",
+          "document_pages": 76,
+          "pages": [
+            {
+              "page": 9,
+              "image": "../assets/type-samples/publications-56efbec65989-91c7d68b48-pdf-p9.jpg",
+              "text_chars": 1473,
+              "digit_ratio": 0.505,
+              "table_score": 0.676
+            },
+            {
+              "page": 34,
+              "image": "../assets/type-samples/publications-56efbec65989-91c7d68b48-pdf-p34.jpg",
+              "text_chars": 280,
+              "digit_ratio": 0.714,
+              "table_score": 0.792
+            },
+            {
+              "page": 18,
+              "image": "../assets/type-samples/publications-56efbec65989-91c7d68b48-pdf-p18.jpg",
+              "text_chars": 369,
+              "digit_ratio": 0.613,
+              "table_score": 0.678
+            },
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-56efbec65989-91c7d68b48-pdf-p1.jpg",
+              "text_chars": 13,
+              "digit_ratio": 0.455,
+              "table_score": 0.434
+            },
+            {
+              "page": 43,
+              "image": "../assets/type-samples/publications-56efbec65989-91c7d68b48-pdf-p43.jpg",
+              "text_chars": 0,
+              "digit_ratio": 1.0,
+              "table_score": 0.86
+            },
+            {
+              "page": 26,
+              "image": "../assets/type-samples/publications-56efbec65989-91c7d68b48-pdf-p26.jpg",
+              "text_chars": 485,
+              "digit_ratio": 0.739,
+              "table_score": 0.81
+            },
+            {
+              "page": 68,
+              "image": "../assets/type-samples/publications-56efbec65989-91c7d68b48-pdf-p68.jpg",
+              "text_chars": 1084,
+              "digit_ratio": 0.922,
+              "table_score": 0.947
+            },
+            {
+              "page": 76,
+              "image": "../assets/type-samples/publications-56efbec65989-91c7d68b48-pdf-p76.jpg",
+              "text_chars": 1052,
+              "digit_ratio": 0.929,
+              "table_score": 0.948
+            },
+            {
+              "page": 59,
+              "image": "../assets/type-samples/publications-56efbec65989-91c7d68b48-pdf-p59.jpg",
+              "text_chars": 2136,
+              "digit_ratio": 0.975,
+              "table_score": 0.971
+            },
+            {
+              "page": 51,
+              "image": "../assets/type-samples/publications-56efbec65989-91c7d68b48-pdf-p51.jpg",
+              "text_chars": 2587,
+              "digit_ratio": 0.947,
+              "table_score": 0.962
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA01"
+    },
+    {
+      "id": "publications-9d17bb927f9f",
+      "type": "기금운용평가결과",
+      "data_name": "기금운용평가결과",
+      "category_code": "514",
+      "record_count": 41,
+      "no_attachment_count": 0,
+      "file_count": 41,
+      "years": [
+        "2000",
+        "2001",
+        "2002",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "extensions": [
+        "hwp",
+        "pdf"
+      ],
+      "documents": [
+        {
+          "title": "2025년도 기금운용평가결과",
+          "year": "2026",
+          "extension": "pdf",
+          "document_pages": 532,
+          "pages": [
+            {
+              "page": 60,
+              "image": "../assets/type-samples/publications-9d17bb927f9f-d246d5511b-pdf-p60.jpg",
+              "text_chars": 994,
+              "digit_ratio": 0.064,
+              "table_score": 0.044
+            },
+            {
+              "page": 355,
+              "image": "../assets/type-samples/publications-9d17bb927f9f-d246d5511b-pdf-p355.jpg",
+              "text_chars": 1049,
+              "digit_ratio": 0.003,
+              "table_score": 0.012
+            },
+            {
+              "page": 237,
+              "image": "../assets/type-samples/publications-9d17bb927f9f-d246d5511b-pdf-p237.jpg",
+              "text_chars": 1078,
+              "digit_ratio": 0.209,
+              "table_score": 0.345
+            },
+            {
+              "page": 473,
+              "image": "../assets/type-samples/publications-9d17bb927f9f-d246d5511b-pdf-p473.jpg",
+              "text_chars": 761,
+              "digit_ratio": 0.129,
+              "table_score": 0.092
+            },
+            {
+              "page": 296,
+              "image": "../assets/type-samples/publications-9d17bb927f9f-d246d5511b-pdf-p296.jpg",
+              "text_chars": 766,
+              "digit_ratio": 0.272,
+              "table_score": 0.402
+            },
+            {
+              "page": 414,
+              "image": "../assets/type-samples/publications-9d17bb927f9f-d246d5511b-pdf-p414.jpg",
+              "text_chars": 285,
+              "digit_ratio": 0.198,
+              "table_score": 0.298
+            },
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-9d17bb927f9f-d246d5511b-pdf-p1.jpg",
+              "text_chars": 92,
+              "digit_ratio": 0.105,
+              "table_score": 0.225
+            },
+            {
+              "page": 532,
+              "image": "../assets/type-samples/publications-9d17bb927f9f-d246d5511b-pdf-p532.jpg",
+              "text_chars": 45,
+              "digit_ratio": 0.091,
+              "table_score": 0.085
+            },
+            {
+              "page": 119,
+              "image": "../assets/type-samples/publications-9d17bb927f9f-d246d5511b-pdf-p119.jpg",
+              "text_chars": 8,
+              "digit_ratio": 0.5,
+              "table_score": 0.359
+            },
+            {
+              "page": 178,
+              "image": "../assets/type-samples/publications-9d17bb927f9f-d246d5511b-pdf-p178.jpg",
+              "text_chars": 0,
+              "digit_ratio": 1.0,
+              "table_score": 0.86
+            }
+          ]
+        },
+        {
+          "title": "2018년도 기금운용평가결과",
+          "year": "2019",
+          "extension": "hwp",
+          "document_pages": 1200,
+          "pages": [
+            {
+              "page": 134,
+              "image": "../assets/type-samples/publications-9d17bb927f9f-0b80b06705-hwp-p134.svg",
+              "text_chars": 780,
+              "digit_ratio": 0.127,
+              "table_score": 0.106
+            },
+            {
+              "page": 800,
+              "image": "../assets/type-samples/publications-9d17bb927f9f-0b80b06705-hwp-p800.svg",
+              "text_chars": 891,
+              "digit_ratio": 0.021,
+              "table_score": 0.028
+            },
+            {
+              "page": 534,
+              "image": "../assets/type-samples/publications-9d17bb927f9f-0b80b06705-hwp-p534.svg",
+              "text_chars": 805,
+              "digit_ratio": 0.096,
+              "table_score": 0.083
+            },
+            {
+              "page": 667,
+              "image": "../assets/type-samples/publications-9d17bb927f9f-0b80b06705-hwp-p667.svg",
+              "text_chars": 663,
+              "digit_ratio": 0.078,
+              "table_score": 0.092
+            },
+            {
+              "page": 401,
+              "image": "../assets/type-samples/publications-9d17bb927f9f-0b80b06705-hwp-p401.svg",
+              "text_chars": 786,
+              "digit_ratio": 0.269,
+              "table_score": 0.251
+            },
+            {
+              "page": 1200,
+              "image": "../assets/type-samples/publications-9d17bb927f9f-0b80b06705-hwp-p1200.svg",
+              "text_chars": 645,
+              "digit_ratio": 0.245,
+              "table_score": 0.261
+            },
+            {
+              "page": 934,
+              "image": "../assets/type-samples/publications-9d17bb927f9f-0b80b06705-hwp-p934.svg",
+              "text_chars": 569,
+              "digit_ratio": 0.186,
+              "table_score": 0.215
+            },
+            {
+              "page": 267,
+              "image": "../assets/type-samples/publications-9d17bb927f9f-0b80b06705-hwp-p267.svg",
+              "text_chars": 278,
+              "digit_ratio": 0.049,
+              "table_score": 0.066
+            },
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-9d17bb927f9f-0b80b06705-hwp-p1.svg",
+              "text_chars": 40,
+              "digit_ratio": 0.273,
+              "table_score": 0.21
+            },
+            {
+              "page": 1067,
+              "image": "../assets/type-samples/publications-9d17bb927f9f-0b80b06705-hwp-p1067.svg",
+              "text_chars": 0,
+              "digit_ratio": 1.0,
+              "table_score": 0.86
+            }
+          ]
+        },
+        {
+          "title": "2024년도 기금운용평가결과",
+          "year": "2025",
+          "extension": "pdf",
+          "document_pages": 526,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-9d17bb927f9f-81b0810812-pdf-p1.jpg",
+              "text_chars": 103,
+              "digit_ratio": 0.093,
+              "table_score": 0.222
+            },
+            {
+              "page": 293,
+              "image": "../assets/type-samples/publications-9d17bb927f9f-81b0810812-pdf-p293.jpg",
+              "text_chars": 1129,
+              "digit_ratio": 0.006,
+              "table_score": 0.013
+            },
+            {
+              "page": 234,
+              "image": "../assets/type-samples/publications-9d17bb927f9f-81b0810812-pdf-p234.jpg",
+              "text_chars": 583,
+              "digit_ratio": 0.02,
+              "table_score": 0.025
+            },
+            {
+              "page": 468,
+              "image": "../assets/type-samples/publications-9d17bb927f9f-81b0810812-pdf-p468.jpg",
+              "text_chars": 1219,
+              "digit_ratio": 0.06,
+              "table_score": 0.041
+            },
+            {
+              "page": 59,
+              "image": "../assets/type-samples/publications-9d17bb927f9f-81b0810812-pdf-p59.jpg",
+              "text_chars": 831,
+              "digit_ratio": 0.029,
+              "table_score": 0.027
+            },
+            {
+              "page": 409,
+              "image": "../assets/type-samples/publications-9d17bb927f9f-81b0810812-pdf-p409.jpg",
+              "text_chars": 956,
+              "digit_ratio": 0.144,
+              "table_score": 0.098
+            },
+            {
+              "page": 176,
+              "image": "../assets/type-samples/publications-9d17bb927f9f-81b0810812-pdf-p176.jpg",
+              "text_chars": 846,
+              "digit_ratio": 0.147,
+              "table_score": 0.088
+            },
+            {
+              "page": 118,
+              "image": "../assets/type-samples/publications-9d17bb927f9f-81b0810812-pdf-p118.jpg",
+              "text_chars": 533,
+              "digit_ratio": 0.163,
+              "table_score": 0.286
+            },
+            {
+              "page": 351,
+              "image": "../assets/type-samples/publications-9d17bb927f9f-81b0810812-pdf-p351.jpg",
+              "text_chars": 306,
+              "digit_ratio": 0.109,
+              "table_score": 0.125
+            },
+            {
+              "page": 526,
+              "image": "../assets/type-samples/publications-9d17bb927f9f-81b0810812-pdf-p526.jpg",
+              "text_chars": 40,
+              "digit_ratio": 0.103,
+              "table_score": 0.193
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA01"
+    },
+    {
+      "id": "publications-13d0e2f4e7ad",
+      "type": "기타자료",
+      "data_name": "기타자료",
+      "category_code": "518",
+      "record_count": 50,
+      "no_attachment_count": 0,
+      "file_count": 50,
+      "years": [
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "extensions": [
+        "hwp",
+        "pdf"
+      ],
+      "documents": [
+        {
+          "title": "2026년 기금존치평가보고서",
+          "year": "2026",
+          "extension": "pdf",
+          "document_pages": 208,
+          "pages": [
+            {
+              "page": 24,
+              "image": "../assets/type-samples/publications-13d0e2f4e7ad-cc5240aaaf-pdf-p24.jpg",
+              "text_chars": 593,
+              "digit_ratio": 0.022,
+              "table_score": 0.026
+            },
+            {
+              "page": 139,
+              "image": "../assets/type-samples/publications-13d0e2f4e7ad-cc5240aaaf-pdf-p139.jpg",
+              "text_chars": 894,
+              "digit_ratio": 0.022,
+              "table_score": 0.023
+            },
+            {
+              "page": 93,
+              "image": "../assets/type-samples/publications-13d0e2f4e7ad-cc5240aaaf-pdf-p93.jpg",
+              "text_chars": 427,
+              "digit_ratio": 0.042,
+              "table_score": 0.189
+            },
+            {
+              "page": 162,
+              "image": "../assets/type-samples/publications-13d0e2f4e7ad-cc5240aaaf-pdf-p162.jpg",
+              "text_chars": 673,
+              "digit_ratio": 0.009,
+              "table_score": 0.019
+            },
+            {
+              "page": 70,
+              "image": "../assets/type-samples/publications-13d0e2f4e7ad-cc5240aaaf-pdf-p70.jpg",
+              "text_chars": 698,
+              "digit_ratio": 0.049,
+              "table_score": 0.039
+            },
+            {
+              "page": 185,
+              "image": "../assets/type-samples/publications-13d0e2f4e7ad-cc5240aaaf-pdf-p185.jpg",
+              "text_chars": 188,
+              "digit_ratio": 0.082,
+              "table_score": 0.219
+            },
+            {
+              "page": 47,
+              "image": "../assets/type-samples/publications-13d0e2f4e7ad-cc5240aaaf-pdf-p47.jpg",
+              "text_chars": 93,
+              "digit_ratio": 0.045,
+              "table_score": 0.109
+            },
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-13d0e2f4e7ad-cc5240aaaf-pdf-p1.jpg",
+              "text_chars": 82,
+              "digit_ratio": 0.117,
+              "table_score": 0.276
+            },
+            {
+              "page": 208,
+              "image": "../assets/type-samples/publications-13d0e2f4e7ad-cc5240aaaf-pdf-p208.jpg",
+              "text_chars": 35,
+              "digit_ratio": 0.114,
+              "table_score": 0.144
+            },
+            {
+              "page": 116,
+              "image": "../assets/type-samples/publications-13d0e2f4e7ad-cc5240aaaf-pdf-p116.jpg",
+              "text_chars": 0,
+              "digit_ratio": 1.0,
+              "table_score": 0.86
+            }
+          ]
+        },
+        {
+          "title": "2019년도 복권판매사업 및 복권기금지원사업",
+          "year": "2019",
+          "extension": "hwp",
+          "document_pages": 6,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-13d0e2f4e7ad-25003222be-hwp-p1.svg",
+              "text_chars": 124,
+              "digit_ratio": 0.198,
+              "table_score": 0.141
+            },
+            {
+              "page": 3,
+              "image": "../assets/type-samples/publications-13d0e2f4e7ad-25003222be-hwp-p3.svg",
+              "text_chars": 1330,
+              "digit_ratio": 0.113,
+              "table_score": 0.139
+            },
+            {
+              "page": 6,
+              "image": "../assets/type-samples/publications-13d0e2f4e7ad-25003222be-hwp-p6.svg",
+              "text_chars": 961,
+              "digit_ratio": 0.256,
+              "table_score": 0.144
+            },
+            {
+              "page": 4,
+              "image": "../assets/type-samples/publications-13d0e2f4e7ad-25003222be-hwp-p4.svg",
+              "text_chars": 572,
+              "digit_ratio": 0.323,
+              "table_score": 0.307
+            },
+            {
+              "page": 5,
+              "image": "../assets/type-samples/publications-13d0e2f4e7ad-25003222be-hwp-p5.svg",
+              "text_chars": 335,
+              "digit_ratio": 0.305,
+              "table_score": 0.217
+            },
+            {
+              "page": 2,
+              "image": "../assets/type-samples/publications-13d0e2f4e7ad-25003222be-hwp-p2.svg",
+              "text_chars": 935,
+              "digit_ratio": 0.685,
+              "table_score": 0.583
+            }
+          ]
+        },
+        {
+          "title": "2024년도 민간투자사업 운영현황 및 추진실적 등에 관한 보고서",
+          "year": "2025",
+          "extension": "pdf",
+          "document_pages": 225,
+          "pages": [
+            {
+              "page": 51,
+              "image": "../assets/type-samples/publications-13d0e2f4e7ad-ba2b4b4dfa-pdf-p51.jpg",
+              "text_chars": 417,
+              "digit_ratio": 0.201,
+              "table_score": 0.374
+            },
+            {
+              "page": 175,
+              "image": "../assets/type-samples/publications-13d0e2f4e7ad-ba2b4b4dfa-pdf-p175.jpg",
+              "text_chars": 613,
+              "digit_ratio": 0.301,
+              "table_score": 0.438
+            },
+            {
+              "page": 101,
+              "image": "../assets/type-samples/publications-13d0e2f4e7ad-ba2b4b4dfa-pdf-p101.jpg",
+              "text_chars": 399,
+              "digit_ratio": 0.209,
+              "table_score": 0.372
+            },
+            {
+              "page": 225,
+              "image": "../assets/type-samples/publications-13d0e2f4e7ad-ba2b4b4dfa-pdf-p225.jpg",
+              "text_chars": 403,
+              "digit_ratio": 0.201,
+              "table_score": 0.367
+            },
+            {
+              "page": 150,
+              "image": "../assets/type-samples/publications-13d0e2f4e7ad-ba2b4b4dfa-pdf-p150.jpg",
+              "text_chars": 474,
+              "digit_ratio": 0.257,
+              "table_score": 0.421
+            },
+            {
+              "page": 125,
+              "image": "../assets/type-samples/publications-13d0e2f4e7ad-ba2b4b4dfa-pdf-p125.jpg",
+              "text_chars": 400,
+              "digit_ratio": 0.211,
+              "table_score": 0.37
+            },
+            {
+              "page": 76,
+              "image": "../assets/type-samples/publications-13d0e2f4e7ad-ba2b4b4dfa-pdf-p76.jpg",
+              "text_chars": 437,
+              "digit_ratio": 0.244,
+              "table_score": 0.41
+            },
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-13d0e2f4e7ad-ba2b4b4dfa-pdf-p1.jpg",
+              "text_chars": 40,
+              "digit_ratio": 0.237,
+              "table_score": 0.231
+            },
+            {
+              "page": 26,
+              "image": "../assets/type-samples/publications-13d0e2f4e7ad-ba2b4b4dfa-pdf-p26.jpg",
+              "text_chars": 0,
+              "digit_ratio": 1.0,
+              "table_score": 0.86
+            },
+            {
+              "page": 200,
+              "image": "../assets/type-samples/publications-13d0e2f4e7ad-ba2b4b4dfa-pdf-p200.jpg",
+              "text_chars": 0,
+              "digit_ratio": 1.0,
+              "table_score": 0.86
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA01"
+    },
+    {
+      "id": "publications-0b20231a13a0",
+      "type": "부담금운용현황",
+      "data_name": "부담금운용현황",
+      "category_code": "512",
+      "record_count": 36,
+      "no_attachment_count": 0,
+      "file_count": 36,
+      "years": [
+        "2002",
+        "2003",
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "extensions": [
+        "hwp",
+        "pdf",
+        "zip"
+      ],
+      "documents": [
+        {
+          "title": "2024년도 부담금운용종합",
+          "year": "2025",
+          "extension": "pdf",
+          "document_pages": 744,
+          "pages": [
+            {
+              "page": 84,
+              "image": "../assets/type-samples/publications-0b20231a13a0-c2c6314db8-pdf-p84.jpg",
+              "text_chars": 143,
+              "digit_ratio": 0.045,
+              "table_score": 0.082
+            },
+            {
+              "page": 166,
+              "image": "../assets/type-samples/publications-0b20231a13a0-c2c6314db8-pdf-p166.jpg",
+              "text_chars": 667,
+              "digit_ratio": 0.022,
+              "table_score": 0.165
+            },
+            {
+              "page": 331,
+              "image": "../assets/type-samples/publications-0b20231a13a0-c2c6314db8-pdf-p331.jpg",
+              "text_chars": 566,
+              "digit_ratio": 0.38,
+              "table_score": 0.465
+            },
+            {
+              "page": 661,
+              "image": "../assets/type-samples/publications-0b20231a13a0-c2c6314db8-pdf-p661.jpg",
+              "text_chars": 513,
+              "digit_ratio": 0.055,
+              "table_score": 0.185
+            },
+            {
+              "page": 579,
+              "image": "../assets/type-samples/publications-0b20231a13a0-c2c6314db8-pdf-p579.jpg",
+              "text_chars": 424,
+              "digit_ratio": 0.075,
+              "table_score": 0.186
+            },
+            {
+              "page": 249,
+              "image": "../assets/type-samples/publications-0b20231a13a0-c2c6314db8-pdf-p249.jpg",
+              "text_chars": 394,
+              "digit_ratio": 0.042,
+              "table_score": 0.176
+            },
+            {
+              "page": 414,
+              "image": "../assets/type-samples/publications-0b20231a13a0-c2c6314db8-pdf-p414.jpg",
+              "text_chars": 450,
+              "digit_ratio": 0.479,
+              "table_score": 0.556
+            },
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-0b20231a13a0-c2c6314db8-pdf-p1.jpg",
+              "text_chars": 69,
+              "digit_ratio": 0.088,
+              "table_score": 0.083
+            },
+            {
+              "page": 744,
+              "image": "../assets/type-samples/publications-0b20231a13a0-c2c6314db8-pdf-p744.jpg",
+              "text_chars": 68,
+              "digit_ratio": 0.203,
+              "table_score": 0.314
+            },
+            {
+              "page": 496,
+              "image": "../assets/type-samples/publications-0b20231a13a0-c2c6314db8-pdf-p496.jpg",
+              "text_chars": 0,
+              "digit_ratio": 1.0,
+              "table_score": 0.86
+            }
+          ]
+        },
+        {
+          "title": "2010년도 부담금운용현황",
+          "year": "2011",
+          "extension": "hwp",
+          "document_pages": 53,
+          "pages": [
+            {
+              "page": 7,
+              "image": "../assets/type-samples/publications-0b20231a13a0-f8302952b1-hwp-p7.svg",
+              "text_chars": 457,
+              "digit_ratio": 0.259,
+              "table_score": 0.146
+            },
+            {
+              "page": 30,
+              "image": "../assets/type-samples/publications-0b20231a13a0-f8302952b1-hwp-p30.svg",
+              "text_chars": 711,
+              "digit_ratio": 0.019,
+              "table_score": 0.023
+            },
+            {
+              "page": 24,
+              "image": "../assets/type-samples/publications-0b20231a13a0-f8302952b1-hwp-p24.svg",
+              "text_chars": 668,
+              "digit_ratio": 0.028,
+              "table_score": 0.028
+            },
+            {
+              "page": 18,
+              "image": "../assets/type-samples/publications-0b20231a13a0-f8302952b1-hwp-p18.svg",
+              "text_chars": 615,
+              "digit_ratio": 0.002,
+              "table_score": 0.007
+            },
+            {
+              "page": 36,
+              "image": "../assets/type-samples/publications-0b20231a13a0-f8302952b1-hwp-p36.svg",
+              "text_chars": 602,
+              "digit_ratio": 0.229,
+              "table_score": 0.215
+            },
+            {
+              "page": 47,
+              "image": "../assets/type-samples/publications-0b20231a13a0-f8302952b1-hwp-p47.svg",
+              "text_chars": 483,
+              "digit_ratio": 0.388,
+              "table_score": 0.328
+            },
+            {
+              "page": 41,
+              "image": "../assets/type-samples/publications-0b20231a13a0-f8302952b1-hwp-p41.svg",
+              "text_chars": 235,
+              "digit_ratio": 0.157,
+              "table_score": 0.116
+            },
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-0b20231a13a0-f8302952b1-hwp-p1.svg",
+              "text_chars": 21,
+              "digit_ratio": 0.19,
+              "table_score": 0.212
+            },
+            {
+              "page": 13,
+              "image": "../assets/type-samples/publications-0b20231a13a0-f8302952b1-hwp-p13.svg",
+              "text_chars": 0,
+              "digit_ratio": 1.0,
+              "table_score": 0.86
+            },
+            {
+              "page": 53,
+              "image": "../assets/type-samples/publications-0b20231a13a0-f8302952b1-hwp-p53.svg",
+              "text_chars": 0,
+              "digit_ratio": 1.0,
+              "table_score": 0.86
+            }
+          ]
+        },
+        {
+          "title": "2025년도 부담금운용종합계획서",
+          "year": "2025",
+          "extension": "pdf",
+          "document_pages": 709,
+          "pages": [
+            {
+              "page": 80,
+              "image": "../assets/type-samples/publications-0b20231a13a0-384a821af3-pdf-p80.jpg",
+              "text_chars": 594,
+              "digit_ratio": 0.391,
+              "table_score": 0.479
+            },
+            {
+              "page": 394,
+              "image": "../assets/type-samples/publications-0b20231a13a0-384a821af3-pdf-p394.jpg",
+              "text_chars": 477,
+              "digit_ratio": 0.064,
+              "table_score": 0.049
+            },
+            {
+              "page": 316,
+              "image": "../assets/type-samples/publications-0b20231a13a0-384a821af3-pdf-p316.jpg",
+              "text_chars": 530,
+              "digit_ratio": 0.174,
+              "table_score": 0.273
+            },
+            {
+              "page": 630,
+              "image": "../assets/type-samples/publications-0b20231a13a0-384a821af3-pdf-p630.jpg",
+              "text_chars": 513,
+              "digit_ratio": 0.055,
+              "table_score": 0.185
+            },
+            {
+              "page": 473,
+              "image": "../assets/type-samples/publications-0b20231a13a0-384a821af3-pdf-p473.jpg",
+              "text_chars": 634,
+              "digit_ratio": 0.228,
+              "table_score": 0.315
+            },
+            {
+              "page": 552,
+              "image": "../assets/type-samples/publications-0b20231a13a0-384a821af3-pdf-p552.jpg",
+              "text_chars": 328,
+              "digit_ratio": 0.098,
+              "table_score": 0.174
+            },
+            {
+              "page": 158,
+              "image": "../assets/type-samples/publications-0b20231a13a0-384a821af3-pdf-p158.jpg",
+              "text_chars": 294,
+              "digit_ratio": 0.119,
+              "table_score": 0.234
+            },
+            {
+              "page": 709,
+              "image": "../assets/type-samples/publications-0b20231a13a0-384a821af3-pdf-p709.jpg",
+              "text_chars": 88,
+              "digit_ratio": 0.449,
+              "table_score": 0.358
+            },
+            {
+              "page": 237,
+              "image": "../assets/type-samples/publications-0b20231a13a0-384a821af3-pdf-p237.jpg",
+              "text_chars": 580,
+              "digit_ratio": 0.655,
+              "table_score": 0.671
+            },
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-0b20231a13a0-384a821af3-pdf-p1.jpg",
+              "text_chars": 28,
+              "digit_ratio": 0.346,
+              "table_score": 0.35
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA01"
+    },
+    {
+      "id": "publications-1efcd9044efa",
+      "type": "알기쉬운 나라살림",
+      "data_name": "알기쉬운 나라살림",
+      "category_code": "519",
+      "record_count": 1,
+      "no_attachment_count": 0,
+      "file_count": 1,
+      "years": [
+        "2026"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "title": "2025 국민과 함께 보는 알기 쉬운 나라 살림",
+          "year": "2026",
+          "extension": "pdf",
+          "document_pages": 9,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-1efcd9044efa-d97c999811-pdf-p1.jpg",
+              "text_chars": 339,
+              "digit_ratio": 0.067,
+              "table_score": 0.085
+            },
+            {
+              "page": 8,
+              "image": "../assets/type-samples/publications-1efcd9044efa-d97c999811-pdf-p8.jpg",
+              "text_chars": 1020,
+              "digit_ratio": 0.29,
+              "table_score": 0.408
+            },
+            {
+              "page": 5,
+              "image": "../assets/type-samples/publications-1efcd9044efa-d97c999811-pdf-p5.jpg",
+              "text_chars": 1559,
+              "digit_ratio": 0.643,
+              "table_score": 0.744
+            },
+            {
+              "page": 2,
+              "image": "../assets/type-samples/publications-1efcd9044efa-d97c999811-pdf-p2.jpg",
+              "text_chars": 977,
+              "digit_ratio": 0.322,
+              "table_score": 0.46
+            },
+            {
+              "page": 7,
+              "image": "../assets/type-samples/publications-1efcd9044efa-d97c999811-pdf-p7.jpg",
+              "text_chars": 614,
+              "digit_ratio": 0.231,
+              "table_score": 0.356
+            },
+            {
+              "page": 4,
+              "image": "../assets/type-samples/publications-1efcd9044efa-d97c999811-pdf-p4.jpg",
+              "text_chars": 1238,
+              "digit_ratio": 0.443,
+              "table_score": 0.594
+            },
+            {
+              "page": 3,
+              "image": "../assets/type-samples/publications-1efcd9044efa-d97c999811-pdf-p3.jpg",
+              "text_chars": 1326,
+              "digit_ratio": 0.473,
+              "table_score": 0.611
+            },
+            {
+              "page": 6,
+              "image": "../assets/type-samples/publications-1efcd9044efa-d97c999811-pdf-p6.jpg",
+              "text_chars": 1280,
+              "digit_ratio": 0.581,
+              "table_score": 0.722
+            },
+            {
+              "page": 9,
+              "image": "../assets/type-samples/publications-1efcd9044efa-d97c999811-pdf-p9.jpg",
+              "text_chars": 2,
+              "digit_ratio": 1.0,
+              "table_score": 0.874
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA01"
+    },
+    {
+      "id": "publications-5e126b7fe317",
+      "type": "예산(나라살림)",
+      "data_name": "예산(나라살림)",
+      "category_code": "502",
+      "record_count": 62,
+      "no_attachment_count": 0,
+      "file_count": 62,
+      "years": [
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "extensions": [
+        "hwp",
+        "pdf"
+      ],
+      "documents": [
+        {
+          "title": "2026년도 예산",
+          "year": "2026",
+          "extension": "pdf",
+          "document_pages": 312,
+          "pages": [
+            {
+              "page": 70,
+              "image": "../assets/type-samples/publications-5e126b7fe317-d425ecaec3-pdf-p70.jpg",
+              "text_chars": 749,
+              "digit_ratio": 0.114,
+              "table_score": 0.267
+            },
+            {
+              "page": 139,
+              "image": "../assets/type-samples/publications-5e126b7fe317-d425ecaec3-pdf-p139.jpg",
+              "text_chars": 982,
+              "digit_ratio": 0.091,
+              "table_score": 0.191
+            },
+            {
+              "page": 174,
+              "image": "../assets/type-samples/publications-5e126b7fe317-d425ecaec3-pdf-p174.jpg",
+              "text_chars": 634,
+              "digit_ratio": 0.058,
+              "table_score": 0.162
+            },
+            {
+              "page": 208,
+              "image": "../assets/type-samples/publications-5e126b7fe317-d425ecaec3-pdf-p208.jpg",
+              "text_chars": 653,
+              "digit_ratio": 0.084,
+              "table_score": 0.212
+            },
+            {
+              "page": 105,
+              "image": "../assets/type-samples/publications-5e126b7fe317-d425ecaec3-pdf-p105.jpg",
+              "text_chars": 592,
+              "digit_ratio": 0.17,
+              "table_score": 0.343
+            },
+            {
+              "page": 312,
+              "image": "../assets/type-samples/publications-5e126b7fe317-d425ecaec3-pdf-p312.jpg",
+              "text_chars": 200,
+              "digit_ratio": 0.205,
+              "table_score": 0.182
+            },
+            {
+              "page": 243,
+              "image": "../assets/type-samples/publications-5e126b7fe317-d425ecaec3-pdf-p243.jpg",
+              "text_chars": 55,
+              "digit_ratio": 0.273,
+              "table_score": 0.204
+            },
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-5e126b7fe317-d425ecaec3-pdf-p1.jpg",
+              "text_chars": 73,
+              "digit_ratio": 0.323,
+              "table_score": 0.339
+            },
+            {
+              "page": 36,
+              "image": "../assets/type-samples/publications-5e126b7fe317-d425ecaec3-pdf-p36.jpg",
+              "text_chars": 34,
+              "digit_ratio": 0.125,
+              "table_score": 0.205
+            },
+            {
+              "page": 277,
+              "image": "../assets/type-samples/publications-5e126b7fe317-d425ecaec3-pdf-p277.jpg",
+              "text_chars": 848,
+              "digit_ratio": 0.806,
+              "table_score": 0.805
+            }
+          ]
+        },
+        {
+          "title": "2015년도 예산",
+          "year": "2015",
+          "extension": "hwp",
+          "document_pages": 427,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-5e126b7fe317-f7691ed402-hwp-p1.svg",
+              "text_chars": 155,
+              "digit_ratio": 0.055,
+              "table_score": 0.029
+            },
+            {
+              "page": 96,
+              "image": "../assets/type-samples/publications-5e126b7fe317-f7691ed402-hwp-p96.svg",
+              "text_chars": 524,
+              "digit_ratio": 0.01,
+              "table_score": 0.022
+            },
+            {
+              "page": 190,
+              "image": "../assets/type-samples/publications-5e126b7fe317-f7691ed402-hwp-p190.svg",
+              "text_chars": 316,
+              "digit_ratio": 0.052,
+              "table_score": 0.05
+            },
+            {
+              "page": 332,
+              "image": "../assets/type-samples/publications-5e126b7fe317-f7691ed402-hwp-p332.svg",
+              "text_chars": 494,
+              "digit_ratio": 0.022,
+              "table_score": 0.027
+            },
+            {
+              "page": 48,
+              "image": "../assets/type-samples/publications-5e126b7fe317-f7691ed402-hwp-p48.svg",
+              "text_chars": 463,
+              "digit_ratio": 0.048,
+              "table_score": 0.043
+            },
+            {
+              "page": 143,
+              "image": "../assets/type-samples/publications-5e126b7fe317-f7691ed402-hwp-p143.svg",
+              "text_chars": 343,
+              "digit_ratio": 0.025,
+              "table_score": 0.032
+            },
+            {
+              "page": 238,
+              "image": "../assets/type-samples/publications-5e126b7fe317-f7691ed402-hwp-p238.svg",
+              "text_chars": 330,
+              "digit_ratio": 0.117,
+              "table_score": 0.136
+            },
+            {
+              "page": 285,
+              "image": "../assets/type-samples/publications-5e126b7fe317-f7691ed402-hwp-p285.svg",
+              "text_chars": 286,
+              "digit_ratio": 0.027,
+              "table_score": 0.038
+            },
+            {
+              "page": 427,
+              "image": "../assets/type-samples/publications-5e126b7fe317-f7691ed402-hwp-p427.svg",
+              "text_chars": 351,
+              "digit_ratio": 0.326,
+              "table_score": 0.23
+            },
+            {
+              "page": 380,
+              "image": "../assets/type-samples/publications-5e126b7fe317-f7691ed402-hwp-p380.svg",
+              "text_chars": 0,
+              "digit_ratio": 1.0,
+              "table_score": 0.86
+            }
+          ]
+        },
+        {
+          "title": "2025년도 예산",
+          "year": "2025",
+          "extension": "pdf",
+          "document_pages": 330,
+          "pages": [
+            {
+              "page": 38,
+              "image": "../assets/type-samples/publications-5e126b7fe317-db62c81376-pdf-p38.jpg",
+              "text_chars": 447,
+              "digit_ratio": 0.08,
+              "table_score": 0.06
+            },
+            {
+              "page": 147,
+              "image": "../assets/type-samples/publications-5e126b7fe317-db62c81376-pdf-p147.jpg",
+              "text_chars": 815,
+              "digit_ratio": 0.133,
+              "table_score": 0.176
+            },
+            {
+              "page": 220,
+              "image": "../assets/type-samples/publications-5e126b7fe317-db62c81376-pdf-p220.jpg",
+              "text_chars": 503,
+              "digit_ratio": 0.096,
+              "table_score": 0.075
+            },
+            {
+              "page": 111,
+              "image": "../assets/type-samples/publications-5e126b7fe317-db62c81376-pdf-p111.jpg",
+              "text_chars": 667,
+              "digit_ratio": 0.218,
+              "table_score": 0.313
+            },
+            {
+              "page": 74,
+              "image": "../assets/type-samples/publications-5e126b7fe317-db62c81376-pdf-p74.jpg",
+              "text_chars": 541,
+              "digit_ratio": 0.167,
+              "table_score": 0.228
+            },
+            {
+              "page": 257,
+              "image": "../assets/type-samples/publications-5e126b7fe317-db62c81376-pdf-p257.jpg",
+              "text_chars": 557,
+              "digit_ratio": 0.209,
+              "table_score": 0.348
+            },
+            {
+              "page": 330,
+              "image": "../assets/type-samples/publications-5e126b7fe317-db62c81376-pdf-p330.jpg",
+              "text_chars": 213,
+              "digit_ratio": 0.247,
+              "table_score": 0.228
+            },
+            {
+              "page": 184,
+              "image": "../assets/type-samples/publications-5e126b7fe317-db62c81376-pdf-p184.jpg",
+              "text_chars": 286,
+              "digit_ratio": 0.263,
+              "table_score": 0.447
+            },
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-5e126b7fe317-db62c81376-pdf-p1.jpg",
+              "text_chars": 74,
+              "digit_ratio": 0.318,
+              "table_score": 0.336
+            },
+            {
+              "page": 293,
+              "image": "../assets/type-samples/publications-5e126b7fe317-db62c81376-pdf-p293.jpg",
+              "text_chars": 818,
+              "digit_ratio": 0.799,
+              "table_score": 0.847
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA01"
+    },
+    {
+      "id": "publications-54bf1ba245a2",
+      "type": "예산안분석",
+      "data_name": "예산안분석",
+      "category_code": "517",
+      "record_count": 59,
+      "no_attachment_count": 0,
+      "file_count": 59,
+      "years": [
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "extensions": [
+        "pdf",
+        "zip"
+      ],
+      "documents": [
+        {
+          "title": "2026 예산안분석",
+          "year": "2025",
+          "extension": "pdf",
+          "document_pages": 560,
+          "pages": [
+            {
+              "page": 63,
+              "image": "../assets/type-samples/publications-54bf1ba245a2-71d9a6a2da-pdf-p63.jpg",
+              "text_chars": 906,
+              "digit_ratio": 0.116,
+              "table_score": 0.109
+            },
+            {
+              "page": 374,
+              "image": "../assets/type-samples/publications-54bf1ba245a2-71d9a6a2da-pdf-p374.jpg",
+              "text_chars": 870,
+              "digit_ratio": 0.086,
+              "table_score": 0.057
+            },
+            {
+              "page": 249,
+              "image": "../assets/type-samples/publications-54bf1ba245a2-71d9a6a2da-pdf-p249.jpg",
+              "text_chars": 939,
+              "digit_ratio": 0.211,
+              "table_score": 0.401
+            },
+            {
+              "page": 187,
+              "image": "../assets/type-samples/publications-54bf1ba245a2-71d9a6a2da-pdf-p187.jpg",
+              "text_chars": 735,
+              "digit_ratio": 0.043,
+              "table_score": 0.082
+            },
+            {
+              "page": 436,
+              "image": "../assets/type-samples/publications-54bf1ba245a2-71d9a6a2da-pdf-p436.jpg",
+              "text_chars": 918,
+              "digit_ratio": 0.361,
+              "table_score": 0.537
+            },
+            {
+              "page": 498,
+              "image": "../assets/type-samples/publications-54bf1ba245a2-71d9a6a2da-pdf-p498.jpg",
+              "text_chars": 798,
+              "digit_ratio": 0.416,
+              "table_score": 0.546
+            },
+            {
+              "page": 312,
+              "image": "../assets/type-samples/publications-54bf1ba245a2-71d9a6a2da-pdf-p312.jpg",
+              "text_chars": 904,
+              "digit_ratio": 0.471,
+              "table_score": 0.615
+            },
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-54bf1ba245a2-71d9a6a2da-pdf-p1.jpg",
+              "text_chars": 57,
+              "digit_ratio": 0.185,
+              "table_score": 0.304
+            },
+            {
+              "page": 560,
+              "image": "../assets/type-samples/publications-54bf1ba245a2-71d9a6a2da-pdf-p560.jpg",
+              "text_chars": 39,
+              "digit_ratio": 0.714,
+              "table_score": 0.681
+            },
+            {
+              "page": 125,
+              "image": "../assets/type-samples/publications-54bf1ba245a2-71d9a6a2da-pdf-p125.jpg",
+              "text_chars": 1034,
+              "digit_ratio": 0.7,
+              "table_score": 0.731
+            }
+          ]
+        },
+        {
+          "title": "2026 예산안분석",
+          "year": "2025",
+          "extension": "pdf",
+          "document_pages": 440,
+          "pages": [
+            {
+              "page": 50,
+              "image": "../assets/type-samples/publications-54bf1ba245a2-a2c0c2b559-pdf-p50.jpg",
+              "text_chars": 782,
+              "digit_ratio": 0.224,
+              "table_score": 0.271
+            },
+            {
+              "page": 245,
+              "image": "../assets/type-samples/publications-54bf1ba245a2-a2c0c2b559-pdf-p245.jpg",
+              "text_chars": 1044,
+              "digit_ratio": 0.026,
+              "table_score": 0.135
+            },
+            {
+              "page": 196,
+              "image": "../assets/type-samples/publications-54bf1ba245a2-a2c0c2b559-pdf-p196.jpg",
+              "text_chars": 798,
+              "digit_ratio": 0.304,
+              "table_score": 0.406
+            },
+            {
+              "page": 391,
+              "image": "../assets/type-samples/publications-54bf1ba245a2-a2c0c2b559-pdf-p391.jpg",
+              "text_chars": 1032,
+              "digit_ratio": 0.131,
+              "table_score": 0.263
+            },
+            {
+              "page": 99,
+              "image": "../assets/type-samples/publications-54bf1ba245a2-a2c0c2b559-pdf-p99.jpg",
+              "text_chars": 1004,
+              "digit_ratio": 0.218,
+              "table_score": 0.322
+            },
+            {
+              "page": 294,
+              "image": "../assets/type-samples/publications-54bf1ba245a2-a2c0c2b559-pdf-p294.jpg",
+              "text_chars": 864,
+              "digit_ratio": 0.176,
+              "table_score": 0.294
+            },
+            {
+              "page": 147,
+              "image": "../assets/type-samples/publications-54bf1ba245a2-a2c0c2b559-pdf-p147.jpg",
+              "text_chars": 667,
+              "digit_ratio": 0.124,
+              "table_score": 0.26
+            },
+            {
+              "page": 342,
+              "image": "../assets/type-samples/publications-54bf1ba245a2-a2c0c2b559-pdf-p342.jpg",
+              "text_chars": 705,
+              "digit_ratio": 0.394,
+              "table_score": 0.499
+            },
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-54bf1ba245a2-a2c0c2b559-pdf-p1.jpg",
+              "text_chars": 58,
+              "digit_ratio": 0.185,
+              "table_score": 0.304
+            },
+            {
+              "page": 440,
+              "image": "../assets/type-samples/publications-54bf1ba245a2-a2c0c2b559-pdf-p440.jpg",
+              "text_chars": 39,
+              "digit_ratio": 0.714,
+              "table_score": 0.681
+            }
+          ]
+        },
+        {
+          "title": "2026 예산안분석",
+          "year": "2025",
+          "extension": "pdf",
+          "document_pages": 414,
+          "pages": [
+            {
+              "page": 47,
+              "image": "../assets/type-samples/publications-54bf1ba245a2-cf1fd72730-pdf-p47.jpg",
+              "text_chars": 941,
+              "digit_ratio": 0.037,
+              "table_score": 0.125
+            },
+            {
+              "page": 185,
+              "image": "../assets/type-samples/publications-54bf1ba245a2-cf1fd72730-pdf-p185.jpg",
+              "text_chars": 863,
+              "digit_ratio": 0.072,
+              "table_score": 0.177
+            },
+            {
+              "page": 93,
+              "image": "../assets/type-samples/publications-54bf1ba245a2-cf1fd72730-pdf-p93.jpg",
+              "text_chars": 852,
+              "digit_ratio": 0.065,
+              "table_score": 0.173
+            },
+            {
+              "page": 322,
+              "image": "../assets/type-samples/publications-54bf1ba245a2-cf1fd72730-pdf-p322.jpg",
+              "text_chars": 789,
+              "digit_ratio": 0.146,
+              "table_score": 0.117
+            },
+            {
+              "page": 230,
+              "image": "../assets/type-samples/publications-54bf1ba245a2-cf1fd72730-pdf-p230.jpg",
+              "text_chars": 782,
+              "digit_ratio": 0.145,
+              "table_score": 0.241
+            },
+            {
+              "page": 139,
+              "image": "../assets/type-samples/publications-54bf1ba245a2-cf1fd72730-pdf-p139.jpg",
+              "text_chars": 478,
+              "digit_ratio": 0.011,
+              "table_score": 0.026
+            },
+            {
+              "page": 276,
+              "image": "../assets/type-samples/publications-54bf1ba245a2-cf1fd72730-pdf-p276.jpg",
+              "text_chars": 1053,
+              "digit_ratio": 0.394,
+              "table_score": 0.58
+            },
+            {
+              "page": 368,
+              "image": "../assets/type-samples/publications-54bf1ba245a2-cf1fd72730-pdf-p368.jpg",
+              "text_chars": 617,
+              "digit_ratio": 0.397,
+              "table_score": 0.509
+            },
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-54bf1ba245a2-cf1fd72730-pdf-p1.jpg",
+              "text_chars": 70,
+              "digit_ratio": 0.154,
+              "table_score": 0.277
+            },
+            {
+              "page": 414,
+              "image": "../assets/type-samples/publications-54bf1ba245a2-cf1fd72730-pdf-p414.jpg",
+              "text_chars": 39,
+              "digit_ratio": 0.714,
+              "table_score": 0.681
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA01"
+    },
+    {
+      "id": "publications-2f0fb313f888",
+      "type": "월간나라재정",
+      "data_name": "월간나라재정",
+      "category_code": "516",
+      "record_count": 116,
+      "no_attachment_count": 1,
+      "file_count": 115,
+      "years": [
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "extensions": [
+        "pdf",
+        "zip"
+      ],
+      "documents": [
+        {
+          "title": "2026 월간나라재정 4월",
+          "year": "2026",
+          "extension": "pdf",
+          "document_pages": 80,
+          "pages": [
+            {
+              "page": 10,
+              "image": "../assets/type-samples/publications-2f0fb313f888-c270e68a6d-pdf-p10.jpg",
+              "text_chars": 812,
+              "digit_ratio": 0.347,
+              "table_score": 0.437
+            },
+            {
+              "page": 45,
+              "image": "../assets/type-samples/publications-2f0fb313f888-c270e68a6d-pdf-p45.jpg",
+              "text_chars": 1397,
+              "digit_ratio": 0.02,
+              "table_score": 0.046
+            },
+            {
+              "page": 36,
+              "image": "../assets/type-samples/publications-2f0fb313f888-c270e68a6d-pdf-p36.jpg",
+              "text_chars": 1157,
+              "digit_ratio": 0.139,
+              "table_score": 0.243
+            },
+            {
+              "page": 54,
+              "image": "../assets/type-samples/publications-2f0fb313f888-c270e68a6d-pdf-p54.jpg",
+              "text_chars": 1504,
+              "digit_ratio": 0.071,
+              "table_score": 0.057
+            },
+            {
+              "page": 71,
+              "image": "../assets/type-samples/publications-2f0fb313f888-c270e68a6d-pdf-p71.jpg",
+              "text_chars": 1173,
+              "digit_ratio": 0.031,
+              "table_score": 0.056
+            },
+            {
+              "page": 62,
+              "image": "../assets/type-samples/publications-2f0fb313f888-c270e68a6d-pdf-p62.jpg",
+              "text_chars": 928,
+              "digit_ratio": 0.002,
+              "table_score": 0.013
+            },
+            {
+              "page": 19,
+              "image": "../assets/type-samples/publications-2f0fb313f888-c270e68a6d-pdf-p19.jpg",
+              "text_chars": 1079,
+              "digit_ratio": 0.053,
+              "table_score": 0.177
+            },
+            {
+              "page": 27,
+              "image": "../assets/type-samples/publications-2f0fb313f888-c270e68a6d-pdf-p27.jpg",
+              "text_chars": 652,
+              "digit_ratio": 0.261,
+              "table_score": 0.434
+            },
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-2f0fb313f888-c270e68a6d-pdf-p1.jpg",
+              "text_chars": 70,
+              "digit_ratio": 0.169,
+              "table_score": 0.228
+            },
+            {
+              "page": 80,
+              "image": "../assets/type-samples/publications-2f0fb313f888-c270e68a6d-pdf-p80.jpg",
+              "text_chars": 97,
+              "digit_ratio": 0.6,
+              "table_score": 0.743
+            }
+          ]
+        },
+        {
+          "title": "2026 월간나라재정 5월",
+          "year": "2026",
+          "extension": "pdf",
+          "document_pages": 68,
+          "pages": [
+            {
+              "page": 8,
+              "image": "../assets/type-samples/publications-2f0fb313f888-fedb695075-pdf-p8.jpg",
+              "text_chars": 1110,
+              "digit_ratio": 0.08,
+              "table_score": 0.183
+            },
+            {
+              "page": 53,
+              "image": "../assets/type-samples/publications-2f0fb313f888-fedb695075-pdf-p53.jpg",
+              "text_chars": 1337,
+              "digit_ratio": 0.008,
+              "table_score": 0.014
+            },
+            {
+              "page": 31,
+              "image": "../assets/type-samples/publications-2f0fb313f888-fedb695075-pdf-p31.jpg",
+              "text_chars": 1438,
+              "digit_ratio": 0.068,
+              "table_score": 0.094
+            },
+            {
+              "page": 46,
+              "image": "../assets/type-samples/publications-2f0fb313f888-fedb695075-pdf-p46.jpg",
+              "text_chars": 1350,
+              "digit_ratio": 0.027,
+              "table_score": 0.034
+            },
+            {
+              "page": 61,
+              "image": "../assets/type-samples/publications-2f0fb313f888-fedb695075-pdf-p61.jpg",
+              "text_chars": 926,
+              "digit_ratio": 0.039,
+              "table_score": 0.072
+            },
+            {
+              "page": 16,
+              "image": "../assets/type-samples/publications-2f0fb313f888-fedb695075-pdf-p16.jpg",
+              "text_chars": 805,
+              "digit_ratio": 0.003,
+              "table_score": 0.018
+            },
+            {
+              "page": 38,
+              "image": "../assets/type-samples/publications-2f0fb313f888-fedb695075-pdf-p38.jpg",
+              "text_chars": 708,
+              "digit_ratio": 0.139,
+              "table_score": 0.243
+            },
+            {
+              "page": 23,
+              "image": "../assets/type-samples/publications-2f0fb313f888-fedb695075-pdf-p23.jpg",
+              "text_chars": 1001,
+              "digit_ratio": 0.24,
+              "table_score": 0.409
+            },
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-2f0fb313f888-fedb695075-pdf-p1.jpg",
+              "text_chars": 64,
+              "digit_ratio": 0.119,
+              "table_score": 0.27
+            },
+            {
+              "page": 68,
+              "image": "../assets/type-samples/publications-2f0fb313f888-fedb695075-pdf-p68.jpg",
+              "text_chars": 97,
+              "digit_ratio": 0.6,
+              "table_score": 0.743
+            }
+          ]
+        },
+        {
+          "title": "2026 월간나라재정 2월",
+          "year": "2026",
+          "extension": "pdf",
+          "document_pages": 68,
+          "pages": [
+            {
+              "page": 8,
+              "image": "../assets/type-samples/publications-2f0fb313f888-b20f57739d-pdf-p8.jpg",
+              "text_chars": 1008,
+              "digit_ratio": 0.001,
+              "table_score": 0.016
+            },
+            {
+              "page": 31,
+              "image": "../assets/type-samples/publications-2f0fb313f888-b20f57739d-pdf-p31.jpg",
+              "text_chars": 518,
+              "digit_ratio": 0.145,
+              "table_score": 0.284
+            },
+            {
+              "page": 38,
+              "image": "../assets/type-samples/publications-2f0fb313f888-b20f57739d-pdf-p38.jpg",
+              "text_chars": 1208,
+              "digit_ratio": 0.15,
+              "table_score": 0.163
+            },
+            {
+              "page": 46,
+              "image": "../assets/type-samples/publications-2f0fb313f888-b20f57739d-pdf-p46.jpg",
+              "text_chars": 726,
+              "digit_ratio": 0.032,
+              "table_score": 0.026
+            },
+            {
+              "page": 53,
+              "image": "../assets/type-samples/publications-2f0fb313f888-b20f57739d-pdf-p53.jpg",
+              "text_chars": 1054,
+              "digit_ratio": 0.102,
+              "table_score": 0.269
+            },
+            {
+              "page": 61,
+              "image": "../assets/type-samples/publications-2f0fb313f888-b20f57739d-pdf-p61.jpg",
+              "text_chars": 691,
+              "digit_ratio": 0.093,
+              "table_score": 0.152
+            },
+            {
+              "page": 16,
+              "image": "../assets/type-samples/publications-2f0fb313f888-b20f57739d-pdf-p16.jpg",
+              "text_chars": 729,
+              "digit_ratio": 0.221,
+              "table_score": 0.329
+            },
+            {
+              "page": 23,
+              "image": "../assets/type-samples/publications-2f0fb313f888-b20f57739d-pdf-p23.jpg",
+              "text_chars": 391,
+              "digit_ratio": 0.26,
+              "table_score": 0.442
+            },
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-2f0fb313f888-b20f57739d-pdf-p1.jpg",
+              "text_chars": 55,
+              "digit_ratio": 0.137,
+              "table_score": 0.211
+            },
+            {
+              "page": 68,
+              "image": "../assets/type-samples/publications-2f0fb313f888-b20f57739d-pdf-p68.jpg",
+              "text_chars": 97,
+              "digit_ratio": 0.6,
+              "table_score": 0.743
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA01"
+    },
+    {
+      "id": "publications-dfcac2d34a7b",
+      "type": "월간재정동향",
+      "data_name": "월간재정동향",
+      "category_code": "501",
+      "record_count": 149,
+      "no_attachment_count": 0,
+      "file_count": 149,
+      "years": [
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "extensions": [
+        "hwp",
+        "pdf",
+        "zip"
+      ],
+      "documents": [
+        {
+          "title": "2026 월간재정동향 6월호",
+          "year": "2026",
+          "extension": "pdf",
+          "document_pages": 63,
+          "pages": [
+            {
+              "page": 8,
+              "image": "../assets/type-samples/publications-dfcac2d34a7b-7be520185c-pdf-p8.jpg",
+              "text_chars": 1398,
+              "digit_ratio": 0.653,
+              "table_score": 0.733
+            },
+            {
+              "page": 56,
+              "image": "../assets/type-samples/publications-dfcac2d34a7b-7be520185c-pdf-p56.jpg",
+              "text_chars": 1151,
+              "digit_ratio": 0.384,
+              "table_score": 0.525
+            },
+            {
+              "page": 29,
+              "image": "../assets/type-samples/publications-dfcac2d34a7b-7be520185c-pdf-p29.jpg",
+              "text_chars": 1751,
+              "digit_ratio": 0.894,
+              "table_score": 0.926
+            },
+            {
+              "page": 42,
+              "image": "../assets/type-samples/publications-dfcac2d34a7b-7be520185c-pdf-p42.jpg",
+              "text_chars": 1221,
+              "digit_ratio": 0.506,
+              "table_score": 0.536
+            },
+            {
+              "page": 63,
+              "image": "../assets/type-samples/publications-dfcac2d34a7b-7be520185c-pdf-p63.jpg",
+              "text_chars": 77,
+              "digit_ratio": 0.397,
+              "table_score": 0.414
+            },
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-dfcac2d34a7b-7be520185c-pdf-p1.jpg",
+              "text_chars": 66,
+              "digit_ratio": 0.41,
+              "table_score": 0.489
+            },
+            {
+              "page": 15,
+              "image": "../assets/type-samples/publications-dfcac2d34a7b-7be520185c-pdf-p15.jpg",
+              "text_chars": 26,
+              "digit_ratio": 0.136,
+              "table_score": 0.211
+            },
+            {
+              "page": 35,
+              "image": "../assets/type-samples/publications-dfcac2d34a7b-7be520185c-pdf-p35.jpg",
+              "text_chars": 1262,
+              "digit_ratio": 0.856,
+              "table_score": 0.865
+            },
+            {
+              "page": 22,
+              "image": "../assets/type-samples/publications-dfcac2d34a7b-7be520185c-pdf-p22.jpg",
+              "text_chars": 1743,
+              "digit_ratio": 0.911,
+              "table_score": 0.841
+            },
+            {
+              "page": 49,
+              "image": "../assets/type-samples/publications-dfcac2d34a7b-7be520185c-pdf-p49.jpg",
+              "text_chars": 1834,
+              "digit_ratio": 0.942,
+              "table_score": 0.94
+            }
+          ]
+        },
+        {
+          "title": "2018년 월간재정동향 1월호",
+          "year": "2018",
+          "extension": "hwp",
+          "document_pages": 88,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-dfcac2d34a7b-6937ba847f-hwp-p1.svg",
+              "text_chars": 122,
+              "digit_ratio": 0.159,
+              "table_score": 0.125
+            },
+            {
+              "page": 30,
+              "image": "../assets/type-samples/publications-dfcac2d34a7b-6937ba847f-hwp-p30.svg",
+              "text_chars": 687,
+              "digit_ratio": 0.103,
+              "table_score": 0.067
+            },
+            {
+              "page": 40,
+              "image": "../assets/type-samples/publications-dfcac2d34a7b-6937ba847f-hwp-p40.svg",
+              "text_chars": 1610,
+              "digit_ratio": 0.914,
+              "table_score": 0.787
+            },
+            {
+              "page": 11,
+              "image": "../assets/type-samples/publications-dfcac2d34a7b-6937ba847f-hwp-p11.svg",
+              "text_chars": 467,
+              "digit_ratio": 0.427,
+              "table_score": 0.392
+            },
+            {
+              "page": 88,
+              "image": "../assets/type-samples/publications-dfcac2d34a7b-6937ba847f-hwp-p88.svg",
+              "text_chars": 198,
+              "digit_ratio": 0.293,
+              "table_score": 0.195
+            },
+            {
+              "page": 69,
+              "image": "../assets/type-samples/publications-dfcac2d34a7b-6937ba847f-hwp-p69.svg",
+              "text_chars": 1088,
+              "digit_ratio": 0.731,
+              "table_score": 0.659
+            },
+            {
+              "page": 78,
+              "image": "../assets/type-samples/publications-dfcac2d34a7b-6937ba847f-hwp-p78.svg",
+              "text_chars": 947,
+              "digit_ratio": 0.741,
+              "table_score": 0.66
+            },
+            {
+              "page": 20,
+              "image": "../assets/type-samples/publications-dfcac2d34a7b-6937ba847f-hwp-p20.svg",
+              "text_chars": 1544,
+              "digit_ratio": 0.769,
+              "table_score": 0.642
+            },
+            {
+              "page": 49,
+              "image": "../assets/type-samples/publications-dfcac2d34a7b-6937ba847f-hwp-p49.svg",
+              "text_chars": 744,
+              "digit_ratio": 0.796,
+              "table_score": 0.635
+            },
+            {
+              "page": 59,
+              "image": "../assets/type-samples/publications-dfcac2d34a7b-6937ba847f-hwp-p59.svg",
+              "text_chars": 1120,
+              "digit_ratio": 0.768,
+              "table_score": 0.679
+            }
+          ]
+        },
+        {
+          "title": "2026 월간재정동향 5월호",
+          "year": "2026",
+          "extension": "pdf",
+          "document_pages": 63,
+          "pages": [
+            {
+              "page": 8,
+              "image": "../assets/type-samples/publications-dfcac2d34a7b-2b780598e8-pdf-p8.jpg",
+              "text_chars": 1472,
+              "digit_ratio": 0.651,
+              "table_score": 0.732
+            },
+            {
+              "page": 56,
+              "image": "../assets/type-samples/publications-dfcac2d34a7b-2b780598e8-pdf-p56.jpg",
+              "text_chars": 1151,
+              "digit_ratio": 0.384,
+              "table_score": 0.525
+            },
+            {
+              "page": 29,
+              "image": "../assets/type-samples/publications-dfcac2d34a7b-2b780598e8-pdf-p29.jpg",
+              "text_chars": 1718,
+              "digit_ratio": 0.892,
+              "table_score": 0.925
+            },
+            {
+              "page": 42,
+              "image": "../assets/type-samples/publications-dfcac2d34a7b-2b780598e8-pdf-p42.jpg",
+              "text_chars": 1311,
+              "digit_ratio": 0.53,
+              "table_score": 0.548
+            },
+            {
+              "page": 63,
+              "image": "../assets/type-samples/publications-dfcac2d34a7b-2b780598e8-pdf-p63.jpg",
+              "text_chars": 77,
+              "digit_ratio": 0.397,
+              "table_score": 0.414
+            },
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-dfcac2d34a7b-2b780598e8-pdf-p1.jpg",
+              "text_chars": 66,
+              "digit_ratio": 0.41,
+              "table_score": 0.489
+            },
+            {
+              "page": 15,
+              "image": "../assets/type-samples/publications-dfcac2d34a7b-2b780598e8-pdf-p15.jpg",
+              "text_chars": 26,
+              "digit_ratio": 0.136,
+              "table_score": 0.211
+            },
+            {
+              "page": 35,
+              "image": "../assets/type-samples/publications-dfcac2d34a7b-2b780598e8-pdf-p35.jpg",
+              "text_chars": 1198,
+              "digit_ratio": 0.848,
+              "table_score": 0.859
+            },
+            {
+              "page": 22,
+              "image": "../assets/type-samples/publications-dfcac2d34a7b-2b780598e8-pdf-p22.jpg",
+              "text_chars": 2258,
+              "digit_ratio": 0.925,
+              "table_score": 0.838
+            },
+            {
+              "page": 49,
+              "image": "../assets/type-samples/publications-dfcac2d34a7b-2b780598e8-pdf-p49.jpg",
+              "text_chars": 1834,
+              "digit_ratio": 0.942,
+              "table_score": 0.94
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA01"
+    },
+    {
+      "id": "publications-5b0abc356960",
+      "type": "재정사업자율평가",
+      "data_name": "재정사업자율평가",
+      "category_code": "515",
+      "record_count": 831,
+      "no_attachment_count": 0,
+      "file_count": 831,
+      "years": [
+        "2009",
+        "2010",
+        "2011",
+        "2013",
+        "2014",
+        "2015",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "extensions": [
+        "hwp",
+        "hwpx",
+        "pdf",
+        "zip"
+      ],
+      "documents": [
+        {
+          "title": "2024년도 소관별 재정사업 자율평가 보고서",
+          "year": "2025",
+          "extension": "pdf",
+          "document_pages": 97,
+          "pages": [
+            {
+              "page": 12,
+              "image": "../assets/type-samples/publications-5b0abc356960-30229052a3-pdf-p12.jpg",
+              "text_chars": 789,
+              "digit_ratio": 0.304,
+              "table_score": 0.44
+            },
+            {
+              "page": 76,
+              "image": "../assets/type-samples/publications-5b0abc356960-30229052a3-pdf-p76.jpg",
+              "text_chars": 859,
+              "digit_ratio": 0.061,
+              "table_score": 0.192
+            },
+            {
+              "page": 44,
+              "image": "../assets/type-samples/publications-5b0abc356960-30229052a3-pdf-p44.jpg",
+              "text_chars": 502,
+              "digit_ratio": 0.122,
+              "table_score": 0.308
+            },
+            {
+              "page": 86,
+              "image": "../assets/type-samples/publications-5b0abc356960-30229052a3-pdf-p86.jpg",
+              "text_chars": 851,
+              "digit_ratio": 0.062,
+              "table_score": 0.192
+            },
+            {
+              "page": 97,
+              "image": "../assets/type-samples/publications-5b0abc356960-30229052a3-pdf-p97.jpg",
+              "text_chars": 482,
+              "digit_ratio": 0.031,
+              "table_score": 0.173
+            },
+            {
+              "page": 54,
+              "image": "../assets/type-samples/publications-5b0abc356960-30229052a3-pdf-p54.jpg",
+              "text_chars": 635,
+              "digit_ratio": 0.131,
+              "table_score": 0.29
+            },
+            {
+              "page": 33,
+              "image": "../assets/type-samples/publications-5b0abc356960-30229052a3-pdf-p33.jpg",
+              "text_chars": 495,
+              "digit_ratio": 0.088,
+              "table_score": 0.21
+            },
+            {
+              "page": 22,
+              "image": "../assets/type-samples/publications-5b0abc356960-30229052a3-pdf-p22.jpg",
+              "text_chars": 577,
+              "digit_ratio": 0.419,
+              "table_score": 0.515
+            },
+            {
+              "page": 65,
+              "image": "../assets/type-samples/publications-5b0abc356960-30229052a3-pdf-p65.jpg",
+              "text_chars": 82,
+              "digit_ratio": 0.342,
+              "table_score": 0.461
+            },
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-5b0abc356960-30229052a3-pdf-p1.jpg",
+              "text_chars": 36,
+              "digit_ratio": 0.265,
+              "table_score": 0.223
+            }
+          ]
+        },
+        {
+          "title": "2022년도 소관별 재정사업 자율평가 보고서",
+          "year": "2023",
+          "extension": "hwp",
+          "document_pages": 10,
+          "pages": [
+            {
+              "page": 3,
+              "image": "../assets/type-samples/publications-5b0abc356960-2898948bb1-hwp-p3.svg",
+              "text_chars": 140,
+              "digit_ratio": 0.126,
+              "table_score": 0.109
+            },
+            {
+              "page": 4,
+              "image": "../assets/type-samples/publications-5b0abc356960-2898948bb1-hwp-p4.svg",
+              "text_chars": 358,
+              "digit_ratio": 0.041,
+              "table_score": 0.045
+            },
+            {
+              "page": 5,
+              "image": "../assets/type-samples/publications-5b0abc356960-2898948bb1-hwp-p5.svg",
+              "text_chars": 341,
+              "digit_ratio": 0.03,
+              "table_score": 0.038
+            },
+            {
+              "page": 9,
+              "image": "../assets/type-samples/publications-5b0abc356960-2898948bb1-hwp-p9.svg",
+              "text_chars": 542,
+              "digit_ratio": 0.251,
+              "table_score": 0.245
+            },
+            {
+              "page": 8,
+              "image": "../assets/type-samples/publications-5b0abc356960-2898948bb1-hwp-p8.svg",
+              "text_chars": 480,
+              "digit_ratio": 0.218,
+              "table_score": 0.245
+            },
+            {
+              "page": 7,
+              "image": "../assets/type-samples/publications-5b0abc356960-2898948bb1-hwp-p7.svg",
+              "text_chars": 223,
+              "digit_ratio": 0.22,
+              "table_score": 0.188
+            },
+            {
+              "page": 10,
+              "image": "../assets/type-samples/publications-5b0abc356960-2898948bb1-hwp-p10.svg",
+              "text_chars": 160,
+              "digit_ratio": 0.196,
+              "table_score": 0.15
+            },
+            {
+              "page": 6,
+              "image": "../assets/type-samples/publications-5b0abc356960-2898948bb1-hwp-p6.svg",
+              "text_chars": 111,
+              "digit_ratio": 0.211,
+              "table_score": 0.233
+            },
+            {
+              "page": 2,
+              "image": "../assets/type-samples/publications-5b0abc356960-2898948bb1-hwp-p2.svg",
+              "text_chars": 54,
+              "digit_ratio": 0.114,
+              "table_score": 0.059
+            },
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-5b0abc356960-2898948bb1-hwp-p1.svg",
+              "text_chars": 43,
+              "digit_ratio": 0.3,
+              "table_score": 0.241
+            }
+          ]
+        },
+        {
+          "title": "2022년도 소관별 재정사업 자율평가 보고서",
+          "year": "2023",
+          "extension": "hwpx",
+          "document_pages": 7,
+          "pages": [
+            {
+              "page": 3,
+              "image": "../assets/type-samples/publications-5b0abc356960-d9b85a8750-hwpx-p3.svg",
+              "text_chars": 402,
+              "digit_ratio": 0.312,
+              "table_score": 0.329
+            },
+            {
+              "page": 6,
+              "image": "../assets/type-samples/publications-5b0abc356960-d9b85a8750-hwpx-p6.svg",
+              "text_chars": 762,
+              "digit_ratio": 0.105,
+              "table_score": 0.069
+            },
+            {
+              "page": 4,
+              "image": "../assets/type-samples/publications-5b0abc356960-d9b85a8750-hwpx-p4.svg",
+              "text_chars": 299,
+              "digit_ratio": 0.24,
+              "table_score": 0.25
+            },
+            {
+              "page": 7,
+              "image": "../assets/type-samples/publications-5b0abc356960-d9b85a8750-hwpx-p7.svg",
+              "text_chars": 394,
+              "digit_ratio": 0.082,
+              "table_score": 0.063
+            },
+            {
+              "page": 5,
+              "image": "../assets/type-samples/publications-5b0abc356960-d9b85a8750-hwpx-p5.svg",
+              "text_chars": 131,
+              "digit_ratio": 0.221,
+              "table_score": 0.232
+            },
+            {
+              "page": 2,
+              "image": "../assets/type-samples/publications-5b0abc356960-d9b85a8750-hwpx-p2.svg",
+              "text_chars": 33,
+              "digit_ratio": 0.069,
+              "table_score": 0.036
+            },
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-5b0abc356960-d9b85a8750-hwpx-p1.svg",
+              "text_chars": 34,
+              "digit_ratio": 0.281,
+              "table_score": 0.231
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA01"
+    },
+    {
+      "id": "publications-d3f47f544b24",
+      "type": "주요재정통계",
+      "data_name": "주요재정통계",
+      "category_code": "504",
+      "record_count": 12,
+      "no_attachment_count": 0,
+      "file_count": 12,
+      "years": [
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "title": "2026 주요 재정통계 Ⅰ권",
+          "year": "2026",
+          "extension": "pdf",
+          "document_pages": 215,
+          "pages": [
+            {
+              "page": 25,
+              "image": "../assets/type-samples/publications-d3f47f544b24-425b4af51b-pdf-p25.jpg",
+              "text_chars": 334,
+              "digit_ratio": 0.675,
+              "table_score": 0.741
+            },
+            {
+              "page": 49,
+              "image": "../assets/type-samples/publications-d3f47f544b24-425b4af51b-pdf-p49.jpg",
+              "text_chars": 868,
+              "digit_ratio": 0.139,
+              "table_score": 0.29
+            },
+            {
+              "page": 96,
+              "image": "../assets/type-samples/publications-d3f47f544b24-425b4af51b-pdf-p96.jpg",
+              "text_chars": 184,
+              "digit_ratio": 0.204,
+              "table_score": 0.187
+            },
+            {
+              "page": 144,
+              "image": "../assets/type-samples/publications-d3f47f544b24-425b4af51b-pdf-p144.jpg",
+              "text_chars": 698,
+              "digit_ratio": 0.511,
+              "table_score": 0.643
+            },
+            {
+              "page": 120,
+              "image": "../assets/type-samples/publications-d3f47f544b24-425b4af51b-pdf-p120.jpg",
+              "text_chars": 765,
+              "digit_ratio": 0.593,
+              "table_score": 0.667
+            },
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-d3f47f544b24-425b4af51b-pdf-p1.jpg",
+              "text_chars": 49,
+              "digit_ratio": 0.261,
+              "table_score": 0.361
+            },
+            {
+              "page": 215,
+              "image": "../assets/type-samples/publications-d3f47f544b24-425b4af51b-pdf-p215.jpg",
+              "text_chars": 53,
+              "digit_ratio": 0.4,
+              "table_score": 0.461
+            },
+            {
+              "page": 191,
+              "image": "../assets/type-samples/publications-d3f47f544b24-425b4af51b-pdf-p191.jpg",
+              "text_chars": 1269,
+              "digit_ratio": 0.709,
+              "table_score": 0.754
+            },
+            {
+              "page": 72,
+              "image": "../assets/type-samples/publications-d3f47f544b24-425b4af51b-pdf-p72.jpg",
+              "text_chars": 1179,
+              "digit_ratio": 0.831,
+              "table_score": 0.835
+            },
+            {
+              "page": 167,
+              "image": "../assets/type-samples/publications-d3f47f544b24-425b4af51b-pdf-p167.jpg",
+              "text_chars": 1892,
+              "digit_ratio": 0.892,
+              "table_score": 0.917
+            }
+          ]
+        },
+        {
+          "title": "2026 주요 재정통계 Ⅱ권",
+          "year": "2026",
+          "extension": "pdf",
+          "document_pages": 189,
+          "pages": [
+            {
+              "page": 22,
+              "image": "../assets/type-samples/publications-d3f47f544b24-e7bedd2032-pdf-p22.jpg",
+              "text_chars": 249,
+              "digit_ratio": 0.068,
+              "table_score": 0.103
+            },
+            {
+              "page": 85,
+              "image": "../assets/type-samples/publications-d3f47f544b24-e7bedd2032-pdf-p85.jpg",
+              "text_chars": 1258,
+              "digit_ratio": 0.631,
+              "table_score": 0.729
+            },
+            {
+              "page": 64,
+              "image": "../assets/type-samples/publications-d3f47f544b24-e7bedd2032-pdf-p64.jpg",
+              "text_chars": 1190,
+              "digit_ratio": 0.633,
+              "table_score": 0.705
+            },
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-d3f47f544b24-e7bedd2032-pdf-p1.jpg",
+              "text_chars": 45,
+              "digit_ratio": 0.279,
+              "table_score": 0.37
+            },
+            {
+              "page": 168,
+              "image": "../assets/type-samples/publications-d3f47f544b24-e7bedd2032-pdf-p168.jpg",
+              "text_chars": 742,
+              "digit_ratio": 0.655,
+              "table_score": 0.691
+            },
+            {
+              "page": 189,
+              "image": "../assets/type-samples/publications-d3f47f544b24-e7bedd2032-pdf-p189.jpg",
+              "text_chars": 53,
+              "digit_ratio": 0.4,
+              "table_score": 0.461
+            },
+            {
+              "page": 126,
+              "image": "../assets/type-samples/publications-d3f47f544b24-e7bedd2032-pdf-p126.jpg",
+              "text_chars": 932,
+              "digit_ratio": 0.663,
+              "table_score": 0.744
+            },
+            {
+              "page": 43,
+              "image": "../assets/type-samples/publications-d3f47f544b24-e7bedd2032-pdf-p43.jpg",
+              "text_chars": 704,
+              "digit_ratio": 0.698,
+              "table_score": 0.745
+            },
+            {
+              "page": 105,
+              "image": "../assets/type-samples/publications-d3f47f544b24-e7bedd2032-pdf-p105.jpg",
+              "text_chars": 1443,
+              "digit_ratio": 0.697,
+              "table_score": 0.777
+            },
+            {
+              "page": 147,
+              "image": "../assets/type-samples/publications-d3f47f544b24-e7bedd2032-pdf-p147.jpg",
+              "text_chars": 1431,
+              "digit_ratio": 0.732,
+              "table_score": 0.794
+            }
+          ]
+        },
+        {
+          "title": "2025 주요 재정통계 Ⅰ권",
+          "year": "2025",
+          "extension": "pdf",
+          "document_pages": 214,
+          "pages": [
+            {
+              "page": 25,
+              "image": "../assets/type-samples/publications-d3f47f544b24-ff3f884350-pdf-p25.jpg",
+              "text_chars": 332,
+              "digit_ratio": 0.674,
+              "table_score": 0.74
+            },
+            {
+              "page": 48,
+              "image": "../assets/type-samples/publications-d3f47f544b24-ff3f884350-pdf-p48.jpg",
+              "text_chars": 662,
+              "digit_ratio": 0.14,
+              "table_score": 0.285
+            },
+            {
+              "page": 96,
+              "image": "../assets/type-samples/publications-d3f47f544b24-ff3f884350-pdf-p96.jpg",
+              "text_chars": 182,
+              "digit_ratio": 0.199,
+              "table_score": 0.188
+            },
+            {
+              "page": 119,
+              "image": "../assets/type-samples/publications-d3f47f544b24-ff3f884350-pdf-p119.jpg",
+              "text_chars": 556,
+              "digit_ratio": 0.143,
+              "table_score": 0.157
+            },
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-d3f47f544b24-ff3f884350-pdf-p1.jpg",
+              "text_chars": 27,
+              "digit_ratio": 0.208,
+              "table_score": 0.108
+            },
+            {
+              "page": 214,
+              "image": "../assets/type-samples/publications-d3f47f544b24-ff3f884350-pdf-p214.jpg",
+              "text_chars": 0,
+              "digit_ratio": 1.0,
+              "table_score": 0.86
+            },
+            {
+              "page": 190,
+              "image": "../assets/type-samples/publications-d3f47f544b24-ff3f884350-pdf-p190.jpg",
+              "text_chars": 1210,
+              "digit_ratio": 0.753,
+              "table_score": 0.781
+            },
+            {
+              "page": 143,
+              "image": "../assets/type-samples/publications-d3f47f544b24-ff3f884350-pdf-p143.jpg",
+              "text_chars": 1358,
+              "digit_ratio": 0.75,
+              "table_score": 0.811
+            },
+            {
+              "page": 72,
+              "image": "../assets/type-samples/publications-d3f47f544b24-ff3f884350-pdf-p72.jpg",
+              "text_chars": 1173,
+              "digit_ratio": 0.831,
+              "table_score": 0.839
+            },
+            {
+              "page": 167,
+              "image": "../assets/type-samples/publications-d3f47f544b24-ff3f884350-pdf-p167.jpg",
+              "text_chars": 1822,
+              "digit_ratio": 0.885,
+              "table_score": 0.901
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA01"
+    },
+    {
+      "id": "publications-01f8147a05d9",
+      "type": "해외재정동향",
+      "data_name": "해외재정동향",
+      "category_code": "507",
+      "record_count": 159,
+      "no_attachment_count": 0,
+      "file_count": 159,
+      "years": [
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "title": "[2026] 해외재정동향 2월",
+          "year": "2026",
+          "extension": "pdf",
+          "document_pages": 68,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-01f8147a05d9-df8a11a327-pdf-p1.jpg",
+              "text_chars": 0,
+              "digit_ratio": 1.0,
+              "table_score": 0.874
+            },
+            {
+              "page": 46,
+              "image": "../assets/type-samples/publications-01f8147a05d9-df8a11a327-pdf-p46.jpg",
+              "text_chars": 29,
+              "digit_ratio": 0.0,
+              "table_score": 0.14
+            },
+            {
+              "page": 31,
+              "image": "../assets/type-samples/publications-01f8147a05d9-df8a11a327-pdf-p31.jpg",
+              "text_chars": 14,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 61,
+              "image": "../assets/type-samples/publications-01f8147a05d9-df8a11a327-pdf-p61.jpg",
+              "text_chars": 26,
+              "digit_ratio": 0.0,
+              "table_score": 0.14
+            },
+            {
+              "page": 38,
+              "image": "../assets/type-samples/publications-01f8147a05d9-df8a11a327-pdf-p38.jpg",
+              "text_chars": 21,
+              "digit_ratio": 0.0,
+              "table_score": 0.14
+            },
+            {
+              "page": 68,
+              "image": "../assets/type-samples/publications-01f8147a05d9-df8a11a327-pdf-p68.jpg",
+              "text_chars": 8,
+              "digit_ratio": 0.0,
+              "table_score": 0.098
+            },
+            {
+              "page": 8,
+              "image": "../assets/type-samples/publications-01f8147a05d9-df8a11a327-pdf-p8.jpg",
+              "text_chars": 11,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 16,
+              "image": "../assets/type-samples/publications-01f8147a05d9-df8a11a327-pdf-p16.jpg",
+              "text_chars": 9,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 23,
+              "image": "../assets/type-samples/publications-01f8147a05d9-df8a11a327-pdf-p23.jpg",
+              "text_chars": 1,
+              "digit_ratio": 1.0,
+              "table_score": 0.618
+            },
+            {
+              "page": 53,
+              "image": "../assets/type-samples/publications-01f8147a05d9-df8a11a327-pdf-p53.jpg",
+              "text_chars": 8,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            }
+          ]
+        },
+        {
+          "title": "[2026] 해외재정동향 3월",
+          "year": "2026",
+          "extension": "pdf",
+          "document_pages": 61,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-01f8147a05d9-4716b1b450-pdf-p1.jpg",
+              "text_chars": 0,
+              "digit_ratio": 1.0,
+              "table_score": 0.874
+            },
+            {
+              "page": 54,
+              "image": "../assets/type-samples/publications-01f8147a05d9-4716b1b450-pdf-p54.jpg",
+              "text_chars": 68,
+              "digit_ratio": 0.0,
+              "table_score": 0.14
+            },
+            {
+              "page": 28,
+              "image": "../assets/type-samples/publications-01f8147a05d9-4716b1b450-pdf-p28.jpg",
+              "text_chars": 8,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 61,
+              "image": "../assets/type-samples/publications-01f8147a05d9-4716b1b450-pdf-p61.jpg",
+              "text_chars": 11,
+              "digit_ratio": 0.0,
+              "table_score": 0.14
+            },
+            {
+              "page": 34,
+              "image": "../assets/type-samples/publications-01f8147a05d9-4716b1b450-pdf-p34.jpg",
+              "text_chars": 12,
+              "digit_ratio": 0.0,
+              "table_score": 0.14
+            },
+            {
+              "page": 8,
+              "image": "../assets/type-samples/publications-01f8147a05d9-4716b1b450-pdf-p8.jpg",
+              "text_chars": 11,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 14,
+              "image": "../assets/type-samples/publications-01f8147a05d9-4716b1b450-pdf-p14.jpg",
+              "text_chars": 13,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 21,
+              "image": "../assets/type-samples/publications-01f8147a05d9-4716b1b450-pdf-p21.jpg",
+              "text_chars": 7,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 41,
+              "image": "../assets/type-samples/publications-01f8147a05d9-4716b1b450-pdf-p41.jpg",
+              "text_chars": 7,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 48,
+              "image": "../assets/type-samples/publications-01f8147a05d9-4716b1b450-pdf-p48.jpg",
+              "text_chars": 5,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            }
+          ]
+        },
+        {
+          "title": "[2026] 해외재정동향 5월",
+          "year": "2026",
+          "extension": "pdf",
+          "document_pages": 60,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-01f8147a05d9-3cebd46844-pdf-p1.jpg",
+              "text_chars": 0,
+              "digit_ratio": 1.0,
+              "table_score": 0.874
+            },
+            {
+              "page": 60,
+              "image": "../assets/type-samples/publications-01f8147a05d9-3cebd46844-pdf-p60.jpg",
+              "text_chars": 8,
+              "digit_ratio": 0.0,
+              "table_score": 0.14
+            },
+            {
+              "page": 27,
+              "image": "../assets/type-samples/publications-01f8147a05d9-3cebd46844-pdf-p27.jpg",
+              "text_chars": 7,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 40,
+              "image": "../assets/type-samples/publications-01f8147a05d9-3cebd46844-pdf-p40.jpg",
+              "text_chars": 10,
+              "digit_ratio": 0.0,
+              "table_score": 0.14
+            },
+            {
+              "page": 34,
+              "image": "../assets/type-samples/publications-01f8147a05d9-3cebd46844-pdf-p34.jpg",
+              "text_chars": 10,
+              "digit_ratio": 0.0,
+              "table_score": 0.14
+            },
+            {
+              "page": 8,
+              "image": "../assets/type-samples/publications-01f8147a05d9-3cebd46844-pdf-p8.jpg",
+              "text_chars": 6,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 14,
+              "image": "../assets/type-samples/publications-01f8147a05d9-3cebd46844-pdf-p14.jpg",
+              "text_chars": 5,
+              "digit_ratio": 1.0,
+              "table_score": 0.632
+            },
+            {
+              "page": 21,
+              "image": "../assets/type-samples/publications-01f8147a05d9-3cebd46844-pdf-p21.jpg",
+              "text_chars": 10,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 47,
+              "image": "../assets/type-samples/publications-01f8147a05d9-3cebd46844-pdf-p47.jpg",
+              "text_chars": 7,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            },
+            {
+              "page": 53,
+              "image": "../assets/type-samples/publications-01f8147a05d9-3cebd46844-pdf-p53.jpg",
+              "text_chars": 9,
+              "digit_ratio": 1.0,
+              "table_score": 0.66
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA01"
+    },
+    {
+      "id": "publications-479c4e28565e",
+      "type": "회계·기금운용구조",
+      "data_name": "회계·기금운용구조",
+      "category_code": "505",
+      "record_count": 13,
+      "no_attachment_count": 2,
+      "file_count": 11,
+      "years": [
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "extensions": [
+        "pdf"
+      ],
+      "documents": [
+        {
+          "title": "2026 회계/기금 운용구조",
+          "year": "2026",
+          "extension": "pdf",
+          "document_pages": 218,
+          "pages": [
+            {
+              "page": 25,
+              "image": "../assets/type-samples/publications-479c4e28565e-a9dfaea6c8-pdf-p25.jpg",
+              "text_chars": 795,
+              "digit_ratio": 0.292,
+              "table_score": 0.369
+            },
+            {
+              "page": 49,
+              "image": "../assets/type-samples/publications-479c4e28565e-a9dfaea6c8-pdf-p49.jpg",
+              "text_chars": 603,
+              "digit_ratio": 0.146,
+              "table_score": 0.294
+            },
+            {
+              "page": 97,
+              "image": "../assets/type-samples/publications-479c4e28565e-a9dfaea6c8-pdf-p97.jpg",
+              "text_chars": 505,
+              "digit_ratio": 0.23,
+              "table_score": 0.348
+            },
+            {
+              "page": 73,
+              "image": "../assets/type-samples/publications-479c4e28565e-a9dfaea6c8-pdf-p73.jpg",
+              "text_chars": 644,
+              "digit_ratio": 0.269,
+              "table_score": 0.364
+            },
+            {
+              "page": 122,
+              "image": "../assets/type-samples/publications-479c4e28565e-a9dfaea6c8-pdf-p122.jpg",
+              "text_chars": 840,
+              "digit_ratio": 0.291,
+              "table_score": 0.496
+            },
+            {
+              "page": 194,
+              "image": "../assets/type-samples/publications-479c4e28565e-a9dfaea6c8-pdf-p194.jpg",
+              "text_chars": 721,
+              "digit_ratio": 0.296,
+              "table_score": 0.51
+            },
+            {
+              "page": 146,
+              "image": "../assets/type-samples/publications-479c4e28565e-a9dfaea6c8-pdf-p146.jpg",
+              "text_chars": 783,
+              "digit_ratio": 0.39,
+              "table_score": 0.561
+            },
+            {
+              "page": 170,
+              "image": "../assets/type-samples/publications-479c4e28565e-a9dfaea6c8-pdf-p170.jpg",
+              "text_chars": 771,
+              "digit_ratio": 0.395,
+              "table_score": 0.566
+            },
+            {
+              "page": 218,
+              "image": "../assets/type-samples/publications-479c4e28565e-a9dfaea6c8-pdf-p218.jpg",
+              "text_chars": 53,
+              "digit_ratio": 0.4,
+              "table_score": 0.461
+            },
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-479c4e28565e-a9dfaea6c8-pdf-p1.jpg",
+              "text_chars": 20,
+              "digit_ratio": 0.444,
+              "table_score": 0.541
+            }
+          ]
+        },
+        {
+          "title": "「2026 회계·기금 운용 구조」 온라인 흐름도",
+          "year": "2026",
+          "extension": "pdf",
+          "document_pages": 1,
+          "pages": [
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-479c4e28565e-bd10cd695f-pdf-p1.jpg",
+              "text_chars": 1763,
+              "digit_ratio": 0.443,
+              "table_score": 0.593
+            }
+          ]
+        },
+        {
+          "title": "2025 회계/기금 운용구조",
+          "year": "2025",
+          "extension": "pdf",
+          "document_pages": 218,
+          "pages": [
+            {
+              "page": 25,
+              "image": "../assets/type-samples/publications-479c4e28565e-31eee8bb65-pdf-p25.jpg",
+              "text_chars": 881,
+              "digit_ratio": 0.269,
+              "table_score": 0.355
+            },
+            {
+              "page": 49,
+              "image": "../assets/type-samples/publications-479c4e28565e-31eee8bb65-pdf-p49.jpg",
+              "text_chars": 634,
+              "digit_ratio": 0.127,
+              "table_score": 0.267
+            },
+            {
+              "page": 97,
+              "image": "../assets/type-samples/publications-479c4e28565e-31eee8bb65-pdf-p97.jpg",
+              "text_chars": 597,
+              "digit_ratio": 0.212,
+              "table_score": 0.334
+            },
+            {
+              "page": 73,
+              "image": "../assets/type-samples/publications-479c4e28565e-31eee8bb65-pdf-p73.jpg",
+              "text_chars": 729,
+              "digit_ratio": 0.25,
+              "table_score": 0.356
+            },
+            {
+              "page": 194,
+              "image": "../assets/type-samples/publications-479c4e28565e-31eee8bb65-pdf-p194.jpg",
+              "text_chars": 1032,
+              "digit_ratio": 0.439,
+              "table_score": 0.596
+            },
+            {
+              "page": 122,
+              "image": "../assets/type-samples/publications-479c4e28565e-31eee8bb65-pdf-p122.jpg",
+              "text_chars": 1044,
+              "digit_ratio": 0.524,
+              "table_score": 0.659
+            },
+            {
+              "page": 146,
+              "image": "../assets/type-samples/publications-479c4e28565e-31eee8bb65-pdf-p146.jpg",
+              "text_chars": 1180,
+              "digit_ratio": 0.549,
+              "table_score": 0.667
+            },
+            {
+              "page": 170,
+              "image": "../assets/type-samples/publications-479c4e28565e-31eee8bb65-pdf-p170.jpg",
+              "text_chars": 1165,
+              "digit_ratio": 0.551,
+              "table_score": 0.668
+            },
+            {
+              "page": 218,
+              "image": "../assets/type-samples/publications-479c4e28565e-31eee8bb65-pdf-p218.jpg",
+              "text_chars": 147,
+              "digit_ratio": 0.312,
+              "table_score": 0.38
+            },
+            {
+              "page": 1,
+              "image": "../assets/type-samples/publications-479c4e28565e-31eee8bb65-pdf-p1.jpg",
+              "text_chars": 20,
+              "digit_ratio": 0.444,
+              "table_score": 0.541
+            }
+          ]
+        }
+      ],
+      "no_preview_reason": "",
+      "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA01"
+    }
+  ]
+}

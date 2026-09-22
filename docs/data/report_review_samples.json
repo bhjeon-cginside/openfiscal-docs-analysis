@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T01:29:55+00:00",
+  "generated_at": "2026-09-21T09:03:39+00:00",
   "source_checked_at": "2026-09-18T15:24:53.562456+09:00",
   "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03",
   "summary": {
@@ -6312,6 +6312,37 @@
       ],
       "no_preview_reason": "",
       "source_url": "https://www.openfiscaldata.go.kr/op/ko/fd/UOPKOFDA03?odtNm=%EB%B3%B5%EA%B6%8C%ED%8C%90%EB%A7%A4%EC%8B%A4%EC%A0%81+%EB%B0%8F+%EB%B3%B5%EA%B6%8C%EA%B8%B0%EA%B8%88%EC%82%AC%EC%97%85+%ED%98%84%ED%99%A9"
+    }
+  ],
+  "exclusion_sets": [
+    {
+      "id": "zip-spreadsheets-20260921",
+      "records": [
+        {
+          "id": "b478ddb378f7fca4",
+          "excluded": true,
+          "reason": "사용자 지정 제외: ZIP 내부 엑셀 자료",
+          "classification_path": "예산>지출구조조정",
+          "odt_id": "4AY2D42YI083680Z3S37X6047",
+          "data_name": "지출구조조정"
+        },
+        {
+          "id": "f652400863fff022",
+          "excluded": true,
+          "reason": "사용자 지정 제외: ZIP 내부 엑셀 자료",
+          "classification_path": "지방재정",
+          "odt_id": "GT8O0K148NEY7GA30PM0O0Q31",
+          "data_name": "지방재정연감(결산)"
+        },
+        {
+          "id": "43f44eaf883f48b4",
+          "excluded": true,
+          "reason": "사용자 지정 제외: ZIP 내부 엑셀 자료",
+          "classification_path": "지방재정",
+          "odt_id": "SH1R76EPGKFD31HE47X24181I",
+          "data_name": "지방재정연감(예산)"
+        }
+      ]
     }
   ]
 }

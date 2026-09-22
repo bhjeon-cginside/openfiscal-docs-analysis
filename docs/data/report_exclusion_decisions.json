@@ -1,0 +1,22 @@
+{
+  "id": "zip-spreadsheets-20260921",
+  "decided_by": "user",
+  "reason": "사용자 지정 제외: ZIP 내부 엑셀 자료",
+  "groups": [
+    {
+      "classification_path": "예산>지출구조조정",
+      "odt_id": "4AY2D42YI083680Z3S37X6047",
+      "data_name": "지출구조조정"
+    },
+    {
+      "classification_path": "지방재정",
+      "odt_id": "GT8O0K148NEY7GA30PM0O0Q31",
+      "data_name": "지방재정연감(결산)"
+    },
+    {
+      "classification_path": "지방재정",
+      "odt_id": "SH1R76EPGKFD31HE47X24181I",
+      "data_name": "지방재정연감(예산)"
+    }
+  ]
+}

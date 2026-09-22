@@ -38,5 +38,7 @@ scripts/*
 !scripts/build_github_pages.py
 !scripts/build_type_samples.py
 !scripts/build_report_review_samples.py
+!scripts/build_publication_review_samples.py
+!scripts/export_publication_list.py
 pyproject.toml
 uv.lock
